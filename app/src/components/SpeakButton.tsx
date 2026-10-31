@@ -6,13 +6,18 @@ interface Props {
   src?: string;
   size?: 'sm' | 'lg';
   label?: string;
+  /** prompt：大号强调样式，用于答题页的「点我听一听」 */
+  variant?: 'plain' | 'prompt';
 }
 
-export default function SpeakButton({ text, src, size = 'sm', label }: Props) {
+export default function SpeakButton({ text, src, size = 'sm', label, variant = 'plain' }: Props) {
+  const classes = ['speak-btn', size];
+  if (variant === 'prompt') classes.push('prompt');
+
   return (
     <button
       type="button"
-      className={`speak-btn ${size}`}
+      className={classes.join(' ')}
       onClick={(e) => {
         e.stopPropagation();
         void playSource(src ?? audioFor(text), text);

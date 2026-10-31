@@ -5,6 +5,7 @@ import SpeakButton from '../components/SpeakButton';
 import { loadLesson } from '../lib/content';
 import { clearDraft, loadDraft, recordLesson, saveDraft } from '../lib/progress';
 import { audioFor } from '../lib/audioMap';
+import { scrollAppToTop } from '../lib/scroll';
 import { playSource, stopSpeak } from '../lib/speech';
 import { getPreferredScene, setPreferredScene } from '../lib/settings';
 import { resolveScene, scenesFor } from '../scenes/registry';
@@ -100,6 +101,7 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
     setResumeAt(null);
     setStep(1);
     setIndex(0);
+    scrollAppToTop();
   }
 
   function applyResume() {
@@ -110,6 +112,7 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
     setIndex(resumeAt.index);
     setStep(1);
     setResumeAt(null);
+    scrollAppToTop();
   }
 
   function restart() {
@@ -119,6 +122,7 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
     setStep(0);
     setIndex(0);
     setResumeAt(null);
+    scrollAppToTop();
   }
 
   function onSelect(optionId: string) {
@@ -157,11 +161,13 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
       });
       setStep(2);
       clearDraft();
+      scrollAppToTop();
       const stars = finalScore === lesson.exercises.length ? 3 : finalScore > 0 ? 2 : 1;
       const doneText = stars >= 2 ? '太棒了' : '完成啦';
       void playSource(audioFor(doneText), doneText);
     } else {
       setIndex(index + 1);
+      scrollAppToTop();
     }
   }
 
