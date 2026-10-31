@@ -66,6 +66,21 @@
     "volumeId": "yw-1a",
     "order": 6,
     "title": "识字（二）",
-    "lessons": [{ "id": "yw-1a-u6-l01", "order": 1, "title": "对韵歌" }]
+    "lessons": [
+      { "id": "yw-1a-u6-l01", "order": 1, "title": "对韵歌" },
+      { "id": "yw-1a-u6-l02", "order": 2, "title": "日月明" },
+      { "id": "yw-1a-u6-l03", "order": 3, "title": "小书包" }
+    ]
+  },
+  {
+    "id": "yw-1a-u7",
+    "volumeId": "yw-1a",
+    "order": 7,
+    "title": "阅读（二）",
+    "lessons": [
+      { "id": "yw-1a-u7-l01", "order": 1, "title": "小小的船" },
+      { "id": "yw-1a-u7-l02", "order": 2, "title": "影子" },
+      { "id": "yw-1a-u7-l03", "order": 3, "title": "两件宝" }
+    ]
   }
 ]

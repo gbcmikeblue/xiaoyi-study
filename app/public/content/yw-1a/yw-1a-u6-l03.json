@@ -1,0 +1,70 @@
+{
+  "id": "yw-1a-u6-l03",
+  "unitId": "yw-1a-u6",
+  "volumeId": "yw-1a",
+  "title": "小书包",
+  "objectives": ["认识“书、包、早、本、课”五个字", "能说出书包里该放什么"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "我的小书包",
+      "content": "小书包，肚子里装着课本、本子、铅笔和尺子。每天早上背上它去上学，晚上把东西一样样收好，第二天就不会落下。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "书", "pinyin": "shū", "word": "课本" },
+        { "char": "包", "pinyin": "bāo", "word": "书包" },
+        { "char": "早", "pinyin": "zǎo", "word": "早上" },
+        { "char": "本", "pinyin": "běn", "word": "本子" },
+        { "char": "课", "pinyin": "kè", "word": "上课" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "说一说",
+      "content": "你的书包里有什么？每天睡觉前检查一遍，第二天早上就不慌了。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u6-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "书",
+      "options": [
+        { "id": "a", "label": "包" },
+        { "id": "b", "label": "书" },
+        { "id": "c", "label": "本" }
+      ],
+      "answer": ["b"],
+      "explanation": "“书”读 shū，课本的“书”。"
+    },
+    {
+      "id": "yw-1a-u6-l03-ex2",
+      "type": "single",
+      "stem": "“书包”的“包”，是下面哪一个字？",
+      "speakText": "书包",
+      "options": [
+        { "id": "a", "label": "包" },
+        { "id": "b", "label": "色" },
+        { "id": "c", "label": "句" }
+      ],
+      "answer": ["a"],
+      "explanation": "“包”读 bāo，外面把东西裹起来。"
+    },
+    {
+      "id": "yw-1a-u6-l03-ex3",
+      "type": "multi",
+      "stem": "书包里通常会放哪些东西？",
+      "options": [
+        { "id": "a", "label": "课本" },
+        { "id": "b", "label": "本子" },
+        { "id": "c", "label": "铅笔" },
+        { "id": "d", "label": "西瓜" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "课本、本子、铅笔是学习用品；西瓜不该放进书包。"
+    }
+  ]
+}

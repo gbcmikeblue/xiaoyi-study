@@ -1,0 +1,69 @@
+{
+  "id": "yw-1a-u6-l02",
+  "unitId": "yw-1a-u6",
+  "volumeId": "yw-1a",
+  "title": "日月明",
+  "objectives": ["认识“明、力、尘、从、众”五个字", "知道两个独体字合起来能组成新字"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "合起来变新字",
+      "content": "“日”和“月”合在一起，是“明”，天亮了、看得清了。两个人一前一后是“从”，三个人站一起是“众”。小土粒堆在一块儿是“尘”。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "明", "pinyin": "míng", "word": "明亮" },
+        { "char": "力", "pinyin": "lì", "word": "用力" },
+        { "char": "尘", "pinyin": "chén", "word": "灰尘" },
+        { "char": "从", "pinyin": "cóng", "word": "从来" },
+        { "char": "众", "pinyin": "zhòng", "word": "众人" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "“田”加“力”是什么字？是“男”——在田里出力干活的人。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u6-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "明",
+      "options": [
+        { "id": "a", "label": "明" },
+        { "id": "b", "label": "从" },
+        { "id": "c", "label": "尘" }
+      ],
+      "answer": ["a"],
+      "explanation": "“明”读 míng，左边日、右边月，都有光。"
+    },
+    {
+      "id": "yw-1a-u6-l02-ex2",
+      "type": "single",
+      "stem": "“日”和“月”合起来是什么字？",
+      "options": [
+        { "id": "a", "label": "明" },
+        { "id": "b", "label": "朋" },
+        { "id": "c", "label": "阳" }
+      ],
+      "answer": ["a"],
+      "explanation": "太阳和月亮都有光，合起来就是“明”，表示明亮。"
+    },
+    {
+      "id": "yw-1a-u6-l02-ex3",
+      "type": "multi",
+      "stem": "哪些字是两部分合起来组成的？",
+      "options": [
+        { "id": "a", "label": "明" },
+        { "id": "b", "label": "从" },
+        { "id": "c", "label": "众" },
+        { "id": "d", "label": "水" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "明是日月、从是两人、众是三人；“水”是一个整体，拆不开。"
+    }
+  ]
+}

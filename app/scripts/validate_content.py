@@ -32,6 +32,9 @@ except ImportError:  # pragma: no cover
 
 TONE_MARKS = "āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ"
 
+# 这些字作后缀时习惯读轻声，不标调是正常的，不告警
+NEUTRAL_TONE_CHARS = set("子了吧吗呢的着过们头")
+
 errors: list[str] = []
 warnings: list[str] = []
 
@@ -61,7 +64,7 @@ def check_pinyin(char: str, pinyin: str, where: str) -> None:
     expect = "".join(lazy_pinyin(char, style=style)).lower()
     if expect != got:
         err(f"{where}: 拼音不符，{char} 应为 {expect}，实际 {got}")
-    elif not has_tone:
+    elif not has_tone and char not in NEUTRAL_TONE_CHARS:
         warn(f"{where}: {char} 的拼音 {got} 未标声调，建议补全")
 
 

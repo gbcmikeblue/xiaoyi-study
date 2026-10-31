@@ -1,0 +1,70 @@
+{
+  "id": "yw-1a-u7-l01",
+  "unitId": "yw-1a-u7",
+  "volumeId": "yw-1a",
+  "title": "小小的船",
+  "objectives": ["认识“船、月、尖、闪、蓝”五个字", "能说出月亮和小船哪里像"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "弯弯的月亮挂在夜空，两头尖尖，像一只小船。小船飘在蓝天里，周围是一闪一闪的星星。坐上这只小船，能一直飘到天上去。"
+    },
+    { "type": "audio", "text": "弯弯的月亮挂在夜空，两头尖尖，像一只小船。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "船", "pinyin": "chuán", "word": "小船" },
+        { "char": "月", "pinyin": "yuè", "word": "月亮" },
+        { "char": "尖", "pinyin": "jiān", "word": "尖尖" },
+        { "char": "闪", "pinyin": "shǎn", "word": "闪闪" },
+        { "char": "蓝", "pinyin": "lán", "word": "蓝天" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "为什么把月亮说成小船？因为它们都是弯弯的、两头尖尖的。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u7-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "船",
+      "options": [
+        { "id": "a", "label": "船" },
+        { "id": "b", "label": "尖" },
+        { "id": "c", "label": "闪" }
+      ],
+      "answer": ["a"],
+      "explanation": "“船”读 chuán，左边是舟字旁，和船有关。"
+    },
+    {
+      "id": "yw-1a-u7-l01-ex2",
+      "type": "single",
+      "stem": "弯弯的月儿像什么？",
+      "options": [
+        { "id": "a", "label": "小船" },
+        { "id": "b", "label": "太阳" },
+        { "id": "c", "label": "大树" }
+      ],
+      "answer": ["a"],
+      "explanation": "月亮弯弯的、两头尖尖，和小船的形状一样。"
+    },
+    {
+      "id": "yw-1a-u7-l01-ex3",
+      "type": "multi",
+      "stem": "夜空里能看到什么？",
+      "options": [
+        { "id": "a", "label": "星星" },
+        { "id": "b", "label": "月亮" },
+        { "id": "c", "label": "太阳" },
+        { "id": "d", "label": "云" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "星星、月亮、云晚上都能看到，太阳是白天出来的。"
+    }
+  ]
+}

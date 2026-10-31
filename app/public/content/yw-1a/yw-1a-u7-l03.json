@@ -1,0 +1,70 @@
+{
+  "id": "yw-1a-u7-l03",
+  "unitId": "yw-1a-u7",
+  "volumeId": "yw-1a",
+  "title": "两件宝",
+  "objectives": ["认识“宝、双、手、脑、创”五个字", "知道手和脑各自能做什么"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "人有两件宝，双手和大脑。双手会做工，大脑会思考。用手又用脑，才能有创造。"
+    },
+    { "type": "audio", "text": "人有两件宝，双手和大脑。双手会做工，大脑会思考。", "caption": "听老师读一读" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "宝", "pinyin": "bǎo", "word": "宝贝" },
+        { "char": "双", "pinyin": "shuāng", "word": "双手" },
+        { "char": "手", "pinyin": "shǒu", "word": "小手" },
+        { "char": "脑", "pinyin": "nǎo", "word": "大脑" },
+        { "char": "创", "pinyin": "chuàng", "word": "创造" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "只用手不用脑，做出来的东西容易出错；只用脑不用手，想法就只是想法。手和脑一起用，才有新东西做出来。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u7-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "脑",
+      "options": [
+        { "id": "a", "label": "宝" },
+        { "id": "b", "label": "脑" },
+        { "id": "c", "label": "创" }
+      ],
+      "answer": ["b"],
+      "explanation": "“脑”读 nǎo，左边是月字旁，表示身体的一部分。"
+    },
+    {
+      "id": "yw-1a-u7-l03-ex2",
+      "type": "single",
+      "stem": "人的两件宝是什么？",
+      "options": [
+        { "id": "a", "label": "双手和大脑" },
+        { "id": "b", "label": "眼睛和耳朵" },
+        { "id": "c", "label": "纸和笔" }
+      ],
+      "answer": ["a"],
+      "explanation": "双手会做工，大脑会思考，这是人最宝贵的两件宝。"
+    },
+    {
+      "id": "yw-1a-u7-l03-ex3",
+      "type": "multi",
+      "stem": "双手能做哪些事？",
+      "options": [
+        { "id": "a", "label": "写字" },
+        { "id": "b", "label": "画画" },
+        { "id": "c", "label": "做工" },
+        { "id": "d", "label": "思考" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "写字、画画、做工都靠手；“思考”是大脑的工作。"
+    }
+  ]
+}
