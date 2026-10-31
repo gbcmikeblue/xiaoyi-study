@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "volumeId": "yw-1a",
+  "pauseSeconds": 2,
+  "note": "按 seq 顺序逐个朗读；每个之间停顿约 2 秒。hint 是帮助发音的示范字，不要念出来。",
+  "groups": [
+    {
+      "name": "声母",
+      "range": "1-23",
+      "items": [
+        { "seq": 1, "label": "b", "hint": "玻", "file": "01-b" },
+        { "seq": 2, "label": "p", "hint": "坡", "file": "02-p" },
+        { "seq": 3, "label": "m", "hint": "摸", "file": "03-m" },
+        { "seq": 4, "label": "f", "hint": "佛", "file": "04-f" },
+        { "seq": 5, "label": "d", "hint": "得", "file": "05-d" },
+        { "seq": 6, "label": "t", "hint": "特", "file": "06-t" },
+        { "seq": 7, "label": "n", "hint": "讷", "file": "07-n" },
+        { "seq": 8, "label": "l", "hint": "勒", "file": "08-l" },
+        { "seq": 9, "label": "g", "hint": "哥", "file": "09-g" },
+        { "seq": 10, "label": "k", "hint": "科", "file": "10-k" },
+        { "seq": 11, "label": "h", "hint": "喝", "file": "11-h" },
+        { "seq": 12, "label": "j", "hint": "基", "file": "12-j" },
+        { "seq": 13, "label": "q", "hint": "欺", "file": "13-q" },
+        { "seq": 14, "label": "x", "hint": "希", "file": "14-x" },
+        { "seq": 15, "label": "zh", "hint": "知", "file": "15-zh" },
+        { "seq": 16, "label": "ch", "hint": "吃", "file": "16-ch" },
+        { "seq": 17, "label": "sh", "hint": "诗", "file": "17-sh" },
+        { "seq": 18, "label": "r", "hint": "日", "file": "18-r" },
+        { "seq": 19, "label": "z", "hint": "资", "file": "19-z" },
+        { "seq": 20, "label": "c", "hint": "次", "file": "20-c" },
+        { "seq": 21, "label": "s", "hint": "思", "file": "21-s" },
+        { "seq": 22, "label": "y", "hint": "衣", "file": "22-y" },
+        { "seq": 23, "label": "w", "hint": "乌", "file": "23-w" }
+      ]
+    },
+    {
+      "name": "单韵母",
+      "range": "24-29",
+      "items": [
+        { "seq": 24, "label": "a", "hint": "啊", "file": "24-a" },
+        { "seq": 25, "label": "o", "hint": "喔", "file": "25-o" },
+        { "seq": 26, "label": "e", "hint": "鹅", "file": "26-e" },
+        { "seq": 27, "label": "i", "hint": "衣", "file": "27-i" },
+        { "seq": 28, "label": "u", "hint": "乌", "file": "28-u" },
+        { "seq": 29, "label": "ü", "hint": "迂", "file": "29-v" }
+      ]
+    },
+    {
+      "name": "复韵母与鼻韵母",
+      "range": "30-47",
+      "items": [
+        { "seq": 30, "label": "ai", "hint": "哀", "file": "30-ai" },
+        { "seq": 31, "label": "ei", "hint": "诶", "file": "31-ei" },
+        { "seq": 32, "label": "ui", "hint": "威", "file": "32-ui" },
+        { "seq": 33, "label": "ao", "hint": "熬", "file": "33-ao" },
+        { "seq": 34, "label": "ou", "hint": "欧", "file": "34-ou" },
+        { "seq": 35, "label": "iu", "hint": "优", "file": "35-iu" },
+        { "seq": 36, "label": "ie", "hint": "耶", "file": "36-ie" },
+        { "seq": 37, "label": "üe", "hint": "约", "file": "37-ve" },
+        { "seq": 38, "label": "er", "hint": "儿", "file": "38-er" },
+        { "seq": 39, "label": "an", "hint": "安", "file": "39-an" },
+        { "seq": 40, "label": "en", "hint": "恩", "file": "40-en" },
+        { "seq": 41, "label": "in", "hint": "因", "file": "41-in" },
+        { "seq": 42, "label": "un", "hint": "温", "file": "42-un" },
+        { "seq": 43, "label": "ün", "hint": "晕", "file": "43-vn" },
+        { "seq": 44, "label": "ang", "hint": "昂", "file": "44-ang" },
+        { "seq": 45, "label": "eng", "hint": "鞥", "file": "45-eng" },
+        { "seq": 46, "label": "ing", "hint": "英", "file": "46-ing" },
+        { "seq": 47, "label": "ong", "hint": "轰", "file": "47-ong" }
+      ]
+    },
+    {
+      "name": "整体认读音节",
+      "range": "48-63",
+      "items": [
+        { "seq": 48, "label": "zhi", "hint": "知", "file": "48-zhi" },
+        { "seq": 49, "label": "chi", "hint": "吃", "file": "49-chi" },
+        { "seq": 50, "label": "shi", "hint": "诗", "file": "50-shi" },
+        { "seq": 51, "label": "ri", "hint": "日", "file": "51-ri" },
+        { "seq": 52, "label": "zi", "hint": "资", "file": "52-zi" },
+        { "seq": 53, "label": "ci", "hint": "次", "file": "53-ci" },
+        { "seq": 54, "label": "si", "hint": "思", "file": "54-si" },
+        { "seq": 55, "label": "yi", "hint": "衣", "file": "55-yi" },
+        { "seq": 56, "label": "wu", "hint": "乌", "file": "56-wu" },
+        { "seq": 57, "label": "yu", "hint": "迂", "file": "57-yu" },
+        { "seq": 58, "label": "ye", "hint": "耶", "file": "58-ye" },
+        { "seq": 59, "label": "yue", "hint": "约", "file": "59-yue" },
+        { "seq": 60, "label": "yuan", "hint": "冤", "file": "60-yuan" },
+        { "seq": 61, "label": "yin", "hint": "因", "file": "61-yin" },
+        { "seq": 62, "label": "yun", "hint": "晕", "file": "62-yun" },
+        { "seq": 63, "label": "ying", "hint": "英", "file": "63-ying" }
+      ]
+    }
+  ]
+}

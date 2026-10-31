@@ -319,7 +319,7 @@ function BlockView({ block }: { block: Block }) {
             key={item.char}
             className="char-card"
             onClick={() => {
-              void playSource(audioFor(item.char) ?? item.audioSrc, item.char);
+              void playSource(item.audioSrc ?? audioFor(item.char), item.char);
               if (item.word) {
                 window.setTimeout(() => {
                   void playSource(audioFor(item.word), item.word);
@@ -343,7 +343,7 @@ function BlockView({ block }: { block: Block }) {
             key={word.text}
             className="word-card"
             onClick={() => {
-              void playSource(audioFor(word.text) ?? word.audioSrc, word.text);
+              void playSource(word.audioSrc ?? audioFor(word.text), word.text);
             }}
           >
             <span className="word-text">{word.text}</span>
