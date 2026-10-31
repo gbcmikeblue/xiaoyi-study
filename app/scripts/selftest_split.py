@@ -17,7 +17,8 @@ for i in range(SEG_COUNT):
     for _ in range(int(SR * GAP_SEC)):
         frames.append(0)
 
-out = Path(__file__).resolve().parent.parent / "test-rec.wav"
+out = Path(__file__).resolve().parent.parent / "recordings" / "incoming" / "selftest.wav"
+out.parent.mkdir(parents=True, exist_ok=True)
 with wave.open(str(out), "wb") as w:
     w.setnchannels(1)
     w.setsampwidth(2)

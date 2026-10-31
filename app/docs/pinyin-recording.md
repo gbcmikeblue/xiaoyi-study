@@ -127,9 +127,11 @@ ffmpeg -i 录音.m4a -ac 1 -ar 16000 -acodec pcm_s16le pinyin.wav
 
 ### 4.1 先看切分结果，不写文件
 
+录音放到 `recordings/incoming/` 后，可以省略 `--input`（目录规范见 `docs/recordings-layout.md`）：
+
 ```powershell
 cd d:\project\sz-grade1-h5-edu-research\app
-python scripts/split_pinyin.py --input 录音.wav --dry-run
+python scripts/split_pinyin.py --dry-run
 ```
 
 输出示例：
@@ -170,10 +172,12 @@ python scripts/split_pinyin.py --input 录音.wav --dry-run
 ### 4.3 正式拆分
 
 ```powershell
-python scripts/split_pinyin.py --input 录音.wav
+python scripts/split_pinyin.py
 ```
 
 输出到 `public/content/yw-1a/pinyin/`，文件名 `01-b.wav` … `63-ying.wav`。
+
+拆分成功后，原始录音会自动从 `incoming/` 移到 `processed/`，文件名前加时间戳，避免重复处理同一个文件。
 
 > 脚本用 `selftest_split.py` 生成过 63 段模拟音频做回归验证：151 秒输入被正确切成 63 段，每段 0.40 秒，与清单一一对应。
 

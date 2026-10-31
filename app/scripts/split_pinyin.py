@@ -16,9 +16,11 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import shutil
 import struct
 import sys
 import wave
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -92,9 +94,17 @@ def merge_gaps(segments, max_gap: float):
 # ------------------------------------------------------------------ 主流程
 def main() -> int:
     parser = argparse.ArgumentParser(description="把连续拼音朗读切成单个拼音音频")
-    parser.add_argument("--input", required=True, help="录制好的 wav 文件")
+    parser.add_argument(
+        "--input",
+        help="录制好的 wav；省略时自动使用 recordings/incoming 下唯一的 wav",
+    )
     parser.add_argument("--list", default=str(DEFAULT_LIST), help="拼音清单 json")
     parser.add_argument("--out", default=str(DEFAULT_OUT), help="输出目录")
+    parser.add_argument(
+        "--archive",
+        default=str(ROOT / "recordings" / "processed"),
+        help="拆分成功后把原录音移到这里；传空字符串则不移动",
+    )
     parser.add_argument("--threshold-db", type=float, default=-40.0, help="静音判定阈值，默认 -40 dBFS")
     parser.add_argument("--min-silence", type=float, default=0.45, help="判定为分隔的最短静音，秒")
     parser.add_argument("--merge-gap", type=float, default=0.22, help="小于此值的间隙视为同一音节内部，秒")
@@ -103,7 +113,21 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true", help="只输出切分诊断，不写文件")
     args = parser.parse_args()
 
-    src = Path(args.input)
+    if args.input:
+        src = Path(args.input)
+    else:
+        incoming = ROOT / "recordings" / "incoming"
+        candidates = sorted(incoming.glob("*.wav")) if incoming.exists() else []
+        if not candidates:
+            raise SystemExit(
+                f"{incoming} 下没有 wav 文件。请把录音放进去，或用 --input 指定路径。"
+            )
+        if len(candidates) > 1:
+            names = "、".join(p.name for p in candidates)
+            raise SystemExit(f"incoming 下有 {len(candidates)} 个 wav（{names}），请用 --input 指定一个。")
+        src = candidates[0]
+        print(f"自动选用：{src}")
+
     if not src.exists():
         raise SystemExit(f"找不到音频：{src}")
     if src.suffix.lower() != ".wav":
@@ -159,6 +183,14 @@ def main() -> int:
             w.setsampwidth(2)
             w.setframerate(rate)
             w.writeframes(struct.pack("<%dh" % len(chunk), *chunk))
+
+    if args.archive:
+        dest_dir = Path(args.archive)
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+        dest = dest_dir / f"{stamp}-{src.name}"
+        shutil.move(str(src), str(dest))
+        print(f"原录音已归档：{dest}")
 
     print(f"\n已输出 {len(items)} 个文件到 {out_dir}")
     print("下一步：在课时 JSON 的 audio 区块里用 src 指向这些文件，例如")
