@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u1-l07",
+  "unitId": "sx-1a-u1",
+  "volumeId": "sx-1a",
+  "title": "动物乐园",
+  "objectives": ["会比出多几个、少几个", "能用减法算出相差的数量"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "多几个，少几个",
+      "content": "先一一对应配上，配完剩下的有几个，就是多几个。多几个和少几个，问的是同一件事，只是从哪一边说的区别。"
+    },
+    {
+      "type": "text",
+      "title": "举例",
+      "content": "7 只猴子、5 个桃子，一猴配一桃，还剩 2 只猴子没桃，所以猴子比桃子多 2，桃子比猴子少 2。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u1-l07-ex1",
+      "type": "single",
+      "stem": "7 只猴子、5 个桃子，猴子比桃子多几只？",
+      "options": [
+        { "id": "a", "label": "1" },
+        { "id": "b", "label": "2" },
+        { "id": "c", "label": "3" }
+      ],
+      "answer": ["b"],
+      "explanation": "一一配上后剩 2 只猴子，所以多 2 只。"
+    },
+    {
+      "id": "sx-1a-u1-l07-ex2",
+      "type": "single",
+      "stem": "6 只小鸟、9 条虫子，虫子比小鸟多几条？",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "4" }
+      ],
+      "answer": ["b"],
+      "explanation": "6 只小鸟各吃 1 条，还剩 3 条，多 3 条。"
+    },
+    {
+      "id": "sx-1a-u1-l07-ex3",
+      "type": "single",
+      "stem": "4 只兔子、6 根萝卜，萝卜比兔子多几根？",
+      "options": [
+        { "id": "a", "label": "1" },
+        { "id": "b", "label": "2" },
+        { "id": "c", "label": "3" }
+      ],
+      "answer": ["b"],
+      "explanation": "4 只兔子各配 1 根，还剩 2 根，多 2 根。"
+    }
+  ]
+}

@@ -37,12 +37,23 @@
     ]
   },
   {
+    "id": "yw-1a-u4",
+    "volumeId": "yw-1a",
+    "order": 4,
+    "title": "汉语拼音（三）",
+    "lessons": [
+      { "id": "yw-1a-u4-l01", "order": 10, "title": "ai ei ui" },
+      { "id": "yw-1a-u4-l02", "order": 11, "title": "ao ou iu" },
+      { "id": "yw-1a-u4-l03", "order": 12, "title": "ie üe er" },
+      { "id": "yw-1a-u4-l04", "order": 13, "title": "an en in un ün" },
+      { "id": "yw-1a-u4-l05", "order": 14, "title": "ang eng ing ong" }
+    ]
+  },
+  {
     "id": "yw-1a-u6",
     "volumeId": "yw-1a",
     "order": 6,
     "title": "识字（二）",
-    "lessons": [
-      { "id": "yw-1a-u6-l01", "order": 1, "title": "对韵歌" }
-    ]
+    "lessons": [{ "id": "yw-1a-u6-l01", "order": 1, "title": "对韵歌" }]
   }
 ]

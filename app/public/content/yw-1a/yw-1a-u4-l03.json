@@ -1,0 +1,57 @@
+{
+  "id": "yw-1a-u4-l03",
+  "unitId": "yw-1a-u4",
+  "volumeId": "yw-1a",
+  "title": "ie üe er",
+  "objectives": ["会读复韵母 ie、üe 与特殊韵母 er", "知道 er 不与任何声母相拼"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "穿鞋的“鞋”是 ie，月亮的“月”是 üe，儿子的“儿”是 er。er 很特别，它不跟声母相拼，自己就能成一个音节。"
+    },
+    { "type": "audio", "text": "鞋", "caption": "听 ie 的音（xié）" },
+    { "type": "audio", "text": "月", "caption": "听 üe 的音（yuè）" },
+    { "type": "audio", "text": "儿", "caption": "听 er 的音（ér）" }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u4-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，“月”的韵母是哪一个？",
+      "speakText": "月",
+      "options": [
+        { "id": "a", "label": "ie" },
+        { "id": "b", "label": "üe" },
+        { "id": "c", "label": "er" }
+      ],
+      "answer": ["b"],
+      "explanation": "yuè 的韵母是 üe，注意 ü 上两点在拼写时的变化。"
+    },
+    {
+      "id": "yw-1a-u4-l03-ex2",
+      "type": "single",
+      "stem": "“儿子”的“儿”，韵母是哪一个？",
+      "speakText": "儿子",
+      "options": [
+        { "id": "a", "label": "er" },
+        { "id": "b", "label": "ie" },
+        { "id": "c", "label": "ei" }
+      ],
+      "answer": ["a"],
+      "explanation": "ér 的韵母就是 er，它自己独立成音节。"
+    },
+    {
+      "id": "yw-1a-u4-l03-ex3",
+      "type": "single",
+      "stem": "er 能不能和声母相拼？",
+      "options": [
+        { "id": "a", "label": "能" },
+        { "id": "b", "label": "不能" },
+        { "id": "c", "label": "只能和 b 拼" }
+      ],
+      "answer": ["b"],
+      "explanation": "er 是特殊韵母，永远单独成音节，不和声母相拼。"
+    }
+  ]
+}

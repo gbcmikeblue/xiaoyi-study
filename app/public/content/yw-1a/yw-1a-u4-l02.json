@@ -1,0 +1,59 @@
+{
+  "id": "yw-1a-u4-l02",
+  "unitId": "yw-1a-u4",
+  "volumeId": "yw-1a",
+  "title": "ao ou iu",
+  "objectives": ["会读复韵母 ao、ou、iu", "能分清 ui 与 iu 的先后顺序"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "熬汤的“熬”是 ao，海鸥的“鸥”是 ou，优秀的“优”是 iu。注意 ui 和 iu 顺序相反，读起来也不一样。"
+    },
+    { "type": "audio", "text": "猫", "caption": "听 ao 的音（māo）" },
+    { "type": "audio", "text": "狗", "caption": "听 ou 的音（gǒu）" },
+    { "type": "audio", "text": "六", "caption": "听 iu 的音（liù）" }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u4-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，“猫”的韵母是哪一个？",
+      "speakText": "猫",
+      "options": [
+        { "id": "a", "label": "ao" },
+        { "id": "b", "label": "ou" },
+        { "id": "c", "label": "iu" }
+      ],
+      "answer": ["a"],
+      "explanation": "māo 的韵母是 ao，嘴先张大再收圆。"
+    },
+    {
+      "id": "yw-1a-u4-l02-ex2",
+      "type": "single",
+      "stem": "“六”读 liù，它的韵母是哪一个？",
+      "speakText": "六",
+      "options": [
+        { "id": "a", "label": "ui" },
+        { "id": "b", "label": "iu" },
+        { "id": "c", "label": "ou" }
+      ],
+      "answer": ["b"],
+      "explanation": "liù 的韵母是 iu，先 i 后 u，和 ui 顺序相反。"
+    },
+    {
+      "id": "yw-1a-u4-l02-ex3",
+      "type": "multi",
+      "stem": "这一课学了哪些复韵母？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "ao" },
+        { "id": "b", "label": "ou" },
+        { "id": "c", "label": "iu" },
+        { "id": "d", "label": "ui" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "本课学的是 ao、ou、iu，“ui”是上一课学的。"
+    }
+  ]
+}

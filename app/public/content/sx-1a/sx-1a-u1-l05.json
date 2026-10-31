@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u1-l05",
+  "unitId": "sx-1a-u1",
+  "volumeId": "sx-1a",
+  "title": "数鸡蛋",
+  "objectives": ["知道 9 再添 1 是 10", "知道 10 个一是 1 个十"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "十个装一盒",
+      "content": "鸡蛋一个一个数：1、2、3……数到 9 个，再放 1 个就装满一盒，一共 10 个。所以 9 再添 1 就是 10。"
+    },
+    {
+      "type": "text",
+      "title": "10 个一就是 1 个十",
+      "content": "把 10 个鸡蛋装成一盒，这一盒就代表“1 个十”。两盒就是 2 个十，也就是 20 个。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u1-l05-ex1",
+      "type": "single",
+      "stem": "9 再添 1 是几？",
+      "options": [
+        { "id": "a", "label": "9" },
+        { "id": "b", "label": "10" },
+        { "id": "c", "label": "11" }
+      ],
+      "answer": ["b"],
+      "explanation": "9 个再添 1 个，正好装满一盒，是 10。"
+    },
+    {
+      "id": "sx-1a-u1-l05-ex2",
+      "type": "single",
+      "stem": "一盒鸡蛋装 10 个，两盒一共多少个？",
+      "options": [
+        { "id": "a", "label": "10" },
+        { "id": "b", "label": "20" },
+        { "id": "c", "label": "12" }
+      ],
+      "answer": ["b"],
+      "explanation": "两盒就是 2 个十，也就是 20 个。"
+    },
+    {
+      "id": "sx-1a-u1-l05-ex3",
+      "type": "single",
+      "stem": "10 里面有几个十？",
+      "options": [
+        { "id": "a", "label": "1" },
+        { "id": "b", "label": "10" },
+        { "id": "c", "label": "0" }
+      ],
+      "answer": ["a"],
+      "explanation": "10 个一就是 1 个十，所以 10 里面有 1 个十。"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "sx-1a-u1-l04",
+  "unitId": "sx-1a-u1",
+  "volumeId": "sx-1a",
+  "title": "文具",
+  "objectives": ["认识 6 到 10 这五个数", "能把数字和文具的个数对应起来"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "认数字 6—10",
+      "content": "6 像哨子，7 像镰刀，8 像葫芦，9 像气球，10 像铅笔加橡皮。"
+    },
+    {
+      "type": "text",
+      "title": "数一数文具",
+      "content": "6 支铅笔、7 块橡皮、8 把尺子、9 本本子、10 支彩笔。数的时候手指点一个、嘴里数一个，别漏也别重复。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u1-l04-ex1",
+      "type": "single",
+      "stem": "8 后面一个数是几？",
+      "options": [
+        { "id": "a", "label": "7" },
+        { "id": "b", "label": "9" },
+        { "id": "c", "label": "10" }
+      ],
+      "answer": ["b"],
+      "explanation": "数数时 8 的后面是 9。"
+    },
+    {
+      "id": "sx-1a-u1-l04-ex2",
+      "type": "single",
+      "stem": "桌上有 6 支铅笔，又拿来 1 支，一共几支？",
+      "options": [
+        { "id": "a", "label": "6" },
+        { "id": "b", "label": "7" },
+        { "id": "c", "label": "8" }
+      ],
+      "answer": ["b"],
+      "explanation": "6 再添 1 就是 7。"
+    },
+    {
+      "id": "sx-1a-u1-l04-ex3",
+      "type": "multi",
+      "stem": "下面哪些数比 7 大？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "8" },
+        { "id": "b", "label": "9" },
+        { "id": "c", "label": "5" },
+        { "id": "d", "label": "10" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "8、9、10 都比 7 大，5 比 7 小。"
+    }
+  ]
+}
