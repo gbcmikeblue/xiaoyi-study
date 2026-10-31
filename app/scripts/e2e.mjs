@@ -61,7 +61,7 @@ check('气泡出现选中态', (await page.locator('.bubble.is-picked').count())
 
 await page.getByRole('button', { name: '确认答案' }).click();
 await page.waitForTimeout(250);
-check('第 1 题判为正确', (await page.locator('.feedback').innerText()).includes('答对了'));
+check('第 1 题判为正确', (await page.locator('.scene-veil .veil-title').innerText()) === '答对了');
 check('正确气泡高亮', (await page.locator('.bubble.is-right').count()) === 1);
 check('干扰气泡淡出', (await page.locator('.bubble.is-dim').count()) === 2);
 
@@ -84,7 +84,7 @@ await page.waitForTimeout(250);
 await bubble('天').click({ force: true });
 await page.getByRole('button', { name: '确认答案' }).click();
 await page.waitForTimeout(250);
-check('第 2 题判为正确', (await page.locator('.feedback').innerText()).includes('答对了'));
+check('第 2 题判为正确', (await page.locator('.scene-veil .veil-title').innerText()) === '答对了');
 
 // 第 3 题：多选
 await page.getByRole('button', { name: '下一题' }).click();
@@ -96,7 +96,7 @@ await page.waitForTimeout(200);
 check('多选题显示选择序号', (await page.locator('.bubble-mark').count()) === 3);
 await page.getByRole('button', { name: '确认答案' }).click();
 await page.waitForTimeout(250);
-check('第 3 题判为正确', (await page.locator('.feedback').innerText()).includes('答对了'));
+check('第 3 题判为正确', (await page.locator('.scene-veil .veil-title').innerText()) === '答对了');
 
 await page.getByRole('button', { name: '看看成绩' }).click();
 await page.waitForTimeout(400);

@@ -42,14 +42,19 @@ for (const c of cases) {
   await page.waitForTimeout(350);
 
   const after = await page.evaluate(() => {
-    const a = document.querySelector('.exercise-actions').getBoundingClientRect();
+    const btn = document.querySelector('.scene-veil .btn')?.getBoundingClientRect();
+    const veil = document.querySelector('.scene-veil')?.getBoundingClientRect();
     const f = document.querySelector('.feedback')?.getBoundingClientRect();
     const vp = document.querySelector('.app-viewport');
     return {
       innerH: window.innerHeight,
-      actionsTop: Math.round(a.top),
-      actionsBottom: Math.round(a.bottom),
-      actionsVisible: a.bottom <= window.innerHeight + 1,
+      hasVeil: !!veil,
+      btnW: btn ? Math.round(btn.width) : 0,
+      btnH: btn ? Math.round(btn.height) : 0,
+      btnTop: btn ? Math.round(btn.top) : -1,
+      btnBottom: btn ? Math.round(btn.bottom) : -1,
+      btnVisible: btn ? btn.top >= 0 && btn.bottom <= window.innerHeight + 1 : false,
+      btnInsideScene: btn && veil ? btn.top >= veil.top - 1 && btn.bottom <= veil.bottom + 1 : false,
       feedbackVisible: f ? f.top >= 0 && f.bottom <= window.innerHeight + 1 : false,
       scrollY: Math.round(vp.scrollTop),
       scrollable: vp.scrollHeight > vp.clientHeight,
@@ -63,5 +68,9 @@ for (const c of cases) {
 
 await browser.close();
 console.log(JSON.stringify(results, null, 2));
-const bad = results.filter((r) => !r.after.actionsVisible);
-console.log(bad.length === 0 ? '\n全部视口：答对后按钮均在视口内' : `\n仍有 ${bad.length} 个视口按钮不可见`);
+const bad = results.filter((r) => !r.after.btnVisible || !r.after.btnInsideScene);
+console.log(
+  bad.length === 0
+    ? '\n全部视口：答对后按钮均落在选项区内部且无需滚动'
+    : `\n仍有 ${bad.length} 个视口不达标：${bad.map((b) => b.case).join(', ')}`,
+);
