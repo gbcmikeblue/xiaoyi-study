@@ -1004,17 +1004,14 @@ button {
   background: radial-gradient(120% 90% at 50% 0%, #f4f9ff 0%, #eaf3fb 44%, #f8f2e7 100%);
   border: 1px solid #e4edf7;
   opacity: 0;
-  transition: opacity 0.28s ease, height 0.3s ease;
+  transition: opacity 0.28s ease;
 }
 
 .bubble-stage.is-ready {
   opacity: 1;
 }
 
-/* 判定后毛玻璃覆盖选项区，略收缩给下方解释让出空间 */
-.exercise.has-feedback .bubble-stage {
-  height: clamp(240px, 34vh, 320px);
-}
+/* 判定后不再收缩选项区：毛玻璃已覆盖气泡，收缩只会缩小遮罩与按钮的活动空间 */
 
 .bubble-hint {
   position: absolute;
