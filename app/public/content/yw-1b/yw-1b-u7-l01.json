@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u7-l01",
+  "unitId": "yw-1b-u7",
+  "volumeId": "yw-1b",
+  "title": "文具的家",
+  "objectives": ["认识“具、笔、丢、找、收”五个字", "能养成收拾文具的习惯"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "铅笔不见了，橡皮也不见了。妈妈问：“你的文具住在哪儿？”我这才发现，铅笔盒就是它们的家。每天写完作业，把文具一样一样送回盒子里，第二天就不会找不到。"
+    },
+    { "type": "audio", "text": "铅笔不见了，橡皮也不见了。妈妈问：你的文具住在哪儿？", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "具", "pinyin": "jù", "word": "文具" },
+        { "char": "笔", "pinyin": "bǐ", "word": "铅笔" },
+        { "char": "丢", "pinyin": "diū", "word": "丢失" },
+        { "char": "找", "pinyin": "zhǎo", "word": "找到" },
+        { "char": "收", "pinyin": "shōu", "word": "收拾" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "东西找不到，多半不是丢了，而是没放回原处。固定位置，用完就放回去，比事后到处找省事得多。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u7-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "具",
+      "options": [
+        { "id": "a", "label": "具" },
+        { "id": "b", "label": "笔" },
+        { "id": "c", "label": "丢" }
+      ],
+      "answer": ["a"],
+      "explanation": "“具”读 jù，文具的具。"
+    },
+    {
+      "id": "yw-1b-u7-l01-ex2",
+      "type": "single",
+      "stem": "文具的“家”指的是什么？",
+      "options": [
+        { "id": "a", "label": "铅笔盒" },
+        { "id": "b", "label": "书桌抽屉里的角落" },
+        { "id": "c", "label": "垃圾桶" }
+      ],
+      "answer": ["a"],
+      "explanation": "文中说铅笔盒就是文具的家。"
+    },
+    {
+      "id": "yw-1b-u7-l01-ex3",
+      "type": "single",
+      "stem": "怎样才能不丢文具？",
+      "options": [
+        { "id": "a", "label": "用完放回原处" },
+        { "id": "b", "label": "多买几支" },
+        { "id": "c", "label": "别用了" }
+      ],
+      "answer": ["a"],
+      "explanation": "固定位置、用完归位，是最有效的办法。"
+    }
+  ]
+}

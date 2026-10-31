@@ -33,7 +33,7 @@ except ImportError:  # pragma: no cover
 TONE_MARKS = "āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ"
 
 # 这些字作后缀时习惯读轻声，不标调是正常的，不告警
-NEUTRAL_TONE_CHARS = set("子了吧吗呢的着过们头")
+NEUTRAL_TONE_CHARS = set("子了吧吗呢的着过们头巴")
 
 errors: list[str] = []
 warnings: list[str] = []

@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u7-l04",
+  "unitId": "yw-1b-u7",
+  "volumeId": "yw-1b",
+  "title": "小猴子下山",
+  "objectives": ["认识“猴、掰、桃、瓜、空”五个字", "能说出小猴子为什么空手回家"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "小猴子下山，先掰了一个玉米，扛着走。看见桃子，就扔了玉米去摘桃子。看见西瓜，又扔了桃子去抱西瓜。最后看见一只兔子，扔了西瓜去追，兔子跑进树林不见了。小猴子只好空着手回家。"
+    },
+    { "type": "audio", "text": "小猴子下山，先掰了一个玉米，扛着走。看见桃子，就扔了玉米去摘桃子。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "猴", "pinyin": "hóu", "word": "猴子" },
+        { "char": "掰", "pinyin": "bāi", "word": "掰开" },
+        { "char": "桃", "pinyin": "táo", "word": "桃子" },
+        { "char": "瓜", "pinyin": "guā", "word": "西瓜" },
+        { "char": "空", "pinyin": "kōng", "word": "空手" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "小猴子每见到新的就扔掉手里的。目标换来换去，最后什么也没得到。做事要有始有终。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u7-l04-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "猴",
+      "options": [
+        { "id": "a", "label": "猴" },
+        { "id": "b", "label": "桃" },
+        { "id": "c", "label": "瓜" }
+      ],
+      "answer": ["a"],
+      "explanation": "“猴”读 hóu，左边反犬旁，是动物。"
+    },
+    {
+      "id": "yw-1b-u7-l04-ex2",
+      "type": "single",
+      "stem": "小猴子最后得到了什么？",
+      "options": [
+        { "id": "a", "label": "什么也没有" },
+        { "id": "b", "label": "一只兔子" },
+        { "id": "c", "label": "一个大西瓜" }
+      ],
+      "answer": ["a"],
+      "explanation": "它丢了西瓜去追兔子，兔子跑了，只好空手回家。"
+    },
+    {
+      "id": "yw-1b-u7-l04-ex3",
+      "type": "single",
+      "stem": "这个故事告诉我们什么？",
+      "options": [
+        { "id": "a", "label": "做事要有始有终" },
+        { "id": "b", "label": "桃子最好吃" },
+        { "id": "c", "label": "兔子跑得快" }
+      ],
+      "answer": ["a"],
+      "explanation": "见一个丢一个，最后什么也得不到。"
+    }
+  ]
+}

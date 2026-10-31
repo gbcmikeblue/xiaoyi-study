@@ -2,56 +2,56 @@
   "id": "sx-1b-u1-l02",
   "unitId": "sx-1b-u1",
   "volumeId": "sx-1b",
-  "title": "捉迷藏",
-  "objectives": ["会算十几减 8、十几减 7", "能选择合适的方法口算"],
+  "title": "十几加几",
+  "objectives": ["会算十几加几（不进位）", "知道十位不变、个位相加"],
   "blocks": [
     {
       "type": "text",
-      "title": "一起算一算",
-      "content": "13 个小朋友在玩捉迷藏，有 8 个藏起来了，还有几个在外面？13 - 8 = 5。"
+      "title": "个位加个位",
+      "content": "13 + 2：13 是 1 个十和 3 个一，再加 2 个一，个位变成 5，十位还是 1，所以是 15。只要个位加起来不满十，十位就不变。"
     },
     {
       "type": "text",
-      "title": "想一想",
-      "content": "17 - 7 = 10。减数和被减数的个位相同的时候，直接减个位最快。"
+      "title": "拆开看更清楚",
+      "content": "13 + 2 可以想成：10 + 3 + 2 = 10 + 5 = 15。先加个位，再加十位，不容易错。"
     }
   ],
   "exercises": [
     {
       "id": "sx-1b-u1-l02-ex1",
       "type": "single",
-      "stem": "11 - 8 = ?",
+      "stem": "12 + 5 = ?",
       "options": [
-        { "id": "a", "label": "2" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "4" }
+        { "id": "a", "label": "17" },
+        { "id": "b", "label": "16" },
+        { "id": "c", "label": "7" }
       ],
-      "answer": ["b"],
-      "explanation": "11 - 10 = 1，再加回 2，就是 3。"
+      "answer": ["a"],
+      "explanation": "个位 2 + 5 = 7，十位还是 1，所以是 17。"
     },
     {
       "id": "sx-1b-u1-l02-ex2",
       "type": "single",
-      "stem": "15 - 7 = ?",
+      "stem": "14 + 3 = ?",
       "options": [
-        { "id": "a", "label": "7" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "9" }
+        { "id": "a", "label": "17" },
+        { "id": "b", "label": "44" },
+        { "id": "c", "label": "11" }
       ],
-      "answer": ["b"],
-      "explanation": "15 - 5 = 10，还要再减 2，就是 8。"
+      "answer": ["a"],
+      "explanation": "4 + 3 = 7，十位不变，结果是 17。"
     },
     {
       "id": "sx-1b-u1-l02-ex3",
       "type": "single",
-      "stem": "12 - 7 = ?",
+      "stem": "小明有 15 张卡片，又得到 4 张，一共几张？",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "6" }
+        { "id": "a", "label": "19" },
+        { "id": "b", "label": "18" },
+        { "id": "c", "label": "20" }
       ],
-      "answer": ["b"],
-      "explanation": "12 - 2 = 10，还要再减 5，就是 5。"
+      "answer": ["a"],
+      "explanation": "15 + 4 = 19，个位 5 + 4 = 9。"
     }
   ]
 }

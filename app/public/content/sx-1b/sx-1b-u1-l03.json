@@ -2,56 +2,56 @@
   "id": "sx-1b-u1-l03",
   "unitId": "sx-1b-u1",
   "volumeId": "sx-1b",
-  "title": "快乐的小鸭",
-  "objectives": ["会算十几减 6、5、4、3、2", "能看懂图里的减法问题"],
+  "title": "凑十法",
+  "objectives": ["会用凑十法算 9 加几", "知道先把 9 凑成 10 再加剩下的"],
   "blocks": [
     {
       "type": "text",
-      "title": "小鸭下水",
-      "content": "岸上有 11 只小鸭，有 6 只下水游泳，岸上还剩几只？11 - 6 = 5。"
+      "title": "先把 9 凑成 10",
+      "content": "算 9 + 5：从 5 里拿出 1 给 9，9 就凑成 10；5 被拿走 1 还剩 4。10 + 4 = 14。所以 9 + 5 = 14。"
     },
     {
       "type": "text",
-      "title": "方法很多",
-      "content": "可以一个一个减，也可以先把个位减完再减剩下的。算得对、算得快就好。"
+      "title": "记住“见 9 想 1”",
+      "content": "9 离 10 差 1，所以见到 9，就从另一个数里拿出 1 来凑十。8 就拿出 2，7 就拿出 3。"
     }
   ],
   "exercises": [
     {
       "id": "sx-1b-u1-l03-ex1",
       "type": "single",
-      "stem": "11 - 6 = ?",
+      "stem": "9 + 3 = ?",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "6" }
+        { "id": "a", "label": "11" },
+        { "id": "b", "label": "12" },
+        { "id": "c", "label": "13" }
       ],
       "answer": ["b"],
-      "explanation": "11 - 1 = 10，还要再减 5，就是 5。"
+      "explanation": "3 分成 1 和 2，9 + 1 = 10，10 + 2 = 12。"
     },
     {
       "id": "sx-1b-u1-l03-ex2",
       "type": "single",
-      "stem": "13 - 5 = ?",
+      "stem": "9 + 7 = ?",
       "options": [
-        { "id": "a", "label": "7" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "9" }
+        { "id": "a", "label": "15" },
+        { "id": "b", "label": "16" },
+        { "id": "c", "label": "17" }
       ],
       "answer": ["b"],
-      "explanation": "13 - 3 = 10，还要再减 2，就是 8。"
+      "explanation": "7 分成 1 和 6，9 + 1 = 10，10 + 6 = 16。"
     },
     {
       "id": "sx-1b-u1-l03-ex3",
       "type": "single",
-      "stem": "12 - 4 = ?",
+      "stem": "算 9 + 5 时，先把 5 分成哪两个数？",
       "options": [
-        { "id": "a", "label": "7" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "9" }
+        { "id": "a", "label": "1 和 4" },
+        { "id": "b", "label": "2 和 3" },
+        { "id": "c", "label": "5 和 0" }
       ],
-      "answer": ["b"],
-      "explanation": "12 - 2 = 10，还要再减 2，就是 8。"
+      "answer": ["a"],
+      "explanation": "9 差 1 到 10，所以从 5 里拿出 1，剩 4。"
     }
   ]
 }

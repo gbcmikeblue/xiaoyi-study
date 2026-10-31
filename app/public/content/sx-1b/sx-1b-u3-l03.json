@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u3-l03",
+  "unitId": "sx-1b-u3",
+  "volumeId": "sx-1b",
+  "title": "快乐的小鸭",
+  "objectives": ["会算十几减 6、5、4、3、2", "能看懂图里的减法问题"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "小鸭下水",
+      "content": "岸上有 11 只小鸭，有 6 只下水游泳，岸上还剩几只？11 - 6 = 5。"
+    },
+    {
+      "type": "text",
+      "title": "方法很多",
+      "content": "可以一个一个减，也可以先把个位减完再减剩下的。算得对、算得快就好。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u3-l03-ex1",
+      "type": "single",
+      "stem": "11 - 6 = ?",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "5" },
+        { "id": "c", "label": "6" }
+      ],
+      "answer": ["b"],
+      "explanation": "11 - 1 = 10，还要再减 5，就是 5。"
+    },
+    {
+      "id": "sx-1b-u3-l03-ex2",
+      "type": "single",
+      "stem": "13 - 5 = ?",
+      "options": [
+        { "id": "a", "label": "7" },
+        { "id": "b", "label": "8" },
+        { "id": "c", "label": "9" }
+      ],
+      "answer": ["b"],
+      "explanation": "13 - 3 = 10，还要再减 2，就是 8。"
+    },
+    {
+      "id": "sx-1b-u3-l03-ex3",
+      "type": "single",
+      "stem": "12 - 4 = ?",
+      "options": [
+        { "id": "a", "label": "7" },
+        { "id": "b", "label": "8" },
+        { "id": "c", "label": "9" }
+      ],
+      "answer": ["b"],
+      "explanation": "12 - 2 = 10，还要再减 2，就是 8。"
+    }
+  ]
+}

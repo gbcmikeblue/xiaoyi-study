@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u5-l02",
+  "unitId": "yw-1b-u5",
+  "volumeId": "yw-1b",
+  "title": "古对今",
+  "objectives": ["认识“古、今、圆、方、冷”五个字", "能说出几组意思相对的字"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "古对今，圆对方。天对地，日对月。春暖对秋凉，人多对力强。"
+    },
+    { "type": "audio", "text": "古对今，圆对方。天对地，日对月。春暖对秋凉。", "caption": "听老师读一读" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "古", "pinyin": "gǔ", "word": "古代" },
+        { "char": "今", "pinyin": "jīn", "word": "今天" },
+        { "char": "圆", "pinyin": "yuán", "word": "圆形" },
+        { "char": "方", "pinyin": "fāng", "word": "方形" },
+        { "char": "冷", "pinyin": "lěng", "word": "寒冷" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "“对”就是两两相对，意思往往相反或相近。古和今是时间上的相对，圆和方是形状上的相对。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u5-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "古",
+      "options": [
+        { "id": "a", "label": "古" },
+        { "id": "b", "label": "今" },
+        { "id": "c", "label": "方" }
+      ],
+      "answer": ["a"],
+      "explanation": "“古”读 gǔ，古代的古。"
+    },
+    {
+      "id": "yw-1b-u5-l02-ex2",
+      "type": "single",
+      "stem": "“古”的反义词是哪个字？",
+      "options": [
+        { "id": "a", "label": "今" },
+        { "id": "b", "label": "圆" },
+        { "id": "c", "label": "冷" }
+      ],
+      "answer": ["a"],
+      "explanation": "古对今，古代和今天，一个过去一个现在。"
+    },
+    {
+      "id": "yw-1b-u5-l02-ex3",
+      "type": "single",
+      "stem": "“圆”的反义词是哪个字？",
+      "options": [
+        { "id": "a", "label": "方" },
+        { "id": "b", "label": "天" },
+        { "id": "c", "label": "暖" }
+      ],
+      "answer": ["a"],
+      "explanation": "圆对方，是形状上的相对。"
+    }
+  ]
+}

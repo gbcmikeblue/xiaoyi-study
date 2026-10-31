@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u3-l04",
+  "unitId": "sx-1b-u3",
+  "volumeId": "sx-1b",
+  "title": "十几减几",
+  "objectives": ["会算十几减 6、5、4、3、2", "能把减数拆成两部分来算"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "一步一步减",
+      "content": "算 13 - 6：个位 3 不够减 6，就先用 13 - 3 = 10，再从 10 里减剩下的 3，得到 7。所以 13 - 6 = 7。"
+    },
+    {
+      "type": "text",
+      "title": "为什么要拆",
+      "content": "个位不够减的时候，把减数拆开，先减到整十。整十数最好算，剩下的再一步就算出来了。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u3-l04-ex1",
+      "type": "single",
+      "stem": "12 - 5 = ?",
+      "options": [
+        { "id": "a", "label": "7" },
+        { "id": "b", "label": "8" },
+        { "id": "c", "label": "17" }
+      ],
+      "answer": ["a"],
+      "explanation": "12 - 2 = 10，10 - 3 = 7。"
+    },
+    {
+      "id": "sx-1b-u3-l04-ex2",
+      "type": "single",
+      "stem": "15 - 6 = ?",
+      "options": [
+        { "id": "a", "label": "8" },
+        { "id": "b", "label": "9" },
+        { "id": "c", "label": "11" }
+      ],
+      "answer": ["b"],
+      "explanation": "15 - 5 = 10，10 - 1 = 9。"
+    },
+    {
+      "id": "sx-1b-u3-l04-ex3",
+      "type": "single",
+      "stem": "11 - 4 = ?",
+      "options": [
+        { "id": "a", "label": "6" },
+        { "id": "b", "label": "7" },
+        { "id": "c", "label": "8" }
+      ],
+      "answer": ["b"],
+      "explanation": "11 - 1 = 10，10 - 3 = 7。"
+    }
+  ]
+}

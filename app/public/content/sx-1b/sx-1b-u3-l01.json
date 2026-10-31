@@ -2,56 +2,56 @@
   "id": "sx-1b-u3-l01",
   "unitId": "sx-1b-u3",
   "volumeId": "sx-1b",
-  "title": "数花生",
-  "objectives": ["知道 10 个一是 1 个十", "认识 100 以内的数"],
+  "title": "买铅笔",
+  "objectives": ["会算十几减 9", "知道“破十法”的思路"],
   "blocks": [
     {
       "type": "text",
-      "title": "十个一是一个十",
-      "content": "一个一个地数，数到 10 个，就可以把它们捆成 1 捆，也就是 1 个十。10 个十合起来就是 100。"
+      "title": "还剩几支",
+      "content": "文具店有 15 支铅笔，卖出 9 支，还剩几支？用减法：15 - 9 = 6。"
     },
     {
       "type": "text",
-      "title": "认数位",
-      "content": "36 这个数，3 在十位上，表示 3 个十；6 在个位上，表示 6 个一。"
+      "title": "怎么想得快",
+      "content": "把 9 看成 10：15 - 10 = 5，因为多减了 1，再加回来 1，所以是 6。"
     }
   ],
   "exercises": [
     {
       "id": "sx-1b-u3-l01-ex1",
       "type": "single",
-      "stem": "5 个十是多少？",
+      "stem": "12 - 9 = ?",
       "options": [
-        { "id": "a", "label": "5" },
-        { "id": "b", "label": "50" },
-        { "id": "c", "label": "15" }
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "4" }
       ],
       "answer": ["b"],
-      "explanation": "1 个十是 10，5 个十就是 50。"
+      "explanation": "12 - 10 = 2，再加回 1，就是 3。"
     },
     {
       "id": "sx-1b-u3-l01-ex2",
       "type": "single",
-      "stem": "10 个十合起来是多少？",
+      "stem": "16 - 9 = ?",
       "options": [
-        { "id": "a", "label": "10" },
-        { "id": "b", "label": "20" },
-        { "id": "c", "label": "100" }
+        { "id": "a", "label": "6" },
+        { "id": "b", "label": "7" },
+        { "id": "c", "label": "8" }
       ],
-      "answer": ["c"],
-      "explanation": "10 个十就是一百。"
+      "answer": ["b"],
+      "explanation": "16 - 10 = 6，再加回 1，就是 7。"
     },
     {
       "id": "sx-1b-u3-l01-ex3",
       "type": "single",
-      "stem": "36 的十位上是几？",
+      "stem": "14 - 9 = ?",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "6" },
-        { "id": "c", "label": "9" }
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "5" },
+        { "id": "c", "label": "6" }
       ],
-      "answer": ["a"],
-      "explanation": "36 里 3 在十位，6 在个位。"
+      "answer": ["b"],
+      "explanation": "14 - 10 = 4，再加回 1，就是 5。"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u4-l02",
+  "unitId": "sx-1b-u4",
+  "volumeId": "sx-1b",
+  "title": "谁的红果多",
+  "objectives": ["会比较 100 以内两个数的大小", "知道先比十位、再比个位"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "怎么比大小",
+      "content": "比两位数的大小：先看十位，十位上的数大，这个数就大；十位一样，再看个位。"
+    },
+    {
+      "type": "text",
+      "title": "举个例子",
+      "content": "45 和 54：十位上 5 比 4 大，所以 54 大。38 和 35：十位都是 3，个位 8 比 5 大，所以 38 大。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u4-l02-ex1",
+      "type": "single",
+      "stem": "45 和 54，哪个数大？",
+      "options": [
+        { "id": "a", "label": "45" },
+        { "id": "b", "label": "54" },
+        { "id": "c", "label": "一样大" }
+      ],
+      "answer": ["b"],
+      "explanation": "十位上 5 比 4 大，所以 54 大。"
+    },
+    {
+      "id": "sx-1b-u4-l02-ex2",
+      "type": "single",
+      "stem": "38 和 35，哪个数大？",
+      "options": [
+        { "id": "a", "label": "35" },
+        { "id": "b", "label": "38" },
+        { "id": "c", "label": "一样大" }
+      ],
+      "answer": ["b"],
+      "explanation": "十位都是 3，个位 8 比 5 大，所以 38 大。"
+    },
+    {
+      "id": "sx-1b-u4-l02-ex3",
+      "type": "single",
+      "stem": "70 和 69，哪个数大？",
+      "options": [
+        { "id": "a", "label": "69" },
+        { "id": "b", "label": "70" },
+        { "id": "c", "label": "一样大" }
+      ],
+      "answer": ["b"],
+      "explanation": "十位上 7 比 6 大，所以 70 比 69 大。"
+    }
+  ]
+}

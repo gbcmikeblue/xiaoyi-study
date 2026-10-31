@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u5-l02",
+  "unitId": "sx-1b-u5",
+  "volumeId": "sx-1b",
+  "title": "两位数加整十数",
+  "objectives": ["会算两位数加整十数", "知道十位相加、个位不变"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "十位加十位",
+      "content": "23 + 30：23 有 2 个十，再加 3 个十，一共 5 个十，个位还是 3，结果是 53。"
+    },
+    {
+      "type": "text",
+      "title": "和加一位数比一比",
+      "content": "加一位数，个位变、十位不变；加整十数，十位变、个位不变。看清楚加的是哪一位。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u5-l02-ex1",
+      "type": "single",
+      "stem": "23 + 30 = ?",
+      "options": [
+        { "id": "a", "label": "53" },
+        { "id": "b", "label": "26" },
+        { "id": "c", "label": "33" }
+      ],
+      "answer": ["a"],
+      "explanation": "2 个十加 3 个十是 5 个十，个位仍是 3，得 53。"
+    },
+    {
+      "id": "sx-1b-u5-l02-ex2",
+      "type": "single",
+      "stem": "45 + 20 = ?",
+      "options": [
+        { "id": "a", "label": "65" },
+        { "id": "b", "label": "47" },
+        { "id": "c", "label": "25" }
+      ],
+      "answer": ["a"],
+      "explanation": "4 + 2 = 6 个十，个位 5 不变，是 65。"
+    },
+    {
+      "id": "sx-1b-u5-l02-ex3",
+      "type": "single",
+      "stem": "12 + 40 和 12 + 4，哪个结果大？",
+      "options": [
+        { "id": "a", "label": "12 + 40" },
+        { "id": "b", "label": "12 + 4" },
+        { "id": "c", "label": "一样大" }
+      ],
+      "answer": ["a"],
+      "explanation": "加 40 是加 4 个十，加 4 只是加 4 个一。"
+    }
+  ]
+}

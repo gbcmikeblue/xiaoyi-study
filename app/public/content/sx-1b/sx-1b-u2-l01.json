@@ -1,0 +1,58 @@
+{
+  "id": "sx-1b-u2-l01",
+  "unitId": "sx-1b-u2",
+  "volumeId": "sx-1b",
+  "title": "认识图形",
+  "objectives": ["认识长方形、正方形、三角形和圆", "能根据边和角的特点区分图形"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "四种基本图形",
+      "content": "长方形的对边一样长，有 4 个直角；正方形 4 条边都一样长，也有 4 个直角；三角形有 3 条边、3 个角；圆没有角，边是弯的。"
+    },
+    {
+      "type": "text",
+      "title": "在身边找一找",
+      "content": "课本的面是长方形，魔方的一面是正方形，三明治是三角形，车轮是圆形。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u2-l01-ex1",
+      "type": "single",
+      "stem": "4 条边一样长、4 个角都是直角的图形是什么？",
+      "options": [
+        { "id": "a", "label": "长方形" },
+        { "id": "b", "label": "正方形" },
+        { "id": "c", "label": "三角形" }
+      ],
+      "answer": ["b"],
+      "explanation": "4 条边都相等的是正方形；长方形只有对边相等。"
+    },
+    {
+      "id": "sx-1b-u2-l01-ex2",
+      "type": "single",
+      "stem": "哪个图形没有角？",
+      "options": [
+        { "id": "a", "label": "圆" },
+        { "id": "b", "label": "正方形" },
+        { "id": "c", "label": "三角形" }
+      ],
+      "answer": ["a"],
+      "explanation": "圆的边是弯的，没有角。"
+    },
+    {
+      "id": "sx-1b-u2-l01-ex3",
+      "type": "multi",
+      "stem": "下面哪些是 4 条边的图形？",
+      "options": [
+        { "id": "a", "label": "长方形" },
+        { "id": "b", "label": "正方形" },
+        { "id": "c", "label": "三角形" },
+        { "id": "d", "label": "圆" }
+      ],
+      "answer": ["a", "b"],
+      "explanation": "三角形 3 条边，圆没有直边。"
+    }
+  ]
+}

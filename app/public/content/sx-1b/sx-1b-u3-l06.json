@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u3-l06",
+  "unitId": "sx-1b-u3",
+  "volumeId": "sx-1b",
+  "title": "解决问题",
+  "objectives": ["能分清“求剩下”和“求相差”", "会列式解决简单的实际问题"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "求剩下用减法",
+      "content": "有 14 个苹果，吃了 6 个，还剩几个？从总数里去掉一部分，用减法：14 - 6 = 8。"
+    },
+    {
+      "type": "text",
+      "title": "求相差也用减法",
+      "content": "小红有 12 张卡片，小明有 8 张，小红比小明多几张？多的那部分就是差：12 - 8 = 4。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u3-l06-ex1",
+      "type": "single",
+      "stem": "有 14 个苹果，吃了 6 个，还剩几个？",
+      "options": [
+        { "id": "a", "label": "8" },
+        { "id": "b", "label": "9" },
+        { "id": "c", "label": "20" }
+      ],
+      "answer": ["a"],
+      "explanation": "14 - 6 = 8，剩下 8 个。"
+    },
+    {
+      "id": "sx-1b-u3-l06-ex2",
+      "type": "single",
+      "stem": "小红有 12 张卡片，小明有 8 张，小红比小明多几张？",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "20" },
+        { "id": "c", "label": "8" }
+      ],
+      "answer": ["a"],
+      "explanation": "12 - 8 = 4，多 4 张。"
+    },
+    {
+      "id": "sx-1b-u3-l06-ex3",
+      "type": "single",
+      "stem": "车上原来有 15 人，下去 7 人，车上还有几人？",
+      "options": [
+        { "id": "a", "label": "8" },
+        { "id": "b", "label": "9" },
+        { "id": "c", "label": "22" }
+      ],
+      "answer": ["a"],
+      "explanation": "15 - 7 = 8，还有 8 人。"
+    }
+  ]
+}

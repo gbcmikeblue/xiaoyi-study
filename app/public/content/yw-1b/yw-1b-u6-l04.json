@@ -1,0 +1,70 @@
+{
+  "id": "yw-1b-u6-l04",
+  "unitId": "yw-1b-u6",
+  "volumeId": "yw-1b",
+  "title": "要下雨了",
+  "objectives": ["认识“雨、燕、搬、低、闷”五个字", "能说出下雨前动物的变化"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "天变得闷闷的。燕子飞得很低，因为虫子翅膀沾了水汽飞不高。蚂蚁排着队往高处搬家。池塘里的鱼一条条跳出水面透气。爷爷说：要下雨了。"
+    },
+    { "type": "audio", "text": "天变得闷闷的。燕子飞得很低，蚂蚁排着队往高处搬家。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "雨", "pinyin": "yǔ", "word": "下雨" },
+        { "char": "燕", "pinyin": "yàn", "word": "燕子" },
+        { "char": "搬", "pinyin": "bān", "word": "搬家" },
+        { "char": "低", "pinyin": "dī", "word": "低头" },
+        { "char": "闷", "pinyin": "mèn", "word": "闷热" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "下雨前空气里水汽多，虫子飞不高，燕子只好低飞捉虫；洞里潮湿，蚂蚁往高处搬。动物的反应，其实是在提前避雨。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u6-l04-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "燕",
+      "options": [
+        { "id": "a", "label": "雨" },
+        { "id": "b", "label": "燕" },
+        { "id": "c", "label": "搬" }
+      ],
+      "answer": ["b"],
+      "explanation": "“燕”读 yàn，燕子的燕，下面四点底像尾巴。"
+    },
+    {
+      "id": "yw-1b-u6-l04-ex2",
+      "type": "single",
+      "stem": "燕子为什么飞得低？",
+      "options": [
+        { "id": "a", "label": "虫子翅膀沾了水汽，飞不高" },
+        { "id": "b", "label": "燕子累了" },
+        { "id": "c", "label": "燕子在看风景" }
+      ],
+      "answer": ["a"],
+      "explanation": "空气潮湿，小虫飞不高，燕子跟着低飞才能捉到虫。"
+    },
+    {
+      "id": "yw-1b-u6-l04-ex3",
+      "type": "multi",
+      "stem": "哪些现象说明要下雨了？",
+      "options": [
+        { "id": "a", "label": "燕子低飞" },
+        { "id": "b", "label": "蚂蚁搬家" },
+        { "id": "c", "label": "鱼儿跳出水面" },
+        { "id": "d", "label": "太阳很大很晒" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "大太阳是晴天，不是下雨前的现象。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "yw-1b-u5-l03",
+  "unitId": "yw-1b-u5",
+  "volumeId": "yw-1b",
+  "title": "操场上",
+  "objectives": ["认识“操、场、跳、球、跑”五个字", "能说出操场上常见的活动"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "下课铃一响，操场就热闹了。这边跳绳，绳子甩得呼呼响；那边踢球，球滚得飞快；跑道上还有人在跑。上课铃响了，大家排好队回教室。"
+    },
+    { "type": "audio", "text": "下课铃一响，操场就热闹了。这边跳绳，那边踢球。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "操", "pinyin": "cāo", "word": "操场" },
+        { "char": "场", "pinyin": "chǎng", "word": "广场" },
+        { "char": "跳", "pinyin": "tiào", "word": "跳绳" },
+        { "char": "球", "pinyin": "qiú", "word": "皮球" },
+        { "char": "跑", "pinyin": "pǎo", "word": "跑步" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "跳绳、踢球、跑步都是跑跳类的活动。玩得开心，也要注意安全：不推不挤，看清脚下。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u5-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "操",
+      "options": [
+        { "id": "a", "label": "操" },
+        { "id": "b", "label": "场" },
+        { "id": "c", "label": "跑" }
+      ],
+      "answer": ["a"],
+      "explanation": "“操”读 cāo，操场、做操的操。"
+    },
+    {
+      "id": "yw-1b-u5-l03-ex2",
+      "type": "multi",
+      "stem": "课间操场上通常会做哪些活动？",
+      "options": [
+        { "id": "a", "label": "跳绳" },
+        { "id": "b", "label": "踢球" },
+        { "id": "c", "label": "跑步" },
+        { "id": "d", "label": "睡觉" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "睡觉要在家里或寝室，不在操场。"
+    },
+    {
+      "id": "yw-1b-u5-l03-ex3",
+      "type": "single",
+      "stem": "上课铃响了，大家应该怎么做？",
+      "options": [
+        { "id": "a", "label": "排好队回教室" },
+        { "id": "b", "label": "继续玩" },
+        { "id": "c", "label": "跑去别处" }
+      ],
+      "answer": ["a"],
+      "explanation": "听到上课铃就要停下活动，排队回教室。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u4-l04",
+  "unitId": "sx-1b-u4",
+  "volumeId": "sx-1b",
+  "title": "整十数加减",
+  "objectives": ["会算整十数加减整十数", "知道按“几个十”来算"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "按“几捆”算",
+      "content": "20 + 30：2 捆加 3 捆是 5 捆，就是 50。50 - 20：5 捆拿走 2 捆剩 3 捆，就是 30。整十数加减，只看有几个十。"
+    },
+    {
+      "type": "text",
+      "title": "别漏了那个 0",
+      "content": "算的时候想的是 2 + 3 = 5，但答案要写成 50，末尾的 0 不能丢。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u4-l04-ex1",
+      "type": "single",
+      "stem": "20 + 30 = ?",
+      "options": [
+        { "id": "a", "label": "50" },
+        { "id": "b", "label": "5" },
+        { "id": "c", "label": "23" }
+      ],
+      "answer": ["a"],
+      "explanation": "2 个十加 3 个十是 5 个十，也就是 50。"
+    },
+    {
+      "id": "sx-1b-u4-l04-ex2",
+      "type": "single",
+      "stem": "70 - 40 = ?",
+      "options": [
+        { "id": "a", "label": "30" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "110" }
+      ],
+      "answer": ["a"],
+      "explanation": "7 个十减 4 个十剩 3 个十，是 30。"
+    },
+    {
+      "id": "sx-1b-u4-l04-ex3",
+      "type": "single",
+      "stem": "40 + 40 = ?",
+      "options": [
+        { "id": "a", "label": "80" },
+        { "id": "b", "label": "8" },
+        { "id": "c", "label": "44" }
+      ],
+      "answer": ["a"],
+      "explanation": "4 个十加 4 个十是 8 个十，也就是 80。"
+    }
+  ]
+}

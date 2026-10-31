@@ -31,5 +31,63 @@
       { "id": "yw-1b-u3-l02", "order": 2, "title": "树和喜鹊" },
       { "id": "yw-1b-u3-l03", "order": 3, "title": "怎么都快乐" }
     ]
+  },
+  {
+    "id": "yw-1b-u4",
+    "volumeId": "yw-1b",
+    "order": 4,
+    "title": "阅读（三）",
+    "lessons": [
+      { "id": "yw-1b-u4-l01", "order": 1, "title": "静夜思" },
+      { "id": "yw-1b-u4-l02", "order": 2, "title": "夜色" },
+      { "id": "yw-1b-u4-l03", "order": 3, "title": "端午粽" }
+    ]
+  },
+  {
+    "id": "yw-1b-u5",
+    "volumeId": "yw-1b",
+    "order": 5,
+    "title": "识字（二）",
+    "lessons": [
+      { "id": "yw-1b-u5-l01", "order": 1, "title": "动物儿歌" },
+      { "id": "yw-1b-u5-l02", "order": 2, "title": "古对今" },
+      { "id": "yw-1b-u5-l03", "order": 3, "title": "操场上" },
+      { "id": "yw-1b-u5-l04", "order": 4, "title": "人之初" }
+    ]
+  },
+  {
+    "id": "yw-1b-u6",
+    "volumeId": "yw-1b",
+    "order": 6,
+    "title": "阅读（四）",
+    "lessons": [
+      { "id": "yw-1b-u6-l01", "order": 1, "title": "古诗二首" },
+      { "id": "yw-1b-u6-l02", "order": 2, "title": "浪花" },
+      { "id": "yw-1b-u6-l03", "order": 3, "title": "荷叶圆圆" },
+      { "id": "yw-1b-u6-l04", "order": 4, "title": "要下雨了" }
+    ]
+  },
+  {
+    "id": "yw-1b-u7",
+    "volumeId": "yw-1b",
+    "order": 7,
+    "title": "阅读（五）",
+    "lessons": [
+      { "id": "yw-1b-u7-l01", "order": 1, "title": "文具的家" },
+      { "id": "yw-1b-u7-l02", "order": 2, "title": "一分钟" },
+      { "id": "yw-1b-u7-l03", "order": 3, "title": "动物王国开大会" },
+      { "id": "yw-1b-u7-l04", "order": 4, "title": "小猴子下山" }
+    ]
+  },
+  {
+    "id": "yw-1b-u8",
+    "volumeId": "yw-1b",
+    "order": 8,
+    "title": "阅读（六）",
+    "lessons": [
+      { "id": "yw-1b-u8-l01", "order": 1, "title": "棉花姑娘" },
+      { "id": "yw-1b-u8-l02", "order": 2, "title": "咕咚" },
+      { "id": "yw-1b-u8-l03", "order": 3, "title": "小壁虎借尾巴" }
+    ]
   }
 ]

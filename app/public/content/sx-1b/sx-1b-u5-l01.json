@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u5-l01",
+  "unitId": "sx-1b-u5",
+  "volumeId": "sx-1b",
+  "title": "两位数加一位数",
+  "objectives": ["会算两位数加一位数（不进位）", "知道十位不变、个位相加"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "个位加个位",
+      "content": "23 + 5：23 是 2 个十和 3 个一，再加 5 个一，个位变成 8，十位还是 2，结果是 28。"
+    },
+    {
+      "type": "text",
+      "title": "什么时候要进位",
+      "content": "3 + 5 = 8，不满十，十位不变。如果个位加起来满十（比如 27 + 5），就要向十位进 1，那是下一课的内容。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u5-l01-ex1",
+      "type": "single",
+      "stem": "23 + 5 = ?",
+      "options": [
+        { "id": "a", "label": "28" },
+        { "id": "b", "label": "73" },
+        { "id": "c", "label": "25" }
+      ],
+      "answer": ["a"],
+      "explanation": "个位 3 + 5 = 8，十位不变，是 28。"
+    },
+    {
+      "id": "sx-1b-u5-l01-ex2",
+      "type": "single",
+      "stem": "41 + 7 = ?",
+      "options": [
+        { "id": "a", "label": "48" },
+        { "id": "b", "label": "47" },
+        { "id": "c", "label": "11" }
+      ],
+      "answer": ["a"],
+      "explanation": "1 + 7 = 8，十位还是 4，结果是 48。"
+    },
+    {
+      "id": "sx-1b-u5-l01-ex3",
+      "type": "single",
+      "stem": "小明有 32 张卡片，又得到 6 张，一共几张？",
+      "options": [
+        { "id": "a", "label": "38" },
+        { "id": "b", "label": "37" },
+        { "id": "c", "label": "92" }
+      ],
+      "answer": ["a"],
+      "explanation": "32 + 6 = 38，个位 2 + 6 = 8。"
+    }
+  ]
+}

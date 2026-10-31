@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u8-l01",
+  "unitId": "yw-1b-u8",
+  "volumeId": "yw-1b",
+  "title": "棉花姑娘",
+  "objectives": ["认识“棉、姑、病、治、瓢”五个字", "知道不同动物吃不同的害虫"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "棉花姑娘生病了，叶子上爬满蚜虫。燕子飞过，她说：“燕子姐姐，帮我捉虫吧。”燕子说：“我只会捉天上的飞虫。”啄木鸟、青蛙也都帮不上。最后来了一群七星瓢虫，一会儿就把蚜虫吃光了。"
+    },
+    { "type": "audio", "text": "棉花姑娘生病了，叶子上爬满蚜虫。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "棉", "pinyin": "mián", "word": "棉花" },
+        { "char": "姑", "pinyin": "gū", "word": "姑娘" },
+        { "char": "病", "pinyin": "bìng", "word": "生病" },
+        { "char": "治", "pinyin": "zhì", "word": "治病" },
+        { "char": "瓢", "pinyin": "piáo", "word": "瓢虫" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "燕子捉天上的虫，啄木鸟捉树干里的虫，青蛙捉田里的虫，七星瓢虫专吃蚜虫。每种动物有自己的本领，帮得上忙的地方也不一样。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u8-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "棉",
+      "options": [
+        { "id": "a", "label": "棉" },
+        { "id": "b", "label": "病" },
+        { "id": "c", "label": "治" }
+      ],
+      "answer": ["a"],
+      "explanation": "“棉”读 mián，左边木字旁，棉花是植物。"
+    },
+    {
+      "id": "yw-1b-u8-l01-ex2",
+      "type": "single",
+      "stem": "最后是谁治好了棉花姑娘？",
+      "options": [
+        { "id": "a", "label": "七星瓢虫" },
+        { "id": "b", "label": "燕子" },
+        { "id": "c", "label": "青蛙" }
+      ],
+      "answer": ["a"],
+      "explanation": "七星瓢虫专吃蚜虫，一会儿就吃光了。"
+    },
+    {
+      "id": "yw-1b-u8-l01-ex3",
+      "type": "single",
+      "stem": "燕子为什么帮不上忙？",
+      "options": [
+        { "id": "a", "label": "它只会捉天上的飞虫" },
+        { "id": "b", "label": "它不想帮" },
+        { "id": "c", "label": "它飞走了" }
+      ],
+      "answer": ["a"],
+      "explanation": "蚜虫在叶子上，燕子捉的是空中的虫。"
+    }
+  ]
+}

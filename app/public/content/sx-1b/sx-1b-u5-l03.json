@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u5-l03",
+  "unitId": "sx-1b-u5",
+  "volumeId": "sx-1b",
+  "title": "两位数减一位数",
+  "objectives": ["会算两位数减一位数与整十数", "能分清减的是哪一位"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "减一位数",
+      "content": "28 - 5：个位 8 减 5 得 3，十位还是 2，结果是 23。个位够减，就直接减。"
+    },
+    {
+      "type": "text",
+      "title": "减整十数",
+      "content": "28 - 20：2 个十减 2 个十，十位没了，个位还是 8，结果是 8。减整十数，个位不变。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u5-l03-ex1",
+      "type": "single",
+      "stem": "28 - 5 = ?",
+      "options": [
+        { "id": "a", "label": "23" },
+        { "id": "b", "label": "22" },
+        { "id": "c", "label": "33" }
+      ],
+      "answer": ["a"],
+      "explanation": "个位 8 - 5 = 3，十位不变，是 23。"
+    },
+    {
+      "id": "sx-1b-u5-l03-ex2",
+      "type": "single",
+      "stem": "28 - 20 = ?",
+      "options": [
+        { "id": "a", "label": "8" },
+        { "id": "b", "label": "26" },
+        { "id": "c", "label": "18" }
+      ],
+      "answer": ["a"],
+      "explanation": "减掉 2 个十，只剩个位的 8。"
+    },
+    {
+      "id": "sx-1b-u5-l03-ex3",
+      "type": "single",
+      "stem": "树上有 36 只鸟，飞走 4 只，还剩几只？",
+      "options": [
+        { "id": "a", "label": "32" },
+        { "id": "b", "label": "34" },
+        { "id": "c", "label": "40" }
+      ],
+      "answer": ["a"],
+      "explanation": "36 - 4 = 32，个位 6 - 4 = 2。"
+    }
+  ]
+}

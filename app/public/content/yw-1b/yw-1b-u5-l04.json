@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u5-l04",
+  "unitId": "yw-1b-u5",
+  "volumeId": "yw-1b",
+  "title": "人之初",
+  "objectives": ["认识“之、初、性、善、近”五个字", "能说出后天习惯会改变一个人"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "人之初，性本善。性相近，习相远。"
+    },
+    { "type": "audio", "text": "人之初，性本善。性相近，习相远。", "caption": "听老师读一读" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "之", "pinyin": "zhī", "word": "之前" },
+        { "char": "初", "pinyin": "chū", "word": "初始" },
+        { "char": "性", "pinyin": "xìng", "word": "性格" },
+        { "char": "善", "pinyin": "shàn", "word": "善良" },
+        { "char": "近", "pinyin": "jìn", "word": "相近" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "人刚出生时都差不多，后来为什么不一样了？因为每个人养成的习惯不同。天天读书的人和天天躺着的人，长大后就差得远了。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u5-l04-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "初",
+      "options": [
+        { "id": "a", "label": "之" },
+        { "id": "b", "label": "初" },
+        { "id": "c", "label": "善" }
+      ],
+      "answer": ["b"],
+      "explanation": "“初”读 chū，左边是衣字旁，本义是裁衣的开始。"
+    },
+    {
+      "id": "yw-1b-u5-l04-ex2",
+      "type": "single",
+      "stem": "“人之初”的“初”是什么意思？",
+      "options": [
+        { "id": "a", "label": "刚开始的时候" },
+        { "id": "b", "label": "结束的时候" },
+        { "id": "c", "label": "中间的时候" }
+      ],
+      "answer": ["a"],
+      "explanation": "“初”就是开始，“人之初”指人刚出生的时候。"
+    },
+    {
+      "id": "yw-1b-u5-l04-ex3",
+      "type": "single",
+      "stem": "“习相远”说明什么？",
+      "options": [
+        { "id": "a", "label": "后天习惯会让人差别很大" },
+        { "id": "b", "label": "人天生就不一样" },
+        { "id": "c", "label": "学习没有用" }
+      ],
+      "answer": ["a"],
+      "explanation": "刚出生时“性相近”，后来因为习惯不同才“习相远”。"
+    }
+  ]
+}

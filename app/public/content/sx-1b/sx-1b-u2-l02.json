@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u2-l02",
+  "unitId": "sx-1b-u2",
+  "volumeId": "sx-1b",
+  "title": "拼图形",
+  "objectives": ["能用相同的图形拼出新图形", "知道大图形可以拆成小图形"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "两个一样的三角形",
+      "content": "两个完全一样的三角形，边对边拼起来，可以拼成一个正方形，也可以拼成一个长方形或平行四边形。拼法不同，结果就不同。"
+    },
+    {
+      "type": "text",
+      "title": "拼完数一数",
+      "content": "用 4 个一样的小正方形，可以拼成一个大正方形，也可以拼成一个长方形。拼的时候要边对边、角对角，中间不能留缝。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u2-l02-ex1",
+      "type": "single",
+      "stem": "4 个一样的小正方形，可以拼成什么？",
+      "options": [
+        { "id": "a", "label": "更大的正方形" },
+        { "id": "b", "label": "圆" },
+        { "id": "c", "label": "三角形" }
+      ],
+      "answer": ["a"],
+      "explanation": "2 个一排、排 2 排，正好拼成一个大正方形。"
+    },
+    {
+      "id": "sx-1b-u2-l02-ex2",
+      "type": "single",
+      "stem": "把一个大正方形沿对角线剪开，得到两个什么图形？",
+      "options": [
+        { "id": "a", "label": "三角形" },
+        { "id": "b", "label": "圆" },
+        { "id": "c", "label": "长方形" }
+      ],
+      "answer": ["a"],
+      "explanation": "沿对角线剪，两边都是三角形。"
+    },
+    {
+      "id": "sx-1b-u2-l02-ex3",
+      "type": "single",
+      "stem": "拼图形时，两块之间要注意什么？",
+      "options": [
+        { "id": "a", "label": "边对边、不留缝" },
+        { "id": "b", "label": "随便放" },
+        { "id": "c", "label": "叠在一起" }
+      ],
+      "answer": ["a"],
+      "explanation": "边对边、角对角、不留缝，拼出来的才是完整图形。"
+    }
+  ]
+}

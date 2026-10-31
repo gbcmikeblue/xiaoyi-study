@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u6-l02",
+  "unitId": "yw-1b-u6",
+  "volumeId": "yw-1b",
+  "title": "浪花",
+  "objectives": ["认识“浪、海、沙、贝、脚”五个字", "能说出海边玩耍的感受"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "我坐在沙滩上，浪花一趟一趟地涌上来，轻轻挠我的小脚丫。它退回去的时候，沙滩上留下几只小贝壳，还有一串歪歪扭扭的脚印。"
+    },
+    { "type": "audio", "text": "我坐在沙滩上，浪花一趟一趟地涌上来，轻轻挠我的小脚丫。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "浪", "pinyin": "làng", "word": "浪花" },
+        { "char": "海", "pinyin": "hǎi", "word": "大海" },
+        { "char": "沙", "pinyin": "shā", "word": "沙滩" },
+        { "char": "贝", "pinyin": "bèi", "word": "贝壳" },
+        { "char": "脚", "pinyin": "jiǎo", "word": "脚印" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "浪花为什么“挠”脚丫？因为海水一遍遍冲上沙滩，碰到脚就像有人轻轻挠痒。把浪花当作会玩的人来写，读起来更有趣。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u6-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "浪",
+      "options": [
+        { "id": "a", "label": "浪" },
+        { "id": "b", "label": "海" },
+        { "id": "c", "label": "贝" }
+      ],
+      "answer": ["a"],
+      "explanation": "“浪”读 làng，左边三点水，和水有关。"
+    },
+    {
+      "id": "yw-1b-u6-l02-ex2",
+      "type": "single",
+      "stem": "浪花退回去时，沙滩上留下了什么？",
+      "options": [
+        { "id": "a", "label": "贝壳和脚印" },
+        { "id": "b", "label": "石头和树枝" },
+        { "id": "c", "label": "什么都没有" }
+      ],
+      "answer": ["a"],
+      "explanation": "文中说留下几只小贝壳和一串脚印。"
+    },
+    {
+      "id": "yw-1b-u6-l02-ex3",
+      "type": "single",
+      "stem": "“浪花挠我的小脚丫”是在说什么？",
+      "options": [
+        { "id": "a", "label": "海水冲上沙滩碰到脚" },
+        { "id": "b", "label": "有人抓我的脚" },
+        { "id": "c", "label": "脚被石头砸了" }
+      ],
+      "answer": ["a"],
+      "explanation": "这是把浪花当人来写，其实是水冲到了脚上。"
+    }
+  ]
+}

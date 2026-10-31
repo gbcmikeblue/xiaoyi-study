@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u3-l05",
+  "unitId": "sx-1b-u3",
+  "volumeId": "sx-1b",
+  "title": "破十法",
+  "objectives": ["理解破十法的道理", "能用破十法算十几减几"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "把十破开",
+      "content": "算 13 - 8：把 13 拆成 10 和 3。3 不够减 8，就用 10 去减 8 得 2，再加回 3，得到 5。"
+    },
+    {
+      "type": "text",
+      "title": "两种办法都对",
+      "content": "破十法是“先破十再合”，平十法是“先减到十再减剩下的”。算 13 - 8：破十法 10 - 8 = 2、2 + 3 = 5；平十法 13 - 3 = 10、10 - 5 = 5。结果一样，选自己顺手的。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u3-l05-ex1",
+      "type": "single",
+      "stem": "用破十法算 16 - 9，第一步应该做什么？",
+      "options": [
+        { "id": "a", "label": "用 10 减 9 得 1" },
+        { "id": "b", "label": "用 6 减 9" },
+        { "id": "c", "label": "把 16 拆成 8 和 8" }
+      ],
+      "answer": ["a"],
+      "explanation": "破十法先把 16 拆成 10 和 6，用 10 去减。"
+    },
+    {
+      "id": "sx-1b-u3-l05-ex2",
+      "type": "single",
+      "stem": "16 - 9 = ?",
+      "options": [
+        { "id": "a", "label": "6" },
+        { "id": "b", "label": "7" },
+        { "id": "c", "label": "8" }
+      ],
+      "answer": ["b"],
+      "explanation": "10 - 9 = 1，1 + 6 = 7。"
+    },
+    {
+      "id": "sx-1b-u3-l05-ex3",
+      "type": "single",
+      "stem": "17 - 8 用破十法，结果是几？",
+      "options": [
+        { "id": "a", "label": "9" },
+        { "id": "b", "label": "8" },
+        { "id": "c", "label": "10" }
+      ],
+      "answer": ["a"],
+      "explanation": "10 - 8 = 2，2 + 7 = 9。"
+    }
+  ]
+}

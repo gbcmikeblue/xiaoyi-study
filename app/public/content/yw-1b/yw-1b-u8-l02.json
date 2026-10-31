@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u8-l02",
+  "unitId": "yw-1b-u8",
+  "volumeId": "yw-1b",
+  "title": "咕咚",
+  "objectives": ["认识“咕、咚、兔、吓、逃”五个字", "知道听到消息要先弄清真假"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "木瓜熟了，掉进湖里，“咕咚”一声。兔子听见，吓得拔腿就跑。狐狸看见兔子跑，也跟着跑。一个传一个，大家都跑起来。最后问清楚才知道，“咕咚”不过是木瓜掉进水里的声音。"
+    },
+    { "type": "audio", "text": "木瓜熟了，掉进湖里，咕咚一声。兔子听见，吓得拔腿就跑。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "咕", "pinyin": "gū", "word": "咕咚" },
+        { "char": "咚", "pinyin": "dōng", "word": "咕咚" },
+        { "char": "兔", "pinyin": "tù", "word": "兔子" },
+        { "char": "吓", "pinyin": "xià", "word": "吓人" },
+        { "char": "逃", "pinyin": "táo", "word": "逃跑" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "谁也没看见“咕咚”是什么，就跟着跑。听来的话，要先弄清楚是不是真的，别一传十、十传百。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u8-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "兔",
+      "options": [
+        { "id": "a", "label": "咕" },
+        { "id": "b", "label": "兔" },
+        { "id": "c", "label": "逃" }
+      ],
+      "answer": ["b"],
+      "explanation": "“兔”读 tù，兔子的兔。"
+    },
+    {
+      "id": "yw-1b-u8-l02-ex2",
+      "type": "single",
+      "stem": "“咕咚”到底是什么？",
+      "options": [
+        { "id": "a", "label": "木瓜掉进水里的声音" },
+        { "id": "b", "label": "一只怪兽" },
+        { "id": "c", "label": "打雷" }
+      ],
+      "answer": ["a"],
+      "explanation": "熟透的木瓜掉进湖里，发出“咕咚”一声。"
+    },
+    {
+      "id": "yw-1b-u8-l02-ex3",
+      "type": "single",
+      "stem": "大家为什么都跑？",
+      "options": [
+        { "id": "a", "label": "没弄清情况，跟着别人跑" },
+        { "id": "b", "label": "真的看见了怪兽" },
+        { "id": "c", "label": "要下雨了" }
+      ],
+      "answer": ["a"],
+      "explanation": "一个传一个，谁也没去看清楚。"
+    }
+  ]
+}
