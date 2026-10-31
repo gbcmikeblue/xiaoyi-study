@@ -1,0 +1,57 @@
+{
+  "id": "yw-1a-u3-l05",
+  "unitId": "yw-1a-u3",
+  "volumeId": "yw-1a",
+  "title": "y w",
+  "objectives": ["认识声母 y、w", "知道 y、w 和 i、u 的读音相同但用法不同"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "发音口诀",
+      "content": "树杈 y y y，屋顶 w w w。y 读“衣”，w 读“乌”，它们和 i、u 读音一样，但站的位置不同：y、w 站在音节开头。"
+    },
+    { "type": "audio", "text": "衣", "caption": "听 y 的音" },
+    { "type": "audio", "text": "乌", "caption": "听 w 的音" }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u3-l05-ex1",
+      "type": "listen",
+      "stem": "听一听，这是哪个字母？",
+      "speakText": "衣",
+      "options": [
+        { "id": "a", "label": "y" },
+        { "id": "b", "label": "w" },
+        { "id": "c", "label": "u" }
+      ],
+      "answer": ["a"],
+      "explanation": "y 读“衣”，和 i 同音，常出现在音节开头。"
+    },
+    {
+      "id": "yw-1a-u3-l05-ex2",
+      "type": "single",
+      "stem": "“乌鸦”的“乌”，用哪个字母开头？",
+      "speakText": "乌鸦",
+      "options": [
+        { "id": "a", "label": "y" },
+        { "id": "b", "label": "w" },
+        { "id": "c", "label": "i" }
+      ],
+      "answer": ["b"],
+      "explanation": "w 读“乌”，屋顶 w w w。"
+    },
+    {
+      "id": "yw-1a-u3-l05-ex3",
+      "type": "multi",
+      "stem": "这一课学了哪两个字母？",
+      "options": [
+        { "id": "a", "label": "y" },
+        { "id": "b", "label": "w" },
+        { "id": "c", "label": "s" },
+        { "id": "d", "label": "r" }
+      ],
+      "answer": ["a", "b"],
+      "explanation": "本课学的是 y 和 w，s、r 是前面两课学过的。"
+    }
+  ]
+}

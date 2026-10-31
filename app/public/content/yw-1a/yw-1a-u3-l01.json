@@ -1,0 +1,58 @@
+{
+  "id": "yw-1a-u3-l01",
+  "unitId": "yw-1a-u3",
+  "volumeId": "yw-1a",
+  "title": "g k h",
+  "objectives": ["会读声母 g、k、h", "能分辨 h 的摩擦音与 g、k 的爆破音"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "发音口诀",
+      "content": "像只鸽子 g g g，像只蝌蚪 k k k，像把椅子 h h h。"
+    },
+    { "type": "audio", "text": "鸽", "caption": "听 g 的音" },
+    { "type": "audio", "text": "科", "caption": "听 k 的音" },
+    { "type": "audio", "text": "喝", "caption": "听 h 的音" }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u3-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，这是哪个声母？",
+      "speakText": "鸽",
+      "options": [
+        { "id": "a", "label": "g" },
+        { "id": "b", "label": "k" },
+        { "id": "c", "label": "h" }
+      ],
+      "answer": ["a"],
+      "explanation": "“鸽”的声母是 g，舌根抵住软腭后放开。"
+    },
+    {
+      "id": "yw-1a-u3-l01-ex2",
+      "type": "single",
+      "stem": "“喝水”的声母是哪一个？",
+      "speakText": "喝水",
+      "options": [
+        { "id": "a", "label": "g" },
+        { "id": "b", "label": "h" },
+        { "id": "c", "label": "k" }
+      ],
+      "answer": ["b"],
+      "explanation": "“喝”的声母是 h，气流从喉咙轻轻摩擦出来。"
+    },
+    {
+      "id": "yw-1a-u3-l01-ex3",
+      "type": "multi",
+      "stem": "这一课学了哪些声母？",
+      "options": [
+        { "id": "a", "label": "g" },
+        { "id": "b", "label": "k" },
+        { "id": "c", "label": "h" },
+        { "id": "d", "label": "b" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "本课学的是 g、k、h，“b”是前面学过的。"
+    }
+  ]
+}

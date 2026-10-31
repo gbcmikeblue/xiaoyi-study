@@ -1,6 +1,6 @@
 {
-  "id": "sx-1a-u3-l02",
-  "unitId": "sx-1a-u3",
+  "id": "sx-1a-u2-l02",
+  "unitId": "sx-1a-u2",
   "volumeId": "sx-1a",
   "title": "还剩下多少",
   "objectives": ["理解从总数里去掉一部分用减法", "会算 5 以内的减法"],
@@ -18,7 +18,7 @@
   ],
   "exercises": [
     {
-      "id": "sx-1a-u3-l02-ex1",
+      "id": "sx-1a-u2-l02-ex1",
       "type": "single",
       "stem": "4 - 1 = ?",
       "options": [
@@ -30,7 +30,7 @@
       "explanation": "4 个去掉 1 个，还剩 3 个。"
     },
     {
-      "id": "sx-1a-u3-l02-ex2",
+      "id": "sx-1a-u2-l02-ex2",
       "type": "single",
       "stem": "5 - 3 = ?",
       "options": [
@@ -42,7 +42,7 @@
       "explanation": "5 个拿走 3 个，还剩 2 个。"
     },
     {
-      "id": "sx-1a-u3-l02-ex3",
+      "id": "sx-1a-u2-l02-ex3",
       "type": "single",
       "stem": "盘子里有 5 块饼干，吃了 2 块，还剩几块？",
       "options": [

@@ -1,6 +1,6 @@
 {
-  "id": "yw-1a-u1-l05",
-  "unitId": "yw-1a-u1",
+  "id": "yw-1a-u6-l01",
+  "unitId": "yw-1a-u6",
   "volumeId": "yw-1a",
   "title": "对韵歌",
   "objectives": ["认识“云、雨、风、虫”四个字", "能跟着读出对韵的节奏"],
@@ -27,7 +27,7 @@
   ],
   "exercises": [
     {
-      "id": "yw-1a-u1-l05-ex1",
+      "id": "yw-1a-u6-l01-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的字。",
       "speakText": "虫",
@@ -40,7 +40,7 @@
       "explanation": "“虫”读 chóng，小虫子在草丛里爬。"
     },
     {
-      "id": "yw-1a-u1-l05-ex2",
+      "id": "yw-1a-u6-l01-ex2",
       "type": "single",
       "stem": "“云对雨”，下一句是什么？",
       "options": [
@@ -52,7 +52,7 @@
       "explanation": "云对雨，雪对风，天上的事物两两相对。"
     },
     {
-      "id": "yw-1a-u1-l05-ex3",
+      "id": "yw-1a-u6-l01-ex3",
       "type": "multi",
       "stem": "儿歌里出现过哪些字？",
       "options": [

@@ -8,8 +8,7 @@
       { "id": "yw-1a-u1-l01", "order": 1, "title": "天地人" },
       { "id": "yw-1a-u1-l02", "order": 2, "title": "金木水火土" },
       { "id": "yw-1a-u1-l03", "order": 3, "title": "口耳目手足" },
-      { "id": "yw-1a-u1-l04", "order": 4, "title": "日月山川" },
-      { "id": "yw-1a-u1-l05", "order": 5, "title": "对韵歌" }
+      { "id": "yw-1a-u1-l04", "order": 4, "title": "日月山川" }
     ]
   },
   {
@@ -22,6 +21,28 @@
       { "id": "yw-1a-u2-l02", "order": 2, "title": "i u ü" },
       { "id": "yw-1a-u2-l03", "order": 3, "title": "b p m f" },
       { "id": "yw-1a-u2-l04", "order": 4, "title": "d t n l" }
+    ]
+  },
+  {
+    "id": "yw-1a-u3",
+    "volumeId": "yw-1a",
+    "order": 3,
+    "title": "汉语拼音（二）",
+    "lessons": [
+      { "id": "yw-1a-u3-l01", "order": 5, "title": "g k h" },
+      { "id": "yw-1a-u3-l02", "order": 6, "title": "j q x" },
+      { "id": "yw-1a-u3-l03", "order": 7, "title": "z c s" },
+      { "id": "yw-1a-u3-l04", "order": 8, "title": "zh ch sh r" },
+      { "id": "yw-1a-u3-l05", "order": 9, "title": "y w" }
+    ]
+  },
+  {
+    "id": "yw-1a-u6",
+    "volumeId": "yw-1a",
+    "order": 6,
+    "title": "识字（二）",
+    "lessons": [
+      { "id": "yw-1a-u6-l01", "order": 1, "title": "对韵歌" }
     ]
   }
 ]

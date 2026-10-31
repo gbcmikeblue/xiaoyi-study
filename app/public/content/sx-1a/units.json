@@ -5,19 +5,19 @@
     "order": 1,
     "title": "生活中的数",
     "lessons": [
-      { "id": "sx-1a-u1-l01", "order": 1, "title": "数一数" },
-      { "id": "sx-1a-u1-l02", "order": 2, "title": "1—5 的认识" },
-      { "id": "sx-1a-u1-l03", "order": 3, "title": "0 的认识" }
+      { "id": "sx-1a-u1-l01", "order": 1, "title": "走进美丽乡村" },
+      { "id": "sx-1a-u1-l02", "order": 2, "title": "玩具" },
+      { "id": "sx-1a-u1-l03", "order": 3, "title": "小猫钓鱼" }
     ]
   },
   {
-    "id": "sx-1a-u3",
+    "id": "sx-1a-u2",
     "volumeId": "sx-1a",
     "order": 2,
-    "title": "加与减（一）",
+    "title": "5 以内数加与减",
     "lessons": [
-      { "id": "sx-1a-u3-l01", "order": 1, "title": "一共有多少" },
-      { "id": "sx-1a-u3-l02", "order": 2, "title": "还剩下多少" }
+      { "id": "sx-1a-u2-l01", "order": 1, "title": "一共有多少" },
+      { "id": "sx-1a-u2-l02", "order": 2, "title": "还剩下多少" }
     ]
   }
 ]

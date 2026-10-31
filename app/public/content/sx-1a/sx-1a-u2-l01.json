@@ -1,6 +1,6 @@
 {
-  "id": "sx-1a-u3-l01",
-  "unitId": "sx-1a-u3",
+  "id": "sx-1a-u2-l01",
+  "unitId": "sx-1a-u2",
   "volumeId": "sx-1a",
   "title": "一共有多少",
   "objectives": ["理解把两部分合起来用加法", "会算 5 以内的加法"],
@@ -18,7 +18,7 @@
   ],
   "exercises": [
     {
-      "id": "sx-1a-u3-l01-ex1",
+      "id": "sx-1a-u2-l01-ex1",
       "type": "single",
       "stem": "2 + 1 = ?",
       "options": [
@@ -30,7 +30,7 @@
       "explanation": "2 个再添 1 个，一共 3 个。"
     },
     {
-      "id": "sx-1a-u3-l01-ex2",
+      "id": "sx-1a-u2-l01-ex2",
       "type": "single",
       "stem": "1 + 3 = ?",
       "options": [
@@ -42,7 +42,7 @@
       "explanation": "1 和 3 合起来是 4。"
     },
     {
-      "id": "sx-1a-u3-l01-ex3",
+      "id": "sx-1a-u2-l01-ex3",
       "type": "single",
       "stem": "小明有 2 支铅笔，妈妈又给他 2 支，现在一共有几支？",
       "options": [

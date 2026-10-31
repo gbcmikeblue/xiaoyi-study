@@ -1,0 +1,57 @@
+{
+  "id": "yw-1a-u3-l02",
+  "unitId": "yw-1a-u3",
+  "volumeId": "yw-1a",
+  "title": "j q x",
+  "objectives": ["会读声母 j、q、x", "知道 j q x 与 ü 相拼时 ü 要去掉两点"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "发音口诀",
+      "content": "像只小鸡 j j j，像只气球 q q q，像切开的西瓜 x x x。"
+    },
+    { "type": "audio", "text": "鸡", "caption": "听 j 的音" },
+    { "type": "audio", "text": "七", "caption": "听 q 的音" },
+    { "type": "audio", "text": "西", "caption": "听 x 的音" }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u3-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，这是哪个声母？",
+      "speakText": "西",
+      "options": [
+        { "id": "a", "label": "j" },
+        { "id": "b", "label": "q" },
+        { "id": "c", "label": "x" }
+      ],
+      "answer": ["c"],
+      "explanation": "“西”的声母是 x，舌面靠近硬腭，气流从缝隙挤出。"
+    },
+    {
+      "id": "yw-1a-u3-l02-ex2",
+      "type": "single",
+      "stem": "“气球”的声母是哪一个？",
+      "speakText": "气球",
+      "options": [
+        { "id": "a", "label": "j" },
+        { "id": "b", "label": "q" },
+        { "id": "c", "label": "x" }
+      ],
+      "answer": ["b"],
+      "explanation": "“气”的声母是 q，送气比 j 强。"
+    },
+    {
+      "id": "yw-1a-u3-l02-ex3",
+      "type": "single",
+      "stem": "j、q、x 和 ü 相拼时，ü 上的两点怎么办？",
+      "options": [
+        { "id": "a", "label": "保留两点" },
+        { "id": "b", "label": "去掉两点" },
+        { "id": "c", "label": "加上一点" }
+      ],
+      "answer": ["b"],
+      "explanation": "小 ü 见到 j、q、x，脱下帽子敬个礼——两点要去掉，写成 ju、qu、xu。"
+    }
+  ]
+}
