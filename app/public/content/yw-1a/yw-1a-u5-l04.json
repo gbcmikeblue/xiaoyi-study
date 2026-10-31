@@ -1,0 +1,70 @@
+{
+  "id": "yw-1a-u5-l04",
+  "unitId": "yw-1a-u5",
+  "volumeId": "yw-1a",
+  "title": "四季",
+  "objectives": ["认识“四、季、草、夏、冬”五个字", "能说出每个季节的一处景色"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "春天，小草刚冒出尖尖的芽。夏天，池塘里的荷叶又大又圆。秋天，稻穗弯下腰，沉甸甸的。冬天，堆个雪人站在门口，一年就过完了。"
+    },
+    { "type": "audio", "text": "春天，小草刚冒出尖尖的芽。夏天，池塘里的荷叶又大又圆。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "四", "pinyin": "sì", "word": "四季" },
+        { "char": "季", "pinyin": "jì", "word": "季节" },
+        { "char": "草", "pinyin": "cǎo", "word": "小草" },
+        { "char": "夏", "pinyin": "xià", "word": "夏天" },
+        { "char": "冬", "pinyin": "dōng", "word": "冬天" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "一年有四季，转一圈就是一年。你最喜欢哪个季节？为什么？"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u5-l04-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "冬",
+      "options": [
+        { "id": "a", "label": "夏" },
+        { "id": "b", "label": "冬" },
+        { "id": "c", "label": "季" }
+      ],
+      "answer": ["b"],
+      "explanation": "“冬”读 dōng，下面是两点，像冬天的冰。"
+    },
+    {
+      "id": "yw-1a-u5-l04-ex2",
+      "type": "single",
+      "stem": "荷叶又大又圆，是哪个季节？",
+      "options": [
+        { "id": "a", "label": "春天" },
+        { "id": "b", "label": "夏天" },
+        { "id": "c", "label": "秋天" }
+      ],
+      "answer": ["b"],
+      "explanation": "夏天池塘里的荷叶长得最盛。"
+    },
+    {
+      "id": "yw-1a-u5-l04-ex3",
+      "type": "multi",
+      "stem": "课里写到的景物有哪些？",
+      "options": [
+        { "id": "a", "label": "草芽" },
+        { "id": "b", "label": "荷叶" },
+        { "id": "c", "label": "稻穗" },
+        { "id": "d", "label": "雪人" }
+      ],
+      "answer": ["a", "b", "c", "d"],
+      "explanation": "草芽是春、荷叶是夏、稻穗是秋、雪人是冬，四季各有一景。"
+    }
+  ]
+}

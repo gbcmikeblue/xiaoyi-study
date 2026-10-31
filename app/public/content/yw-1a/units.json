@@ -50,6 +50,18 @@
     ]
   },
   {
+    "id": "yw-1a-u5",
+    "volumeId": "yw-1a",
+    "order": 5,
+    "title": "阅读（一）",
+    "lessons": [
+      { "id": "yw-1a-u5-l01", "order": 1, "title": "秋天" },
+      { "id": "yw-1a-u5-l02", "order": 2, "title": "江南" },
+      { "id": "yw-1a-u5-l03", "order": 3, "title": "雪地里的小画家" },
+      { "id": "yw-1a-u5-l04", "order": 4, "title": "四季" }
+    ]
+  },
+  {
     "id": "yw-1a-u6",
     "volumeId": "yw-1a",
     "order": 6,
