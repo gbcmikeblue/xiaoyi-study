@@ -10,8 +10,10 @@
 $env:PATH = 'D:\tools\node-v22.12.0-win-x64;' + $env:PATH
 cd app
 npm install
-npm run dev        # http://127.0.0.1:5173
+npm run dev        # http://127.0.0.1:5173，带 1.5 GB 堆上限
 ```
+
+> dev server 长时间运行会累积内存，超过两三小时建议重启；只看效果时用 `npm run build && npm run serve`（静态服务，约 50 MB）。详见 [docs/dev-env.md](docs/dev-env.md)。
 
 生产构建与本地预览：
 
