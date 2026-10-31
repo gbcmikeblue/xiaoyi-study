@@ -21,7 +21,25 @@
     "title": "5 以内数加与减",
     "lessons": [
       { "id": "sx-1a-u2-l01", "order": 1, "title": "一共有多少" },
-      { "id": "sx-1a-u2-l02", "order": 2, "title": "还剩下多少" }
+      { "id": "sx-1a-u2-l02", "order": 2, "title": "还剩下多少" },
+      { "id": "sx-1a-u2-l03", "order": 3, "title": "可爱的小猫" }
     ]
+  },
+  {
+    "id": "sx-1a-u3",
+    "volumeId": "sx-1a",
+    "order": 3,
+    "title": "整理与分类",
+    "lessons": [
+      { "id": "sx-1a-u3-l01", "order": 1, "title": "整理房间" },
+      { "id": "sx-1a-u3-l02", "order": 2, "title": "一起来分类" }
+    ]
+  },
+  {
+    "id": "sx-1a-u4",
+    "volumeId": "sx-1a",
+    "order": 4,
+    "title": "10 以内数加与减",
+    "lessons": [{ "id": "sx-1a-u4-l01", "order": 1, "title": "猜数游戏" }]
   }
 ]

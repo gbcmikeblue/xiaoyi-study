@@ -1,0 +1,59 @@
+{
+  "id": "sx-1a-u4-l01",
+  "unitId": "sx-1a-u4",
+  "volumeId": "sx-1a",
+  "title": "猜数游戏",
+  "objectives": ["知道 6、7 可以分成哪两个数", "能根据一部分求另一部分"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "分成两堆",
+      "content": "6 颗棋子，两只手拿着。左手 2 颗，右手就有 4 颗——6 可以分成 2 和 4。换个分法：左手 3 颗，右手 3 颗。6 还可以分成 1 和 5、3 和 3、4 和 2、5 和 1。"
+    },
+    {
+      "type": "text",
+      "title": "用分与合算加减",
+      "content": "知道 6 分成 2 和 4，就能算：2 + 4 = 6、6 - 2 = 4、6 - 4 = 2。分与合是加减法的一体两面。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u4-l01-ex1",
+      "type": "single",
+      "stem": "6 可以分成 2 和几？",
+      "options": [
+        { "id": "a", "label": "3" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "5" }
+      ],
+      "answer": ["b"],
+      "explanation": "2 + 4 = 6，所以 6 分成 2 和 4。"
+    },
+    {
+      "id": "sx-1a-u4-l01-ex2",
+      "type": "single",
+      "stem": "两只手一共 7 颗豆，左手 3 颗，右手几颗？",
+      "options": [
+        { "id": "a", "label": "3" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "5" }
+      ],
+      "answer": ["b"],
+      "explanation": "7 - 3 = 4，右手 4 颗。"
+    },
+    {
+      "id": "sx-1a-u4-l01-ex3",
+      "type": "multi",
+      "stem": "哪些分法加起来是 7？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "3 和 4" },
+        { "id": "b", "label": "2 和 5" },
+        { "id": "c", "label": "1 和 6" },
+        { "id": "d", "label": "2 和 4" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "3+4、2+5、1+6 都是 7；2+4=6，不是 7。"
+    }
+  ]
+}

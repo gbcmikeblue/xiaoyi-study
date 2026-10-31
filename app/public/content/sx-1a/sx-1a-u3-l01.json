@@ -1,0 +1,59 @@
+{
+  "id": "sx-1a-u3-l01",
+  "unitId": "sx-1a-u3",
+  "volumeId": "sx-1a",
+  "title": "整理房间",
+  "objectives": ["知道把相同用途的东西放在一起叫分类", "能按用途给物品分类"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "乱糟糟的房间",
+      "content": "房间里的东西堆在一起，找什么都找不到。把玩具放一堆、书放一堆、衣服放一堆，就好找了——这就是分类。"
+    },
+    {
+      "type": "text",
+      "title": "按什么分",
+      "content": "分类要先定一个标准。按用途分：玩的、看的、穿的。按颜色分：红的、蓝的。标准不同，分出来的结果也不同。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u3-l01-ex1",
+      "type": "single",
+      "stem": "把小熊、皮球、积木放在一起，它们是按什么分的？",
+      "options": [
+        { "id": "a", "label": "颜色" },
+        { "id": "b", "label": "用途（都是玩具）" },
+        { "id": "c", "label": "大小" }
+      ],
+      "answer": ["b"],
+      "explanation": "三样都能玩，按用途分在一起。"
+    },
+    {
+      "id": "sx-1a-u3-l01-ex2",
+      "type": "multi",
+      "stem": "下面哪些是学习用品？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "铅笔" },
+        { "id": "b", "label": "课本" },
+        { "id": "c", "label": "袜子" },
+        { "id": "d", "label": "橡皮" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "铅笔、课本、橡皮是学习用的，袜子是穿的。"
+    },
+    {
+      "id": "sx-1a-u3-l01-ex3",
+      "type": "single",
+      "stem": "把红苹果、红气球、红积木放一起，是按什么分的？",
+      "options": [
+        { "id": "a", "label": "颜色" },
+        { "id": "b", "label": "用途" },
+        { "id": "c", "label": "形状" }
+      ],
+      "answer": ["a"],
+      "explanation": "共同点是都是红色，所以是按颜色分的。"
+    }
+  ]
+}

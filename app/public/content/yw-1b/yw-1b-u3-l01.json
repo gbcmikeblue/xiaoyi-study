@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u3-l01",
+  "unitId": "yw-1b-u3",
+  "volumeId": "yw-1b",
+  "title": "小公鸡和小鸭子",
+  "objectives": ["认识“鸡、鸭、河、救、背”五个字", "知道每个人都有自己的长处"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "小公鸡和小鸭子一起出门玩。走到小河边，小鸭子说：“我会游泳，我下去给你捉鱼。”小公鸡也想下去，刚走两步就慌了，直往下沉。小鸭子赶紧游过来，把小公鸡背上了岸。"
+    },
+    { "type": "audio", "text": "小公鸡和小鸭子一起出门玩。走到小河边，小鸭子说：我会游泳。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "鸡", "pinyin": "jī", "word": "公鸡" },
+        { "char": "鸭", "pinyin": "yā", "word": "鸭子" },
+        { "char": "河", "pinyin": "hé", "word": "小河" },
+        { "char": "救", "pinyin": "jiù", "word": "救人" },
+        { "char": "背", "pinyin": "bèi", "word": "背包" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "小公鸡不会游泳，可它会刨土找虫子；小鸭子走路摇摇摆摆，可它游得又快又稳。各人有各人的长处，不能拿自己的长处笑话别人。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u3-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "鸭",
+      "options": [
+        { "id": "a", "label": "鸡" },
+        { "id": "b", "label": "鸭" },
+        { "id": "c", "label": "河" }
+      ],
+      "answer": ["b"],
+      "explanation": "“鸭”读 yā，右边是鸟字旁，它是鸟。"
+    },
+    {
+      "id": "yw-1b-u3-l01-ex2",
+      "type": "single",
+      "stem": "谁更会游泳？",
+      "options": [
+        { "id": "a", "label": "小公鸡" },
+        { "id": "b", "label": "小鸭子" },
+        { "id": "c", "label": "两个一样" }
+      ],
+      "answer": ["b"],
+      "explanation": "小鸭子的脚有蹼，天生会游泳；小公鸡下水会沉。"
+    },
+    {
+      "id": "yw-1b-u3-l01-ex3",
+      "type": "single",
+      "stem": "这个故事告诉我们什么？",
+      "options": [
+        { "id": "a", "label": "各有各的长处" },
+        { "id": "b", "label": "谁都别下水" },
+        { "id": "c", "label": "公鸡比鸭子强" }
+      ],
+      "answer": ["a"],
+      "explanation": "鸭子会游泳，公鸡会找虫，各有所长。"
+    }
+  ]
+}

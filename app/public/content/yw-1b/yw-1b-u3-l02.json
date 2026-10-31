@@ -1,0 +1,70 @@
+{
+  "id": "yw-1b-u3-l02",
+  "unitId": "yw-1b-u3",
+  "volumeId": "yw-1b",
+  "title": "树和喜鹊",
+  "objectives": ["认识“树、喜、鹊、孤、单”五个字", "能体会“有邻居就不孤单”"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "从前这里只有一棵树，树上只有一个鸟窝，鸟窝里只有一只喜鹊。树很孤单，喜鹊也很孤单。后来人们种了好多树，树多了，鸟窝多了，喜鹊也多了。天一亮，它们叽叽喳喳打招呼，树和喜鹊都很快乐。"
+    },
+    { "type": "audio", "text": "从前这里只有一棵树，树上只有一个鸟窝，鸟窝里只有一只喜鹊。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "树", "pinyin": "shù", "word": "大树" },
+        { "char": "喜", "pinyin": "xǐ", "word": "喜鹊" },
+        { "char": "鹊", "pinyin": "què", "word": "喜鹊" },
+        { "char": "孤", "pinyin": "gū", "word": "孤单" },
+        { "char": "单", "pinyin": "dān", "word": "孤单" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "为什么后来它们快乐了？不是因为树变多了，是因为有了邻居——有话可以说，有事可以一起做。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u3-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "树",
+      "options": [
+        { "id": "a", "label": "树" },
+        { "id": "b", "label": "孤" },
+        { "id": "c", "label": "单" }
+      ],
+      "answer": ["a"],
+      "explanation": "“树”读 shù，左边是木字旁，和树木有关。"
+    },
+    {
+      "id": "yw-1b-u3-l02-ex2",
+      "type": "single",
+      "stem": "一开始树和喜鹊为什么孤单？",
+      "options": [
+        { "id": "a", "label": "只有一棵树、一只喜鹊" },
+        { "id": "b", "label": "天太冷了" },
+        { "id": "c", "label": "没有水喝" }
+      ],
+      "answer": ["a"],
+      "explanation": "只有一个，没有同伴，所以孤单。"
+    },
+    {
+      "id": "yw-1b-u3-l02-ex3",
+      "type": "multi",
+      "stem": "什么能让人不孤单？",
+      "options": [
+        { "id": "a", "label": "有朋友" },
+        { "id": "b", "label": "有邻居" },
+        { "id": "c", "label": "有人一起玩" },
+        { "id": "d", "label": "一个人待着" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "有同伴就不孤单；一个人待着反而更容易孤单。"
+    }
+  ]
+}

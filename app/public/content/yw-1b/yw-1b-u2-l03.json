@@ -1,6 +1,6 @@
 {
-  "id": "yw-1b-u5-l02",
-  "unitId": "yw-1b-u5",
+  "id": "yw-1b-u2-l03",
+  "unitId": "yw-1b-u2",
   "volumeId": "yw-1b",
   "title": "我多想去看看",
   "objectives": ["认识“想、看、路、走”四个字", "能说出自己想去的地方"],
@@ -27,7 +27,7 @@
   ],
   "exercises": [
     {
-      "id": "yw-1b-u5-l02-ex1",
+      "id": "yw-1b-u2-l03-ex1",
       "type": "single",
       "stem": "“看看”的“看”，是下面哪一个字？",
       "speakText": "看看",
@@ -40,7 +40,7 @@
       "explanation": "“看”是用眼睛去看，上面是手的变形，下面一个“目”。"
     },
     {
-      "id": "yw-1b-u5-l02-ex2",
+      "id": "yw-1b-u2-l03-ex2",
       "type": "listen",
       "stem": "听一听，选出你听到的字。",
       "speakText": "路",
@@ -53,7 +53,7 @@
       "explanation": "“路”读 lù，左边是足字旁，走路要用脚。"
     },
     {
-      "id": "yw-1b-u5-l02-ex3",
+      "id": "yw-1b-u2-l03-ex3",
       "type": "multi",
       "stem": "这一课学过的字，有哪些？",
       "scene": "card",

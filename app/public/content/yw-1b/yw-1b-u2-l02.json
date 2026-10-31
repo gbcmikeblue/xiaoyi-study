@@ -1,6 +1,6 @@
 {
-  "id": "yw-1b-u5-l01",
-  "unitId": "yw-1b-u5",
+  "id": "yw-1b-u2-l02",
+  "unitId": "yw-1b-u2",
   "volumeId": "yw-1b",
   "title": "吃水不忘挖井人",
   "objectives": ["认识“井、忘、挖、村”四个字", "懂得别人帮过我们要记在心里"],
@@ -27,7 +27,7 @@
   ],
   "exercises": [
     {
-      "id": "yw-1b-u5-l01-ex1",
+      "id": "yw-1b-u2-l02-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的字。",
       "speakText": "井",
@@ -40,7 +40,7 @@
       "explanation": "“井”读 jǐng，水井是打水的地方。"
     },
     {
-      "id": "yw-1b-u5-l01-ex2",
+      "id": "yw-1b-u2-l02-ex2",
       "type": "single",
       "stem": "“忘记”的“忘”，是下面哪一个字？",
       "speakText": "忘记",
@@ -53,7 +53,7 @@
       "explanation": "“忘”下面是“心”，忘记跟心里记不记得有关。"
     },
     {
-      "id": "yw-1b-u5-l01-ex3",
+      "id": "yw-1b-u2-l02-ex3",
       "type": "multi",
       "stem": "这一课学过的字，有哪些？",
       "options": [

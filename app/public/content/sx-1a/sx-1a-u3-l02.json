@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u3-l02",
+  "unitId": "sx-1a-u3",
+  "volumeId": "sx-1a",
+  "title": "一起来分类",
+  "objectives": ["能用不同的标准给同一组物品分类", "能说出自己的分类标准"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "同一堆东西，两种分法",
+      "content": "桌上有圆形和方形的卡片，有红有蓝。按形状分，得到圆形一堆、方形一堆；按颜色分，得到红色一堆、蓝色一堆。同一堆东西，标准不同，分法就不同。"
+    },
+    {
+      "type": "text",
+      "title": "分完要看一看",
+      "content": "分完后数一数每一堆有几个，加起来应该和原来一样多，一个也不能多、一个也不能少。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u3-l02-ex1",
+      "type": "single",
+      "stem": "有红圆片 2 个、蓝圆片 3 个，按颜色分，红的有几个？",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "5" }
+      ],
+      "answer": ["a"],
+      "explanation": "红色的就是那 2 个红圆片。"
+    },
+    {
+      "id": "sx-1a-u3-l02-ex2",
+      "type": "single",
+      "stem": "同样这 5 个圆片，按形状分会得到几堆？",
+      "options": [
+        { "id": "a", "label": "1 堆" },
+        { "id": "b", "label": "2 堆" },
+        { "id": "c", "label": "5 堆" }
+      ],
+      "answer": ["a"],
+      "explanation": "它们都是圆的，按形状分只有一堆。"
+    },
+    {
+      "id": "sx-1a-u3-l02-ex3",
+      "type": "single",
+      "stem": "把 5 个东西分成 2 个和 3 个，合起来是几个？",
+      "options": [
+        { "id": "a", "label": "5" },
+        { "id": "b", "label": "6" },
+        { "id": "c", "label": "1" }
+      ],
+      "answer": ["a"],
+      "explanation": "2 + 3 = 5，分完再合起来，数量不变。"
+    }
+  ]
+}
