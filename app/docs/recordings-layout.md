@@ -111,6 +111,19 @@ recordings/rejected/pinyin-20261101-lilaoshi-01-停顿太短.wav
 
 ## 五、ffmpeg 的下载与安装
 
+> **本机状态：已安装。** 2026-10-31 装好 `ffmpeg 9.0.2-essentials_build`，路径：
+> ```
+> D:\tools\ffmpeg-9.0.2-essentials_build\bin\ffmpeg.exe
+> ```
+> 已验证 flac 解码、wav 编码、flac 编码均正常。未加入系统 PATH（避免污染环境），
+> 需要时用全路径，或在当前会话临时加：
+> ```powershell
+> $env:PATH = 'D:\tools\ffmpeg-9.0.2-essentials_build\bin;' + $env:PATH
+> ffmpeg -version
+> ```
+
+以下内容保留备查，用于换机器或需要重装时。
+
 只有需要转码时才用得上（m4a → wav，或 wav → flac 压缩）。纯 wav 录制 + 拆分不需要 ffmpeg。
 
 ### 5.1 该下哪种格式
