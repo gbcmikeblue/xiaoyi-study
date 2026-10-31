@@ -1,0 +1,66 @@
+{
+  "id": "yy-1b-u2-l02",
+  "unitId": "yy-1b-u2",
+  "volumeId": "yy-1b",
+  "title": "I want ...",
+  "objectives": ["会用 I want 表达想要", "知道 some 表示“一些”"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "我想要",
+      "content": "想要什么东西，可以说 I want some water. 意思是“我想要一些水”。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "want", "meaning": "想要" },
+        { "text": "water", "meaning": "水" },
+        { "text": "bread", "meaning": "面包" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "小提示",
+      "content": "some 表示“一些”，后面可以接 water、bread 这样的词。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u2-l02-ex1",
+      "type": "single",
+      "stem": "“我想要一些面包”，用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "I want some bread" },
+        { "id": "b", "label": "I like some bread" },
+        { "id": "c", "label": "I am some bread" }
+      ],
+      "answer": ["a"],
+      "explanation": "想要用 want，喜欢用 like。"
+    },
+    {
+      "id": "yy-1b-u2-l02-ex2",
+      "type": "single",
+      "stem": "I ___ some milk.",
+      "options": [
+        { "id": "a", "label": "want" },
+        { "id": "b", "label": "wants" },
+        { "id": "c", "label": "wanting" }
+      ],
+      "answer": ["a"],
+      "explanation": "I 后面用动词原形 want。"
+    },
+    {
+      "id": "yy-1b-u2-l02-ex3",
+      "type": "listen",
+      "stem": "听一听，这是哪个词？",
+      "speakText": "water",
+      "options": [
+        { "id": "a", "label": "water" },
+        { "id": "b", "label": "want" },
+        { "id": "c", "label": "bread" }
+      ],
+      "answer": ["a"],
+      "explanation": "water 是水。"
+    }
+  ]
+}

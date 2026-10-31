@@ -1,0 +1,68 @@
+{
+  "id": "yw-1a-u2-l02",
+  "unitId": "yw-1a-u2",
+  "volumeId": "yw-1a",
+  "title": "i u ü",
+  "objectives": ["会读单韵母 i、u、ü", "能区分 u 和 ü 的嘴形"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "发音口诀",
+      "content": "牙齿对齐 i i i，嘴巴突出 u u u，小嘴撮起 ü ü ü。"
+    },
+    {
+      "type": "audio",
+      "text": "衣",
+      "caption": "听 i 的音"
+    },
+    {
+      "type": "audio",
+      "text": "乌",
+      "caption": "听 u 的音"
+    },
+    {
+      "type": "audio",
+      "text": "鱼",
+      "caption": "听 ü 的音"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u2-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，这是哪个字母？",
+      "speakText": "衣",
+      "options": [
+        { "id": "a", "label": "i" },
+        { "id": "b", "label": "u" },
+        { "id": "c", "label": "ü" }
+      ],
+      "answer": ["a"],
+      "explanation": "牙齿对齐，发“衣”的音，就是 i。"
+    },
+    {
+      "id": "yw-1a-u2-l02-ex2",
+      "type": "single",
+      "stem": "哪个字母读“乌”？",
+      "options": [
+        { "id": "a", "label": "i" },
+        { "id": "b", "label": "u" },
+        { "id": "c", "label": "ü" }
+      ],
+      "answer": ["b"],
+      "explanation": "嘴巴突出，发“乌”的音，就是 u。"
+    },
+    {
+      "id": "yw-1a-u2-l02-ex3",
+      "type": "single",
+      "stem": "哪个字母上面有两点？",
+      "options": [
+        { "id": "a", "label": "i" },
+        { "id": "b", "label": "u" },
+        { "id": "c", "label": "ü" }
+      ],
+      "answer": ["c"],
+      "explanation": "ü 是 u 上面加两点，读“鱼”的音。"
+    }
+  ]
+}

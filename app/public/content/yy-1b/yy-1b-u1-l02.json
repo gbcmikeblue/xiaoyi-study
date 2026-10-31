@@ -1,0 +1,61 @@
+{
+  "id": "yy-1b-u1-l02",
+  "unitId": "yy-1b-u1",
+  "volumeId": "yy-1b",
+  "title": "I like ...",
+  "objectives": ["会用 I like 表达喜欢", "能说出自己喜欢的玩具"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "说说喜欢什么",
+      "content": "喜欢一样东西，可以说 I like the ball. 如果喜欢很多，可以说 I like balls."
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "like", "meaning": "喜欢" },
+        { "text": "the", "meaning": "这个、那个" },
+        { "text": "toy", "meaning": "玩具" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u1-l02-ex1",
+      "type": "single",
+      "stem": "“我喜欢这个娃娃”，用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "I like the doll" },
+        { "id": "b", "label": "I the doll" },
+        { "id": "c", "label": "The doll like I" }
+      ],
+      "answer": ["a"],
+      "explanation": "I like 后面接喜欢的东西。"
+    },
+    {
+      "id": "yy-1b-u1-l02-ex2",
+      "type": "single",
+      "stem": "I ___ the kite.",
+      "options": [
+        { "id": "a", "label": "am" },
+        { "id": "b", "label": "like" },
+        { "id": "c", "label": "is" }
+      ],
+      "answer": ["b"],
+      "explanation": "表示喜欢用 like。"
+    },
+    {
+      "id": "yy-1b-u1-l02-ex3",
+      "type": "listen",
+      "stem": "听一听，这是哪个词？",
+      "speakText": "like",
+      "options": [
+        { "id": "a", "label": "like" },
+        { "id": "b", "label": "kite" },
+        { "id": "c", "label": "toy" }
+      ],
+      "answer": ["a"],
+      "explanation": "like 读 /laɪk/，是“喜欢”。"
+    }
+  ]
+}

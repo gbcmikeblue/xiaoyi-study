@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u1-l01",
+  "unitId": "sx-1b-u1",
+  "volumeId": "sx-1b",
+  "title": "买铅笔",
+  "objectives": ["会算十几减 9", "知道“破十法”的思路"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "还剩几支",
+      "content": "文具店有 15 支铅笔，卖出 9 支，还剩几支？用减法：15 - 9 = 6。"
+    },
+    {
+      "type": "text",
+      "title": "怎么想得快",
+      "content": "把 9 看成 10：15 - 10 = 5，因为多减了 1，再加回来 1，所以是 6。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u1-l01-ex1",
+      "type": "single",
+      "stem": "12 - 9 = ?",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "4" }
+      ],
+      "answer": ["b"],
+      "explanation": "12 - 10 = 2，再加回 1，就是 3。"
+    },
+    {
+      "id": "sx-1b-u1-l01-ex2",
+      "type": "single",
+      "stem": "16 - 9 = ?",
+      "options": [
+        { "id": "a", "label": "6" },
+        { "id": "b", "label": "7" },
+        { "id": "c", "label": "8" }
+      ],
+      "answer": ["b"],
+      "explanation": "16 - 10 = 6，再加回 1，就是 7。"
+    },
+    {
+      "id": "sx-1b-u1-l01-ex3",
+      "type": "single",
+      "stem": "14 - 9 = ?",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "5" },
+        { "id": "c", "label": "6" }
+      ],
+      "answer": ["b"],
+      "explanation": "14 - 10 = 4，再加回 1，就是 5。"
+    }
+  ]
+}

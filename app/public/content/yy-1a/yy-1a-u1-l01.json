@@ -1,0 +1,63 @@
+{
+  "id": "yy-1a-u1-l01",
+  "unitId": "yy-1a-u1",
+  "volumeId": "yy-1a",
+  "title": "Greetings",
+  "objectives": ["会说 hello、hi、goodbye", "见到老师和同学会打招呼"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "见面打招呼",
+      "content": "见到老师或同学，可以说 Hello，也可以说 Hi。分别的时候说 Goodbye。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "hello", "meaning": "你好" },
+        { "text": "hi", "meaning": "嗨" },
+        { "text": "goodbye", "meaning": "再见" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u1-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，这是哪个词？",
+      "speakText": "hello",
+      "options": [
+        { "id": "a", "label": "hello" },
+        { "id": "b", "label": "goodbye" },
+        { "id": "c", "label": "hi" }
+      ],
+      "answer": ["a"],
+      "explanation": "hello 是见面时说的“你好”。"
+    },
+    {
+      "id": "yy-1a-u1-l01-ex2",
+      "type": "single",
+      "stem": "早上见到老师，应该说什么？",
+      "options": [
+        { "id": "a", "label": "Goodbye" },
+        { "id": "b", "label": "Hello" },
+        { "id": "c", "label": "Sorry" }
+      ],
+      "answer": ["b"],
+      "explanation": "见面打招呼用 Hello。"
+    },
+    {
+      "id": "yy-1a-u1-l01-ex3",
+      "type": "multi",
+      "stem": "哪些词是“再见”的意思？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "goodbye" },
+        { "id": "b", "label": "bye" },
+        { "id": "c", "label": "hello" },
+        { "id": "d", "label": "hi" }
+      ],
+      "answer": ["a", "b"],
+      "explanation": "goodbye 和 bye 都是再见；hello、hi 是打招呼。"
+    }
+  ]
+}

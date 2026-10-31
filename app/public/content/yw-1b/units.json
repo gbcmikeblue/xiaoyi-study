@@ -1,0 +1,24 @@
+[
+  {
+    "id": "yw-1b-u1",
+    "volumeId": "yw-1b",
+    "order": 1,
+    "title": "识字（一）",
+    "lessons": [
+      { "id": "yw-1b-u1-l01", "order": 1, "title": "春夏秋冬" },
+      { "id": "yw-1b-u1-l02", "order": 2, "title": "姓氏歌" },
+      { "id": "yw-1b-u1-l03", "order": 3, "title": "小青蛙" },
+      { "id": "yw-1b-u1-l04", "order": 4, "title": "猜字谜" }
+    ]
+  },
+  {
+    "id": "yw-1b-u5",
+    "volumeId": "yw-1b",
+    "order": 2,
+    "title": "课文（一）",
+    "lessons": [
+      { "id": "yw-1b-u5-l01", "order": 1, "title": "吃水不忘挖井人" },
+      { "id": "yw-1b-u5-l02", "order": 2, "title": "我多想去看看" }
+    ]
+  }
+]

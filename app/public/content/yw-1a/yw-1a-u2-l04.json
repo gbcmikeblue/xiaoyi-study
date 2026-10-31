@@ -1,0 +1,75 @@
+{
+  "id": "yw-1a-u2-l04",
+  "unitId": "yw-1a-u2",
+  "volumeId": "yw-1a",
+  "title": "d t n l",
+  "objectives": ["会读声母 d、t、n、l", "能分清 n 和 l 的发音位置"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "发音口诀",
+      "content": "马蹄 d d d，伞把 t t t，一个门洞 n n n，一根小棍 l l l。"
+    },
+    {
+      "type": "audio",
+      "text": "得",
+      "caption": "听 d 的音"
+    },
+    {
+      "type": "audio",
+      "text": "特",
+      "caption": "听 t 的音"
+    },
+    {
+      "type": "audio",
+      "text": "讷",
+      "caption": "听 n 的音"
+    },
+    {
+      "type": "audio",
+      "text": "勒",
+      "caption": "听 l 的音"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u2-l04-ex1",
+      "type": "listen",
+      "stem": "听一听，这是哪个声母？",
+      "speakText": "兔",
+      "options": [
+        { "id": "a", "label": "d" },
+        { "id": "b", "label": "t" },
+        { "id": "c", "label": "l" }
+      ],
+      "answer": ["b"],
+      "explanation": "“兔”的声母是 t，伞把 t t t。"
+    },
+    {
+      "id": "yw-1a-u2-l04-ex2",
+      "type": "single",
+      "stem": "“梨”的声母是哪一个？",
+      "speakText": "梨",
+      "options": [
+        { "id": "a", "label": "n" },
+        { "id": "b", "label": "l" },
+        { "id": "c", "label": "d" }
+      ],
+      "answer": ["b"],
+      "explanation": "“梨”的声母是 l，舌尖抵住上牙床，气流从两边出来。"
+    },
+    {
+      "id": "yw-1a-u2-l04-ex3",
+      "type": "multi",
+      "stem": "这一课学了哪些声母？",
+      "options": [
+        { "id": "a", "label": "d" },
+        { "id": "b", "label": "t" },
+        { "id": "c", "label": "n" },
+        { "id": "d", "label": "b" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "本课学的是 d、t、n、l，“b”是上一课学的。"
+    }
+  ]
+}

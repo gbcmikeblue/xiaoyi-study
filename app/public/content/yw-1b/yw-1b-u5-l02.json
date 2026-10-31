@@ -1,0 +1,70 @@
+{
+  "id": "yw-1b-u5-l02",
+  "unitId": "yw-1b-u5",
+  "volumeId": "yw-1b",
+  "title": "我多想去看看",
+  "objectives": ["认识“想、看、路、走”四个字", "能说出自己想去的地方"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "想去看看",
+      "content": "山里的孩子说：我多想去看看天安门。城里的孩子说：我多想去看看大山。每个人心里都有一个想去的地方。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "想", "pinyin": "xiǎng", "word": "想念" },
+        { "char": "看", "pinyin": "kàn", "word": "看见" },
+        { "char": "路", "pinyin": "lù", "word": "马路" },
+        { "char": "走", "pinyin": "zǒu", "word": "走路" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "说一说",
+      "content": "你最想去哪里？为什么想去？说给身边的人听。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u5-l02-ex1",
+      "type": "single",
+      "stem": "“看看”的“看”，是下面哪一个字？",
+      "speakText": "看看",
+      "options": [
+        { "id": "a", "label": "着" },
+        { "id": "b", "label": "看" },
+        { "id": "c", "label": "想" }
+      ],
+      "answer": ["b"],
+      "explanation": "“看”是用眼睛去看，上面是手的变形，下面一个“目”。"
+    },
+    {
+      "id": "yw-1b-u5-l02-ex2",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "路",
+      "options": [
+        { "id": "a", "label": "走" },
+        { "id": "b", "label": "路" },
+        { "id": "c", "label": "看" }
+      ],
+      "answer": ["b"],
+      "explanation": "“路”读 lù，左边是足字旁，走路要用脚。"
+    },
+    {
+      "id": "yw-1b-u5-l02-ex3",
+      "type": "multi",
+      "stem": "这一课学过的字，有哪些？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "想" },
+        { "id": "b", "label": "看" },
+        { "id": "c", "label": "走" },
+        { "id": "d", "label": "井" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "本课学的是“想、看、路、走”，“井”是上一课的字。"
+    }
+  ]
+}

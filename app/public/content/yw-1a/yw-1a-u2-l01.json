@@ -1,0 +1,56 @@
+{
+  "id": "yw-1a-u2-l01",
+  "unitId": "yw-1a-u2",
+  "volumeId": "yw-1a",
+  "title": "a o e",
+  "objectives": ["会读单韵母 a、o、e", "能听音找出对应的字母"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "发音口诀",
+      "content": "张大嘴巴 a a a，圆圆嘴巴 o o o，扁扁嘴巴 e e e。"
+    },
+    {
+      "type": "audio",
+      "text": "啊",
+      "caption": "听 a 的音"
+    },
+    {
+      "type": "audio",
+      "text": "喔",
+      "caption": "听 o 的音"
+    },
+    {
+      "type": "audio",
+      "text": "鹅",
+      "caption": "听 e 的音"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u2-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，这是哪个字母？",
+      "speakText": "啊",
+      "options": [
+        { "id": "a", "label": "a" },
+        { "id": "b", "label": "o" },
+        { "id": "c", "label": "e" }
+      ],
+      "answer": ["a"],
+      "explanation": "张大嘴巴，发“啊”的音，就是 a。"
+    },
+    {
+      "id": "yw-1a-u2-l01-ex2",
+      "type": "single",
+      "stem": "哪个字母读“喔”？",
+      "options": [
+        { "id": "a", "label": "a" },
+        { "id": "b", "label": "o" },
+        { "id": "c", "label": "e" }
+      ],
+      "answer": ["b"],
+      "explanation": "圆圆嘴巴，发“喔”的音，就是 o。"
+    }
+  ]
+}

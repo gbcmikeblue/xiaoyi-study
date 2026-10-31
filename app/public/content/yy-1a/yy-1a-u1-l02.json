@@ -1,0 +1,66 @@
+{
+  "id": "yy-1a-u1-l02",
+  "unitId": "yy-1a-u1",
+  "volumeId": "yy-1a",
+  "title": "I'm ...",
+  "objectives": ["会用 I'm 介绍自己的名字", "知道 am 和 I 搭配"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "介绍自己",
+      "content": "告诉别人自己叫什么，可以说 I'm Lily. 意思就是“我是莉莉”。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "I", "meaning": "我" },
+        { "text": "am", "meaning": "是" },
+        { "text": "name", "meaning": "名字" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "小提示",
+      "content": "I 后面要跟 am，不能跟 is。I'm 就是 I am 的缩写。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u1-l02-ex1",
+      "type": "single",
+      "stem": "“我是莉莉”，用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "I'm Lily" },
+        { "id": "b", "label": "I Lily" },
+        { "id": "c", "label": "Lily I" }
+      ],
+      "answer": ["a"],
+      "explanation": "介绍自己要用 I'm 加上名字。"
+    },
+    {
+      "id": "yy-1a-u1-l02-ex2",
+      "type": "single",
+      "stem": "I ___ Lily.",
+      "options": [
+        { "id": "a", "label": "is" },
+        { "id": "b", "label": "am" },
+        { "id": "c", "label": "are" }
+      ],
+      "answer": ["b"],
+      "explanation": "I 后面跟 am。"
+    },
+    {
+      "id": "yy-1a-u1-l02-ex3",
+      "type": "listen",
+      "stem": "听一听，这是哪个词？",
+      "speakText": "name",
+      "options": [
+        { "id": "a", "label": "name" },
+        { "id": "b", "label": "am" },
+        { "id": "c", "label": "I" }
+      ],
+      "answer": ["a"],
+      "explanation": "name 是“名字”。"
+    }
+  ]
+}

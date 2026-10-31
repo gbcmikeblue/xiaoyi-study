@@ -1,0 +1,76 @@
+{
+  "id": "yw-1a-u2-l03",
+  "unitId": "yw-1a-u2",
+  "volumeId": "yw-1a",
+  "title": "b p m f",
+  "objectives": ["会读声母 b、p、m、f", "能分辨 b 和 p 的气流强弱"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "发音口诀",
+      "content": "听广播 b b b，爬山坡 p p p，两个门洞 m m m，一根拐棍 f f f。"
+    },
+    {
+      "type": "audio",
+      "text": "玻",
+      "caption": "听 b 的音"
+    },
+    {
+      "type": "audio",
+      "text": "坡",
+      "caption": "听 p 的音"
+    },
+    {
+      "type": "audio",
+      "text": "摸",
+      "caption": "听 m 的音"
+    },
+    {
+      "type": "audio",
+      "text": "佛",
+      "caption": "听 f 的音"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u2-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，这是哪个声母？",
+      "speakText": "玻",
+      "options": [
+        { "id": "a", "label": "b" },
+        { "id": "b", "label": "p" },
+        { "id": "c", "label": "m" }
+      ],
+      "answer": ["a"],
+      "explanation": "“玻”的声母是 b，嘴唇闭合后轻轻放开，气流很弱。"
+    },
+    {
+      "id": "yw-1a-u2-l03-ex2",
+      "type": "single",
+      "stem": "“妈妈”的声母是哪一个？",
+      "speakText": "妈妈",
+      "options": [
+        { "id": "a", "label": "b" },
+        { "id": "b", "label": "m" },
+        { "id": "c", "label": "f" }
+      ],
+      "answer": ["b"],
+      "explanation": "“妈”的声母是 m，两个门洞 m m m。"
+    },
+    {
+      "id": "yw-1a-u2-l03-ex3",
+      "type": "multi",
+      "stem": "这一课学了哪些声母？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "b" },
+        { "id": "b", "label": "p" },
+        { "id": "c", "label": "f" },
+        { "id": "d", "label": "d" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "本课学的是 b、p、m、f，“d”是下一课的内容。"
+    }
+  ]
+}

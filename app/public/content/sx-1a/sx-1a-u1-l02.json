@@ -1,0 +1,59 @@
+{
+  "id": "sx-1a-u1-l02",
+  "unitId": "sx-1a-u1",
+  "volumeId": "sx-1a",
+  "title": "1—5 的认识",
+  "objectives": ["认识 1 到 5 这五个数", "能把数和物体的个数对应起来"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "认数字",
+      "content": "1 像小棒，2 像小鸭，3 像耳朵，4 像小旗，5 像秤钩。"
+    },
+    {
+      "type": "text",
+      "title": "数一数、比一比",
+      "content": "1 个苹果、2 只小鸟、3 朵花、4 本书、5 颗糖。数字越大，表示的东西越多。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u1-l02-ex1",
+      "type": "single",
+      "stem": "3 后面一个数是几？",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "5" }
+      ],
+      "answer": ["b"],
+      "explanation": "数数时 1、2、3、4，3 的后面是 4。"
+    },
+    {
+      "id": "sx-1a-u1-l02-ex2",
+      "type": "single",
+      "stem": "有 2 只小鸟，又飞来 1 只，一共几只？",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "4" }
+      ],
+      "answer": ["b"],
+      "explanation": "2 再添 1 就是 3。"
+    },
+    {
+      "id": "sx-1a-u1-l02-ex3",
+      "type": "multi",
+      "stem": "下面哪些数比 4 小？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "1" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "5" },
+        { "id": "d", "label": "2" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "1、2、3 都比 4 小，5 比 4 大。"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "yw-1a-u1-l03",
+  "unitId": "yw-1a-u1",
+  "volumeId": "yw-1a",
+  "title": "口耳目手足",
+  "objectives": ["认识“口、耳、目、手、足”五个字", "能指出它们分别说的是身体哪个部位"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "认一认身体",
+      "content": "口会说话，耳会听声，目能看物，手能做事，足能走路。这五个字说的都是我们自己的身体。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "口", "pinyin": "kǒu", "word": "口水" },
+        { "char": "耳", "pinyin": "ěr", "word": "耳朵" },
+        { "char": "目", "pinyin": "mù", "word": "目光" },
+        { "char": "手", "pinyin": "shǒu", "word": "小手" },
+        { "char": "足", "pinyin": "zú", "word": "足球" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u1-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "手",
+      "options": [
+        { "id": "a", "label": "足" },
+        { "id": "b", "label": "手" },
+        { "id": "c", "label": "目" }
+      ],
+      "answer": ["b"],
+      "explanation": "“手”读 shǒu，我们用小手写字、画画。"
+    },
+    {
+      "id": "yw-1a-u1-l03-ex2",
+      "type": "single",
+      "stem": "“耳朵”的“耳”，是下面哪一个字？",
+      "speakText": "耳朵",
+      "options": [
+        { "id": "a", "label": "目" },
+        { "id": "b", "label": "耳" },
+        { "id": "c", "label": "口" }
+      ],
+      "answer": ["b"],
+      "explanation": "耳朵用来听声音，“耳”字就像一只耳朵的样子。"
+    },
+    {
+      "id": "yw-1a-u1-l03-ex3",
+      "type": "multi",
+      "stem": "这一课学过的字，有哪些？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "口" },
+        { "id": "b", "label": "目" },
+        { "id": "c", "label": "足" },
+        { "id": "d", "label": "头" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "本课学的是“口、耳、目、手、足”，“头”是另一课的字。"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "yy-1a-u2-l02",
+  "unitId": "yy-1a-u2",
+  "volumeId": "yy-1a",
+  "title": "This is ...",
+  "objectives": ["会用 This is 介绍别人", "知道 he 指男孩、she 指女孩"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "介绍别人",
+      "content": "把同学介绍给别人，可以说 This is Lily. 意思是“这是莉莉”。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "this", "meaning": "这" },
+        { "text": "he", "meaning": "他" },
+        { "text": "she", "meaning": "她" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "小提示",
+      "content": "男孩用 he，女孩用 she。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u2-l02-ex1",
+      "type": "single",
+      "stem": "“这是莉莉”，用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "This is Lily" },
+        { "id": "b", "label": "I'm Lily" },
+        { "id": "c", "label": "This Lily" }
+      ],
+      "answer": ["a"],
+      "explanation": "介绍别人用 This is 加名字。"
+    },
+    {
+      "id": "yy-1a-u2-l02-ex2",
+      "type": "single",
+      "stem": "指一个男孩，用哪个词？",
+      "options": [
+        { "id": "a", "label": "she" },
+        { "id": "b", "label": "he" },
+        { "id": "c", "label": "it" }
+      ],
+      "answer": ["b"],
+      "explanation": "he 指男孩，she 指女孩。"
+    },
+    {
+      "id": "yy-1a-u2-l02-ex3",
+      "type": "listen",
+      "stem": "听一听，这是哪个词？",
+      "speakText": "she",
+      "options": [
+        { "id": "a", "label": "he" },
+        { "id": "b", "label": "she" },
+        { "id": "c", "label": "this" }
+      ],
+      "answer": ["b"],
+      "explanation": "she 读 /ʃiː/，是“她”。"
+    }
+  ]
+}

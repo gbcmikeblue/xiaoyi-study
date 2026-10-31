@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u1-l01",
+  "unitId": "sx-1a-u1",
+  "volumeId": "sx-1a",
+  "title": "数一数",
+  "objectives": ["会一个一个地数出 10 以内的物体", "能数出物体的个数并说出总数"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "数一数",
+      "content": "数东西的时候，手指点一个，嘴里数一个：一、二、三……点到最后一个是几，一共有几个。"
+    },
+    {
+      "type": "text",
+      "title": "小提示",
+      "content": "数过的物体不要再数，也不要漏掉。从左往右、从上往下，一个一个数。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u1-l01-ex1",
+      "type": "single",
+      "stem": "盘子里有 3 个苹果，又放进去 1 个，现在一共有几个？",
+      "options": [
+        { "id": "a", "label": "3" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "5" }
+      ],
+      "answer": ["b"],
+      "explanation": "3 个再添上 1 个，数一数就是 4 个。"
+    },
+    {
+      "id": "sx-1a-u1-l01-ex2",
+      "type": "single",
+      "stem": "一只手有几根手指？",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "5" },
+        { "id": "c", "label": "6" }
+      ],
+      "answer": ["b"],
+      "explanation": "一只手有 5 根手指，数一数就知道。"
+    },
+    {
+      "id": "sx-1a-u1-l01-ex3",
+      "type": "single",
+      "stem": "下面哪个数最大？",
+      "options": [
+        { "id": "a", "label": "7" },
+        { "id": "b", "label": "2" },
+        { "id": "c", "label": "5" }
+      ],
+      "answer": ["a"],
+      "explanation": "数数时 7 排在 5 的后面，所以 7 比 5 大。"
+    }
+  ]
+}

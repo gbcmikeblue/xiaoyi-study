@@ -1,0 +1,63 @@
+{
+  "id": "yy-1b-u2-l01",
+  "unitId": "yy-1b-u2",
+  "volumeId": "yy-1b",
+  "title": "Food",
+  "objectives": ["会说 rice、noodles、milk、egg", "能说出早餐吃什么"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "今天吃什么",
+      "content": "米饭是 rice，面条是 noodles，牛奶是 milk，鸡蛋是 egg。早饭你吃了什么？"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "rice", "meaning": "米饭" },
+        { "text": "noodles", "meaning": "面条" },
+        { "text": "milk", "meaning": "牛奶" },
+        { "text": "egg", "meaning": "鸡蛋" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u2-l01-ex1",
+      "type": "single",
+      "stem": "“牛奶”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "milk" },
+        { "id": "b", "label": "rice" },
+        { "id": "c", "label": "egg" }
+      ],
+      "answer": ["a"],
+      "explanation": "milk 是牛奶。"
+    },
+    {
+      "id": "yy-1b-u2-l01-ex2",
+      "type": "listen",
+      "stem": "听一听，这是哪个词？",
+      "speakText": "noodles",
+      "options": [
+        { "id": "a", "label": "noodles" },
+        { "id": "b", "label": "rice" },
+        { "id": "c", "label": "milk" }
+      ],
+      "answer": ["a"],
+      "explanation": "noodles 是面条，注意结尾有 s。"
+    },
+    {
+      "id": "yy-1b-u2-l01-ex3",
+      "type": "multi",
+      "stem": "哪些是吃的东西？",
+      "options": [
+        { "id": "a", "label": "rice" },
+        { "id": "b", "label": "egg" },
+        { "id": "c", "label": "milk" },
+        { "id": "d", "label": "ball" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "rice、egg、milk 都是食物或饮品，ball 是球。"
+    }
+  ]
+}

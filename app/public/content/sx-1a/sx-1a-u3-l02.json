@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u3-l02",
+  "unitId": "sx-1a-u3",
+  "volumeId": "sx-1a",
+  "title": "还剩下多少",
+  "objectives": ["理解从总数里去掉一部分用减法", "会算 5 以内的减法"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "拿走就是减",
+      "content": "有 5 个气球，飞走了 2 个，还剩 3 个。写成算式就是 5 - 2 = 3。"
+    },
+    {
+      "type": "text",
+      "title": "认识减号",
+      "content": "“-” 读作“减”，表示从总数里去掉一部分。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u3-l02-ex1",
+      "type": "single",
+      "stem": "4 - 1 = ?",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "4" }
+      ],
+      "answer": ["b"],
+      "explanation": "4 个去掉 1 个，还剩 3 个。"
+    },
+    {
+      "id": "sx-1a-u3-l02-ex2",
+      "type": "single",
+      "stem": "5 - 3 = ?",
+      "options": [
+        { "id": "a", "label": "1" },
+        { "id": "b", "label": "2" },
+        { "id": "c", "label": "3" }
+      ],
+      "answer": ["b"],
+      "explanation": "5 个拿走 3 个，还剩 2 个。"
+    },
+    {
+      "id": "sx-1a-u3-l02-ex3",
+      "type": "single",
+      "stem": "盘子里有 5 块饼干，吃了 2 块，还剩几块？",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "4" }
+      ],
+      "answer": ["b"],
+      "explanation": "5 - 2 = 3，还剩 3 块。"
+    }
+  ]
+}

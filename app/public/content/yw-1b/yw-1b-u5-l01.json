@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u5-l01",
+  "unitId": "yw-1b-u5",
+  "volumeId": "yw-1b",
+  "title": "吃水不忘挖井人",
+  "objectives": ["认识“井、忘、挖、村”四个字", "懂得别人帮过我们要记在心里"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "故事讲了什么",
+      "content": "村子里的人喝水要走很远的路。有人看在眼里，就带着大家一起挖了一口井。后来的人一喝水，就会想起当初挖井的人。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "井", "pinyin": "jǐng", "word": "水井" },
+        { "char": "忘", "pinyin": "wàng", "word": "忘记" },
+        { "char": "挖", "pinyin": "wā", "word": "挖土" },
+        { "char": "村", "pinyin": "cūn", "word": "村子" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "帮过你的人，你还记得吗？说一声“谢谢”，也是一种不忘。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u5-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "井",
+      "options": [
+        { "id": "a", "label": "村" },
+        { "id": "b", "label": "井" },
+        { "id": "c", "label": "忘" }
+      ],
+      "answer": ["b"],
+      "explanation": "“井”读 jǐng，水井是打水的地方。"
+    },
+    {
+      "id": "yw-1b-u5-l01-ex2",
+      "type": "single",
+      "stem": "“忘记”的“忘”，是下面哪一个字？",
+      "speakText": "忘记",
+      "options": [
+        { "id": "a", "label": "忙" },
+        { "id": "b", "label": "忘" },
+        { "id": "c", "label": "心" }
+      ],
+      "answer": ["b"],
+      "explanation": "“忘”下面是“心”，忘记跟心里记不记得有关。"
+    },
+    {
+      "id": "yw-1b-u5-l01-ex3",
+      "type": "multi",
+      "stem": "这一课学过的字，有哪些？",
+      "options": [
+        { "id": "a", "label": "井" },
+        { "id": "b", "label": "挖" },
+        { "id": "c", "label": "村" },
+        { "id": "d", "label": "想" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "本课学的是“井、忘、挖、村”，“想”是下一课的字。"
+    }
+  ]
+}

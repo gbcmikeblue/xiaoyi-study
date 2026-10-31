@@ -1,0 +1,67 @@
+{
+  "id": "yw-1b-u1-l04",
+  "unitId": "yw-1b-u1",
+  "volumeId": "yw-1b",
+  "title": "猜字谜",
+  "objectives": ["认识“字、谜、王、朋”四个字", "能根据提示猜出简单的字"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "猜一猜",
+      "content": "一加一，是什么字？把两个“一”竖起来放在一起，就是“王”。两个“月”并排站，就是“朋”。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "字", "pinyin": "zì", "word": "汉字" },
+        { "char": "谜", "pinyin": "mí", "word": "谜语" },
+        { "char": "王", "pinyin": "wáng", "word": "国王" },
+        { "char": "朋", "pinyin": "péng", "word": "朋友" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "再猜一个",
+      "content": "“一人一张口，口下长只手”，猜一个字。答案是“拿”。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u1-l04-ex1",
+      "type": "single",
+      "stem": "“一加一”猜一个字，是哪个？",
+      "options": [
+        { "id": "a", "label": "王" },
+        { "id": "b", "label": "朋" },
+        { "id": "c", "label": "字" }
+      ],
+      "answer": ["a"],
+      "explanation": "两横加一竖，就是“王”。"
+    },
+    {
+      "id": "yw-1b-u1-l04-ex2",
+      "type": "single",
+      "stem": "“两个月亮”猜一个字，是哪个？",
+      "options": [
+        { "id": "a", "label": "明" },
+        { "id": "b", "label": "朋" },
+        { "id": "c", "label": "月" }
+      ],
+      "answer": ["b"],
+      "explanation": "两个“月”并排，就是“朋”。"
+    },
+    {
+      "id": "yw-1b-u1-l04-ex3",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "谜",
+      "options": [
+        { "id": "a", "label": "字" },
+        { "id": "b", "label": "谜" },
+        { "id": "c", "label": "朋" }
+      ],
+      "answer": ["b"],
+      "explanation": "“谜”读 mí，谜语就是要动脑筋猜的话。"
+    }
+  ]
+}

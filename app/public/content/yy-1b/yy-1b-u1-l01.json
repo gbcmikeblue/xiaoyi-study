@@ -1,0 +1,64 @@
+{
+  "id": "yy-1b-u1-l01",
+  "unitId": "yy-1b-u1",
+  "volumeId": "yy-1b",
+  "title": "Toys",
+  "objectives": ["会说 ball、doll、kite、car", "能指出身边的玩具"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "我的玩具",
+      "content": "皮球是 ball，娃娃是 doll，风筝是 kite，小汽车是 car。你的玩具叫什么？"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "ball", "meaning": "球" },
+        { "text": "doll", "meaning": "娃娃" },
+        { "text": "kite", "meaning": "风筝" },
+        { "text": "car", "meaning": "小汽车" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u1-l01-ex1",
+      "type": "single",
+      "stem": "“风筝”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "kite" },
+        { "id": "b", "label": "ball" },
+        { "id": "c", "label": "doll" }
+      ],
+      "answer": ["a"],
+      "explanation": "kite 是风筝，春天可以放风筝。"
+    },
+    {
+      "id": "yy-1b-u1-l01-ex2",
+      "type": "listen",
+      "stem": "听一听，这是哪个词？",
+      "speakText": "doll",
+      "options": [
+        { "id": "a", "label": "doll" },
+        { "id": "b", "label": "ball" },
+        { "id": "c", "label": "car" }
+      ],
+      "answer": ["a"],
+      "explanation": "doll 是娃娃。"
+    },
+    {
+      "id": "yy-1b-u1-l01-ex3",
+      "type": "multi",
+      "stem": "哪些是玩具？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "ball" },
+        { "id": "b", "label": "doll" },
+        { "id": "c", "label": "car" },
+        { "id": "d", "label": "egg" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "ball、doll、car 都是玩具，egg 是鸡蛋。"
+    }
+  ]
+}

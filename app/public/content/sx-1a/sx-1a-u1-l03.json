@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u1-l03",
+  "unitId": "sx-1a-u1",
+  "volumeId": "sx-1a",
+  "title": "0 的认识",
+  "objectives": ["知道 0 表示一个也没有", "知道 0 可以表示起点"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "什么也没有",
+      "content": "盘子里有 2 个桃子，吃完了，盘子里一个也没有，就用 0 表示。"
+    },
+    {
+      "type": "text",
+      "title": "0 还是起点",
+      "content": "尺子最左边的刻度是 0，跑步的起跑线也可以看成 0。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u1-l03-ex1",
+      "type": "single",
+      "stem": "篮子里一个苹果也没有，用哪个数表示？",
+      "options": [
+        { "id": "a", "label": "0" },
+        { "id": "b", "label": "1" },
+        { "id": "c", "label": "2" }
+      ],
+      "answer": ["a"],
+      "explanation": "一个也没有，就用 0 表示。"
+    },
+    {
+      "id": "sx-1a-u1-l03-ex2",
+      "type": "single",
+      "stem": "3 减去 3 等于几？",
+      "options": [
+        { "id": "a", "label": "0" },
+        { "id": "b", "label": "1" },
+        { "id": "c", "label": "3" }
+      ],
+      "answer": ["a"],
+      "explanation": "3 个全部拿走，一个也不剩，就是 0。"
+    },
+    {
+      "id": "sx-1a-u1-l03-ex3",
+      "type": "single",
+      "stem": "尺子上最左边的刻度是几？",
+      "options": [
+        { "id": "a", "label": "0" },
+        { "id": "b", "label": "1" },
+        { "id": "c", "label": "2" }
+      ],
+      "answer": ["a"],
+      "explanation": "尺子从 0 开始量，0 是起点。"
+    }
+  ]
+}

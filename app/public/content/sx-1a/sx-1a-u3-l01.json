@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u3-l01",
+  "unitId": "sx-1a-u3",
+  "volumeId": "sx-1a",
+  "title": "一共有多少",
+  "objectives": ["理解把两部分合起来用加法", "会算 5 以内的加法"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "合起来就是加",
+      "content": "左手 2 颗糖，右手 3 颗糖，合起来一共 5 颗。写成算式就是 2 + 3 = 5。"
+    },
+    {
+      "type": "text",
+      "title": "认识加号",
+      "content": "“+” 读作“加”，表示把两个数合起来。“=” 读作“等于”，表示两边一样多。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u3-l01-ex1",
+      "type": "single",
+      "stem": "2 + 1 = ?",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "4" }
+      ],
+      "answer": ["b"],
+      "explanation": "2 个再添 1 个，一共 3 个。"
+    },
+    {
+      "id": "sx-1a-u3-l01-ex2",
+      "type": "single",
+      "stem": "1 + 3 = ?",
+      "options": [
+        { "id": "a", "label": "3" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "5" }
+      ],
+      "answer": ["b"],
+      "explanation": "1 和 3 合起来是 4。"
+    },
+    {
+      "id": "sx-1a-u3-l01-ex3",
+      "type": "single",
+      "stem": "小明有 2 支铅笔，妈妈又给他 2 支，现在一共有几支？",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "4" }
+      ],
+      "answer": ["c"],
+      "explanation": "2 + 2 = 4，一共 4 支铅笔。"
+    }
+  ]
+}

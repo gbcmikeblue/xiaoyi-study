@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sz-grade1.local/schema/course.schema.json",
+  "title": "一年级课程内容 Schema",
+  "description": "对应需求基线 v1 第四章：学科 > 册 > 单元 > 课时 > 知识点，课时下挂区块与题目。",
+  "definitions": {
+    "subject": {
+      "type": "string",
+      "enum": ["chinese", "math", "english"]
+    },
+    "volume": {
+      "type": "object",
+      "required": ["id", "subject", "grade", "term", "edition", "editionYear", "title", "unitCount", "ready"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^(yw|sx|yy)-1[ab]$" },
+        "subject": { "$ref": "#/definitions/subject" },
+        "grade": { "type": "integer", "const": 1 },
+        "term": { "type": "string", "enum": ["up", "down"] },
+        "edition": { "type": "string" },
+        "editionYear": { "type": "string" },
+        "title": { "type": "string" },
+        "unitCount": { "type": "integer", "minimum": 1 },
+        "ready": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "lessonMeta": {
+      "type": "object",
+      "required": ["id", "order", "title"],
+      "properties": {
+        "id": { "type": "string" },
+        "order": { "type": "integer", "minimum": 1 },
+        "title": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "unit": {
+      "type": "object",
+      "required": ["id", "volumeId", "order", "title", "lessons"],
+      "properties": {
+        "id": { "type": "string" },
+        "volumeId": { "type": "string" },
+        "order": { "type": "integer", "minimum": 1 },
+        "title": { "type": "string" },
+        "lessons": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/lessonMeta" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "charItem": {
+      "type": "object",
+      "required": ["char", "pinyin"],
+      "properties": {
+        "char": { "type": "string", "minLength": 1, "maxLength": 4 },
+        "pinyin": { "type": "string", "minLength": 1 },
+        "word": { "type": "string" },
+        "audioSrc": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "wordItem": {
+      "type": "object",
+      "required": ["text"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "meaning": { "type": "string" },
+        "audioSrc": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "block": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string", "enum": ["text", "chars", "words", "image", "audio"] },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              { "$ref": "#/definitions/charItem" },
+              { "$ref": "#/definitions/wordItem" }
+            ]
+          }
+        },
+        "src": { "type": "string" },
+        "alt": { "type": "string" },
+        "caption": { "type": "string" },
+        "text": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "exercise": {
+      "type": "object",
+      "required": ["id", "type", "stem", "options", "answer"],
+      "properties": {
+        "id": { "type": "string" },
+        "type": { "type": "string", "enum": ["single", "multi", "listen"] },
+        "stem": { "type": "string", "minLength": 1 },
+        "speakText": { "type": "string" },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": ["id", "label"],
+            "properties": {
+              "id": { "type": "string" },
+              "label": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "answer": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "explanation": { "type": "string" },
+        "scene": {
+          "type": "string",
+          "description": "指定答题玩法（场景 id，如 bubble / card）。缺省时使用全局偏好与默认场景"
+        }
+      },
+      "additionalProperties": false
+    },
+    "lesson": {
+      "type": "object",
+      "required": ["id", "unitId", "volumeId", "title", "objectives", "blocks", "exercises"],
+      "properties": {
+        "id": { "type": "string" },
+        "unitId": { "type": "string" },
+        "volumeId": { "type": "string" },
+        "title": { "type": "string", "minLength": 1 },
+        "objectives": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "blocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/block" }
+        },
+        "exercises": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": { "$ref": "#/definitions/exercise" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "skill_comfy_py": "C:\\Users\\Administrator\\.codebuddy\\skills\\comfyui-local\\scripts\\comfy.py",
+  "alias": "ming",
+  "param_text": "text",
+  "param_voice": "voice",
+  "voice_zh": "灵小萌",
+  "voice_en": "US_Stella",
+  "extra_params": {},
+  "timeout": 300,
+  "_说明": [
+    "alias：skill 里登记的工作流别名。ming = Ming-3 内置音色；ming_clone = 音色克隆；tts = SAPI",
+    "param_text / param_voice：别名实际使用的参数名，不同工作流不同（SAPI 用 text/voice，克隆用 text 且无音色参数）",
+    "voice_zh / voice_en：中文册与英语册分别使用的音色",
+    "extra_params：额外固定参数，例如克隆任务需要 audio 与 task.reference_text",
+    "换成克隆模式时参考：{\"alias\":\"ming_clone\",\"param_voice\":null,\"extra_params\":{\"audio\":\"teacher_ref.wav\",\"task.reference_text\":\"逐字稿\"}}"
+  ]
+}

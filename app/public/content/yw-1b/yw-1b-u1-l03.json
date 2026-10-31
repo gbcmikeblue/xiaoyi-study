@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u1-l03",
+  "unitId": "yw-1b-u1",
+  "volumeId": "yw-1b",
+  "title": "小青蛙",
+  "objectives": ["认识“青、蛙、清、晴”四个字", "知道“青”加不同偏旁能变成新字"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "一个字变出好多字",
+      "content": "“青”是个很能干的部分：加上三点水，变成“清”，水很干净；加上日字旁，变成“晴”，天上有太阳；加上虫字旁，变成“蜻”，蜻蜓的蜻。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "青", "pinyin": "qīng", "word": "青草" },
+        { "char": "蛙", "pinyin": "wā", "word": "青蛙" },
+        { "char": "清", "pinyin": "qīng", "word": "清水" },
+        { "char": "晴", "pinyin": "qíng", "word": "晴天" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "小知识",
+      "content": "青蛙小时候叫蝌蚪，长大后会捉害虫，是庄稼的好朋友。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u1-l03-ex1",
+      "type": "single",
+      "stem": "三点水加上“青”，是什么字？",
+      "options": [
+        { "id": "a", "label": "清" },
+        { "id": "b", "label": "晴" },
+        { "id": "c", "label": "蛙" }
+      ],
+      "answer": ["a"],
+      "explanation": "三点水加“青”是“清”，表示水干净。"
+    },
+    {
+      "id": "yw-1b-u1-l03-ex2",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "晴",
+      "options": [
+        { "id": "a", "label": "清" },
+        { "id": "b", "label": "晴" },
+        { "id": "c", "label": "青" }
+      ],
+      "answer": ["b"],
+      "explanation": "“晴”读 qíng，和太阳有关，所以是日字旁。"
+    },
+    {
+      "id": "yw-1b-u1-l03-ex3",
+      "type": "multi",
+      "stem": "哪些字里有“青”？",
+      "scene": "card",
+      "options": [
+        { "id": "a", "label": "清" },
+        { "id": "b", "label": "晴" },
+        { "id": "c", "label": "蛙" },
+        { "id": "d", "label": "水" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "清、晴、蛙里都藏着“青”，“水”里没有。"
+    }
+  ]
+}

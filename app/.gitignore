@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.shots/
+comfy-out/
+clone-test/
+voice-test/
+.audio-backup-sapi/
+docs/voice-auth/
+scripts/tts_config.json
+.dev.out.log
+.dev.err.log
+*.local

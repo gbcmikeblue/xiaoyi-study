@@ -1,0 +1,68 @@
+{
+  "id": "yw-1a-u1-l01",
+  "unitId": "yw-1a-u1",
+  "volumeId": "yw-1a",
+  "title": "天地人",
+  "objectives": ["认识“天、地、人”三个字", "能读准这三个字的音", "知道“人”就是我们自己"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "看图认字",
+      "content": "天在上，地在下，人站在中间。天、地、人，说的就是我们生活的世界。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "天", "pinyin": "tiān", "word": "天空" },
+        { "char": "地", "pinyin": "dì", "word": "大地" },
+        { "char": "人", "pinyin": "rén", "word": "人们" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "天 地 人。你、我、他，都是人。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u1-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "人",
+      "options": [
+        { "id": "a", "label": "天" },
+        { "id": "b", "label": "地" },
+        { "id": "c", "label": "人" }
+      ],
+      "answer": ["c"],
+      "explanation": "“人”读 rén，就像一个人侧身站着的样子。"
+    },
+    {
+      "id": "yw-1a-u1-l01-ex2",
+      "type": "single",
+      "stem": "“天空”的“天”，是下面哪一个字？",
+      "speakText": "天空",
+      "options": [
+        { "id": "a", "label": "天" },
+        { "id": "b", "label": "大" },
+        { "id": "c", "label": "夫" }
+      ],
+      "answer": ["a"],
+      "explanation": "“天”上面是一横，下面是一个“大”。"
+    },
+    {
+      "id": "yw-1a-u1-l01-ex3",
+      "type": "multi",
+      "stem": "下面哪些字是这一课学过的？",
+      "options": [
+        { "id": "a", "label": "天" },
+        { "id": "b", "label": "地" },
+        { "id": "c", "label": "人" },
+        { "id": "d", "label": "山" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "这一课学的是“天、地、人”，“山”是后面才会学到的字。"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "yw-1b-u1-l01",
+  "unitId": "yw-1b-u1",
+  "volumeId": "yw-1b",
+  "title": "春夏秋冬",
+  "objectives": ["认识“春、夏、秋、冬”四个字", "能说出四季的不同景色"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "一年四季",
+      "content": "一年有四个季节。春天花开，夏天蝉鸣，秋天叶落，冬天下雪。四季轮着来，一年就过去了。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "春", "pinyin": "chūn", "word": "春天" },
+        { "char": "夏", "pinyin": "xià", "word": "夏天" },
+        { "char": "秋", "pinyin": "qiū", "word": "秋天" },
+        { "char": "冬", "pinyin": "dōng", "word": "冬天" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "树叶变黄、果子熟了，是哪个季节？下雪、穿棉袄，又是哪个季节？"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u1-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "秋",
+      "options": [
+        { "id": "a", "label": "春" },
+        { "id": "b", "label": "秋" },
+        { "id": "c", "label": "冬" }
+      ],
+      "answer": ["b"],
+      "explanation": "“秋”读 qiū，秋天树叶会变黄。"
+    },
+    {
+      "id": "yw-1b-u1-l01-ex2",
+      "type": "single",
+      "stem": "“春天”的“春”，是下面哪一个字？",
+      "speakText": "春天",
+      "options": [
+        { "id": "a", "label": "春" },
+        { "id": "b", "label": "夏" },
+        { "id": "c", "label": "冬" }
+      ],
+      "answer": ["a"],
+      "explanation": "“春”上面是三横加一撇一捺，下面一个“日”。"
+    },
+    {
+      "id": "yw-1b-u1-l01-ex3",
+      "type": "multi",
+      "stem": "哪些字表示季节？",
+      "options": [
+        { "id": "a", "label": "春" },
+        { "id": "b", "label": "夏" },
+        { "id": "c", "label": "冬" },
+        { "id": "d", "label": "风" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "春、夏、秋、冬是四季，“风”不是季节。"
+    }
+  ]
+}

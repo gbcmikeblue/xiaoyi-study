@@ -1,0 +1,69 @@
+{
+  "id": "yw-1a-u1-l04",
+  "unitId": "yw-1a-u1",
+  "volumeId": "yw-1a",
+  "title": "日月山川",
+  "objectives": ["认识“日、月、山、川”四个字", "能看着字形说出它像什么"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "看字形猜一猜",
+      "content": "“日”是圆圆的太阳，“月”是弯弯的月亮，“山”是三座连着的山峰，“川”是流过的河水。这些字最早就是照着样子画出来的。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "日", "pinyin": "rì", "word": "日出" },
+        { "char": "月", "pinyin": "yuè", "word": "月亮" },
+        { "char": "山", "pinyin": "shān", "word": "高山" },
+        { "char": "川", "pinyin": "chuān", "word": "山川" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "白天太阳出来，晚上月亮升起；远处有山，近处有河。日、月、山、川，就在我们身边。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u1-l04-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "山",
+      "options": [
+        { "id": "a", "label": "川" },
+        { "id": "b", "label": "山" },
+        { "id": "c", "label": "月" }
+      ],
+      "answer": ["b"],
+      "explanation": "“山”读 shān，中间高两边低，就像三座山峰。"
+    },
+    {
+      "id": "yw-1a-u1-l04-ex2",
+      "type": "single",
+      "stem": "“月亮”的“月”，是下面哪一个字？",
+      "speakText": "月亮",
+      "options": [
+        { "id": "a", "label": "日" },
+        { "id": "b", "label": "月" },
+        { "id": "c", "label": "目" }
+      ],
+      "answer": ["b"],
+      "explanation": "“月”是弯弯的，像月亮；“目”是眼睛，里面有两条横。"
+    },
+    {
+      "id": "yw-1a-u1-l04-ex3",
+      "type": "multi",
+      "stem": "这一课学过的字，有哪些？",
+      "options": [
+        { "id": "a", "label": "日" },
+        { "id": "b", "label": "山" },
+        { "id": "c", "label": "川" },
+        { "id": "d", "label": "田" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "本课学的是“日、月、山、川”，“田”是后面才学的。"
+    }
+  ]
+}

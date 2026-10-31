@@ -1,0 +1,68 @@
+{
+  "id": "yw-1a-u1-l05",
+  "unitId": "yw-1a-u1",
+  "volumeId": "yw-1a",
+  "title": "对韵歌",
+  "objectives": ["认识“云、雨、风、虫”四个字", "能跟着读出对韵的节奏"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "云对雨，雪对风。花对树，鸟对虫。山清对水秀，柳绿对桃红。"
+    },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "云", "pinyin": "yún", "word": "白云" },
+        { "char": "雨", "pinyin": "yǔ", "word": "下雨" },
+        { "char": "风", "pinyin": "fēng", "word": "大风" },
+        { "char": "虫", "pinyin": "chóng", "word": "虫子" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "说一说",
+      "content": "天上飘的是云，落下来的是雨，吹过来的是风，草丛里爬的是虫。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u1-l05-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "虫",
+      "options": [
+        { "id": "a", "label": "云" },
+        { "id": "b", "label": "虫" },
+        { "id": "c", "label": "风" }
+      ],
+      "answer": ["b"],
+      "explanation": "“虫”读 chóng，小虫子在草丛里爬。"
+    },
+    {
+      "id": "yw-1a-u1-l05-ex2",
+      "type": "single",
+      "stem": "“云对雨”，下一句是什么？",
+      "options": [
+        { "id": "a", "label": "雪对风" },
+        { "id": "b", "label": "花对树" },
+        { "id": "c", "label": "鸟对虫" }
+      ],
+      "answer": ["a"],
+      "explanation": "云对雨，雪对风，天上的事物两两相对。"
+    },
+    {
+      "id": "yw-1a-u1-l05-ex3",
+      "type": "multi",
+      "stem": "儿歌里出现过哪些字？",
+      "options": [
+        { "id": "a", "label": "云" },
+        { "id": "b", "label": "雨" },
+        { "id": "c", "label": "虫" },
+        { "id": "d", "label": "手" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "“手”是《口耳目手足》里学的。"
+    }
+  ]
+}

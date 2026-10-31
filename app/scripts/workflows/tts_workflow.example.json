@@ -1,0 +1,20 @@
+{
+  "_comment": "占位示例，必须替换为你自己 ComfyUI 里可正常出声的 TTS 工作流（Save API Format 导出）。节点 id 与字段名以实际安装的节点为准。",
+  "6": {
+    "class_type": "F5TTS_Audio",
+    "inputs": {
+      "text": "这里会被脚本替换成待合成文本",
+      "ref_audio": "teacher.wav",
+      "ref_text": "参考音频对应的文字",
+      "speed": 0.92,
+      "seed": 42
+    }
+  },
+  "9": {
+    "class_type": "SaveAudio",
+    "inputs": {
+      "audio": ["6", 0],
+      "filename_prefix": "g1_tts"
+    }
+  }
+}
