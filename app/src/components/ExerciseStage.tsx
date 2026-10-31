@@ -61,7 +61,7 @@ export default function ExerciseStage({
 
       {checked && (
         <div className={`feedback ${correct ? 'ok' : 'no'}`}>
-          <strong>{correct ? '答对了' : '再想想'}</strong>
+          <strong>{correct ? '答对了' : '再试一次'}</strong>
           {exercise.explanation && <p>{exercise.explanation}</p>}
         </div>
       )}

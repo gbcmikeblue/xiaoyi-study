@@ -137,7 +137,7 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
     setChecked({ ...checked, [current.id]: true });
     const sel = answers[current.id] || [];
     const ok = sameSet(sel, current.answer);
-    const feedbackText = ok ? '答对了' : '再想想';
+    const feedbackText = ok ? '答对了' : '再试一次';
     void playSource(audioFor(feedbackText), feedbackText);
   }
 
@@ -158,7 +158,7 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
       setStep(2);
       clearDraft();
       const stars = finalScore === lesson.exercises.length ? 3 : finalScore > 0 ? 2 : 1;
-      const doneText = stars >= 2 ? '太棒了' : '完成练习';
+      const doneText = stars >= 2 ? '太棒了' : '完成啦';
       void playSource(audioFor(doneText), doneText);
     } else {
       setIndex(index + 1);
