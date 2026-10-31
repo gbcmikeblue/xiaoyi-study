@@ -48,6 +48,12 @@ body {
   height: 100%;
 }
 
+/* 浏览器环境：顶部有地址栏、底部有工具栏，安全区不再重复预留 */
+html.is-web {
+  --safe-top: 12px;
+  --safe-bottom: 8px;
+}
+
 /* ---------- 固定外壳 ---------- */
 .app-shell {
   display: flex;

@@ -9,4 +9,6 @@ docs/voice-auth/
 scripts/tts_config.json
 .dev.out.log
 .dev.err.log
+.serve.log
+.serve.err.log
 *.local
