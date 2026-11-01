@@ -58,6 +58,12 @@ def collect_texts(lesson: dict) -> list[str]:
     for exercise in lesson.get("exercises", []):
         if exercise.get("speakText"):
             texts.append(exercise["speakText"])
+        # 题干也要固定音色：只有没有 speakText 的题才会显示「读题目」按钮
+        # （数学题全部属于此类），这些题干若不预生成就会落回浏览器语音。
+        if not exercise.get("speakText"):
+            stem = (exercise.get("stem") or "").strip()
+            if stem:
+                texts.append(stem)
     return texts
 
 

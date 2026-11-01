@@ -12,4 +12,7 @@ scripts/tts_config.json
 .dev.err.log
 .serve.log
 .serve.err.log
+.tts.log
+.tts.err.log
+.voice-check/
 *.local
