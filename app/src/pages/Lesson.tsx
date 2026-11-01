@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { goUnits } from '../lib/router';
+import { goBack } from '../lib/router';
 import ExerciseStage from '../components/ExerciseStage';
 import SpeakButton from '../components/SpeakButton';
 import { loadLesson } from '../lib/content';
@@ -175,7 +175,7 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
     return (
       <main className="page">
         <nav className="topbar">
-          <button className="icon-btn" onClick={() => goUnits(volumeId)} aria-label="返回">
+          <button className="icon-btn" onClick={() => goBack(`#/v/${volumeId}`)} aria-label="返回">
             ←
           </button>
           <span className="topbar-title">出错了</span>
@@ -197,7 +197,7 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
   return (
     <main className="page page-lesson">
       <nav className="topbar">
-        <button className="icon-btn" onClick={() => goUnits(volumeId)} aria-label="返回单元">
+        <button className="icon-btn" onClick={() => goBack(`#/v/${volumeId}`)} aria-label="返回单元">
           ←
         </button>
         <span className="topbar-title">{lesson.title}</span>
@@ -292,7 +292,7 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
             <button className="btn" onClick={restart}>
               再学一遍
             </button>
-            <button className="btn primary" onClick={() => goUnits(volumeId)}>
+            <button className="btn primary" onClick={() => goBack(`#/v/${volumeId}`)}>
               回到单元
             </button>
           </div>

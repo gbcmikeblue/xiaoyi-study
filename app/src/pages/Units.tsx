@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { goHome, goLesson } from '../lib/router';
+import { goBack, goLesson } from '../lib/router';
 import { loadUnits, loadVolumes } from '../lib/content';
 import { loadProgress } from '../lib/progress';
 import type { ProgressMap, UnitMeta, VolumeMeta } from '../types';
@@ -34,7 +34,7 @@ export default function Units({ volumeId }: { volumeId: string }) {
   return (
     <main className="page">
       <nav className="topbar">
-        <button className="icon-btn" onClick={goHome} aria-label="返回首页">
+        <button className="icon-btn" onClick={() => goBack('#/')} aria-label="返回首页">
           ←
         </button>
         <span className="topbar-title">
