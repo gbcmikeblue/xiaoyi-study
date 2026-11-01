@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u7",
   "volumeId": "sx-1b",
   "title": "画数学连环画",
-  "objectives": ["能用图画讲一个含数学的故事", "知道画里要有数、有问题、有答案"],
+  "objectives": [
+    "能用图画讲一个含数学的故事",
+    "知道画里要有数、有问题、有答案"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u7-l03.webp",
+      "alt": "画数学连环画的插图"
+    },
     {
       "type": "text",
       "title": "画里有数学",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "数学连环画里，除了画还要有什么？",
       "options": [
-        { "id": "a", "label": "问题与答案" },
-        { "id": "b", "label": "作者签名" },
-        { "id": "c", "label": "价格" }
+        {
+          "id": "a",
+          "label": "问题与答案"
+        },
+        {
+          "id": "b",
+          "label": "作者签名"
+        },
+        {
+          "id": "c",
+          "label": "价格"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "没有问题和答案，就只是画，不是数学故事。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "树上 3 只鸟，飞来 2 只，一共几只？",
       "options": [
-        { "id": "a", "label": "5" },
-        { "id": "b", "label": "1" },
-        { "id": "c", "label": "3" }
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "3 + 2 = 5，飞来要用加法。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "画“飞走了几只”这类故事，应该用什么运算？",
       "options": [
-        { "id": "a", "label": "减法" },
-        { "id": "b", "label": "加法" },
-        { "id": "c", "label": "不用算" }
+        {
+          "id": "a",
+          "label": "减法"
+        },
+        {
+          "id": "b",
+          "label": "加法"
+        },
+        {
+          "id": "c",
+          "label": "不用算"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "飞走是减少，用减法。"
     }
   ]

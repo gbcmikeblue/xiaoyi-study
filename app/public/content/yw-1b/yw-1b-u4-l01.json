@@ -3,22 +3,54 @@
   "unitId": "yw-1b-u4",
   "volumeId": "yw-1b",
   "title": "静夜思",
-  "objectives": ["认识“思、床、光、望、乡”五个字", "能说出诗人在夜里想念什么"],
+  "objectives": [
+    "认识“思、床、光、望、乡”五个字",
+    "能说出诗人在夜里想念什么"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u4-l01.webp",
+      "alt": "静夜思的插图"
+    },
     {
       "type": "text",
       "title": "读古诗",
       "content": "床前明月光，疑是地上霜。举头望明月，低头思故乡。"
     },
-    { "type": "audio", "text": "床前明月光，疑是地上霜。举头望明月，低头思故乡。", "caption": "听老师读古诗" },
+    {
+      "type": "audio",
+      "text": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+      "caption": "听老师读古诗"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "思", "pinyin": "sī", "word": "思念" },
-        { "char": "床", "pinyin": "chuáng", "word": "床前" },
-        { "char": "光", "pinyin": "guāng", "word": "月光" },
-        { "char": "望", "pinyin": "wàng", "word": "望月" },
-        { "char": "乡", "pinyin": "xiāng", "word": "故乡" }
+        {
+          "char": "思",
+          "pinyin": "sī",
+          "word": "思念"
+        },
+        {
+          "char": "床",
+          "pinyin": "chuáng",
+          "word": "床前"
+        },
+        {
+          "char": "光",
+          "pinyin": "guāng",
+          "word": "月光"
+        },
+        {
+          "char": "望",
+          "pinyin": "wàng",
+          "word": "望月"
+        },
+        {
+          "char": "乡",
+          "pinyin": "xiāng",
+          "word": "故乡"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "光",
       "options": [
-        { "id": "a", "label": "光" },
-        { "id": "b", "label": "床" },
-        { "id": "c", "label": "望" }
+        {
+          "id": "a",
+          "label": "光"
+        },
+        {
+          "id": "b",
+          "label": "床"
+        },
+        {
+          "id": "c",
+          "label": "望"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“光”读 guāng，月光的“光”。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "诗人把地上的月光看成了什么？",
       "options": [
-        { "id": "a", "label": "雪" },
-        { "id": "b", "label": "霜" },
-        { "id": "c", "label": "水" }
+        {
+          "id": "a",
+          "label": "雪"
+        },
+        {
+          "id": "b",
+          "label": "霜"
+        },
+        {
+          "id": "c",
+          "label": "水"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“疑是地上霜”，月光白得像地上的霜。"
     },
     {
@@ -58,11 +112,22 @@
       "type": "single",
       "stem": "诗人低下头在想什么？",
       "options": [
-        { "id": "a", "label": "故乡" },
-        { "id": "b", "label": "明天吃什么" },
-        { "id": "c", "label": "怎么睡觉" }
+        {
+          "id": "a",
+          "label": "故乡"
+        },
+        {
+          "id": "b",
+          "label": "明天吃什么"
+        },
+        {
+          "id": "c",
+          "label": "怎么睡觉"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“低头思故乡”，在想自己的家乡。"
     }
   ]

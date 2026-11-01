@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u2",
   "volumeId": "sx-1a",
   "title": "可爱的小猫",
-  "objectives": ["知道两个相同的数相减得 0", "会算与 0 有关的加减法"],
+  "objectives": [
+    "知道两个相同的数相减得 0",
+    "会算与 0 有关的加减法"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u2-l03.webp",
+      "alt": "可爱的小猫的插图"
+    },
     {
       "type": "text",
       "title": "吃光了",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "盘子里 3 条鱼，小猫全吃光了，还剩几条？",
       "options": [
-        { "id": "a", "label": "0" },
-        { "id": "b", "label": "1" },
-        { "id": "c", "label": "3" }
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "3 - 3 = 0，全都吃光了就是一条也不剩。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "5 - 5 = ?",
       "options": [
-        { "id": "a", "label": "0" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "10" }
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "两个相同的数相减，结果都是 0。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "4 + 0 = ?",
       "options": [
-        { "id": "a", "label": "0" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "加 0 等于什么也没加，还是 4。"
     }
   ]

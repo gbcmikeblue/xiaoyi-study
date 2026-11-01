@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u2",
   "volumeId": "sx-1b",
   "title": "影子剧场",
-  "objectives": ["知道光被挡住会形成影子", "能发现影子和物体形状的关系"],
+  "objectives": [
+    "知道光被挡住会形成影子",
+    "能发现影子和物体形状的关系"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u2-l03.webp",
+      "alt": "影子剧场的插图"
+    },
     {
       "type": "text",
       "title": "影子是怎么来的",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "影子是怎么形成的？",
       "options": [
-        { "id": "a", "label": "光被物体挡住了" },
-        { "id": "b", "label": "物体自己会发光" },
-        { "id": "c", "label": "风吹出来的" }
+        {
+          "id": "a",
+          "label": "光被物体挡住了"
+        },
+        {
+          "id": "b",
+          "label": "物体自己会发光"
+        },
+        {
+          "id": "c",
+          "label": "风吹出来的"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "有光、有挡光的东西，才有影子。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "手离灯越近，影子会怎样？",
       "options": [
-        { "id": "a", "label": "越大" },
-        { "id": "b", "label": "越小" },
-        { "id": "c", "label": "不变" }
+        {
+          "id": "a",
+          "label": "越大"
+        },
+        {
+          "id": "b",
+          "label": "越小"
+        },
+        {
+          "id": "c",
+          "label": "不变"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "离光源近，挡到的光范围大，影子就大。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "做手影游戏需要什么条件？",
       "options": [
-        { "id": "a", "label": "有光和挡光的物体" },
-        { "id": "b", "label": "有镜子" },
-        { "id": "c", "label": "有声音" }
+        {
+          "id": "a",
+          "label": "有光和挡光的物体"
+        },
+        {
+          "id": "b",
+          "label": "有镜子"
+        },
+        {
+          "id": "c",
+          "label": "有声音"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "光和遮挡物是形成影子的两个条件。"
     }
   ]

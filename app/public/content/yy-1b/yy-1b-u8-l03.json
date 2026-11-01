@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u8",
   "volumeId": "yy-1b",
   "title": "Good morning",
-  "objectives": ["会用 Good morning / Good afternoon / Good night 问候", "知道不同时间用不同的问候语"],
+  "objectives": [
+    "会用 Good morning / Good afternoon / Good night 问候",
+    "知道不同时间用不同的问候语"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u8-l03.webp",
+      "alt": "Good morning的插图"
+    },
     {
       "type": "text",
       "title": "按时间打招呼",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "Good morning.",
       "options": [
-        { "id": "a", "label": "Good morning." },
-        { "id": "b", "label": "Good afternoon." },
-        { "id": "c", "label": "Good night." }
+        {
+          "id": "a",
+          "label": "Good morning."
+        },
+        {
+          "id": "b",
+          "label": "Good afternoon."
+        },
+        {
+          "id": "c",
+          "label": "Good night."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 morning，早上好。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "早上见面该怎么打招呼？",
       "options": [
-        { "id": "a", "label": "Good morning." },
-        { "id": "b", "label": "Good night." },
-        { "id": "c", "label": "Good evening." }
+        {
+          "id": "a",
+          "label": "Good morning."
+        },
+        {
+          "id": "b",
+          "label": "Good night."
+        },
+        {
+          "id": "c",
+          "label": "Good evening."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "morning 是早上。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "睡觉前跟爸妈说什么？",
       "options": [
-        { "id": "a", "label": "Good night." },
-        { "id": "b", "label": "Good morning." },
-        { "id": "c", "label": "Good afternoon." }
+        {
+          "id": "a",
+          "label": "Good night."
+        },
+        {
+          "id": "b",
+          "label": "Good morning."
+        },
+        {
+          "id": "c",
+          "label": "Good afternoon."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "Good night 是晚安。"
     }
   ]

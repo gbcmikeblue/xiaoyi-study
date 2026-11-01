@@ -3,22 +3,54 @@
   "unitId": "yw-1b-u3",
   "volumeId": "yw-1b",
   "title": "怎么都快乐",
-  "objectives": ["认识“快、乐、玩、静、跳”五个字", "能说出不同人数可以玩的游戏"],
+  "objectives": [
+    "认识“快、乐、玩、静、跳”五个字",
+    "能说出不同人数可以玩的游戏"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u3-l03.webp",
+      "alt": "怎么都快乐的插图"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "一个人玩，可以搭积木、看图画书，安安静静也很好。两个人玩，可以下棋、跳绳、你追我赶。三个人、很多人一起玩，可以捉迷藏、拔河，热热闹闹。人多有人多的玩法，人少有人少的乐趣。"
     },
-    { "type": "audio", "text": "一个人玩，可以搭积木、看图画书，安安静静也很好。", "caption": "听老师读第一句" },
+    {
+      "type": "audio",
+      "text": "一个人玩，可以搭积木、看图画书，安安静静也很好。",
+      "caption": "听老师读第一句"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "快", "pinyin": "kuài", "word": "快乐" },
-        { "char": "乐", "pinyin": "lè", "word": "快乐" },
-        { "char": "玩", "pinyin": "wán", "word": "玩耍" },
-        { "char": "静", "pinyin": "jìng", "word": "安静" },
-        { "char": "跳", "pinyin": "tiào", "word": "跳绳" }
+        {
+          "char": "快",
+          "pinyin": "kuài",
+          "word": "快乐"
+        },
+        {
+          "char": "乐",
+          "pinyin": "lè",
+          "word": "快乐"
+        },
+        {
+          "char": "玩",
+          "pinyin": "wán",
+          "word": "玩耍"
+        },
+        {
+          "char": "静",
+          "pinyin": "jìng",
+          "word": "安静"
+        },
+        {
+          "char": "跳",
+          "pinyin": "tiào",
+          "word": "跳绳"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "乐",
       "options": [
-        { "id": "a", "label": "快" },
-        { "id": "b", "label": "乐" },
-        { "id": "c", "label": "玩" }
+        {
+          "id": "a",
+          "label": "快"
+        },
+        {
+          "id": "b",
+          "label": "乐"
+        },
+        {
+          "id": "c",
+          "label": "玩"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“乐”读 lè，快乐的乐。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "一个人比较适合玩什么？",
       "options": [
-        { "id": "a", "label": "搭积木、看书" },
-        { "id": "b", "label": "拔河" },
-        { "id": "c", "label": "捉迷藏" }
+        {
+          "id": "a",
+          "label": "搭积木、看书"
+        },
+        {
+          "id": "b",
+          "label": "拔河"
+        },
+        {
+          "id": "c",
+          "label": "捉迷藏"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "拔河、捉迷藏需要很多人一起，一个人玩不了。"
     },
     {
@@ -58,12 +112,28 @@
       "type": "multi",
       "stem": "两个人可以一起玩什么？",
       "options": [
-        { "id": "a", "label": "下棋" },
-        { "id": "b", "label": "跳绳" },
-        { "id": "c", "label": "你追我赶" },
-        { "id": "d", "label": "拔河" }
+        {
+          "id": "a",
+          "label": "下棋"
+        },
+        {
+          "id": "b",
+          "label": "跳绳"
+        },
+        {
+          "id": "c",
+          "label": "你追我赶"
+        },
+        {
+          "id": "d",
+          "label": "拔河"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "拔河要一大群人，两个人拉不起来。"
     }
   ]

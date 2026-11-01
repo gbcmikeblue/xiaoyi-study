@@ -5,11 +5,11 @@ const CHROME = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 const OUT = 'd:/project/sz-grade1-h5-edu-research/app/.shots';
 
 const cases = [
-  ['img-bpmf', '/#/v/yw-1a/l/yw-1a-u2-l03'],
-  ['img-jiangnan', '/#/v/yw-1a/l/yw-1a-u5-l02'],
-  ['img-weiba', '/#/v/yw-1a/l/yw-1a-u8-l01'],
-  ['img-wuya', '/#/v/yw-1a/l/yw-1a-u8-l02'],
-  ['img-xiaoxuesheng', '/#/v/yw-1a/l/yw-1a-u0-l01'],
+  ['img-food', '/#/v/yy-1b/l/yy-1b-u1-l01'],
+  ['img-egg', '/#/v/sx-1a/l/sx-1a-u1-l05'],
+  ['img-season', '/#/v/yy-1b/l/yy-1b-u4-l01'],
+  ['img-jingye', '/#/v/yw-1b/l/yw-1b-u4-l01'],
+  ['img-zongzi', '/#/v/yw-1b/l/yw-1b-u4-l03'],
 ];
 
 const browser = await chromium.launch({ executablePath: CHROME });

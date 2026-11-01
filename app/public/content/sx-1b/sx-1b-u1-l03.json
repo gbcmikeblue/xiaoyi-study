@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u1",
   "volumeId": "sx-1b",
   "title": "开心农场",
-  "objectives": ["会用凑十法算 9 加几", "知道先把 9 凑成 10 再加剩下的"],
+  "objectives": [
+    "会用凑十法算 9 加几",
+    "知道先把 9 凑成 10 再加剩下的"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u1-l03.webp",
+      "alt": "开心农场的插图"
+    },
     {
       "type": "text",
       "title": "开心农场",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "9 + 3 = ?",
       "options": [
-        { "id": "a", "label": "11" },
-        { "id": "b", "label": "12" },
-        { "id": "c", "label": "13" }
+        {
+          "id": "a",
+          "label": "11"
+        },
+        {
+          "id": "b",
+          "label": "12"
+        },
+        {
+          "id": "c",
+          "label": "13"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "3 分成 1 和 2，9 + 1 = 10，10 + 2 = 12。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "9 + 7 = ?",
       "options": [
-        { "id": "a", "label": "15" },
-        { "id": "b", "label": "16" },
-        { "id": "c", "label": "17" }
+        {
+          "id": "a",
+          "label": "15"
+        },
+        {
+          "id": "b",
+          "label": "16"
+        },
+        {
+          "id": "c",
+          "label": "17"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "7 分成 1 和 6，9 + 1 = 10，10 + 6 = 16。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "算 9 + 5 时，先把 5 分成哪两个数？",
       "options": [
-        { "id": "a", "label": "1 和 4" },
-        { "id": "b", "label": "2 和 3" },
-        { "id": "c", "label": "5 和 0" }
+        {
+          "id": "a",
+          "label": "1 和 4"
+        },
+        {
+          "id": "b",
+          "label": "2 和 3"
+        },
+        {
+          "id": "c",
+          "label": "5 和 0"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "9 差 1 到 10，所以从 5 里拿出 1，剩 4。"
     }
   ]

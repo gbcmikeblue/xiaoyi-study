@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u2",
   "volumeId": "yy-1b",
   "title": "Listen and look",
-  "objectives": ["能听懂课堂指令 Stand up / Sit down / Listen / Look", "能按指令做动作"],
+  "objectives": [
+    "能听懂课堂指令 Stand up / Sit down / Listen / Look",
+    "能按指令做动作"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u2-l02.webp",
+      "alt": "Listen and look的插图"
+    },
     {
       "type": "text",
       "title": "Classroom orders",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的指令。",
       "speakText": "Stand up.",
       "options": [
-        { "id": "a", "label": "Stand up." },
-        { "id": "b", "label": "Sit down." },
-        { "id": "c", "label": "Look at me." }
+        {
+          "id": "a",
+          "label": "Stand up."
+        },
+        {
+          "id": "b",
+          "label": "Sit down."
+        },
+        {
+          "id": "c",
+          "label": "Look at me."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "Stand up 是起立。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "“坐下”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "Sit down." },
-        { "id": "b", "label": "Stand up." },
-        { "id": "c", "label": "Listen." }
+        {
+          "id": "a",
+          "label": "Sit down."
+        },
+        {
+          "id": "b",
+          "label": "Stand up."
+        },
+        {
+          "id": "c",
+          "label": "Listen."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "sit 是坐，down 是向下。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "老师说 Look at me. 你应该怎么做？",
       "options": [
-        { "id": "a", "label": "看老师" },
-        { "id": "b", "label": "站起来" },
-        { "id": "c", "label": "闭上眼睛" }
+        {
+          "id": "a",
+          "label": "看老师"
+        },
+        {
+          "id": "b",
+          "label": "站起来"
+        },
+        {
+          "id": "c",
+          "label": "闭上眼睛"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "look at me 就是看老师。"
     }
   ]

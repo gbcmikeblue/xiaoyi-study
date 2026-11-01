@@ -3,22 +3,54 @@
   "unitId": "yw-1b-u5",
   "volumeId": "yw-1b",
   "title": "人之初",
-  "objectives": ["认识“之、初、性、善、近”五个字", "能说出后天习惯会改变一个人"],
+  "objectives": [
+    "认识“之、初、性、善、近”五个字",
+    "能说出后天习惯会改变一个人"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u5-l04.webp",
+      "alt": "人之初的插图"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "人之初，性本善。性相近，习相远。"
     },
-    { "type": "audio", "text": "人之初，性本善。性相近，习相远。", "caption": "听老师读一读" },
+    {
+      "type": "audio",
+      "text": "人之初，性本善。性相近，习相远。",
+      "caption": "听老师读一读"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "之", "pinyin": "zhī", "word": "之前" },
-        { "char": "初", "pinyin": "chū", "word": "初始" },
-        { "char": "性", "pinyin": "xìng", "word": "性格" },
-        { "char": "善", "pinyin": "shàn", "word": "善良" },
-        { "char": "近", "pinyin": "jìn", "word": "相近" }
+        {
+          "char": "之",
+          "pinyin": "zhī",
+          "word": "之前"
+        },
+        {
+          "char": "初",
+          "pinyin": "chū",
+          "word": "初始"
+        },
+        {
+          "char": "性",
+          "pinyin": "xìng",
+          "word": "性格"
+        },
+        {
+          "char": "善",
+          "pinyin": "shàn",
+          "word": "善良"
+        },
+        {
+          "char": "近",
+          "pinyin": "jìn",
+          "word": "相近"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "初",
       "options": [
-        { "id": "a", "label": "之" },
-        { "id": "b", "label": "初" },
-        { "id": "c", "label": "善" }
+        {
+          "id": "a",
+          "label": "之"
+        },
+        {
+          "id": "b",
+          "label": "初"
+        },
+        {
+          "id": "c",
+          "label": "善"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“初”读 chū，左边是衣字旁，本义是裁衣的开始。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "“人之初”的“初”是什么意思？",
       "options": [
-        { "id": "a", "label": "刚开始的时候" },
-        { "id": "b", "label": "结束的时候" },
-        { "id": "c", "label": "中间的时候" }
+        {
+          "id": "a",
+          "label": "刚开始的时候"
+        },
+        {
+          "id": "b",
+          "label": "结束的时候"
+        },
+        {
+          "id": "c",
+          "label": "中间的时候"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“初”就是开始，“人之初”指人刚出生的时候。"
     },
     {
@@ -58,11 +112,22 @@
       "type": "single",
       "stem": "“习相远”说明什么？",
       "options": [
-        { "id": "a", "label": "后天习惯会让人差别很大" },
-        { "id": "b", "label": "人天生就不一样" },
-        { "id": "c", "label": "学习没有用" }
+        {
+          "id": "a",
+          "label": "后天习惯会让人差别很大"
+        },
+        {
+          "id": "b",
+          "label": "人天生就不一样"
+        },
+        {
+          "id": "c",
+          "label": "学习没有用"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "刚出生时“性相近”，后来因为习惯不同才“习相远”。"
     }
   ]

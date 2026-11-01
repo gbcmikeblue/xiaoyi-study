@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u8",
   "volumeId": "yy-1a",
   "title": "Apples, please",
-  "objectives": ["会用 ... please 提出请求", "会用 Here you are / Thank you 回应"],
+  "objectives": [
+    "会用 ... please 提出请求",
+    "会用 Here you are / Thank you 回应"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u8-l04.webp",
+      "alt": "Apples, please的插图"
+    },
     {
       "type": "text",
       "title": "要东西要说 please",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "Apples, please.",
       "options": [
-        { "id": "a", "label": "Apples, please." },
-        { "id": "b", "label": "Here you are." },
-        { "id": "c", "label": "Thank you." }
+        {
+          "id": "a",
+          "label": "Apples, please."
+        },
+        {
+          "id": "b",
+          "label": "Here you are."
+        },
+        {
+          "id": "c",
+          "label": "Thank you."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是要苹果，句末有 please。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "想要香蕉，礼貌的说法是？",
       "options": [
-        { "id": "a", "label": "Bananas, please." },
-        { "id": "b", "label": "Give me bananas." },
-        { "id": "c", "label": "Bananas!" }
+        {
+          "id": "a",
+          "label": "Bananas, please."
+        },
+        {
+          "id": "b",
+          "label": "Give me bananas."
+        },
+        {
+          "id": "c",
+          "label": "Bananas!"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "加 please 才是礼貌的请求。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "别人把东西递给你，他说什么？",
       "options": [
-        { "id": "a", "label": "Here you are." },
-        { "id": "b", "label": "Thank you." },
-        { "id": "c", "label": "Goodbye." }
+        {
+          "id": "a",
+          "label": "Here you are."
+        },
+        {
+          "id": "b",
+          "label": "Thank you."
+        },
+        {
+          "id": "c",
+          "label": "Goodbye."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "Here you are 是“给你”。"
     }
   ]

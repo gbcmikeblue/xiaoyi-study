@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u2",
   "volumeId": "sx-1b",
   "title": "做一做",
-  "objectives": ["认识长方形、正方形、三角形和圆", "能根据边和角的特点区分图形"],
+  "objectives": [
+    "认识长方形、正方形、三角形和圆",
+    "能根据边和角的特点区分图形"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u2-l01.webp",
+      "alt": "做一做的插图"
+    },
     {
       "type": "text",
       "title": "做一做",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "4 条边一样长、4 个角都是直角的图形是什么？",
       "options": [
-        { "id": "a", "label": "长方形" },
-        { "id": "b", "label": "正方形" },
-        { "id": "c", "label": "三角形" }
+        {
+          "id": "a",
+          "label": "长方形"
+        },
+        {
+          "id": "b",
+          "label": "正方形"
+        },
+        {
+          "id": "c",
+          "label": "三角形"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "4 条边都相等的是正方形；长方形只有对边相等。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "哪个图形没有角？",
       "options": [
-        { "id": "a", "label": "圆" },
-        { "id": "b", "label": "正方形" },
-        { "id": "c", "label": "三角形" }
+        {
+          "id": "a",
+          "label": "圆"
+        },
+        {
+          "id": "b",
+          "label": "正方形"
+        },
+        {
+          "id": "c",
+          "label": "三角形"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "圆的边是弯的，没有角。"
     },
     {
@@ -46,12 +76,27 @@
       "type": "multi",
       "stem": "下面哪些是 4 条边的图形？",
       "options": [
-        { "id": "a", "label": "长方形" },
-        { "id": "b", "label": "正方形" },
-        { "id": "c", "label": "三角形" },
-        { "id": "d", "label": "圆" }
+        {
+          "id": "a",
+          "label": "长方形"
+        },
+        {
+          "id": "b",
+          "label": "正方形"
+        },
+        {
+          "id": "c",
+          "label": "三角形"
+        },
+        {
+          "id": "d",
+          "label": "圆"
+        }
       ],
-      "answer": ["a", "b"],
+      "answer": [
+        "a",
+        "b"
+      ],
       "explanation": "三角形 3 条边，圆没有直边。"
     }
   ]

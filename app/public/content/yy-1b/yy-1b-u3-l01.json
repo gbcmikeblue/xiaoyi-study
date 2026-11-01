@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u3",
   "volumeId": "yy-1b",
   "title": "Toys I like",
-  "objectives": ["会说 ball、doll、kite、car", "能说出自己喜欢的玩具"],
+  "objectives": [
+    "会说 ball、doll、kite、car",
+    "能说出自己喜欢的玩具"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u3-l01.webp",
+      "alt": "Toys I like的插图"
+    },
     {
       "type": "text",
       "title": "My toys",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "ball", "meaning": "球" },
-        { "text": "doll", "meaning": "娃娃" },
-        { "text": "kite", "meaning": "风筝" },
-        { "text": "car", "meaning": "小汽车" }
+        {
+          "text": "ball",
+          "meaning": "球"
+        },
+        {
+          "text": "doll",
+          "meaning": "娃娃"
+        },
+        {
+          "text": "kite",
+          "meaning": "风筝"
+        },
+        {
+          "text": "car",
+          "meaning": "小汽车"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "doll",
       "options": [
-        { "id": "a", "label": "ball" },
-        { "id": "b", "label": "doll" },
-        { "id": "c", "label": "car" }
+        {
+          "id": "a",
+          "label": "ball"
+        },
+        {
+          "id": "b",
+          "label": "doll"
+        },
+        {
+          "id": "c",
+          "label": "car"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "doll 是娃娃。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“风筝”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "kite" },
-        { "id": "b", "label": "ball" },
-        { "id": "c", "label": "car" }
+        {
+          "id": "a",
+          "label": "kite"
+        },
+        {
+          "id": "b",
+          "label": "ball"
+        },
+        {
+          "id": "c",
+          "label": "car"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "kite 是风筝，要放起来。"
     },
     {
@@ -51,11 +93,22 @@
       "type": "single",
       "stem": "car 是什么？",
       "options": [
-        { "id": "a", "label": "小汽车" },
-        { "id": "b", "label": "球" },
-        { "id": "c", "label": "娃娃" }
+        {
+          "id": "a",
+          "label": "小汽车"
+        },
+        {
+          "id": "b",
+          "label": "球"
+        },
+        {
+          "id": "c",
+          "label": "娃娃"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "car 是小汽车，也有真的汽车的意思。"
     }
   ]

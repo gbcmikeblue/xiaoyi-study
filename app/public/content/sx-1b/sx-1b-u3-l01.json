@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u3",
   "volumeId": "sx-1b",
   "title": "买文具",
-  "objectives": ["会算十几减 9", "知道“破十法”的思路"],
+  "objectives": [
+    "会算十几减 9",
+    "知道“破十法”的思路"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u3-l01.webp",
+      "alt": "买文具的插图"
+    },
     {
       "type": "text",
       "title": "买文具",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "12 - 9 = ?",
       "options": [
-        { "id": "a", "label": "2" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "4" }
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "12 - 10 = 2，再加回 1，就是 3。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "16 - 9 = ?",
       "options": [
-        { "id": "a", "label": "6" },
-        { "id": "b", "label": "7" },
-        { "id": "c", "label": "8" }
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "16 - 10 = 6，再加回 1，就是 7。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "14 - 9 = ?",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "6" }
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "14 - 10 = 4，再加回 1，就是 5。"
     }
   ]

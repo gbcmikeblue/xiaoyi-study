@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u5",
   "volumeId": "sx-1a",
   "title": "我说你做",
-  "objectives": ["能用方位词描述物体位置", "能按描述摆出正确的图形"],
+  "objectives": [
+    "能用方位词描述物体位置",
+    "能按描述摆出正确的图形"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u5-l02.webp",
+      "alt": "我说你做的插图"
+    },
     {
       "type": "text",
       "title": "说清楚位置",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "“球在正方体的上面”，说明球在哪个位置？",
       "options": [
-        { "id": "a", "label": "上面" },
-        { "id": "b", "label": "下面" },
-        { "id": "c", "label": "里面" }
+        {
+          "id": "a",
+          "label": "上面"
+        },
+        {
+          "id": "b",
+          "label": "下面"
+        },
+        {
+          "id": "c",
+          "label": "里面"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“在……的上面”，球在上面。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "要描述一个物体的位置，至少要说清什么？",
       "options": [
-        { "id": "a", "label": "它和谁比、在哪个方向" },
-        { "id": "b", "label": "它的颜色" },
-        { "id": "c", "label": "谁的" }
+        {
+          "id": "a",
+          "label": "它和谁比、在哪个方向"
+        },
+        {
+          "id": "b",
+          "label": "它的颜色"
+        },
+        {
+          "id": "c",
+          "label": "谁的"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "位置是相对的，要说清参照物和方向。"
     },
     {
@@ -46,12 +76,28 @@
       "type": "multi",
       "stem": "下面哪些是表示位置的词？",
       "options": [
-        { "id": "a", "label": "上面" },
-        { "id": "b", "label": "左边" },
-        { "id": "c", "label": "前面" },
-        { "id": "d", "label": "红色" }
+        {
+          "id": "a",
+          "label": "上面"
+        },
+        {
+          "id": "b",
+          "label": "左边"
+        },
+        {
+          "id": "c",
+          "label": "前面"
+        },
+        {
+          "id": "d",
+          "label": "红色"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "“红色”说的是颜色，不是位置。"
     }
   ]

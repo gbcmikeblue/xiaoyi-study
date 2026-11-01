@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u1",
   "volumeId": "yy-1b",
   "title": "Food I like",
-  "objectives": ["会说 rice、noodles、egg、fish", "能说出自己喜欢的食物"],
+  "objectives": [
+    "会说 rice、noodles、egg、fish",
+    "能说出自己喜欢的食物"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u1-l01.webp",
+      "alt": "Food I like的插图"
+    },
     {
       "type": "text",
       "title": "Food",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "rice", "meaning": "米饭" },
-        { "text": "noodles", "meaning": "面条" },
-        { "text": "egg", "meaning": "鸡蛋" },
-        { "text": "fish", "meaning": "鱼" }
+        {
+          "text": "rice",
+          "meaning": "米饭"
+        },
+        {
+          "text": "noodles",
+          "meaning": "面条"
+        },
+        {
+          "text": "egg",
+          "meaning": "鸡蛋"
+        },
+        {
+          "text": "fish",
+          "meaning": "鱼"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "noodles",
       "options": [
-        { "id": "a", "label": "rice" },
-        { "id": "b", "label": "noodles" },
-        { "id": "c", "label": "fish" }
+        {
+          "id": "a",
+          "label": "rice"
+        },
+        {
+          "id": "b",
+          "label": "noodles"
+        },
+        {
+          "id": "c",
+          "label": "fish"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "noodles 是面条。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“米饭”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "rice" },
-        { "id": "b", "label": "egg" },
-        { "id": "c", "label": "fish" }
+        {
+          "id": "a",
+          "label": "rice"
+        },
+        {
+          "id": "b",
+          "label": "egg"
+        },
+        {
+          "id": "c",
+          "label": "fish"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "rice 是米饭。"
     },
     {
@@ -51,11 +93,22 @@
       "type": "single",
       "stem": "egg 是什么？",
       "options": [
-        { "id": "a", "label": "鸡蛋" },
-        { "id": "b", "label": "鱼" },
-        { "id": "c", "label": "面条" }
+        {
+          "id": "a",
+          "label": "鸡蛋"
+        },
+        {
+          "id": "b",
+          "label": "鱼"
+        },
+        {
+          "id": "c",
+          "label": "面条"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "egg 是鸡蛋。"
     }
   ]

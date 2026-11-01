@@ -3,8 +3,16 @@
   "unitId": "yw-1b-u2",
   "volumeId": "yw-1b",
   "title": "我多想去看看",
-  "objectives": ["认识“想、看、路、走”四个字", "能说出自己想去的地方"],
+  "objectives": [
+    "认识“想、看、路、走”四个字",
+    "能说出自己想去的地方"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u2-l03.webp",
+      "alt": "我多想去看看的插图"
+    },
     {
       "type": "text",
       "title": "想去看看",
@@ -13,10 +21,26 @@
     {
       "type": "chars",
       "items": [
-        { "char": "想", "pinyin": "xiǎng", "word": "想念" },
-        { "char": "看", "pinyin": "kàn", "word": "看见" },
-        { "char": "路", "pinyin": "lù", "word": "马路" },
-        { "char": "走", "pinyin": "zǒu", "word": "走路" }
+        {
+          "char": "想",
+          "pinyin": "xiǎng",
+          "word": "想念"
+        },
+        {
+          "char": "看",
+          "pinyin": "kàn",
+          "word": "看见"
+        },
+        {
+          "char": "路",
+          "pinyin": "lù",
+          "word": "马路"
+        },
+        {
+          "char": "走",
+          "pinyin": "zǒu",
+          "word": "走路"
+        }
       ]
     },
     {
@@ -32,11 +56,22 @@
       "stem": "“看看”的“看”，是下面哪一个字？",
       "speakText": "看看",
       "options": [
-        { "id": "a", "label": "着" },
-        { "id": "b", "label": "看" },
-        { "id": "c", "label": "想" }
+        {
+          "id": "a",
+          "label": "着"
+        },
+        {
+          "id": "b",
+          "label": "看"
+        },
+        {
+          "id": "c",
+          "label": "想"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“看”是用眼睛去看，上面是手的变形，下面一个“目”。"
     },
     {
@@ -45,11 +80,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "路",
       "options": [
-        { "id": "a", "label": "走" },
-        { "id": "b", "label": "路" },
-        { "id": "c", "label": "看" }
+        {
+          "id": "a",
+          "label": "走"
+        },
+        {
+          "id": "b",
+          "label": "路"
+        },
+        {
+          "id": "c",
+          "label": "看"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“路”读 lù，左边是足字旁，走路要用脚。"
     },
     {
@@ -58,12 +104,28 @@
       "stem": "这一课学过的字，有哪些？",
       "scene": "card",
       "options": [
-        { "id": "a", "label": "想" },
-        { "id": "b", "label": "看" },
-        { "id": "c", "label": "走" },
-        { "id": "d", "label": "井" }
+        {
+          "id": "a",
+          "label": "想"
+        },
+        {
+          "id": "b",
+          "label": "看"
+        },
+        {
+          "id": "c",
+          "label": "走"
+        },
+        {
+          "id": "d",
+          "label": "井"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "本课学的是“想、看、路、走”，“井”是上一课的字。"
     }
   ]

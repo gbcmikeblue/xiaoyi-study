@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u5",
   "volumeId": "yy-1b",
   "title": "What do you see?",
-  "objectives": ["会用 What do you see? 提问", "会用 I see ... 回答"],
+  "objectives": [
+    "会用 What do you see? 提问",
+    "会用 I see ... 回答"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u5-l02.webp",
+      "alt": "What do you see?的插图"
+    },
     {
       "type": "text",
       "title": "问与答",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "I see a bird.",
       "options": [
-        { "id": "a", "label": "I see a bird." },
-        { "id": "b", "label": "I see a frog." },
-        { "id": "c", "label": "I see a bee." }
+        {
+          "id": "a",
+          "label": "I see a bird."
+        },
+        {
+          "id": "b",
+          "label": "I see a frog."
+        },
+        {
+          "id": "c",
+          "label": "I see a bee."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 bird，小鸟。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问“你看见了什么？”，英语怎么说？",
       "options": [
-        { "id": "a", "label": "What do you see?" },
-        { "id": "b", "label": "What do you hear?" },
-        { "id": "c", "label": "What is this?" }
+        {
+          "id": "a",
+          "label": "What do you see?"
+        },
+        {
+          "id": "b",
+          "label": "What do you hear?"
+        },
+        {
+          "id": "c",
+          "label": "What is this?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "看见用 see，听见用 hear。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "看见两只兔子，该怎么说？",
       "options": [
-        { "id": "a", "label": "I see two rabbits." },
-        { "id": "b", "label": "I see two rabbit." },
-        { "id": "c", "label": "I see a rabbits." }
+        {
+          "id": "a",
+          "label": "I see two rabbits."
+        },
+        {
+          "id": "b",
+          "label": "I see two rabbit."
+        },
+        {
+          "id": "c",
+          "label": "I see a rabbits."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "两只以上，名词加 s。"
     }
   ]

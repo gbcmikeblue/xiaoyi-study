@@ -3,22 +3,54 @@
   "unitId": "yw-1b-u4",
   "volumeId": "yw-1b",
   "title": "端午粽",
-  "objectives": ["认识“端、午、粽、米、叶”五个字", "能说出端午节吃什么、为什么吃"],
+  "objectives": [
+    "认识“端、午、粽、米、叶”五个字",
+    "能说出端午节吃什么、为什么吃"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u4-l03.webp",
+      "alt": "端午粽的插图"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "端午节到了，外婆包粽子。青青的粽叶卷成小斗，装进白白的糯米，再放一颗红枣，用线一绑，就成了一只粽子。煮好的粽子剥开，又黏又香。外婆说，包粽子是为了记住屈原。"
     },
-    { "type": "audio", "text": "端午节到了，外婆包粽子。青青的粽叶卷成小斗，装进白白的糯米。", "caption": "听老师读第一句" },
+    {
+      "type": "audio",
+      "text": "端午节到了，外婆包粽子。青青的粽叶卷成小斗，装进白白的糯米。",
+      "caption": "听老师读第一句"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "端", "pinyin": "duān", "word": "端午" },
-        { "char": "午", "pinyin": "wǔ", "word": "中午" },
-        { "char": "粽", "pinyin": "zòng", "word": "粽子" },
-        { "char": "米", "pinyin": "mǐ", "word": "糯米" },
-        { "char": "叶", "pinyin": "yè", "word": "粽叶" }
+        {
+          "char": "端",
+          "pinyin": "duān",
+          "word": "端午"
+        },
+        {
+          "char": "午",
+          "pinyin": "wǔ",
+          "word": "中午"
+        },
+        {
+          "char": "粽",
+          "pinyin": "zòng",
+          "word": "粽子"
+        },
+        {
+          "char": "米",
+          "pinyin": "mǐ",
+          "word": "糯米"
+        },
+        {
+          "char": "叶",
+          "pinyin": "yè",
+          "word": "粽叶"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "粽",
       "options": [
-        { "id": "a", "label": "端" },
-        { "id": "b", "label": "粽" },
-        { "id": "c", "label": "米" }
+        {
+          "id": "a",
+          "label": "端"
+        },
+        {
+          "id": "b",
+          "label": "粽"
+        },
+        {
+          "id": "c",
+          "label": "米"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“粽”读 zòng，左边是米字旁，用米做的。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "粽子里面包的是什么？",
       "options": [
-        { "id": "a", "label": "糯米和红枣" },
-        { "id": "b", "label": "面条" },
-        { "id": "c", "label": "土豆" }
+        {
+          "id": "a",
+          "label": "糯米和红枣"
+        },
+        {
+          "id": "b",
+          "label": "面条"
+        },
+        {
+          "id": "c",
+          "label": "土豆"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "文中说装进白白的糯米，再放一颗红枣。"
     },
     {
@@ -58,12 +112,28 @@
       "type": "multi",
       "stem": "端午节有哪些习俗？",
       "options": [
-        { "id": "a", "label": "吃粽子" },
-        { "id": "b", "label": "赛龙舟" },
-        { "id": "c", "label": "挂艾草" },
-        { "id": "d", "label": "堆雪人" }
+        {
+          "id": "a",
+          "label": "吃粽子"
+        },
+        {
+          "id": "b",
+          "label": "赛龙舟"
+        },
+        {
+          "id": "c",
+          "label": "挂艾草"
+        },
+        {
+          "id": "d",
+          "label": "堆雪人"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "堆雪人是冬天的事，不是端午节习俗。"
     }
   ]

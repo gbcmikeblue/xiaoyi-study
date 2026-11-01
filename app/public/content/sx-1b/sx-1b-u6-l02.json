@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u6",
   "volumeId": "sx-1b",
   "title": "七巧板",
-  "objectives": ["知道七巧板由 7 块图形组成", "能用七巧板拼出简单图案"],
+  "objectives": [
+    "知道七巧板由 7 块图形组成",
+    "能用七巧板拼出简单图案"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u6-l02.webp",
+      "alt": "七巧板的插图"
+    },
     {
       "type": "text",
       "title": "七块拼千图",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "七巧板一共有几块？",
       "options": [
-        { "id": "a", "label": "7 块" },
-        { "id": "b", "label": "5 块" },
-        { "id": "c", "label": "10 块" }
+        {
+          "id": "a",
+          "label": "7 块"
+        },
+        {
+          "id": "b",
+          "label": "5 块"
+        },
+        {
+          "id": "c",
+          "label": "10 块"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "七巧板顾名思义，就是 7 块。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "七巧板里最多的是哪种图形？",
       "options": [
-        { "id": "a", "label": "三角形" },
-        { "id": "b", "label": "正方形" },
-        { "id": "c", "label": "圆" }
+        {
+          "id": "a",
+          "label": "三角形"
+        },
+        {
+          "id": "b",
+          "label": "正方形"
+        },
+        {
+          "id": "c",
+          "label": "圆"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "7 块里有 5 块是三角形，占大多数。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "用七巧板拼图时，下面哪条是对的？",
       "options": [
-        { "id": "a", "label": "7 块要全用上、不重叠" },
-        { "id": "b", "label": "可以随便叠起来" },
-        { "id": "c", "label": "只用 3 块就行" }
+        {
+          "id": "a",
+          "label": "7 块要全用上、不重叠"
+        },
+        {
+          "id": "b",
+          "label": "可以随便叠起来"
+        },
+        {
+          "id": "c",
+          "label": "只用 3 块就行"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "七巧板的标准玩法是 7 块全用、边贴边、不重叠。"
     }
   ]

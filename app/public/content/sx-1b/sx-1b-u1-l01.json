@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u1",
   "volumeId": "sx-1b",
   "title": "古人计数（一）",
-  "objectives": ["知道 1 个十和几个一合起来是十几", "会读会写 11 到 20"],
+  "objectives": [
+    "知道 1 个十和几个一合起来是十几",
+    "会读会写 11 到 20"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u1-l01.webp",
+      "alt": "古人计数（一）的插图"
+    },
     {
       "type": "text",
       "title": "古人计数（一）",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "1 个十和 5 个一合起来是多少？",
       "options": [
-        { "id": "a", "label": "15" },
-        { "id": "b", "label": "51" },
-        { "id": "c", "label": "6" }
+        {
+          "id": "a",
+          "label": "15"
+        },
+        {
+          "id": "b",
+          "label": "51"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "1 个十是 10，再加 5 个一是 15。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "18 里面有几个十和几个一？",
       "options": [
-        { "id": "a", "label": "1 个十、8 个一" },
-        { "id": "b", "label": "8 个十、1 个一" },
-        { "id": "c", "label": "18 个十" }
+        {
+          "id": "a",
+          "label": "1 个十、8 个一"
+        },
+        {
+          "id": "b",
+          "label": "8 个十、1 个一"
+        },
+        {
+          "id": "c",
+          "label": "18 个十"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "18 的 1 在十位，表示 1 个十；8 在个位，表示 8 个一。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "20 里面有几个十？",
       "options": [
-        { "id": "a", "label": "1 个" },
-        { "id": "b", "label": "2 个" },
-        { "id": "c", "label": "20 个" }
+        {
+          "id": "a",
+          "label": "1 个"
+        },
+        {
+          "id": "b",
+          "label": "2 个"
+        },
+        {
+          "id": "c",
+          "label": "20 个"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "20 是 2 个十，也就是两捆小棒。"
     }
   ]

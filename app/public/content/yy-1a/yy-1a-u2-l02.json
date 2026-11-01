@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u2",
   "volumeId": "yy-1a",
   "title": "I'm ...",
-  "objectives": ["会用 I'm 介绍自己的名字", "知道 am 和 I 搭配"],
+  "objectives": [
+    "会用 I'm 介绍自己的名字",
+    "知道 am 和 I 搭配"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u2-l02.webp",
+      "alt": "I'm ...的插图"
+    },
     {
       "type": "text",
       "title": "介绍自己",
@@ -13,9 +21,18 @@
     {
       "type": "words",
       "items": [
-        { "text": "I", "meaning": "我" },
-        { "text": "am", "meaning": "是" },
-        { "text": "name", "meaning": "名字" }
+        {
+          "text": "I",
+          "meaning": "我"
+        },
+        {
+          "text": "am",
+          "meaning": "是"
+        },
+        {
+          "text": "name",
+          "meaning": "名字"
+        }
       ]
     },
     {
@@ -30,11 +47,22 @@
       "type": "single",
       "stem": "“我是莉莉”，用英语怎么说？",
       "options": [
-        { "id": "a", "label": "I'm Lily" },
-        { "id": "b", "label": "I Lily" },
-        { "id": "c", "label": "Lily I" }
+        {
+          "id": "a",
+          "label": "I'm Lily"
+        },
+        {
+          "id": "b",
+          "label": "I Lily"
+        },
+        {
+          "id": "c",
+          "label": "Lily I"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "介绍自己要用 I'm 加上名字。"
     },
     {
@@ -42,11 +70,22 @@
       "type": "single",
       "stem": "I ___ Lily.",
       "options": [
-        { "id": "a", "label": "is" },
-        { "id": "b", "label": "am" },
-        { "id": "c", "label": "are" }
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "am"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "I 后面跟 am。"
     },
     {
@@ -55,11 +94,22 @@
       "stem": "听一听，这是哪个词？",
       "speakText": "name",
       "options": [
-        { "id": "a", "label": "name" },
-        { "id": "b", "label": "am" },
-        { "id": "c", "label": "I" }
+        {
+          "id": "a",
+          "label": "name"
+        },
+        {
+          "id": "b",
+          "label": "am"
+        },
+        {
+          "id": "c",
+          "label": "I"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "name 是“名字”。"
     }
   ]

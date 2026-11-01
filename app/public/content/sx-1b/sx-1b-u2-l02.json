@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u2",
   "volumeId": "sx-1b",
   "title": "找一找",
-  "objectives": ["能用相同的图形拼出新图形", "知道大图形可以拆成小图形"],
+  "objectives": [
+    "能用相同的图形拼出新图形",
+    "知道大图形可以拆成小图形"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u2-l02.webp",
+      "alt": "找一找的插图"
+    },
     {
       "type": "text",
       "title": "找一找",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "4 个一样的小正方形，可以拼成什么？",
       "options": [
-        { "id": "a", "label": "更大的正方形" },
-        { "id": "b", "label": "圆" },
-        { "id": "c", "label": "三角形" }
+        {
+          "id": "a",
+          "label": "更大的正方形"
+        },
+        {
+          "id": "b",
+          "label": "圆"
+        },
+        {
+          "id": "c",
+          "label": "三角形"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "2 个一排、排 2 排，正好拼成一个大正方形。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "把一个大正方形沿对角线剪开，得到两个什么图形？",
       "options": [
-        { "id": "a", "label": "三角形" },
-        { "id": "b", "label": "圆" },
-        { "id": "c", "label": "长方形" }
+        {
+          "id": "a",
+          "label": "三角形"
+        },
+        {
+          "id": "b",
+          "label": "圆"
+        },
+        {
+          "id": "c",
+          "label": "长方形"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "沿对角线剪，两边都是三角形。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "拼图形时，两块之间要注意什么？",
       "options": [
-        { "id": "a", "label": "边对边、不留缝" },
-        { "id": "b", "label": "随便放" },
-        { "id": "c", "label": "叠在一起" }
+        {
+          "id": "a",
+          "label": "边对边、不留缝"
+        },
+        {
+          "id": "b",
+          "label": "随便放"
+        },
+        {
+          "id": "c",
+          "label": "叠在一起"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "边对边、角对角、不留缝，拼出来的才是完整图形。"
     }
   ]

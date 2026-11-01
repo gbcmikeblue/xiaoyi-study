@@ -3,8 +3,16 @@
   "unitId": "yw-1b-u2",
   "volumeId": "yw-1b",
   "title": "吃水不忘挖井人",
-  "objectives": ["认识“井、忘、挖、村”四个字", "懂得别人帮过我们要记在心里"],
+  "objectives": [
+    "认识“井、忘、挖、村”四个字",
+    "懂得别人帮过我们要记在心里"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u2-l02.webp",
+      "alt": "吃水不忘挖井人的插图"
+    },
     {
       "type": "text",
       "title": "故事讲了什么",
@@ -13,10 +21,26 @@
     {
       "type": "chars",
       "items": [
-        { "char": "井", "pinyin": "jǐng", "word": "水井" },
-        { "char": "忘", "pinyin": "wàng", "word": "忘记" },
-        { "char": "挖", "pinyin": "wā", "word": "挖土" },
-        { "char": "村", "pinyin": "cūn", "word": "村子" }
+        {
+          "char": "井",
+          "pinyin": "jǐng",
+          "word": "水井"
+        },
+        {
+          "char": "忘",
+          "pinyin": "wàng",
+          "word": "忘记"
+        },
+        {
+          "char": "挖",
+          "pinyin": "wā",
+          "word": "挖土"
+        },
+        {
+          "char": "村",
+          "pinyin": "cūn",
+          "word": "村子"
+        }
       ]
     },
     {
@@ -32,11 +56,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "井",
       "options": [
-        { "id": "a", "label": "村" },
-        { "id": "b", "label": "井" },
-        { "id": "c", "label": "忘" }
+        {
+          "id": "a",
+          "label": "村"
+        },
+        {
+          "id": "b",
+          "label": "井"
+        },
+        {
+          "id": "c",
+          "label": "忘"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“井”读 jǐng，水井是打水的地方。"
     },
     {
@@ -45,11 +80,22 @@
       "stem": "“忘记”的“忘”，是下面哪一个字？",
       "speakText": "忘记",
       "options": [
-        { "id": "a", "label": "忙" },
-        { "id": "b", "label": "忘" },
-        { "id": "c", "label": "心" }
+        {
+          "id": "a",
+          "label": "忙"
+        },
+        {
+          "id": "b",
+          "label": "忘"
+        },
+        {
+          "id": "c",
+          "label": "心"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“忘”下面是“心”，忘记跟心里记不记得有关。"
     },
     {
@@ -57,12 +103,28 @@
       "type": "multi",
       "stem": "这一课学过的字，有哪些？",
       "options": [
-        { "id": "a", "label": "井" },
-        { "id": "b", "label": "挖" },
-        { "id": "c", "label": "村" },
-        { "id": "d", "label": "想" }
+        {
+          "id": "a",
+          "label": "井"
+        },
+        {
+          "id": "b",
+          "label": "挖"
+        },
+        {
+          "id": "c",
+          "label": "村"
+        },
+        {
+          "id": "d",
+          "label": "想"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "本课学的是“井、忘、挖、村”，“想”是下一课的字。"
     }
   ]

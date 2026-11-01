@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u1",
   "volumeId": "sx-1a",
   "title": "小猫钓鱼",
-  "objectives": ["知道 0 表示一个也没有", "知道 0 可以表示起点"],
+  "objectives": [
+    "知道 0 表示一个也没有",
+    "知道 0 可以表示起点"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u1-l03.webp",
+      "alt": "小猫钓鱼的插图"
+    },
     {
       "type": "text",
       "title": "一条鱼也没钓到",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "篮子里一个苹果也没有，用哪个数表示？",
       "options": [
-        { "id": "a", "label": "0" },
-        { "id": "b", "label": "1" },
-        { "id": "c", "label": "2" }
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "一个也没有，就用 0 表示。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "3 减去 3 等于几？",
       "options": [
-        { "id": "a", "label": "0" },
-        { "id": "b", "label": "1" },
-        { "id": "c", "label": "3" }
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "3 个全部拿走，一个也不剩，就是 0。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "尺子上最左边的刻度是几？",
       "options": [
-        { "id": "a", "label": "0" },
-        { "id": "b", "label": "1" },
-        { "id": "c", "label": "2" }
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "尺子从 0 开始量，0 是起点。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "yw-1b-u9",
   "volumeId": "yw-1b",
   "title": "识字总复习",
-  "objectives": ["能按偏旁给字归类", "能分清形近字与多音字"],
+  "objectives": [
+    "能按偏旁给字归类",
+    "能分清形近字与多音字"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u9-l01.webp",
+      "alt": "识字总复习的插图"
+    },
     {
       "type": "text",
       "title": "偏旁归类",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "“树”“桥”“柳”都有木字旁，说明它们和什么有关？",
       "options": [
-        { "id": "a", "label": "树木" },
-        { "id": "b", "label": "水" },
-        { "id": "c", "label": "火" }
+        {
+          "id": "a",
+          "label": "树木"
+        },
+        {
+          "id": "b",
+          "label": "水"
+        },
+        {
+          "id": "c",
+          "label": "火"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "木字旁表示与树木有关。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "“天很晴”的“晴”，应该是哪个字？",
       "options": [
-        { "id": "a", "label": "晴" },
-        { "id": "b", "label": "清" },
-        { "id": "c", "label": "请" }
+        {
+          "id": "a",
+          "label": "晴"
+        },
+        {
+          "id": "b",
+          "label": "清"
+        },
+        {
+          "id": "c",
+          "label": "请"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "晴天与太阳有关，所以是日字旁的“晴”。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "“扌”这个偏旁通常和什么有关？",
       "options": [
-        { "id": "a", "label": "手的动作" },
-        { "id": "b", "label": "心情" },
-        { "id": "c", "label": "天气" }
+        {
+          "id": "a",
+          "label": "手的动作"
+        },
+        {
+          "id": "b",
+          "label": "心情"
+        },
+        {
+          "id": "c",
+          "label": "天气"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "提手旁的字多与手的动作有关，如打、拉、提。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u5",
   "volumeId": "yy-1b",
   "title": "Look and see",
-  "objectives": ["会说 frog、rabbit、bee、bird", "能说出自己看到的小动物"],
+  "objectives": [
+    "会说 frog、rabbit、bee、bird",
+    "能说出自己看到的小动物"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u5-l01.webp",
+      "alt": "Look and see的插图"
+    },
     {
       "type": "text",
       "title": "I see a frog",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "frog", "meaning": "青蛙" },
-        { "text": "rabbit", "meaning": "兔子" },
-        { "text": "bee", "meaning": "蜜蜂" },
-        { "text": "bird", "meaning": "小鸟" }
+        {
+          "text": "frog",
+          "meaning": "青蛙"
+        },
+        {
+          "text": "rabbit",
+          "meaning": "兔子"
+        },
+        {
+          "text": "bee",
+          "meaning": "蜜蜂"
+        },
+        {
+          "text": "bird",
+          "meaning": "小鸟"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "frog",
       "options": [
-        { "id": "a", "label": "frog" },
-        { "id": "b", "label": "bee" },
-        { "id": "c", "label": "bird" }
+        {
+          "id": "a",
+          "label": "frog"
+        },
+        {
+          "id": "b",
+          "label": "bee"
+        },
+        {
+          "id": "c",
+          "label": "bird"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "frog 是青蛙，会跳、会叫。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“兔子”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "rabbit" },
-        { "id": "b", "label": "frog" },
-        { "id": "c", "label": "bird" }
+        {
+          "id": "a",
+          "label": "rabbit"
+        },
+        {
+          "id": "b",
+          "label": "frog"
+        },
+        {
+          "id": "c",
+          "label": "bird"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "rabbit 是兔子。"
     },
     {
@@ -51,11 +93,22 @@
       "type": "single",
       "stem": "bee 是什么动物？",
       "options": [
-        { "id": "a", "label": "蜜蜂" },
-        { "id": "b", "label": "小鸟" },
-        { "id": "c", "label": "青蛙" }
+        {
+          "id": "a",
+          "label": "蜜蜂"
+        },
+        {
+          "id": "b",
+          "label": "小鸟"
+        },
+        {
+          "id": "c",
+          "label": "青蛙"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "bee 是蜜蜂，会嗡嗡叫。"
     }
   ]

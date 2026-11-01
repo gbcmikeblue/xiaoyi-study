@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u6",
   "volumeId": "yy-1a",
   "title": "Colours",
-  "objectives": ["会说 red、blue、yellow、green", "能指出身边物品的颜色"],
+  "objectives": [
+    "会说 red、blue、yellow、green",
+    "能指出身边物品的颜色"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u6-l01.webp",
+      "alt": "Colours的插图"
+    },
     {
       "type": "text",
       "title": "Look at the colours",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "red", "meaning": "红色" },
-        { "text": "blue", "meaning": "蓝色" },
-        { "text": "yellow", "meaning": "黄色" },
-        { "text": "green", "meaning": "绿色" }
+        {
+          "text": "red",
+          "meaning": "红色"
+        },
+        {
+          "text": "blue",
+          "meaning": "蓝色"
+        },
+        {
+          "text": "yellow",
+          "meaning": "黄色"
+        },
+        {
+          "text": "green",
+          "meaning": "绿色"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "yellow",
       "options": [
-        { "id": "a", "label": "yellow" },
-        { "id": "b", "label": "green" },
-        { "id": "c", "label": "blue" }
+        {
+          "id": "a",
+          "label": "yellow"
+        },
+        {
+          "id": "b",
+          "label": "green"
+        },
+        {
+          "id": "c",
+          "label": "blue"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "yellow 是黄色，像香蕉的颜色。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“蓝色”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "blue" },
-        { "id": "b", "label": "red" },
-        { "id": "c", "label": "green" }
+        {
+          "id": "a",
+          "label": "blue"
+        },
+        {
+          "id": "b",
+          "label": "red"
+        },
+        {
+          "id": "c",
+          "label": "green"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "blue 是蓝色，像天空。"
     },
     {
@@ -51,11 +93,22 @@
       "type": "single",
       "stem": "苹果通常是上面哪个颜色？",
       "options": [
-        { "id": "a", "label": "red" },
-        { "id": "b", "label": "blue" },
-        { "id": "c", "label": "yellow" }
+        {
+          "id": "a",
+          "label": "red"
+        },
+        {
+          "id": "b",
+          "label": "blue"
+        },
+        {
+          "id": "c",
+          "label": "yellow"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "red apple，红苹果。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u1",
   "volumeId": "sx-1b",
   "title": "古人计数（二）",
-  "objectives": ["会正确写出 11 到 20 各数", "能说出一个数由几个十和几个一组成"],
+  "objectives": [
+    "会正确写出 11 到 20 各数",
+    "能说出一个数由几个十和几个一组成"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u1-l04.webp",
+      "alt": "古人计数（二）的插图"
+    },
     {
       "type": "text",
       "title": "写数与组成",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "1 个十和 8 个一，写作多少？",
       "options": [
-        { "id": "a", "label": "18" },
-        { "id": "b", "label": "81" },
-        { "id": "c", "label": "9" }
+        {
+          "id": "a",
+          "label": "18"
+        },
+        {
+          "id": "b",
+          "label": "81"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "十位写 1，个位写 8，就是 18。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "17 里面有 1 个十和几个一？",
       "options": [
-        { "id": "a", "label": "7 个一" },
-        { "id": "b", "label": "17 个一" },
-        { "id": "c", "label": "1 个一" }
+        {
+          "id": "a",
+          "label": "7 个一"
+        },
+        {
+          "id": "b",
+          "label": "17 个一"
+        },
+        {
+          "id": "c",
+          "label": "1 个一"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "个位上的 7 表示 7 个一。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "20 的个位上是几？",
       "options": [
-        { "id": "a", "label": "0" },
-        { "id": "b", "label": "2" },
-        { "id": "c", "label": "10" }
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "20 是 2 个十，个位上一个也没有，写 0。"
     }
   ]

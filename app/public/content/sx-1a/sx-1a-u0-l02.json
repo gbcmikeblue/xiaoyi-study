@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u0",
   "volumeId": "sx-1a",
   "title": "认识新同学",
-  "objectives": ["会数出 10 以内的数量", "能比较两组物体谁多谁少"],
+  "objectives": [
+    "会数出 10 以内的数量",
+    "能比较两组物体谁多谁少"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u0-l02.webp",
+      "alt": "认识新同学的插图"
+    },
     {
       "type": "text",
       "title": "几个人、几个男生几个女生",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "6 个同学，3 个男生，女生有几个？",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "6" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "6 分成 3 和 3，女生 3 个。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "男生 3 个、女生 4 个，谁多？",
       "options": [
-        { "id": "a", "label": "女生多" },
-        { "id": "b", "label": "男生多" },
-        { "id": "c", "label": "一样多" }
+        {
+          "id": "a",
+          "label": "女生多"
+        },
+        {
+          "id": "b",
+          "label": "男生多"
+        },
+        {
+          "id": "c",
+          "label": "一样多"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "4 比 3 大，女生多 1 个。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "一手有 5 根手指，两只手一共几根？",
       "options": [
-        { "id": "a", "label": "10" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "15" }
+        {
+          "id": "a",
+          "label": "10"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "15"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "5 + 5 = 10，两只手 10 根手指。"
     }
   ]

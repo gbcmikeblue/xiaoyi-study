@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u4",
   "volumeId": "sx-1a",
   "title": "小鸡吃食",
-  "objectives": ["会算 9 的加减法", "能区分“跑走”与“跑来”用哪种运算"],
+  "objectives": [
+    "会算 9 的加减法",
+    "能区分“跑走”与“跑来”用哪种运算"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u4-l04.webp",
+      "alt": "小鸡吃食的插图"
+    },
     {
       "type": "text",
       "title": "跑来用加，跑走用减",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "9 只小鸡，跑走 4 只，还剩几只？",
       "options": [
-        { "id": "a", "label": "5" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "13" }
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "13"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "9 - 4 = 5，跑走要用减法。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "6 只小鸡在吃食，又跑来 3 只，一共几只？",
       "options": [
-        { "id": "a", "label": "9" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "6" }
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "6 + 3 = 9，跑来要用加法。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "9 - 6 = ?",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "15" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "15"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "9 分成 6 和 3，所以是 3。"
     }
   ]

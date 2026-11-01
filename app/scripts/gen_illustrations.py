@@ -56,7 +56,10 @@ def main() -> None:
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
-    prompts = json.loads(PROMPTS.read_text(encoding="utf-8"))
+    # 主文件 + 各册分文件（illustration-prompts-*.json）合并
+    prompts: dict[str, str] = {}
+    for pf in sorted(PROMPTS.parent.glob("illustration-prompts*.json")):
+        prompts.update(json.loads(pf.read_text(encoding="utf-8")))
     todo = lessons_without_image(args.vol)
     if args.limit:
         todo = todo[: args.limit]

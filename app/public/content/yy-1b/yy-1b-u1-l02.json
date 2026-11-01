@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u1",
   "volumeId": "yy-1b",
   "title": "I like noodles",
-  "objectives": ["会用 I like ... 表达对食物的喜好", "会用 Do you like ...? 提问"],
+  "objectives": [
+    "会用 I like ... 表达对食物的喜好",
+    "会用 Do you like ...? 提问"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u1-l02.webp",
+      "alt": "I like noodles的插图"
+    },
     {
       "type": "text",
       "title": "I like noodles",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "I like noodles.",
       "options": [
-        { "id": "a", "label": "I like noodles." },
-        { "id": "b", "label": "I like rice." },
-        { "id": "c", "label": "I like fish." }
+        {
+          "id": "a",
+          "label": "I like noodles."
+        },
+        {
+          "id": "b",
+          "label": "I like rice."
+        },
+        {
+          "id": "c",
+          "label": "I like fish."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 noodles，面条。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问“你喜欢鱼吗？”，怎么说？",
       "options": [
-        { "id": "a", "label": "Do you like fish?" },
-        { "id": "b", "label": "What do you see?" },
-        { "id": "c", "label": "Is it fish?" }
+        {
+          "id": "a",
+          "label": "Do you like fish?"
+        },
+        {
+          "id": "b",
+          "label": "What do you see?"
+        },
+        {
+          "id": "c",
+          "label": "Is it fish?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "问喜好用 Do you like ...?"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "别人问 Do you like eggs? 你喜欢，该回答？",
       "options": [
-        { "id": "a", "label": "Yes, I do." },
-        { "id": "b", "label": "Yes, I like." },
-        { "id": "c", "label": "No, I do." }
+        {
+          "id": "a",
+          "label": "Yes, I do."
+        },
+        {
+          "id": "b",
+          "label": "Yes, I like."
+        },
+        {
+          "id": "c",
+          "label": "No, I do."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "Yes, I do. 是标准回答。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "yw-1b-u6",
   "volumeId": "yw-1b",
   "title": "古诗二首",
-  "objectives": ["认识“池、采、莲、泉、荷”五个字", "能说出两首诗各写了什么景物"],
+  "objectives": [
+    "认识“池、采、莲、泉、荷”五个字",
+    "能说出两首诗各写了什么景物"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u6-l01.webp",
+      "alt": "古诗二首的插图"
+    },
     {
       "type": "text",
       "title": "池上（白居易）",
@@ -15,15 +23,39 @@
       "title": "小池（杨万里）",
       "content": "泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。"
     },
-    { "type": "audio", "text": "小娃撑小艇，偷采白莲回。不解藏踪迹，浮萍一道开。", "caption": "听老师读《池上》" },
+    {
+      "type": "audio",
+      "text": "小娃撑小艇，偷采白莲回。不解藏踪迹，浮萍一道开。",
+      "caption": "听老师读《池上》"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "池", "pinyin": "chí", "word": "小池" },
-        { "char": "采", "pinyin": "cǎi", "word": "采莲" },
-        { "char": "莲", "pinyin": "lián", "word": "白莲" },
-        { "char": "泉", "pinyin": "quán", "word": "泉水" },
-        { "char": "荷", "pinyin": "hé", "word": "荷叶" }
+        {
+          "char": "池",
+          "pinyin": "chí",
+          "word": "小池"
+        },
+        {
+          "char": "采",
+          "pinyin": "cǎi",
+          "word": "采莲"
+        },
+        {
+          "char": "莲",
+          "pinyin": "lián",
+          "word": "白莲"
+        },
+        {
+          "char": "泉",
+          "pinyin": "quán",
+          "word": "泉水"
+        },
+        {
+          "char": "荷",
+          "pinyin": "hé",
+          "word": "荷叶"
+        }
       ]
     },
     {
@@ -39,11 +71,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "莲",
       "options": [
-        { "id": "a", "label": "池" },
-        { "id": "b", "label": "莲" },
-        { "id": "c", "label": "泉" }
+        {
+          "id": "a",
+          "label": "池"
+        },
+        {
+          "id": "b",
+          "label": "莲"
+        },
+        {
+          "id": "c",
+          "label": "泉"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“莲”读 lián，上面是草字头，是一种水生植物。"
     },
     {
@@ -51,11 +94,22 @@
       "type": "single",
       "stem": "《池上》里的小孩去做什么？",
       "options": [
-        { "id": "a", "label": "采白莲" },
-        { "id": "b", "label": "钓鱼" },
-        { "id": "c", "label": "游泳" }
+        {
+          "id": "a",
+          "label": "采白莲"
+        },
+        {
+          "id": "b",
+          "label": "钓鱼"
+        },
+        {
+          "id": "c",
+          "label": "游泳"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“偷采白莲回”，小孩撑着小船去采莲蓬。"
     },
     {
@@ -63,11 +117,22 @@
       "type": "single",
       "stem": "《小池》里“早有蜻蜓立上头”的是什么东西？",
       "options": [
-        { "id": "a", "label": "刚露出尖角的荷叶" },
-        { "id": "b", "label": "大树" },
-        { "id": "c", "label": "石头" }
+        {
+          "id": "a",
+          "label": "刚露出尖角的荷叶"
+        },
+        {
+          "id": "b",
+          "label": "大树"
+        },
+        {
+          "id": "c",
+          "label": "石头"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“小荷才露尖尖角”，荷叶刚冒出水面，蜻蜓就停上去了。"
     }
   ]

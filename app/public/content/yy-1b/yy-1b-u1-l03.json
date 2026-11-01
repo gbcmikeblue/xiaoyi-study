@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u1",
   "volumeId": "yy-1b",
   "title": "I like juice",
-  "objectives": ["会用 I like ... 说喜欢的饮料", "会礼貌地要一杯饮料"],
+  "objectives": [
+    "会用 I like ... 说喜欢的饮料",
+    "会礼貌地要一杯饮料"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u1-l03.webp",
+      "alt": "I like juice的插图"
+    },
     {
       "type": "text",
       "title": "I like juice",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "I like juice.",
       "options": [
-        { "id": "a", "label": "I like juice." },
-        { "id": "b", "label": "I like milk." },
-        { "id": "c", "label": "I like tea." }
+        {
+          "id": "a",
+          "label": "I like juice."
+        },
+        {
+          "id": "b",
+          "label": "I like milk."
+        },
+        {
+          "id": "c",
+          "label": "I like tea."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 juice，果汁。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "礼貌地要一杯牛奶，怎么说？",
       "options": [
-        { "id": "a", "label": "Milk, please." },
-        { "id": "b", "label": "Give milk." },
-        { "id": "c", "label": "Milk!" }
+        {
+          "id": "a",
+          "label": "Milk, please."
+        },
+        {
+          "id": "b",
+          "label": "Give milk."
+        },
+        {
+          "id": "c",
+          "label": "Milk!"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "加 please 才是礼貌的请求。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "“一些水”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "some water" },
-        { "id": "b", "label": "a water" },
-        { "id": "c", "label": "waters" }
+        {
+          "id": "a",
+          "label": "some water"
+        },
+        {
+          "id": "b",
+          "label": "a water"
+        },
+        {
+          "id": "c",
+          "label": "waters"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "水不可数，用 some water。"
     }
   ]

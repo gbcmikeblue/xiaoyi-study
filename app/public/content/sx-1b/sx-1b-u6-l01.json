@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u6",
   "volumeId": "sx-1b",
   "title": "长方形和正方形的边",
-  "objectives": ["知道长方形对边相等、正方形四边都相等", "会用折一折、量一量的办法验证"],
+  "objectives": [
+    "知道长方形对边相等、正方形四边都相等",
+    "会用折一折、量一量的办法验证"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u6-l01.webp",
+      "alt": "长方形和正方形的边的插图"
+    },
     {
       "type": "text",
       "title": "数一数边",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "长方形有几条边？",
       "options": [
-        { "id": "a", "label": "4 条" },
-        { "id": "b", "label": "3 条" },
-        { "id": "c", "label": "2 条" }
+        {
+          "id": "a",
+          "label": "4 条"
+        },
+        {
+          "id": "b",
+          "label": "3 条"
+        },
+        {
+          "id": "c",
+          "label": "2 条"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "长方形和正方形都是四边形，有 4 条边。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "正方形的四条边有什么关系？",
       "options": [
-        { "id": "a", "label": "一样长" },
-        { "id": "b", "label": "两条长两条短" },
-        { "id": "c", "label": "长短随意" }
+        {
+          "id": "a",
+          "label": "一样长"
+        },
+        {
+          "id": "b",
+          "label": "两条长两条短"
+        },
+        {
+          "id": "c",
+          "label": "长短随意"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "四条边都相等，才是正方形。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "长方形的对边有什么关系？",
       "options": [
-        { "id": "a", "label": "相等" },
-        { "id": "b", "label": "不相等" },
-        { "id": "c", "label": "一条长一条短" }
+        {
+          "id": "a",
+          "label": "相等"
+        },
+        {
+          "id": "b",
+          "label": "不相等"
+        },
+        {
+          "id": "c",
+          "label": "一条长一条短"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "长方形上下两条边相等，左右两条边相等。"
     }
   ]

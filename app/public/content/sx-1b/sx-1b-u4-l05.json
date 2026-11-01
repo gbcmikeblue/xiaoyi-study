@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u4",
   "volumeId": "sx-1b",
   "title": "数一数",
-  "objectives": ["能一个一个数到 100", "能十个十个数更快"],
+  "objectives": [
+    "能一个一个数到 100",
+    "能十个十个数更快"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u4-l05.webp",
+      "alt": "数一数的插图"
+    },
     {
       "type": "text",
       "title": "两种数法",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "29 后面一个数是几？",
       "options": [
-        { "id": "a", "label": "30" },
-        { "id": "b", "label": "31" },
-        { "id": "c", "label": "21" }
+        {
+          "id": "a",
+          "label": "30"
+        },
+        {
+          "id": "b",
+          "label": "31"
+        },
+        {
+          "id": "c",
+          "label": "21"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "29 再添 1 就是 30。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "十个十个数，40 后面是几？",
       "options": [
-        { "id": "a", "label": "50" },
-        { "id": "b", "label": "41" },
-        { "id": "c", "label": "45" }
+        {
+          "id": "a",
+          "label": "50"
+        },
+        {
+          "id": "b",
+          "label": "41"
+        },
+        {
+          "id": "c",
+          "label": "45"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "十个十个数：10、20、30、40、50。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "10 个十是多少？",
       "options": [
-        { "id": "a", "label": "100" },
-        { "id": "b", "label": "10" },
-        { "id": "c", "label": "20" }
+        {
+          "id": "a",
+          "label": "100"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        },
+        {
+          "id": "c",
+          "label": "20"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "10 个十就是 100。"
     }
   ]

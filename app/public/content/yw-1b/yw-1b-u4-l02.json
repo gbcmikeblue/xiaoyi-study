@@ -3,22 +3,54 @@
   "unitId": "yw-1b-u4",
   "volumeId": "yw-1b",
   "title": "夜色",
-  "objectives": ["认识“夜、色、怕、黑、胆”五个字", "能说出怕黑时该怎么办"],
+  "objectives": [
+    "认识“夜、色、怕、黑、胆”五个字",
+    "能说出怕黑时该怎么办"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u4-l02.webp",
+      "alt": "夜色的插图"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "天一黑，屋里就静下来。我从前怕黑，总觉得窗帘后面藏着什么。后来爸爸拉着我的手走到窗前，拉开窗帘——外面只有月亮、路灯和一棵树的影子。原来黑并不可怕，可怕的是自己想出来的东西。"
     },
-    { "type": "audio", "text": "天一黑，屋里就静下来。我从前怕黑，总觉得窗帘后面藏着什么。", "caption": "听老师读第一句" },
+    {
+      "type": "audio",
+      "text": "天一黑，屋里就静下来。我从前怕黑，总觉得窗帘后面藏着什么。",
+      "caption": "听老师读第一句"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "夜", "pinyin": "yè", "word": "夜色" },
-        { "char": "色", "pinyin": "sè", "word": "颜色" },
-        { "char": "怕", "pinyin": "pà", "word": "害怕" },
-        { "char": "黑", "pinyin": "hēi", "word": "黑夜" },
-        { "char": "胆", "pinyin": "dǎn", "word": "胆小" }
+        {
+          "char": "夜",
+          "pinyin": "yè",
+          "word": "夜色"
+        },
+        {
+          "char": "色",
+          "pinyin": "sè",
+          "word": "颜色"
+        },
+        {
+          "char": "怕",
+          "pinyin": "pà",
+          "word": "害怕"
+        },
+        {
+          "char": "黑",
+          "pinyin": "hēi",
+          "word": "黑夜"
+        },
+        {
+          "char": "胆",
+          "pinyin": "dǎn",
+          "word": "胆小"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "夜",
       "options": [
-        { "id": "a", "label": "夜" },
-        { "id": "b", "label": "怕" },
-        { "id": "c", "label": "胆" }
+        {
+          "id": "a",
+          "label": "夜"
+        },
+        {
+          "id": "b",
+          "label": "怕"
+        },
+        {
+          "id": "c",
+          "label": "胆"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“夜”读 yè，夜晚的夜。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "“我”从前怕什么？",
       "options": [
-        { "id": "a", "label": "怕黑" },
-        { "id": "b", "label": "怕水" },
-        { "id": "c", "label": "怕高" }
+        {
+          "id": "a",
+          "label": "怕黑"
+        },
+        {
+          "id": "b",
+          "label": "怕水"
+        },
+        {
+          "id": "c",
+          "label": "怕高"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "文中说“我从前怕黑”，总觉得窗帘后面有东西。"
     },
     {
@@ -58,11 +112,22 @@
       "type": "single",
       "stem": "拉开窗帘后看到了什么？",
       "options": [
-        { "id": "a", "label": "月亮、路灯和树影" },
-        { "id": "b", "label": "一只大怪兽" },
-        { "id": "c", "label": "什么也没有" }
+        {
+          "id": "a",
+          "label": "月亮、路灯和树影"
+        },
+        {
+          "id": "b",
+          "label": "一只大怪兽"
+        },
+        {
+          "id": "c",
+          "label": "什么也没有"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "看清了才知道，黑里只有平常的东西。"
     }
   ]

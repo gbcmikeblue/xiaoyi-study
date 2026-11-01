@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u7",
   "volumeId": "yy-1b",
   "title": "Taste and smell",
-  "objectives": ["会说 taste、smell、sweet、sour", "能说出食物的味道"],
+  "objectives": [
+    "会说 taste、smell、sweet、sour",
+    "能说出食物的味道"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u7-l02.webp",
+      "alt": "Taste and smell的插图"
+    },
     {
       "type": "text",
       "title": "五种感觉",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "taste", "meaning": "尝" },
-        { "text": "smell", "meaning": "闻" },
-        { "text": "sweet", "meaning": "甜的" },
-        { "text": "sour", "meaning": "酸的" }
+        {
+          "text": "taste",
+          "meaning": "尝"
+        },
+        {
+          "text": "smell",
+          "meaning": "闻"
+        },
+        {
+          "text": "sweet",
+          "meaning": "甜的"
+        },
+        {
+          "text": "sour",
+          "meaning": "酸的"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "sweet",
       "options": [
-        { "id": "a", "label": "sweet" },
-        { "id": "b", "label": "sour" },
-        { "id": "c", "label": "taste" }
+        {
+          "id": "a",
+          "label": "sweet"
+        },
+        {
+          "id": "b",
+          "label": "sour"
+        },
+        {
+          "id": "c",
+          "label": "taste"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "sweet 是甜的。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“酸的”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "sour" },
-        { "id": "b", "label": "sweet" },
-        { "id": "c", "label": "smell" }
+        {
+          "id": "a",
+          "label": "sour"
+        },
+        {
+          "id": "b",
+          "label": "sweet"
+        },
+        {
+          "id": "c",
+          "label": "smell"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "sour 是酸的，像柠檬。"
     },
     {
@@ -51,11 +93,22 @@
       "type": "single",
       "stem": "用鼻子感受气味，用哪个词？",
       "options": [
-        { "id": "a", "label": "smell" },
-        { "id": "b", "label": "taste" },
-        { "id": "c", "label": "hear" }
+        {
+          "id": "a",
+          "label": "smell"
+        },
+        {
+          "id": "b",
+          "label": "taste"
+        },
+        {
+          "id": "c",
+          "label": "hear"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "鼻子用 smell，舌头用 taste。"
     }
   ]

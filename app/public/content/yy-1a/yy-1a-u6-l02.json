@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u6",
   "volumeId": "yy-1a",
   "title": "What colour is it?",
-  "objectives": ["会用 What colour is it? 提问", "会用 It's ... 回答颜色"],
+  "objectives": [
+    "会用 What colour is it? 提问",
+    "会用 It's ... 回答颜色"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u6-l02.webp",
+      "alt": "What colour is it?的插图"
+    },
     {
       "type": "text",
       "title": "问与答",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "It's red.",
       "options": [
-        { "id": "a", "label": "It's red." },
-        { "id": "b", "label": "It's blue." },
-        { "id": "c", "label": "It's green." }
+        {
+          "id": "a",
+          "label": "It's red."
+        },
+        {
+          "id": "b",
+          "label": "It's blue."
+        },
+        {
+          "id": "c",
+          "label": "It's green."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 red，红色。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问“它是什么颜色？”，怎么说？",
       "options": [
-        { "id": "a", "label": "What colour is it?" },
-        { "id": "b", "label": "What is this?" },
-        { "id": "c", "label": "How colour is it?" }
+        {
+          "id": "a",
+          "label": "What colour is it?"
+        },
+        {
+          "id": "b",
+          "label": "What is this?"
+        },
+        {
+          "id": "c",
+          "label": "How colour is it?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "问颜色用 What colour。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "一片绿叶，该怎么回答它的颜色？",
       "options": [
-        { "id": "a", "label": "It's green." },
-        { "id": "b", "label": "It's red." },
-        { "id": "c", "label": "It's yellow." }
+        {
+          "id": "a",
+          "label": "It's green."
+        },
+        {
+          "id": "b",
+          "label": "It's red."
+        },
+        {
+          "id": "c",
+          "label": "It's yellow."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "绿叶是 green。"
     }
   ]

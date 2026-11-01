@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u2",
   "volumeId": "sx-1a",
   "title": "还剩下多少",
-  "objectives": ["理解从总数里去掉一部分用减法", "会算 5 以内的减法"],
+  "objectives": [
+    "理解从总数里去掉一部分用减法",
+    "会算 5 以内的减法"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u2-l02.webp",
+      "alt": "还剩下多少的插图"
+    },
     {
       "type": "text",
       "title": "拿走就是减",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "4 - 1 = ?",
       "options": [
-        { "id": "a", "label": "2" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "4" }
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "4 个去掉 1 个，还剩 3 个。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "5 - 3 = ?",
       "options": [
-        { "id": "a", "label": "1" },
-        { "id": "b", "label": "2" },
-        { "id": "c", "label": "3" }
+        {
+          "id": "a",
+          "label": "1"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "5 个拿走 3 个，还剩 2 个。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "盘子里有 5 块饼干，吃了 2 块，还剩几块？",
       "options": [
-        { "id": "a", "label": "2" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "4" }
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "5 - 2 = 3，还剩 3 块。"
     }
   ]

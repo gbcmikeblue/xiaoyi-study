@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u3",
   "volumeId": "sx-1b",
   "title": "捉迷藏",
-  "objectives": ["会算十几减 8、十几减 7", "能选择合适的方法口算"],
+  "objectives": [
+    "会算十几减 8、十几减 7",
+    "能选择合适的方法口算"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u3-l02.webp",
+      "alt": "捉迷藏的插图"
+    },
     {
       "type": "text",
       "title": "捉迷藏",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "11 - 8 = ?",
       "options": [
-        { "id": "a", "label": "2" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "4" }
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "11 - 10 = 1，再加回 2，就是 3。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "15 - 7 = ?",
       "options": [
-        { "id": "a", "label": "7" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "9" }
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "15 - 5 = 10，还要再减 2，就是 8。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "12 - 7 = ?",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "6" }
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "12 - 2 = 10，还要再减 5，就是 5。"
     }
   ]

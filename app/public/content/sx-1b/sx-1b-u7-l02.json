@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u7",
   "volumeId": "sx-1b",
   "title": "填数游戏",
-  "objectives": ["能按规则填出缺少的数", "知道每行每列不重复"],
+  "objectives": [
+    "能按规则填出缺少的数",
+    "知道每行每列不重复"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u7-l02.webp",
+      "alt": "填数游戏的插图"
+    },
     {
       "type": "text",
       "title": "三条规矩",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "填数游戏里，同一行允许出现两个一样的数吗？",
       "options": [
-        { "id": "a", "label": "不允许" },
-        { "id": "b", "label": "允许" },
-        { "id": "c", "label": "看情况" }
+        {
+          "id": "a",
+          "label": "不允许"
+        },
+        {
+          "id": "b",
+          "label": "允许"
+        },
+        {
+          "id": "c",
+          "label": "看情况"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "每行数字不能重复，这是基本规则。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "一行有 4 个格子，已经填了 1、2、3，第四个格子填几？",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "1" },
-        { "id": "c", "label": "0" }
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "1 到 4 里只剩 4 没出现。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "确定一个格子该填什么，最常用的办法是？",
       "options": [
-        { "id": "a", "label": "排除法" },
-        { "id": "b", "label": "随便猜" },
-        { "id": "c", "label": "问别人" }
+        {
+          "id": "a",
+          "label": "排除法"
+        },
+        {
+          "id": "b",
+          "label": "随便猜"
+        },
+        {
+          "id": "c",
+          "label": "问别人"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "把不可能的都排除掉，剩下的就是答案。"
     }
   ]

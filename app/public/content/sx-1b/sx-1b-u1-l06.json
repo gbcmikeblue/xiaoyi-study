@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u1",
   "volumeId": "sx-1b",
   "title": "小兔子安家",
-  "objectives": ["能找到得数相同的不同算式", "发现加数与和之间的变化规律"],
+  "objectives": [
+    "能找到得数相同的不同算式",
+    "发现加数与和之间的变化规律"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u1-l06.webp",
+      "alt": "小兔子安家的插图"
+    },
     {
       "type": "text",
       "title": "得数都是 12",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "得数是 12 的算式是哪一个？",
       "options": [
-        { "id": "a", "label": "5 + 7" },
-        { "id": "b", "label": "5 + 6" },
-        { "id": "c", "label": "6 + 7" }
+        {
+          "id": "a",
+          "label": "5 + 7"
+        },
+        {
+          "id": "b",
+          "label": "5 + 6"
+        },
+        {
+          "id": "c",
+          "label": "6 + 7"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "5 + 7 = 12。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "6 + 6 = 12，那么 5 + 7 = ?",
       "options": [
-        { "id": "a", "label": "12" },
-        { "id": "b", "label": "11" },
-        { "id": "c", "label": "13" }
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "11"
+        },
+        {
+          "id": "c",
+          "label": "13"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "一个加数少 1、另一个多 1，和不变。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "9 + 4 = 13，那么 8 + 5 等于多少？",
       "options": [
-        { "id": "a", "label": "13" },
-        { "id": "b", "label": "12" },
-        { "id": "c", "label": "14" }
+        {
+          "id": "a",
+          "label": "13"
+        },
+        {
+          "id": "b",
+          "label": "12"
+        },
+        {
+          "id": "c",
+          "label": "14"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "9 少 1、4 多 1，和还是 13。"
     }
   ]

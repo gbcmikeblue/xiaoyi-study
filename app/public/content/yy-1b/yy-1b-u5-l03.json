@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u5",
   "volumeId": "yy-1b",
   "title": "Listen and hear",
-  "objectives": ["会说 sheep、hen、dog、cat", "能听出动物叫声对应的单词"],
+  "objectives": [
+    "会说 sheep、hen、dog、cat",
+    "能听出动物叫声对应的单词"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u5-l03.webp",
+      "alt": "Listen and hear的插图"
+    },
     {
       "type": "text",
       "title": "I hear a dog",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "dog", "meaning": "狗" },
-        { "text": "cat", "meaning": "猫" },
-        { "text": "sheep", "meaning": "绵羊" },
-        { "text": "hen", "meaning": "母鸡" }
+        {
+          "text": "dog",
+          "meaning": "狗"
+        },
+        {
+          "text": "cat",
+          "meaning": "猫"
+        },
+        {
+          "text": "sheep",
+          "meaning": "绵羊"
+        },
+        {
+          "text": "hen",
+          "meaning": "母鸡"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "sheep",
       "options": [
-        { "id": "a", "label": "sheep" },
-        { "id": "b", "label": "hen" },
-        { "id": "c", "label": "dog" }
+        {
+          "id": "a",
+          "label": "sheep"
+        },
+        {
+          "id": "b",
+          "label": "hen"
+        },
+        {
+          "id": "c",
+          "label": "dog"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "sheep 是绵羊，单复数同形。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“猫”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "cat" },
-        { "id": "b", "label": "dog" },
-        { "id": "c", "label": "hen" }
+        {
+          "id": "a",
+          "label": "cat"
+        },
+        {
+          "id": "b",
+          "label": "dog"
+        },
+        {
+          "id": "c",
+          "label": "hen"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "cat 是猫。"
     },
     {
@@ -51,11 +93,22 @@
       "type": "single",
       "stem": "hen 是什么动物？",
       "options": [
-        { "id": "a", "label": "母鸡" },
-        { "id": "b", "label": "绵羊" },
-        { "id": "c", "label": "狗" }
+        {
+          "id": "a",
+          "label": "母鸡"
+        },
+        {
+          "id": "b",
+          "label": "绵羊"
+        },
+        {
+          "id": "c",
+          "label": "狗"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "hen 是母鸡，会下蛋。"
     }
   ]

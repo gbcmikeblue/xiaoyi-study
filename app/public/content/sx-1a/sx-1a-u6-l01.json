@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u6",
   "volumeId": "sx-1a",
   "title": "介绍我的教室",
-  "objectives": ["能用数量与位置介绍一个地方", "能把观察结果说清楚"],
+  "objectives": [
+    "能用数量与位置介绍一个地方",
+    "能把观察结果说清楚"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u6-l01.webp",
+      "alt": "介绍我的教室的插图"
+    },
     {
       "type": "text",
       "title": "先看再数",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "介绍一个地方，先说哪一步比较好？",
       "options": [
-        { "id": "a", "label": "有什么" },
-        { "id": "b", "label": "好不好" },
-        { "id": "c", "label": "谁建的" }
+        {
+          "id": "a",
+          "label": "有什么"
+        },
+        {
+          "id": "b",
+          "label": "好不好"
+        },
+        {
+          "id": "c",
+          "label": "谁建的"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "先知道有什么，再说数量和位置，条理才清楚。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "教室有 4 排桌子，每排 6 张，一共几张？",
       "options": [
-        { "id": "a", "label": "10" },
-        { "id": "b", "label": "24" },
-        { "id": "c", "label": "2" }
+        {
+          "id": "a",
+          "label": "10"
+        },
+        {
+          "id": "b",
+          "label": "24"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "4 个 6 是 24，这里先按“4 排 × 6 张”理解。"
     },
     {
@@ -46,12 +76,28 @@
       "type": "multi",
       "stem": "介绍教室时，哪些信息有用？",
       "options": [
-        { "id": "a", "label": "有几扇窗" },
-        { "id": "b", "label": "门在哪个方向" },
-        { "id": "c", "label": "桌椅有几排" },
-        { "id": "d", "label": "今天心情怎样" }
+        {
+          "id": "a",
+          "label": "有几扇窗"
+        },
+        {
+          "id": "b",
+          "label": "门在哪个方向"
+        },
+        {
+          "id": "c",
+          "label": "桌椅有几排"
+        },
+        {
+          "id": "d",
+          "label": "今天心情怎样"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "心情不是介绍空间时需要的信息。"
     }
   ]

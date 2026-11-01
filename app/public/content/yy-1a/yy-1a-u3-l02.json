@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u3",
   "volumeId": "yy-1a",
   "title": "Is this your pencil?",
-  "objectives": ["会用 Is this your ...? 询问物品归属", "会用 Yes, it is / No, it isn't 回答"],
+  "objectives": [
+    "会用 Is this your ...? 询问物品归属",
+    "会用 Yes, it is / No, it isn't 回答"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u3-l02.webp",
+      "alt": "Is this your pencil?的插图"
+    },
     {
       "type": "text",
       "title": "问与答",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "Is this your pencil?",
       "options": [
-        { "id": "a", "label": "Is this your pencil?" },
-        { "id": "b", "label": "Is this your book?" },
-        { "id": "c", "label": "Is this your bag?" }
+        {
+          "id": "a",
+          "label": "Is this your pencil?"
+        },
+        {
+          "id": "b",
+          "label": "Is this your book?"
+        },
+        {
+          "id": "c",
+          "label": "Is this your bag?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 pencil，铅笔。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问“这是你的尺子吗？”，怎么说？",
       "options": [
-        { "id": "a", "label": "Is this your ruler?" },
-        { "id": "b", "label": "What is this ruler?" },
-        { "id": "c", "label": "This is your ruler?" }
+        {
+          "id": "a",
+          "label": "Is this your ruler?"
+        },
+        {
+          "id": "b",
+          "label": "What is this ruler?"
+        },
+        {
+          "id": "c",
+          "label": "This is your ruler?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "疑问句把 Is 提到句首。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "别人问 Is this your bag? 不是你的，怎么回答？",
       "options": [
-        { "id": "a", "label": "No, it isn't." },
-        { "id": "b", "label": "No, it is." },
-        { "id": "c", "label": "Yes, it isn't." }
+        {
+          "id": "a",
+          "label": "No, it isn't."
+        },
+        {
+          "id": "b",
+          "label": "No, it is."
+        },
+        {
+          "id": "c",
+          "label": "Yes, it isn't."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "否定回答用 No, it isn't.。"
     }
   ]

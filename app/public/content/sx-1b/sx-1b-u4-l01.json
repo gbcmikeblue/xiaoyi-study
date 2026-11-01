@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u4",
   "volumeId": "sx-1b",
   "title": "身边的数",
-  "objectives": ["知道 10 个一是 1 个十", "认识 100 以内的数"],
+  "objectives": [
+    "知道 10 个一是 1 个十",
+    "认识 100 以内的数"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u4-l01.webp",
+      "alt": "身边的数的插图"
+    },
     {
       "type": "text",
       "title": "身边的数",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "5 个十是多少？",
       "options": [
-        { "id": "a", "label": "5" },
-        { "id": "b", "label": "50" },
-        { "id": "c", "label": "15" }
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "50"
+        },
+        {
+          "id": "c",
+          "label": "15"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "1 个十是 10，5 个十就是 50。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "10 个十合起来是多少？",
       "options": [
-        { "id": "a", "label": "10" },
-        { "id": "b", "label": "20" },
-        { "id": "c", "label": "100" }
+        {
+          "id": "a",
+          "label": "10"
+        },
+        {
+          "id": "b",
+          "label": "20"
+        },
+        {
+          "id": "c",
+          "label": "100"
+        }
       ],
-      "answer": ["c"],
+      "answer": [
+        "c"
+      ],
       "explanation": "10 个十就是一百。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "36 的十位上是几？",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "6" },
-        { "id": "c", "label": "9" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "36 里 3 在十位，6 在个位。"
     }
   ]

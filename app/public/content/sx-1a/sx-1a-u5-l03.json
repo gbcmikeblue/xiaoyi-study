@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u5",
   "volumeId": "sx-1a",
   "title": "怎样搭得高",
-  "objectives": ["知道底面大的更稳", "能说出让积木塔更稳的办法"],
+  "objectives": [
+    "知道底面大的更稳",
+    "能说出让积木塔更稳的办法"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u5-l03.webp",
+      "alt": "怎样搭得高的插图"
+    },
     {
       "type": "text",
       "title": "稳才搭得高",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "搭得又高又稳，底下应该放什么？",
       "options": [
-        { "id": "a", "label": "大而平的长方体" },
-        { "id": "b", "label": "球" },
-        { "id": "c", "label": "小圆柱" }
+        {
+          "id": "a",
+          "label": "大而平的长方体"
+        },
+        {
+          "id": "b",
+          "label": "球"
+        },
+        {
+          "id": "c",
+          "label": "小圆柱"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "底面大、接触面平，最稳。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "为什么球不能放在最下面？",
       "options": [
-        { "id": "a", "label": "它会滚，撑不住" },
-        { "id": "b", "label": "它太重" },
-        { "id": "c", "label": "它太小" }
+        {
+          "id": "a",
+          "label": "它会滚，撑不住"
+        },
+        {
+          "id": "b",
+          "label": "它太重"
+        },
+        {
+          "id": "c",
+          "label": "它太小"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "球接触地面只有一个点，一碰就滚。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "积木塔搭歪了，最可能发生什么？",
       "options": [
-        { "id": "a", "label": "倒下来" },
-        { "id": "b", "label": "变得更稳" },
-        { "id": "c", "label": "自己变直" }
+        {
+          "id": "a",
+          "label": "倒下来"
+        },
+        {
+          "id": "b",
+          "label": "变得更稳"
+        },
+        {
+          "id": "c",
+          "label": "自己变直"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "重心偏出去，就撑不住了。"
     }
   ]

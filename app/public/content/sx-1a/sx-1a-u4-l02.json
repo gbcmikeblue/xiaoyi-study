@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u4",
   "volumeId": "sx-1a",
   "title": "背土豆",
-  "objectives": ["会算 7 的减法", "能根据掉落的数量求剩下的数量"],
+  "objectives": [
+    "会算 7 的减法",
+    "能根据掉落的数量求剩下的数量"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u4-l02.webp",
+      "alt": "背土豆的插图"
+    },
     {
       "type": "text",
       "title": "一边走一边掉",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "7 - 2 = ?",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "9" }
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "7 分成 2 和 5，7 - 2 = 5。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "7 - 4 = ?",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "11" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "7 分成 4 和 3，所以是 3。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "小老鼠背 7 个土豆，路上掉了 3 个，还剩几个？",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "10" }
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "7 - 3 = 4，还剩 4 个。"
     }
   ]

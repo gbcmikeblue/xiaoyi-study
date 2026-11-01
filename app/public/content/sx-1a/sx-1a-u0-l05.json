@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u0",
   "volumeId": "sx-1a",
   "title": "收获的季节",
-  "objectives": ["能按种类给物品分类并计数", "能看出哪一类最多"],
+  "objectives": [
+    "能按种类给物品分类并计数",
+    "能看出哪一类最多"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u0-l05.webp",
+      "alt": "收获的季节的插图"
+    },
     {
       "type": "text",
       "title": "分一分、数一数",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "混在一起的东西，先做什么才好数？",
       "options": [
-        { "id": "a", "label": "按种类分开" },
-        { "id": "b", "label": "直接数" },
-        { "id": "c", "label": "随便拿走几个" }
+        {
+          "id": "a",
+          "label": "按种类分开"
+        },
+        {
+          "id": "b",
+          "label": "直接数"
+        },
+        {
+          "id": "c",
+          "label": "随便拿走几个"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "分开以后每一堆都单纯，数起来不容易错。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "苹果 5 个、梨 3 个、柿子 2 个，哪种最多？",
       "options": [
-        { "id": "a", "label": "苹果" },
-        { "id": "b", "label": "梨" },
-        { "id": "c", "label": "柿子" }
+        {
+          "id": "a",
+          "label": "苹果"
+        },
+        {
+          "id": "b",
+          "label": "梨"
+        },
+        {
+          "id": "c",
+          "label": "柿子"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "5 比 3 和 2 都大，苹果最多。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "苹果 5 个、梨 3 个、柿子 2 个，一共多少个？",
       "options": [
-        { "id": "a", "label": "10" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "10"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "5 + 3 = 8，8 + 2 = 10，一共 10 个。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u8",
   "volumeId": "yy-1b",
   "title": "Drinks I like",
-  "objectives": ["会说 milk、water、juice、tea", "能说出自己想喝什么"],
+  "objectives": [
+    "会说 milk、water、juice、tea",
+    "能说出自己想喝什么"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u8-l01.webp",
+      "alt": "Drinks I like的插图"
+    },
     {
       "type": "text",
       "title": "Drinks",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "milk", "meaning": "牛奶" },
-        { "text": "water", "meaning": "水" },
-        { "text": "juice", "meaning": "果汁" },
-        { "text": "tea", "meaning": "茶" }
+        {
+          "text": "milk",
+          "meaning": "牛奶"
+        },
+        {
+          "text": "water",
+          "meaning": "水"
+        },
+        {
+          "text": "juice",
+          "meaning": "果汁"
+        },
+        {
+          "text": "tea",
+          "meaning": "茶"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "juice",
       "options": [
-        { "id": "a", "label": "milk" },
-        { "id": "b", "label": "juice" },
-        { "id": "c", "label": "tea" }
+        {
+          "id": "a",
+          "label": "milk"
+        },
+        {
+          "id": "b",
+          "label": "juice"
+        },
+        {
+          "id": "c",
+          "label": "tea"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "juice 是果汁。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“水”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "water" },
-        { "id": "b", "label": "milk" },
-        { "id": "c", "label": "tea" }
+        {
+          "id": "a",
+          "label": "water"
+        },
+        {
+          "id": "b",
+          "label": "milk"
+        },
+        {
+          "id": "c",
+          "label": "tea"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "water 是水。"
     },
     {
@@ -51,12 +93,28 @@
       "type": "multi",
       "stem": "下面哪些是饮料？",
       "options": [
-        { "id": "a", "label": "milk" },
-        { "id": "b", "label": "juice" },
-        { "id": "c", "label": "water" },
-        { "id": "d", "label": "rice" }
+        {
+          "id": "a",
+          "label": "milk"
+        },
+        {
+          "id": "b",
+          "label": "juice"
+        },
+        {
+          "id": "c",
+          "label": "water"
+        },
+        {
+          "id": "d",
+          "label": "rice"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "rice 是米饭，是食物不是饮料。"
     }
   ]

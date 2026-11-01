@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u7",
   "volumeId": "yy-1a",
   "title": "This is ...",
-  "objectives": ["会用 This is 介绍别人", "知道 he 指男孩、she 指女孩"],
+  "objectives": [
+    "会用 This is 介绍别人",
+    "知道 he 指男孩、she 指女孩"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u7-l06.webp",
+      "alt": "This is ...的插图"
+    },
     {
       "type": "text",
       "title": "介绍别人",
@@ -13,9 +21,18 @@
     {
       "type": "words",
       "items": [
-        { "text": "this", "meaning": "这" },
-        { "text": "he", "meaning": "他" },
-        { "text": "she", "meaning": "她" }
+        {
+          "text": "this",
+          "meaning": "这"
+        },
+        {
+          "text": "he",
+          "meaning": "他"
+        },
+        {
+          "text": "she",
+          "meaning": "她"
+        }
       ]
     },
     {
@@ -30,11 +47,22 @@
       "type": "single",
       "stem": "“这是莉莉”，用英语怎么说？",
       "options": [
-        { "id": "a", "label": "This is Lily" },
-        { "id": "b", "label": "I'm Lily" },
-        { "id": "c", "label": "This Lily" }
+        {
+          "id": "a",
+          "label": "This is Lily"
+        },
+        {
+          "id": "b",
+          "label": "I'm Lily"
+        },
+        {
+          "id": "c",
+          "label": "This Lily"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "介绍别人用 This is 加名字。"
     },
     {
@@ -42,11 +70,22 @@
       "type": "single",
       "stem": "指一个男孩，用哪个词？",
       "options": [
-        { "id": "a", "label": "she" },
-        { "id": "b", "label": "he" },
-        { "id": "c", "label": "it" }
+        {
+          "id": "a",
+          "label": "she"
+        },
+        {
+          "id": "b",
+          "label": "he"
+        },
+        {
+          "id": "c",
+          "label": "it"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "he 指男孩，she 指女孩。"
     },
     {
@@ -55,11 +94,22 @@
       "stem": "听一听，这是哪个词？",
       "speakText": "she",
       "options": [
-        { "id": "a", "label": "he" },
-        { "id": "b", "label": "she" },
-        { "id": "c", "label": "this" }
+        {
+          "id": "a",
+          "label": "he"
+        },
+        {
+          "id": "b",
+          "label": "she"
+        },
+        {
+          "id": "c",
+          "label": "this"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "she 读 /ʃiː/，是“她”。"
     }
   ]

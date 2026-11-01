@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u3",
   "volumeId": "yy-1a",
   "title": "In my schoolbag",
-  "objectives": ["会用 I have ... 说出自己有什么", "能用复数说出多个物品"],
+  "objectives": [
+    "会用 I have ... 说出自己有什么",
+    "能用复数说出多个物品"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u3-l03.webp",
+      "alt": "In my schoolbag的插图"
+    },
     {
       "type": "text",
       "title": "I have a book",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "I have a book.",
       "options": [
-        { "id": "a", "label": "I have a book." },
-        { "id": "b", "label": "I have a bag." },
-        { "id": "c", "label": "I have a ruler." }
+        {
+          "id": "a",
+          "label": "I have a book."
+        },
+        {
+          "id": "b",
+          "label": "I have a bag."
+        },
+        {
+          "id": "c",
+          "label": "I have a ruler."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 book，书。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "“我有两把尺子”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "I have two rulers." },
-        { "id": "b", "label": "I have two ruler." },
-        { "id": "c", "label": "I has two rulers." }
+        {
+          "id": "a",
+          "label": "I have two rulers."
+        },
+        {
+          "id": "b",
+          "label": "I have two ruler."
+        },
+        {
+          "id": "c",
+          "label": "I has two rulers."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "两个以上，ruler 要加 s。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "说“我有一个书包”，该用哪个动词？",
       "options": [
-        { "id": "a", "label": "have" },
-        { "id": "b", "label": "has" },
-        { "id": "c", "label": "is" }
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "has"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "主语是 I，用 have；has 用于 he / she。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u8",
   "volumeId": "sx-1a",
   "title": "总复习·图形与几何",
-  "objectives": ["能认出四种立体图形", "能按特征区分长方体与正方体"],
+  "objectives": [
+    "能认出四种立体图形",
+    "能按特征区分长方体与正方体"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u8-l02.webp",
+      "alt": "总复习·图形与几何的插图"
+    },
     {
       "type": "text",
       "title": "四种立体图形",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "6 个面都一样大的立体图形是什么？",
       "options": [
-        { "id": "a", "label": "正方体" },
-        { "id": "b", "label": "长方体" },
-        { "id": "c", "label": "圆柱" }
+        {
+          "id": "a",
+          "label": "正方体"
+        },
+        {
+          "id": "b",
+          "label": "长方体"
+        },
+        {
+          "id": "c",
+          "label": "圆柱"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "正方体 6 个面完全相同。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "哪个图形躺下来能滚，立起来不能滚？",
       "options": [
-        { "id": "a", "label": "圆柱" },
-        { "id": "b", "label": "球" },
-        { "id": "c", "label": "正方体" }
+        {
+          "id": "a",
+          "label": "圆柱"
+        },
+        {
+          "id": "b",
+          "label": "球"
+        },
+        {
+          "id": "c",
+          "label": "正方体"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "圆柱侧面是弯的，躺下能滚；底面是平的，立起来就稳。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "搭积木塔，最下面放什么最稳？",
       "options": [
-        { "id": "a", "label": "大而平的长方体" },
-        { "id": "b", "label": "球" },
-        { "id": "c", "label": "小圆柱" }
+        {
+          "id": "a",
+          "label": "大而平的长方体"
+        },
+        {
+          "id": "b",
+          "label": "球"
+        },
+        {
+          "id": "c",
+          "label": "小圆柱"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "底面大、接触面平，重心才稳。"
     }
   ]

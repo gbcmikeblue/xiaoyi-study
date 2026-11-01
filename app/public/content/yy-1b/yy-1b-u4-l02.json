@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u4",
   "volumeId": "yy-1b",
   "title": "Which season do you like?",
-  "objectives": ["会用 Which season do you like? 提问", "会用 I like ... 说出喜欢的季节"],
+  "objectives": [
+    "会用 Which season do you like? 提问",
+    "会用 I like ... 说出喜欢的季节"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u4-l02.webp",
+      "alt": "Which season do you like?的插图"
+    },
     {
       "type": "text",
       "title": "Ask and answer",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "I like spring.",
       "options": [
-        { "id": "a", "label": "I like spring." },
-        { "id": "b", "label": "I like summer." },
-        { "id": "c", "label": "I like winter." }
+        {
+          "id": "a",
+          "label": "I like spring."
+        },
+        {
+          "id": "b",
+          "label": "I like summer."
+        },
+        {
+          "id": "c",
+          "label": "I like winter."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 spring，春天。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问“你喜欢哪个季节？”，怎么说？",
       "options": [
-        { "id": "a", "label": "Which season do you like?" },
-        { "id": "b", "label": "What colour is it?" },
-        { "id": "c", "label": "Do you like?" }
+        {
+          "id": "a",
+          "label": "Which season do you like?"
+        },
+        {
+          "id": "b",
+          "label": "What colour is it?"
+        },
+        {
+          "id": "c",
+          "label": "Do you like?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "在四季里选，用 Which season。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "which 是什么意思？",
       "options": [
-        { "id": "a", "label": "哪一个" },
-        { "id": "b", "label": "为什么" },
-        { "id": "c", "label": "什么时候" }
+        {
+          "id": "a",
+          "label": "哪一个"
+        },
+        {
+          "id": "b",
+          "label": "为什么"
+        },
+        {
+          "id": "c",
+          "label": "什么时候"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "which 用于在几个选项中选一个。"
     }
   ]

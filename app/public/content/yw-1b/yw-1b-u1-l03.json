@@ -3,8 +3,16 @@
   "unitId": "yw-1b-u1",
   "volumeId": "yw-1b",
   "title": "小青蛙",
-  "objectives": ["认识“青、蛙、清、晴”四个字", "知道“青”加不同偏旁能变成新字"],
+  "objectives": [
+    "认识“青、蛙、清、晴”四个字",
+    "知道“青”加不同偏旁能变成新字"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u1-l03.webp",
+      "alt": "小青蛙的插图"
+    },
     {
       "type": "text",
       "title": "一个字变出好多字",
@@ -13,10 +21,26 @@
     {
       "type": "chars",
       "items": [
-        { "char": "青", "pinyin": "qīng", "word": "青草" },
-        { "char": "蛙", "pinyin": "wā", "word": "青蛙" },
-        { "char": "清", "pinyin": "qīng", "word": "清水" },
-        { "char": "晴", "pinyin": "qíng", "word": "晴天" }
+        {
+          "char": "青",
+          "pinyin": "qīng",
+          "word": "青草"
+        },
+        {
+          "char": "蛙",
+          "pinyin": "wā",
+          "word": "青蛙"
+        },
+        {
+          "char": "清",
+          "pinyin": "qīng",
+          "word": "清水"
+        },
+        {
+          "char": "晴",
+          "pinyin": "qíng",
+          "word": "晴天"
+        }
       ]
     },
     {
@@ -31,11 +55,22 @@
       "type": "single",
       "stem": "三点水加上“青”，是什么字？",
       "options": [
-        { "id": "a", "label": "清" },
-        { "id": "b", "label": "晴" },
-        { "id": "c", "label": "蛙" }
+        {
+          "id": "a",
+          "label": "清"
+        },
+        {
+          "id": "b",
+          "label": "晴"
+        },
+        {
+          "id": "c",
+          "label": "蛙"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "三点水加“青”是“清”，表示水干净。"
     },
     {
@@ -44,11 +79,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "晴",
       "options": [
-        { "id": "a", "label": "清" },
-        { "id": "b", "label": "晴" },
-        { "id": "c", "label": "青" }
+        {
+          "id": "a",
+          "label": "清"
+        },
+        {
+          "id": "b",
+          "label": "晴"
+        },
+        {
+          "id": "c",
+          "label": "青"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“晴”读 qíng，和太阳有关，所以是日字旁。"
     },
     {
@@ -57,12 +103,28 @@
       "stem": "哪些字里有“青”？",
       "scene": "card",
       "options": [
-        { "id": "a", "label": "清" },
-        { "id": "b", "label": "晴" },
-        { "id": "c", "label": "蛙" },
-        { "id": "d", "label": "水" }
+        {
+          "id": "a",
+          "label": "清"
+        },
+        {
+          "id": "b",
+          "label": "晴"
+        },
+        {
+          "id": "c",
+          "label": "蛙"
+        },
+        {
+          "id": "d",
+          "label": "水"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "清、晴、蛙里都藏着“青”，“水”里没有。"
     }
   ]

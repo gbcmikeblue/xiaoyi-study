@@ -3,22 +3,54 @@
   "unitId": "yw-1b-u6",
   "volumeId": "yw-1b",
   "title": "荷叶圆圆",
-  "objectives": ["认识“荷、青、蛙、伞、珠”五个字", "能说出荷叶对小动物有什么用"],
+  "objectives": [
+    "认识“荷、青、蛙、伞、珠”五个字",
+    "能说出荷叶对小动物有什么用"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u6-l03.webp",
+      "alt": "荷叶圆圆的插图"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "荷叶又大又圆，像一把撑开的绿伞。小青蛙蹲在叶面上唱歌，小鱼在叶底下乘凉，水珠在叶面上滚来滚去，怎么也掉不下去。"
     },
-    { "type": "audio", "text": "荷叶又大又圆，像一把撑开的绿伞。", "caption": "听老师读第一句" },
+    {
+      "type": "audio",
+      "text": "荷叶又大又圆，像一把撑开的绿伞。",
+      "caption": "听老师读第一句"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "荷", "pinyin": "hé", "word": "荷叶" },
-        { "char": "青", "pinyin": "qīng", "word": "青蛙" },
-        { "char": "蛙", "pinyin": "wā", "word": "青蛙" },
-        { "char": "伞", "pinyin": "sǎn", "word": "雨伞" },
-        { "char": "珠", "pinyin": "zhū", "word": "水珠" }
+        {
+          "char": "荷",
+          "pinyin": "hé",
+          "word": "荷叶"
+        },
+        {
+          "char": "青",
+          "pinyin": "qīng",
+          "word": "青蛙"
+        },
+        {
+          "char": "蛙",
+          "pinyin": "wā",
+          "word": "青蛙"
+        },
+        {
+          "char": "伞",
+          "pinyin": "sǎn",
+          "word": "雨伞"
+        },
+        {
+          "char": "珠",
+          "pinyin": "zhū",
+          "word": "水珠"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "荷",
       "options": [
-        { "id": "a", "label": "荷" },
-        { "id": "b", "label": "蛙" },
-        { "id": "c", "label": "伞" }
+        {
+          "id": "a",
+          "label": "荷"
+        },
+        {
+          "id": "b",
+          "label": "蛙"
+        },
+        {
+          "id": "c",
+          "label": "伞"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“荷”读 hé，上面草字头，是一种水生植物。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "小鱼把荷叶当成什么？",
       "options": [
-        { "id": "a", "label": "遮太阳的伞" },
-        { "id": "b", "label": "唱歌的台子" },
-        { "id": "c", "label": "睡觉的床" }
+        {
+          "id": "a",
+          "label": "遮太阳的伞"
+        },
+        {
+          "id": "b",
+          "label": "唱歌的台子"
+        },
+        {
+          "id": "c",
+          "label": "睡觉的床"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "小鱼在叶子底下，把荷叶当凉伞。"
     },
     {
@@ -58,11 +112,22 @@
       "type": "single",
       "stem": "荷叶的形状像什么？",
       "options": [
-        { "id": "a", "label": "撑开的绿伞" },
-        { "id": "b", "label": "长长的棍子" },
-        { "id": "c", "label": "方方的盒子" }
+        {
+          "id": "a",
+          "label": "撑开的绿伞"
+        },
+        {
+          "id": "b",
+          "label": "长长的棍子"
+        },
+        {
+          "id": "c",
+          "label": "方方的盒子"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "荷叶又大又圆，所以比作撑开的伞。"
     }
   ]

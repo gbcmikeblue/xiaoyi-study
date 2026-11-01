@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u1",
   "volumeId": "yy-1a",
   "title": "My family traits",
-  "objectives": ["会说 tall、short、old、young", "能描述家人的样子"],
+  "objectives": [
+    "会说 tall、short、old、young",
+    "能描述家人的样子"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u1-l03.webp",
+      "alt": "My family traits的插图"
+    },
     {
       "type": "text",
       "title": "Look at my family",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "tall", "meaning": "高的" },
-        { "text": "short", "meaning": "矮的" },
-        { "text": "old", "meaning": "年老的" },
-        { "text": "young", "meaning": "年轻的" }
+        {
+          "text": "tall",
+          "meaning": "高的"
+        },
+        {
+          "text": "short",
+          "meaning": "矮的"
+        },
+        {
+          "text": "old",
+          "meaning": "年老的"
+        },
+        {
+          "text": "young",
+          "meaning": "年轻的"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "tall",
       "options": [
-        { "id": "a", "label": "tall" },
-        { "id": "b", "label": "short" },
-        { "id": "c", "label": "young" }
+        {
+          "id": "a",
+          "label": "tall"
+        },
+        {
+          "id": "b",
+          "label": "short"
+        },
+        {
+          "id": "c",
+          "label": "young"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "tall 是高的。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“矮的”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "short" },
-        { "id": "b", "label": "tall" },
-        { "id": "c", "label": "old" }
+        {
+          "id": "a",
+          "label": "short"
+        },
+        {
+          "id": "b",
+          "label": "tall"
+        },
+        {
+          "id": "c",
+          "label": "old"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "short 是矮的，也有“短”的意思。"
     },
     {
@@ -51,11 +93,22 @@
       "type": "single",
       "stem": "“我爸爸很高”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "My father is tall." },
-        { "id": "b", "label": "My father is short." },
-        { "id": "c", "label": "My father tall." }
+        {
+          "id": "a",
+          "label": "My father is tall."
+        },
+        {
+          "id": "b",
+          "label": "My father is short."
+        },
+        {
+          "id": "c",
+          "label": "My father tall."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "句子要有 is。"
     }
   ]

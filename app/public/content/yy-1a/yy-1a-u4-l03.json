@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u4",
   "volumeId": "yy-1a",
   "title": "Can you ...?",
-  "objectives": ["会用 Can you ...? 询问别人的能力", "会用 Yes, I can / No, I can't 回答"],
+  "objectives": [
+    "会用 Can you ...? 询问别人的能力",
+    "会用 Yes, I can / No, I can't 回答"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u4-l03.webp",
+      "alt": "Can you ...?的插图"
+    },
     {
       "type": "text",
       "title": "问别人会不会",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "Can you sing?",
       "options": [
-        { "id": "a", "label": "Can you sing?" },
-        { "id": "b", "label": "Can you dance?" },
-        { "id": "c", "label": "Can you draw?" }
+        {
+          "id": "a",
+          "label": "Can you sing?"
+        },
+        {
+          "id": "b",
+          "label": "Can you dance?"
+        },
+        {
+          "id": "c",
+          "label": "Can you draw?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 sing，唱歌。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问“你会跳舞吗？”，怎么说？",
       "options": [
-        { "id": "a", "label": "Can you dance?" },
-        { "id": "b", "label": "I can dance." },
-        { "id": "c", "label": "You can dance?" }
+        {
+          "id": "a",
+          "label": "Can you dance?"
+        },
+        {
+          "id": "b",
+          "label": "I can dance."
+        },
+        {
+          "id": "c",
+          "label": "You can dance?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "疑问句把 Can 提到句首。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "别人问 Can you swim? 你会，怎么回答？",
       "options": [
-        { "id": "a", "label": "Yes, I can." },
-        { "id": "b", "label": "Yes, I do." },
-        { "id": "c", "label": "Yes, I am." }
+        {
+          "id": "a",
+          "label": "Yes, I can."
+        },
+        {
+          "id": "b",
+          "label": "Yes, I do."
+        },
+        {
+          "id": "c",
+          "label": "Yes, I am."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "Can 提问，用 can 回答。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u3",
   "volumeId": "sx-1b",
   "title": "凑数游戏",
-  "objectives": ["会算十几减 6、5、4、3、2", "能看懂图里的减法问题"],
+  "objectives": [
+    "会算十几减 6、5、4、3、2",
+    "能看懂图里的减法问题"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u3-l03.webp",
+      "alt": "凑数游戏的插图"
+    },
     {
       "type": "text",
       "title": "凑数游戏",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "11 - 6 = ?",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "6" }
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "11 - 1 = 10，还要再减 5，就是 5。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "13 - 5 = ?",
       "options": [
-        { "id": "a", "label": "7" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "9" }
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "13 - 3 = 10，还要再减 2，就是 8。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "12 - 4 = ?",
       "options": [
-        { "id": "a", "label": "7" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "9" }
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "12 - 2 = 10，还要再减 2，就是 8。"
     }
   ]

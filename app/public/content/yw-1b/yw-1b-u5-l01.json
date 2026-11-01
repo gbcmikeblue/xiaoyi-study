@@ -3,22 +3,54 @@
   "unitId": "yw-1b-u5",
   "volumeId": "yw-1b",
   "title": "动物儿歌",
-  "objectives": ["认识“虫、蚂、蚁、蜓、蝶”五个字", "能说出几种小动物在哪里做什么"],
+  "objectives": [
+    "认识“虫、蚂、蚁、蜓、蝶”五个字",
+    "能说出几种小动物在哪里做什么"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u5-l01.webp",
+      "alt": "动物儿歌的插图"
+    },
     {
       "type": "text",
       "title": "读儿歌",
       "content": "蜻蜓点水飞得低，蝴蝶花间绕圈圈。蚯蚓在土里钻来钻去，蚂蚁排队搬米粒。小动物各忙各的，谁也不闲着。"
     },
-    { "type": "audio", "text": "蜻蜓点水飞得低，蝴蝶花间绕圈圈。蚯蚓在土里钻来钻去，蚂蚁排队搬米粒。", "caption": "听老师读儿歌" },
+    {
+      "type": "audio",
+      "text": "蜻蜓点水飞得低，蝴蝶花间绕圈圈。蚯蚓在土里钻来钻去，蚂蚁排队搬米粒。",
+      "caption": "听老师读儿歌"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "虫", "pinyin": "chóng", "word": "昆虫" },
-        { "char": "蚂", "pinyin": "mǎ", "word": "蚂蚁" },
-        { "char": "蚁", "pinyin": "yǐ", "word": "蚂蚁" },
-        { "char": "蜓", "pinyin": "tíng", "word": "蜻蜓" },
-        { "char": "蝶", "pinyin": "dié", "word": "蝴蝶" }
+        {
+          "char": "虫",
+          "pinyin": "chóng",
+          "word": "昆虫"
+        },
+        {
+          "char": "蚂",
+          "pinyin": "mǎ",
+          "word": "蚂蚁"
+        },
+        {
+          "char": "蚁",
+          "pinyin": "yǐ",
+          "word": "蚂蚁"
+        },
+        {
+          "char": "蜓",
+          "pinyin": "tíng",
+          "word": "蜻蜓"
+        },
+        {
+          "char": "蝶",
+          "pinyin": "dié",
+          "word": "蝴蝶"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "蚂",
       "options": [
-        { "id": "a", "label": "蚂" },
-        { "id": "b", "label": "蜓" },
-        { "id": "c", "label": "蝶" }
+        {
+          "id": "a",
+          "label": "蚂"
+        },
+        {
+          "id": "b",
+          "label": "蜓"
+        },
+        {
+          "id": "c",
+          "label": "蝶"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“蚂”读 mǎ，蚂蚁的蚂，左边是虫字旁。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "谁在土里钻来钻去？",
       "options": [
-        { "id": "a", "label": "蚯蚓" },
-        { "id": "b", "label": "蝴蝶" },
-        { "id": "c", "label": "蜻蜓" }
+        {
+          "id": "a",
+          "label": "蚯蚓"
+        },
+        {
+          "id": "b",
+          "label": "蝴蝶"
+        },
+        {
+          "id": "c",
+          "label": "蜻蜓"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "儿歌里说“蚯蚓在土里钻来钻去”。"
     },
     {
@@ -58,12 +112,28 @@
       "type": "multi",
       "stem": "儿歌里提到了哪些小动物？",
       "options": [
-        { "id": "a", "label": "蜻蜓" },
-        { "id": "b", "label": "蝴蝶" },
-        { "id": "c", "label": "蚂蚁" },
-        { "id": "d", "label": "老虎" }
+        {
+          "id": "a",
+          "label": "蜻蜓"
+        },
+        {
+          "id": "b",
+          "label": "蝴蝶"
+        },
+        {
+          "id": "c",
+          "label": "蚂蚁"
+        },
+        {
+          "id": "d",
+          "label": "老虎"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "老虎是猛兽，儿歌里讲的是小昆虫。"
     }
   ]

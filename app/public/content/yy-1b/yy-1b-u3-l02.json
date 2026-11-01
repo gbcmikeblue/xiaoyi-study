@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u3",
   "volumeId": "yy-1b",
   "title": "I like the ball",
-  "objectives": ["会用 I like the ... 表达喜好", "能问别人喜欢什么玩具"],
+  "objectives": [
+    "会用 I like the ... 表达喜好",
+    "能问别人喜欢什么玩具"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u3-l02.webp",
+      "alt": "I like the ball的插图"
+    },
     {
       "type": "text",
       "title": "I like the ball",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "I like the ball.",
       "options": [
-        { "id": "a", "label": "I like the ball." },
-        { "id": "b", "label": "I like the doll." },
-        { "id": "c", "label": "I like the kite." }
+        {
+          "id": "a",
+          "label": "I like the ball."
+        },
+        {
+          "id": "b",
+          "label": "I like the doll."
+        },
+        {
+          "id": "c",
+          "label": "I like the kite."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 ball，球。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "“我喜欢这个娃娃”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "I like the doll." },
-        { "id": "b", "label": "I like doll." },
-        { "id": "c", "label": "I like a dolls." }
+        {
+          "id": "a",
+          "label": "I like the doll."
+        },
+        {
+          "id": "b",
+          "label": "I like doll."
+        },
+        {
+          "id": "c",
+          "label": "I like a dolls."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "指眼前那个娃娃，用 the doll。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "问别人“你喜欢什么？”，怎么说？",
       "options": [
-        { "id": "a", "label": "What do you like?" },
-        { "id": "b", "label": "What do you see?" },
-        { "id": "c", "label": "How are you?" }
+        {
+          "id": "a",
+          "label": "What do you like?"
+        },
+        {
+          "id": "b",
+          "label": "What do you see?"
+        },
+        {
+          "id": "c",
+          "label": "How are you?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "喜欢用 like。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u7",
   "volumeId": "yy-1a",
   "title": "He is my friend",
-  "objectives": ["会用 He is / She is 介绍朋友", "能用 Who is he? 提问"],
+  "objectives": [
+    "会用 He is / She is 介绍朋友",
+    "能用 Who is he? 提问"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u7-l04.webp",
+      "alt": "He is my friend的插图"
+    },
     {
       "type": "text",
       "title": "介绍朋友",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "She is my friend.",
       "options": [
-        { "id": "a", "label": "She is my friend." },
-        { "id": "b", "label": "He is my friend." },
-        { "id": "c", "label": "She is my sister." }
+        {
+          "id": "a",
+          "label": "She is my friend."
+        },
+        {
+          "id": "b",
+          "label": "He is my friend."
+        },
+        {
+          "id": "c",
+          "label": "She is my sister."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "开头是 She，不是 He。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "“他是我朋友”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "He is my friend." },
-        { "id": "b", "label": "She is my friend." },
-        { "id": "c", "label": "He my friend." }
+        {
+          "id": "a",
+          "label": "He is my friend."
+        },
+        {
+          "id": "b",
+          "label": "She is my friend."
+        },
+        {
+          "id": "c",
+          "label": "He my friend."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "男性用 he，且必须有 is。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "问“她是谁？”，该怎么说？",
       "options": [
-        { "id": "a", "label": "Who is she?" },
-        { "id": "b", "label": "Who is he?" },
-        { "id": "c", "label": "What is she?" }
+        {
+          "id": "a",
+          "label": "Who is she?"
+        },
+        {
+          "id": "b",
+          "label": "Who is he?"
+        },
+        {
+          "id": "c",
+          "label": "What is she?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "问女性用 she。"
     }
   ]

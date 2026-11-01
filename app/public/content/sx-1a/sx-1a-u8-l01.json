@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u8",
   "volumeId": "sx-1a",
   "title": "总复习·数与代数",
-  "objectives": ["能数、读、写 10 以内的数", "能熟练计算 10 以内的加减法"],
+  "objectives": [
+    "能数、读、写 10 以内的数",
+    "能熟练计算 10 以内的加减法"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u8-l01.webp",
+      "alt": "总复习·数与代数的插图"
+    },
     {
       "type": "text",
       "title": "本册学的数",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "7 可以分成 3 和几？",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "10" }
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "3 + 4 = 7，所以分成 3 和 4。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "9 - 4 = ?",
       "options": [
-        { "id": "a", "label": "5" },
-        { "id": "b", "label": "6" },
-        { "id": "c", "label": "13" }
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        },
+        {
+          "id": "c",
+          "label": "13"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "9 分成 4 和 5，所以是 5。"
     },
     {
@@ -46,12 +76,28 @@
       "type": "multi",
       "stem": "下面哪些算式的结果是 8？",
       "options": [
-        { "id": "a", "label": "5 + 3" },
-        { "id": "b", "label": "10 - 2" },
-        { "id": "c", "label": "4 + 4" },
-        { "id": "d", "label": "6 + 3" }
+        {
+          "id": "a",
+          "label": "5 + 3"
+        },
+        {
+          "id": "b",
+          "label": "10 - 2"
+        },
+        {
+          "id": "c",
+          "label": "4 + 4"
+        },
+        {
+          "id": "d",
+          "label": "6 + 3"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "5+3、10-2、4+4 都得 8；6+3=9。"
     }
   ]

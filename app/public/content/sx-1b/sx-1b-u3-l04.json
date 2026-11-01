@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u3",
   "volumeId": "sx-1b",
   "title": "开会啦",
-  "objectives": ["会算十几减 6、5、4、3、2", "能把减数拆成两部分来算"],
+  "objectives": [
+    "会算十几减 6、5、4、3、2",
+    "能把减数拆成两部分来算"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u3-l04.webp",
+      "alt": "开会啦的插图"
+    },
     {
       "type": "text",
       "title": "开会啦",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "12 - 5 = ?",
       "options": [
-        { "id": "a", "label": "7" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "17" }
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "17"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "12 - 2 = 10，10 - 3 = 7。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "15 - 6 = ?",
       "options": [
-        { "id": "a", "label": "8" },
-        { "id": "b", "label": "9" },
-        { "id": "c", "label": "11" }
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "15 - 5 = 10，10 - 1 = 9。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "11 - 4 = ?",
       "options": [
-        { "id": "a", "label": "6" },
-        { "id": "b", "label": "7" },
-        { "id": "c", "label": "8" }
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "11 - 1 = 10，10 - 3 = 7。"
     }
   ]

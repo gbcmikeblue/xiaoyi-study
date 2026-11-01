@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u5",
   "volumeId": "yy-1a",
   "title": "What's this?",
-  "objectives": ["会用 What's this? 提问", "会用 It's a ... 回答"],
+  "objectives": [
+    "会用 What's this? 提问",
+    "会用 It's a ... 回答"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u5-l02.webp",
+      "alt": "What's this?的插图"
+    },
     {
       "type": "text",
       "title": "问与答",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "It's a duck.",
       "options": [
-        { "id": "a", "label": "It's a duck." },
-        { "id": "b", "label": "It's a cow." },
-        { "id": "c", "label": "It's a pig." }
+        {
+          "id": "a",
+          "label": "It's a duck."
+        },
+        {
+          "id": "b",
+          "label": "It's a cow."
+        },
+        {
+          "id": "c",
+          "label": "It's a pig."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 duck，鸭子。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问“这是什么？”，英语怎么说？",
       "options": [
-        { "id": "a", "label": "What's this?" },
-        { "id": "b", "label": "Who's this?" },
-        { "id": "c", "label": "How's this?" }
+        {
+          "id": "a",
+          "label": "What's this?"
+        },
+        {
+          "id": "b",
+          "label": "Who's this?"
+        },
+        {
+          "id": "c",
+          "label": "How's this?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "问物用 What，问人用 Who。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "指着奶牛回答，应该说什么？",
       "options": [
-        { "id": "a", "label": "It's a cow." },
-        { "id": "b", "label": "It's a duck." },
-        { "id": "c", "label": "It's a hen." }
+        {
+          "id": "a",
+          "label": "It's a cow."
+        },
+        {
+          "id": "b",
+          "label": "It's a duck."
+        },
+        {
+          "id": "c",
+          "label": "It's a hen."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "奶牛是 cow。"
     }
   ]

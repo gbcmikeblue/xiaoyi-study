@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u6",
   "volumeId": "sx-1a",
   "title": "记录我的一天",
-  "objectives": ["能按顺序说出一天做的事", "知道事情有先后顺序"],
+  "objectives": [
+    "能按顺序说出一天做的事",
+    "知道事情有先后顺序"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u6-l03.webp",
+      "alt": "记录我的一天的插图"
+    },
     {
       "type": "text",
       "title": "一天里的事有先后",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "下面哪个顺序是对的？",
       "options": [
-        { "id": "a", "label": "起床 → 刷牙 → 吃饭" },
-        { "id": "b", "label": "吃饭 → 起床 → 刷牙" },
-        { "id": "c", "label": "刷牙 → 起床 → 吃饭" }
+        {
+          "id": "a",
+          "label": "起床 → 刷牙 → 吃饭"
+        },
+        {
+          "id": "b",
+          "label": "吃饭 → 起床 → 刷牙"
+        },
+        {
+          "id": "c",
+          "label": "刷牙 → 起床 → 吃饭"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "先起床才能去刷牙、吃饭。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "“先……再……然后……最后……”是用来表示什么的？",
       "options": [
-        { "id": "a", "label": "顺序" },
-        { "id": "b", "label": "颜色" },
-        { "id": "c", "label": "大小" }
+        {
+          "id": "a",
+          "label": "顺序"
+        },
+        {
+          "id": "b",
+          "label": "颜色"
+        },
+        {
+          "id": "c",
+          "label": "大小"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "这些词表示事情发生的先后。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "一天里，下面哪件事通常最先做？",
       "options": [
-        { "id": "a", "label": "起床" },
-        { "id": "b", "label": "放学" },
-        { "id": "c", "label": "睡觉" }
+        {
+          "id": "a",
+          "label": "起床"
+        },
+        {
+          "id": "b",
+          "label": "放学"
+        },
+        {
+          "id": "c",
+          "label": "睡觉"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "起床是一天的开始。"
     }
   ]

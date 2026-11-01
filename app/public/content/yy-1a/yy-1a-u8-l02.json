@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u8",
   "volumeId": "yy-1a",
   "title": "How many?",
-  "objectives": ["会用 How many ...? 提问", "能用数字回答数量"],
+  "objectives": [
+    "会用 How many ...? 提问",
+    "能用数字回答数量"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u8-l02.webp",
+      "alt": "How many?的插图"
+    },
     {
       "type": "text",
       "title": "How many apples",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "How many apples?",
       "options": [
-        { "id": "a", "label": "How many apples?" },
-        { "id": "b", "label": "How are you?" },
-        { "id": "c", "label": "What is this?" }
+        {
+          "id": "a",
+          "label": "How many apples?"
+        },
+        {
+          "id": "b",
+          "label": "How are you?"
+        },
+        {
+          "id": "c",
+          "label": "What is this?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "How many 是问数量。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问“有多少个苹果？”，该怎么说？",
       "options": [
-        { "id": "a", "label": "How many apples?" },
-        { "id": "b", "label": "How many apple?" },
-        { "id": "c", "label": "What apples?" }
+        {
+          "id": "a",
+          "label": "How many apples?"
+        },
+        {
+          "id": "b",
+          "label": "How many apple?"
+        },
+        {
+          "id": "c",
+          "label": "What apples?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "多个苹果要加 s，说 apples。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "别人问 How many cats? 你有 3 只，怎么回答？",
       "options": [
-        { "id": "a", "label": "Three." },
-        { "id": "b", "label": "Cat." },
-        { "id": "c", "label": "Yes." }
+        {
+          "id": "a",
+          "label": "Three."
+        },
+        {
+          "id": "b",
+          "label": "Cat."
+        },
+        {
+          "id": "c",
+          "label": "Yes."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "问数量，直接答数字 Three。"
     }
   ]

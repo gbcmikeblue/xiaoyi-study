@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u5",
   "volumeId": "sx-1a",
   "title": "认识图形",
-  "objectives": ["认识长方体、正方体、圆柱和球", "能说出它们的滚动特点"],
+  "objectives": [
+    "认识长方体、正方体、圆柱和球",
+    "能说出它们的滚动特点"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u5-l01.webp",
+      "alt": "认识图形的插图"
+    },
     {
       "type": "text",
       "title": "四种立体图形",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "哪个图形到处都能滚？",
       "options": [
-        { "id": "a", "label": "球" },
-        { "id": "b", "label": "正方体" },
-        { "id": "c", "label": "长方体" }
+        {
+          "id": "a",
+          "label": "球"
+        },
+        {
+          "id": "b",
+          "label": "正方体"
+        },
+        {
+          "id": "c",
+          "label": "长方体"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "球没有平面，朝哪个方向都能滚。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "魔方是什么形状？",
       "options": [
-        { "id": "a", "label": "正方体" },
-        { "id": "b", "label": "长方体" },
-        { "id": "c", "label": "球" }
+        {
+          "id": "a",
+          "label": "正方体"
+        },
+        {
+          "id": "b",
+          "label": "长方体"
+        },
+        {
+          "id": "c",
+          "label": "球"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "魔方 6 个面都是正方形，所以是正方体。"
     },
     {
@@ -46,12 +76,28 @@
       "type": "multi",
       "stem": "下面哪些是立体图形？",
       "options": [
-        { "id": "a", "label": "正方体" },
-        { "id": "b", "label": "圆柱" },
-        { "id": "c", "label": "球" },
-        { "id": "d", "label": "三角形" }
+        {
+          "id": "a",
+          "label": "正方体"
+        },
+        {
+          "id": "b",
+          "label": "圆柱"
+        },
+        {
+          "id": "c",
+          "label": "球"
+        },
+        {
+          "id": "d",
+          "label": "三角形"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "三角形是平面图形，没有厚度。"
     }
   ]

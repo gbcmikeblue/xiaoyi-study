@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u1",
   "volumeId": "sx-1b",
   "title": "一起做家务",
-  "objectives": ["会用凑十法算 8 加几", "知道 8 差 2 到 10"],
+  "objectives": [
+    "会用凑十法算 8 加几",
+    "知道 8 差 2 到 10"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u1-l05.webp",
+      "alt": "一起做家务的插图"
+    },
     {
       "type": "text",
       "title": "8 差 2 到 10",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "8 + 5 = ?",
       "options": [
-        { "id": "a", "label": "12" },
-        { "id": "b", "label": "13" },
-        { "id": "c", "label": "14" }
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "13"
+        },
+        {
+          "id": "c",
+          "label": "14"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "5 分成 2 和 3，8 + 2 = 10，10 + 3 = 13。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "7 + 6 = ?",
       "options": [
-        { "id": "a", "label": "12" },
-        { "id": "b", "label": "13" },
-        { "id": "c", "label": "14" }
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "13"
+        },
+        {
+          "id": "c",
+          "label": "14"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "6 分成 3 和 3，7 + 3 = 10，10 + 3 = 13。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "算 8 + 4 时，先把 4 分成哪两个数？",
       "options": [
-        { "id": "a", "label": "2 和 2" },
-        { "id": "b", "label": "1 和 3" },
-        { "id": "c", "label": "4 和 0" }
+        {
+          "id": "a",
+          "label": "2 和 2"
+        },
+        {
+          "id": "b",
+          "label": "1 和 3"
+        },
+        {
+          "id": "c",
+          "label": "4 和 0"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "8 差 2 到 10，所以从 4 里拿 2，剩 2。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u1",
   "volumeId": "sx-1a",
   "title": "快乐的午餐",
-  "objectives": ["会用一一对应的方法比多少", "能说出“一样多”“多”“少”"],
+  "objectives": [
+    "会用一一对应的方法比多少",
+    "能说出“一样多”“多”“少”"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u1-l06.webp",
+      "alt": "快乐的午餐的插图"
+    },
     {
       "type": "text",
       "title": "一一对应比一比",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "4 只小兔、4 根胡萝卜，谁多？",
       "options": [
-        { "id": "a", "label": "小兔多" },
-        { "id": "b", "label": "胡萝卜多" },
-        { "id": "c", "label": "一样多" }
+        {
+          "id": "a",
+          "label": "小兔多"
+        },
+        {
+          "id": "b",
+          "label": "胡萝卜多"
+        },
+        {
+          "id": "c",
+          "label": "一样多"
+        }
       ],
-      "answer": ["c"],
+      "answer": [
+        "c"
+      ],
       "explanation": "一只兔子配一根胡萝卜，正好配完，一样多。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "5 个碗、3 只小猫，碗比猫怎么样？",
       "options": [
-        { "id": "a", "label": "多" },
-        { "id": "b", "label": "少" },
-        { "id": "c", "label": "一样多" }
+        {
+          "id": "a",
+          "label": "多"
+        },
+        {
+          "id": "b",
+          "label": "少"
+        },
+        {
+          "id": "c",
+          "label": "一样多"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "3 只小猫各用 1 个碗，还剩 2 个碗，所以碗比猫多。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "3 个苹果分给 5 个小朋友，够不够？",
       "options": [
-        { "id": "a", "label": "够" },
-        { "id": "b", "label": "不够" },
-        { "id": "c", "label": "正好" }
+        {
+          "id": "a",
+          "label": "够"
+        },
+        {
+          "id": "b",
+          "label": "不够"
+        },
+        {
+          "id": "c",
+          "label": "正好"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "一人一个需要 5 个，只有 3 个，不够。"
     }
   ]

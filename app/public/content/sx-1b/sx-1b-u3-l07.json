@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u3",
   "volumeId": "sx-1b",
   "title": "跳伞表演（试一试）",
-  "objectives": ["熟练计算 20 以内退位减法", "能选择合适的算法"],
+  "objectives": [
+    "熟练计算 20 以内退位减法",
+    "能选择合适的算法"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u3-l07.webp",
+      "alt": "跳伞表演（试一试）的插图"
+    },
     {
       "type": "text",
       "title": "两种算法都行",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "14 - 6 = ?",
       "options": [
-        { "id": "a", "label": "8" },
-        { "id": "b", "label": "7" },
-        { "id": "c", "label": "9" }
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "10 - 6 = 4，4 + 4 = 8。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "18 - 9 = ?",
       "options": [
-        { "id": "a", "label": "9" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "10" }
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "10 - 9 = 1，1 + 8 = 9。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "怎样检查 15 - 7 = 8 算得对不对？",
       "options": [
-        { "id": "a", "label": "算 8 + 7 是不是等于 15" },
-        { "id": "b", "label": "再算一遍 15 - 7" },
-        { "id": "c", "label": "看答案像不像" }
+        {
+          "id": "a",
+          "label": "算 8 + 7 是不是等于 15"
+        },
+        {
+          "id": "b",
+          "label": "再算一遍 15 - 7"
+        },
+        {
+          "id": "c",
+          "label": "看答案像不像"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "减法和加法互为验算，8 + 7 = 15 就对了。"
     }
   ]

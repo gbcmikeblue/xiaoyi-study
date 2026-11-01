@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u8",
   "volumeId": "yy-1a",
   "title": "Let's ...",
-  "objectives": ["会用 Let's ... 提出建议", "能用 OK / Great 回应"],
+  "objectives": [
+    "会用 Let's ... 提出建议",
+    "能用 OK / Great 回应"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u8-l08.webp",
+      "alt": "Let's ...的插图"
+    },
     {
       "type": "text",
       "title": "Let's fly a kite",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "Let's fly a kite.",
       "options": [
-        { "id": "a", "label": "Let's fly a kite." },
-        { "id": "b", "label": "Let's go to the park." },
-        { "id": "c", "label": "Let's sing a song." }
+        {
+          "id": "a",
+          "label": "Let's fly a kite."
+        },
+        {
+          "id": "b",
+          "label": "Let's go to the park."
+        },
+        {
+          "id": "c",
+          "label": "Let's sing a song."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 fly a kite，放风筝。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "“我们去公园吧”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "Let's go to the park." },
-        { "id": "b", "label": "Let's the park." },
-        { "id": "c", "label": "We park." }
+        {
+          "id": "a",
+          "label": "Let's go to the park."
+        },
+        {
+          "id": "b",
+          "label": "Let's the park."
+        },
+        {
+          "id": "c",
+          "label": "We park."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "Let's 后面跟动词 go。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "别人说 Let's play! 你同意，该说什么？",
       "options": [
-        { "id": "a", "label": "Great!" },
-        { "id": "b", "label": "Sorry, I can't." },
-        { "id": "c", "label": "Thank you." }
+        {
+          "id": "a",
+          "label": "Great!"
+        },
+        {
+          "id": "b",
+          "label": "Sorry, I can't."
+        },
+        {
+          "id": "c",
+          "label": "Thank you."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "Great! 表示“太好了”，是同意。"
     }
   ]

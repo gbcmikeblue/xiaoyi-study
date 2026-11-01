@@ -3,8 +3,16 @@
   "unitId": "yw-1b-u1",
   "volumeId": "yw-1b",
   "title": "姓氏歌",
-  "objectives": ["认识“姓、氏、李、王”四个字", "知道名字里前面是姓、后面是名"],
+  "objectives": [
+    "认识“姓、氏、李、王”四个字",
+    "知道名字里前面是姓、后面是名"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u1-l02.webp",
+      "alt": "姓氏歌的插图"
+    },
     {
       "type": "text",
       "title": "姓和名",
@@ -13,10 +21,26 @@
     {
       "type": "chars",
       "items": [
-        { "char": "姓", "pinyin": "xìng", "word": "姓名" },
-        { "char": "氏", "pinyin": "shì", "word": "姓氏" },
-        { "char": "李", "pinyin": "lǐ", "word": "李子" },
-        { "char": "王", "pinyin": "wáng", "word": "国王" }
+        {
+          "char": "姓",
+          "pinyin": "xìng",
+          "word": "姓名"
+        },
+        {
+          "char": "氏",
+          "pinyin": "shì",
+          "word": "姓氏"
+        },
+        {
+          "char": "李",
+          "pinyin": "lǐ",
+          "word": "李子"
+        },
+        {
+          "char": "王",
+          "pinyin": "wáng",
+          "word": "国王"
+        }
       ]
     }
   ],
@@ -26,11 +50,22 @@
       "type": "single",
       "stem": "“李明”这个姓名里，姓是什么？",
       "options": [
-        { "id": "a", "label": "李" },
-        { "id": "b", "label": "明" },
-        { "id": "c", "label": "李明" }
+        {
+          "id": "a",
+          "label": "李"
+        },
+        {
+          "id": "b",
+          "label": "明"
+        },
+        {
+          "id": "c",
+          "label": "李明"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "姓名里前面的是姓，所以“李”是姓，“明”是名。"
     },
     {
@@ -39,11 +74,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "王",
       "options": [
-        { "id": "a", "label": "李" },
-        { "id": "b", "label": "王" },
-        { "id": "c", "label": "姓" }
+        {
+          "id": "a",
+          "label": "李"
+        },
+        {
+          "id": "b",
+          "label": "王"
+        },
+        {
+          "id": "c",
+          "label": "姓"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“王”读 wáng，是常见的姓。"
     },
     {
@@ -51,12 +97,28 @@
       "type": "multi",
       "stem": "下面哪些可以作姓？",
       "options": [
-        { "id": "a", "label": "李" },
-        { "id": "b", "label": "王" },
-        { "id": "c", "label": "张" },
-        { "id": "d", "label": "明" }
+        {
+          "id": "a",
+          "label": "李"
+        },
+        {
+          "id": "b",
+          "label": "王"
+        },
+        {
+          "id": "c",
+          "label": "张"
+        },
+        {
+          "id": "d",
+          "label": "明"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "李、王、张都是常见的姓，“明”一般用作名字。"
     }
   ]

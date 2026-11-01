@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u5",
   "volumeId": "sx-1b",
   "title": "两位数加整十数",
-  "objectives": ["会算两位数加整十数", "知道十位相加、个位不变"],
+  "objectives": [
+    "会算两位数加整十数",
+    "知道十位相加、个位不变"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u5-l02.webp",
+      "alt": "两位数加整十数的插图"
+    },
     {
       "type": "text",
       "title": "十位加十位",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "23 + 30 = ?",
       "options": [
-        { "id": "a", "label": "53" },
-        { "id": "b", "label": "26" },
-        { "id": "c", "label": "33" }
+        {
+          "id": "a",
+          "label": "53"
+        },
+        {
+          "id": "b",
+          "label": "26"
+        },
+        {
+          "id": "c",
+          "label": "33"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "2 个十加 3 个十是 5 个十，个位仍是 3，得 53。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "45 + 20 = ?",
       "options": [
-        { "id": "a", "label": "65" },
-        { "id": "b", "label": "47" },
-        { "id": "c", "label": "25" }
+        {
+          "id": "a",
+          "label": "65"
+        },
+        {
+          "id": "b",
+          "label": "47"
+        },
+        {
+          "id": "c",
+          "label": "25"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "4 + 2 = 6 个十，个位 5 不变，是 65。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "12 + 40 和 12 + 4，哪个结果大？",
       "options": [
-        { "id": "a", "label": "12 + 40" },
-        { "id": "b", "label": "12 + 4" },
-        { "id": "c", "label": "一样大" }
+        {
+          "id": "a",
+          "label": "12 + 40"
+        },
+        {
+          "id": "b",
+          "label": "12 + 4"
+        },
+        {
+          "id": "c",
+          "label": "一样大"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "加 40 是加 4 个十，加 4 只是加 4 个一。"
     }
   ]

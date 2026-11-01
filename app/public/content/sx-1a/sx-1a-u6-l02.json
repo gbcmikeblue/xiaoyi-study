@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u6",
   "volumeId": "sx-1a",
   "title": "一起做游戏",
-  "objectives": ["能按规则玩游戏", "能说出赢的办法"],
+  "objectives": [
+    "能按规则玩游戏",
+    "能说出赢的办法"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u6-l02.webp",
+      "alt": "一起做游戏的插图"
+    },
     {
       "type": "text",
       "title": "先讲清规则",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "玩游戏之前必须先做什么？",
       "options": [
-        { "id": "a", "label": "讲清规则" },
-        { "id": "b", "label": "先玩再说" },
-        { "id": "c", "label": "决定谁先赢" }
+        {
+          "id": "a",
+          "label": "讲清规则"
+        },
+        {
+          "id": "b",
+          "label": "先玩再说"
+        },
+        {
+          "id": "c",
+          "label": "决定谁先赢"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "规则讲清楚，大家才能公平地玩。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "棋盘走到第 10 格算赢，你现在在第 7 格，还差几格？",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "17" },
-        { "id": "c", "label": "7" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "17"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "10 - 7 = 3，还差 3 格。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "两个人手里的卡片分别是 5 张和 8 张，一共几张？",
       "options": [
-        { "id": "a", "label": "13" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "40" }
+        {
+          "id": "a",
+          "label": "13"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "40"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "5 + 8 = 13，一共 13 张。"
     }
   ]

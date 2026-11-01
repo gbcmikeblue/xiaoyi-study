@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u3",
   "volumeId": "sx-1a",
   "title": "一起来分类",
-  "objectives": ["能用不同的标准给同一组物品分类", "能说出自己的分类标准"],
+  "objectives": [
+    "能用不同的标准给同一组物品分类",
+    "能说出自己的分类标准"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u3-l02.webp",
+      "alt": "一起来分类的插图"
+    },
     {
       "type": "text",
       "title": "同一堆东西，两种分法",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "有红圆片 2 个、蓝圆片 3 个，按颜色分，红的有几个？",
       "options": [
-        { "id": "a", "label": "2" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "红色的就是那 2 个红圆片。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "同样这 5 个圆片，按形状分会得到几堆？",
       "options": [
-        { "id": "a", "label": "1 堆" },
-        { "id": "b", "label": "2 堆" },
-        { "id": "c", "label": "5 堆" }
+        {
+          "id": "a",
+          "label": "1 堆"
+        },
+        {
+          "id": "b",
+          "label": "2 堆"
+        },
+        {
+          "id": "c",
+          "label": "5 堆"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "它们都是圆的，按形状分只有一堆。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "把 5 个东西分成 2 个和 3 个，合起来是几个？",
       "options": [
-        { "id": "a", "label": "5" },
-        { "id": "b", "label": "6" },
-        { "id": "c", "label": "1" }
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "2 + 3 = 5，分完再合起来，数量不变。"
     }
   ]

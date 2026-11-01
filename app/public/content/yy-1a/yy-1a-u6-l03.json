@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u6",
   "volumeId": "yy-1a",
   "title": "My favourite colour",
-  "objectives": ["会用 My favourite colour is ... 说出喜欢的颜色", "能问别人喜欢什么颜色"],
+  "objectives": [
+    "会用 My favourite colour is ... 说出喜欢的颜色",
+    "能问别人喜欢什么颜色"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u6-l03.webp",
+      "alt": "My favourite colour的插图"
+    },
     {
       "type": "text",
       "title": "My favourite colour",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "My favourite colour is blue.",
       "options": [
-        { "id": "a", "label": "My favourite colour is blue." },
-        { "id": "b", "label": "My favourite colour is green." },
-        { "id": "c", "label": "My favourite colour is red." }
+        {
+          "id": "a",
+          "label": "My favourite colour is blue."
+        },
+        {
+          "id": "b",
+          "label": "My favourite colour is green."
+        },
+        {
+          "id": "c",
+          "label": "My favourite colour is red."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 blue，蓝色。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问别人“你最喜欢什么颜色？”，怎么说？",
       "options": [
-        { "id": "a", "label": "What's your favourite colour?" },
-        { "id": "b", "label": "What colour is it?" },
-        { "id": "c", "label": "Do you like colour?" }
+        {
+          "id": "a",
+          "label": "What's your favourite colour?"
+        },
+        {
+          "id": "b",
+          "label": "What colour is it?"
+        },
+        {
+          "id": "c",
+          "label": "Do you like colour?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "问喜好用 favourite。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "favourite 是什么意思？",
       "options": [
-        { "id": "a", "label": "最喜欢的" },
-        { "id": "b", "label": "最便宜的" },
-        { "id": "c", "label": "最大的" }
+        {
+          "id": "a",
+          "label": "最喜欢的"
+        },
+        {
+          "id": "b",
+          "label": "最便宜的"
+        },
+        {
+          "id": "c",
+          "label": "最大的"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "favourite 表示最喜欢的。"
     }
   ]

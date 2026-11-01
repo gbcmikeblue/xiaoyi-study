@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u0",
   "volumeId": "sx-1a",
   "title": "好玩的游戏",
-  "objectives": ["能发现简单的排列规律", "能按规律接着往下排"],
+  "objectives": [
+    "能发现简单的排列规律",
+    "能按规律接着往下排"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u0-l04.webp",
+      "alt": "好玩的游戏的插图"
+    },
     {
       "type": "text",
       "title": "找规律",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "红、蓝、红、蓝、红，下一个是什么颜色？",
       "options": [
-        { "id": "a", "label": "蓝" },
-        { "id": "b", "label": "红" },
-        { "id": "c", "label": "黄" }
+        {
+          "id": "a",
+          "label": "蓝"
+        },
+        {
+          "id": "b",
+          "label": "红"
+        },
+        {
+          "id": "c",
+          "label": "黄"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "红蓝两个一组交替，红后面是蓝。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "大、小、小、大、小、小、大，下一个是？",
       "options": [
-        { "id": "a", "label": "小" },
-        { "id": "b", "label": "大" },
-        { "id": "c", "label": "不大不小" }
+        {
+          "id": "a",
+          "label": "小"
+        },
+        {
+          "id": "b",
+          "label": "大"
+        },
+        {
+          "id": "c",
+          "label": "不大不小"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“大小小”三个一组重复，大后面接小。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "找规律时，第一步应该看什么？",
       "options": [
-        { "id": "a", "label": "几个一组" },
-        { "id": "b", "label": "一共有多少个" },
-        { "id": "c", "label": "最后一个是什么" }
+        {
+          "id": "a",
+          "label": "几个一组"
+        },
+        {
+          "id": "b",
+          "label": "一共有多少个"
+        },
+        {
+          "id": "c",
+          "label": "最后一个是什么"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "先看重复的“组”有多长，再看组内顺序。"
     }
   ]

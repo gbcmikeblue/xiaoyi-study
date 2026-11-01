@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u8",
   "volumeId": "yy-1a",
   "title": "Park words",
-  "objectives": ["会说 tree、flower、kite、slide", "能说出公园里有什么"],
+  "objectives": [
+    "会说 tree、flower、kite、slide",
+    "能说出公园里有什么"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u8-l07.webp",
+      "alt": "Park words的插图"
+    },
     {
       "type": "text",
       "title": "In the park",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "tree", "meaning": "树" },
-        { "text": "flower", "meaning": "花" },
-        { "text": "kite", "meaning": "风筝" },
-        { "text": "slide", "meaning": "滑梯" }
+        {
+          "text": "tree",
+          "meaning": "树"
+        },
+        {
+          "text": "flower",
+          "meaning": "花"
+        },
+        {
+          "text": "kite",
+          "meaning": "风筝"
+        },
+        {
+          "text": "slide",
+          "meaning": "滑梯"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "kite",
       "options": [
-        { "id": "a", "label": "tree" },
-        { "id": "b", "label": "kite" },
-        { "id": "c", "label": "slide" }
+        {
+          "id": "a",
+          "label": "tree"
+        },
+        {
+          "id": "b",
+          "label": "kite"
+        },
+        {
+          "id": "c",
+          "label": "slide"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "kite 是风筝。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“花”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "flower" },
-        { "id": "b", "label": "tree" },
-        { "id": "c", "label": "slide" }
+        {
+          "id": "a",
+          "label": "flower"
+        },
+        {
+          "id": "b",
+          "label": "tree"
+        },
+        {
+          "id": "c",
+          "label": "slide"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "flower 是花。"
     },
     {
@@ -51,11 +93,22 @@
       "type": "single",
       "stem": "slide 是什么？",
       "options": [
-        { "id": "a", "label": "滑梯" },
-        { "id": "b", "label": "秋千" },
-        { "id": "c", "label": "风筝" }
+        {
+          "id": "a",
+          "label": "滑梯"
+        },
+        {
+          "id": "b",
+          "label": "秋千"
+        },
+        {
+          "id": "c",
+          "label": "风筝"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "slide 是滑梯，从上面滑下来。"
     }
   ]

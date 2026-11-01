@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u8",
   "volumeId": "yy-1a",
   "title": "Fruit words",
-  "objectives": ["会说 apple、banana、orange、pear", "能说出自己喜欢的水果"],
+  "objectives": [
+    "会说 apple、banana、orange、pear",
+    "能说出自己喜欢的水果"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u8-l03.webp",
+      "alt": "Fruit words的插图"
+    },
     {
       "type": "text",
       "title": "Fruit",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "apple", "meaning": "苹果" },
-        { "text": "banana", "meaning": "香蕉" },
-        { "text": "orange", "meaning": "橙子" },
-        { "text": "pear", "meaning": "梨" }
+        {
+          "text": "apple",
+          "meaning": "苹果"
+        },
+        {
+          "text": "banana",
+          "meaning": "香蕉"
+        },
+        {
+          "text": "orange",
+          "meaning": "橙子"
+        },
+        {
+          "text": "pear",
+          "meaning": "梨"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "banana",
       "options": [
-        { "id": "a", "label": "apple" },
-        { "id": "b", "label": "banana" },
-        { "id": "c", "label": "pear" }
+        {
+          "id": "a",
+          "label": "apple"
+        },
+        {
+          "id": "b",
+          "label": "banana"
+        },
+        {
+          "id": "c",
+          "label": "pear"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "banana 是香蕉，弯弯的。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“橙子”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "orange" },
-        { "id": "b", "label": "apple" },
-        { "id": "c", "label": "pear" }
+        {
+          "id": "a",
+          "label": "orange"
+        },
+        {
+          "id": "b",
+          "label": "apple"
+        },
+        {
+          "id": "c",
+          "label": "pear"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "orange 既指橙子，也指橙色。"
     },
     {
@@ -51,12 +93,28 @@
       "type": "multi",
       "stem": "下面哪些是水果？",
       "options": [
-        { "id": "a", "label": "apple" },
-        { "id": "b", "label": "pear" },
-        { "id": "c", "label": "banana" },
-        { "id": "d", "label": "book" }
+        {
+          "id": "a",
+          "label": "apple"
+        },
+        {
+          "id": "b",
+          "label": "pear"
+        },
+        {
+          "id": "c",
+          "label": "banana"
+        },
+        {
+          "id": "d",
+          "label": "book"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "book 是书，不是水果。"
     }
   ]

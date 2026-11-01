@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u4",
   "volumeId": "yy-1a",
   "title": "I can ...",
-  "objectives": ["会用 I can ... 说出自己的能力", "会用 What can you do? 提问"],
+  "objectives": [
+    "会用 I can ... 说出自己的能力",
+    "会用 What can you do? 提问"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u4-l02.webp",
+      "alt": "I can ...的插图"
+    },
     {
       "type": "text",
       "title": "I can sing",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "I can sing.",
       "options": [
-        { "id": "a", "label": "I can sing." },
-        { "id": "b", "label": "I can dance." },
-        { "id": "c", "label": "I can draw." }
+        {
+          "id": "a",
+          "label": "I can sing."
+        },
+        {
+          "id": "b",
+          "label": "I can dance."
+        },
+        {
+          "id": "c",
+          "label": "I can draw."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 sing，不是 dance 或 draw。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "“我会画画”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "I can draw." },
-        { "id": "b", "label": "I can read." },
-        { "id": "c", "label": "I can sing." }
+        {
+          "id": "a",
+          "label": "I can draw."
+        },
+        {
+          "id": "b",
+          "label": "I can read."
+        },
+        {
+          "id": "c",
+          "label": "I can sing."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "画画是 draw，套进 I can ...。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "问别人“你会做什么？”该怎么说？",
       "options": [
-        { "id": "a", "label": "What can you do?" },
-        { "id": "b", "label": "How are you?" },
-        { "id": "c", "label": "What is this?" }
+        {
+          "id": "a",
+          "label": "What can you do?"
+        },
+        {
+          "id": "b",
+          "label": "How are you?"
+        },
+        {
+          "id": "c",
+          "label": "What is this?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "What can you do? 就是在问对方会做什么。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u7",
   "volumeId": "sx-1b",
   "title": "设计教室装饰图",
-  "objectives": ["能用基本图形组合出图案", "知道对称的图案更好看"],
+  "objectives": [
+    "能用基本图形组合出图案",
+    "知道对称的图案更好看"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u7-l01.webp",
+      "alt": "设计教室装饰图的插图"
+    },
     {
       "type": "text",
       "title": "用图形拼图案",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "用图形拼图案，第一步应该做什么？",
       "options": [
-        { "id": "a", "label": "想好要拼什么" },
-        { "id": "b", "label": "先把所有图形摆出来" },
-        { "id": "c", "label": "先涂色" }
+        {
+          "id": "a",
+          "label": "想好要拼什么"
+        },
+        {
+          "id": "b",
+          "label": "先把所有图形摆出来"
+        },
+        {
+          "id": "c",
+          "label": "先涂色"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "先定目标，再挑需要的图形，不会白费功夫。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "左右两边完全一样的图案叫什么？",
       "options": [
-        { "id": "a", "label": "对称" },
-        { "id": "b", "label": "重复" },
-        { "id": "c", "label": "随机" }
+        {
+          "id": "a",
+          "label": "对称"
+        },
+        {
+          "id": "b",
+          "label": "重复"
+        },
+        {
+          "id": "c",
+          "label": "随机"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "像照镜子一样两边一样，就是对称。"
     },
     {
@@ -46,12 +76,28 @@
       "type": "multi",
       "stem": "下面哪些是基本图形？",
       "options": [
-        { "id": "a", "label": "三角形" },
-        { "id": "b", "label": "正方形" },
-        { "id": "c", "label": "圆" },
-        { "id": "d", "label": "小花" }
+        {
+          "id": "a",
+          "label": "三角形"
+        },
+        {
+          "id": "b",
+          "label": "正方形"
+        },
+        {
+          "id": "c",
+          "label": "圆"
+        },
+        {
+          "id": "d",
+          "label": "小花"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "小花是用基本图形拼出来的，不是基本图形。"
     }
   ]

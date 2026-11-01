@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u3",
   "volumeId": "sx-1b",
   "title": "跳伞表演",
-  "objectives": ["理解破十法的道理", "能用破十法算十几减几"],
+  "objectives": [
+    "理解破十法的道理",
+    "能用破十法算十几减几"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u3-l05.webp",
+      "alt": "跳伞表演的插图"
+    },
     {
       "type": "text",
       "title": "跳伞表演",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "用破十法算 16 - 9，第一步应该做什么？",
       "options": [
-        { "id": "a", "label": "用 10 减 9 得 1" },
-        { "id": "b", "label": "用 6 减 9" },
-        { "id": "c", "label": "把 16 拆成 8 和 8" }
+        {
+          "id": "a",
+          "label": "用 10 减 9 得 1"
+        },
+        {
+          "id": "b",
+          "label": "用 6 减 9"
+        },
+        {
+          "id": "c",
+          "label": "把 16 拆成 8 和 8"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "破十法先把 16 拆成 10 和 6，用 10 去减。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "16 - 9 = ?",
       "options": [
-        { "id": "a", "label": "6" },
-        { "id": "b", "label": "7" },
-        { "id": "c", "label": "8" }
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "10 - 9 = 1，1 + 6 = 7。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "17 - 8 用破十法，结果是几？",
       "options": [
-        { "id": "a", "label": "9" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "10" }
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "10 - 8 = 2，2 + 7 = 9。"
     }
   ]

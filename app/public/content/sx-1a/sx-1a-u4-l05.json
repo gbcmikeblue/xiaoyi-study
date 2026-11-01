@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u4",
   "volumeId": "sx-1a",
   "title": "乘车",
-  "objectives": ["会算连加连减", "知道按顺序一步一步算"],
+  "objectives": [
+    "会算连加连减",
+    "知道按顺序一步一步算"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u4-l05.webp",
+      "alt": "乘车的插图"
+    },
     {
       "type": "text",
       "title": "连续上车",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "4 + 3 + 2 = ?",
       "options": [
-        { "id": "a", "label": "9" },
-        { "id": "b", "label": "7" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "4 + 3 = 7，7 + 2 = 9。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "10 - 3 - 4 = ?",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "7" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "10 - 3 = 7，7 - 4 = 3。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "车上有 6 人，下去 2 人，又上来 3 人，现在几人？",
       "options": [
-        { "id": "a", "label": "7" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "11" }
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "6 - 2 = 4，4 + 3 = 7。"
     }
   ]

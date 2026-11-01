@@ -3,8 +3,16 @@
   "unitId": "yw-1b-u1",
   "volumeId": "yw-1b",
   "title": "春夏秋冬",
-  "objectives": ["认识“春、夏、秋、冬”四个字", "能说出四季的不同景色"],
+  "objectives": [
+    "认识“春、夏、秋、冬”四个字",
+    "能说出四季的不同景色"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u1-l01.webp",
+      "alt": "春夏秋冬的插图"
+    },
     {
       "type": "text",
       "title": "一年四季",
@@ -13,10 +21,26 @@
     {
       "type": "chars",
       "items": [
-        { "char": "春", "pinyin": "chūn", "word": "春天" },
-        { "char": "夏", "pinyin": "xià", "word": "夏天" },
-        { "char": "秋", "pinyin": "qiū", "word": "秋天" },
-        { "char": "冬", "pinyin": "dōng", "word": "冬天" }
+        {
+          "char": "春",
+          "pinyin": "chūn",
+          "word": "春天"
+        },
+        {
+          "char": "夏",
+          "pinyin": "xià",
+          "word": "夏天"
+        },
+        {
+          "char": "秋",
+          "pinyin": "qiū",
+          "word": "秋天"
+        },
+        {
+          "char": "冬",
+          "pinyin": "dōng",
+          "word": "冬天"
+        }
       ]
     },
     {
@@ -32,11 +56,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "秋",
       "options": [
-        { "id": "a", "label": "春" },
-        { "id": "b", "label": "秋" },
-        { "id": "c", "label": "冬" }
+        {
+          "id": "a",
+          "label": "春"
+        },
+        {
+          "id": "b",
+          "label": "秋"
+        },
+        {
+          "id": "c",
+          "label": "冬"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“秋”读 qiū，秋天树叶会变黄。"
     },
     {
@@ -45,11 +80,22 @@
       "stem": "“春天”的“春”，是下面哪一个字？",
       "speakText": "春天",
       "options": [
-        { "id": "a", "label": "春" },
-        { "id": "b", "label": "夏" },
-        { "id": "c", "label": "冬" }
+        {
+          "id": "a",
+          "label": "春"
+        },
+        {
+          "id": "b",
+          "label": "夏"
+        },
+        {
+          "id": "c",
+          "label": "冬"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“春”上面是三横加一撇一捺，下面一个“日”。"
     },
     {
@@ -57,12 +103,28 @@
       "type": "multi",
       "stem": "哪些字表示季节？",
       "options": [
-        { "id": "a", "label": "春" },
-        { "id": "b", "label": "夏" },
-        { "id": "c", "label": "冬" },
-        { "id": "d", "label": "风" }
+        {
+          "id": "a",
+          "label": "春"
+        },
+        {
+          "id": "b",
+          "label": "夏"
+        },
+        {
+          "id": "c",
+          "label": "冬"
+        },
+        {
+          "id": "d",
+          "label": "风"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "春、夏、秋、冬是四季，“风”不是季节。"
     }
   ]

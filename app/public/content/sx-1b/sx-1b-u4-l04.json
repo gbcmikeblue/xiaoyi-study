@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u4",
   "volumeId": "sx-1b",
   "title": "小小养殖场",
-  "objectives": ["会算整十数加减整十数", "知道按“几个十”来算"],
+  "objectives": [
+    "会算整十数加减整十数",
+    "知道按“几个十”来算"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u4-l04.webp",
+      "alt": "小小养殖场的插图"
+    },
     {
       "type": "text",
       "title": "小小养殖场",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "20 + 30 = ?",
       "options": [
-        { "id": "a", "label": "50" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "23" }
+        {
+          "id": "a",
+          "label": "50"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "23"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "2 个十加 3 个十是 5 个十，也就是 50。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "70 - 40 = ?",
       "options": [
-        { "id": "a", "label": "30" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "110" }
+        {
+          "id": "a",
+          "label": "30"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "110"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "7 个十减 4 个十剩 3 个十，是 30。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "40 + 40 = ?",
       "options": [
-        { "id": "a", "label": "80" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "44" }
+        {
+          "id": "a",
+          "label": "80"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "44"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "4 个十加 4 个十是 8 个十，也就是 80。"
     }
   ]

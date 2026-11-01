@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u7",
   "volumeId": "yy-1a",
   "title": "My friends",
-  "objectives": ["会说 friend、he、she、boy、girl", "能分清 he 与 she"],
+  "objectives": [
+    "会说 friend、he、she、boy、girl",
+    "能分清 he 与 she"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u7-l03.webp",
+      "alt": "My friends的插图"
+    },
     {
       "type": "text",
       "title": "He or she",
@@ -13,11 +21,26 @@
     {
       "type": "words",
       "items": [
-        { "text": "friend", "meaning": "朋友" },
-        { "text": "he", "meaning": "他" },
-        { "text": "she", "meaning": "她" },
-        { "text": "boy", "meaning": "男孩" },
-        { "text": "girl", "meaning": "女孩" }
+        {
+          "text": "friend",
+          "meaning": "朋友"
+        },
+        {
+          "text": "he",
+          "meaning": "他"
+        },
+        {
+          "text": "she",
+          "meaning": "她"
+        },
+        {
+          "text": "boy",
+          "meaning": "男孩"
+        },
+        {
+          "text": "girl",
+          "meaning": "女孩"
+        }
       ]
     }
   ],
@@ -28,11 +51,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "friend",
       "options": [
-        { "id": "a", "label": "friend" },
-        { "id": "b", "label": "boy" },
-        { "id": "c", "label": "girl" }
+        {
+          "id": "a",
+          "label": "friend"
+        },
+        {
+          "id": "b",
+          "label": "boy"
+        },
+        {
+          "id": "c",
+          "label": "girl"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "friend 是朋友。"
     },
     {
@@ -40,11 +74,22 @@
       "type": "single",
       "stem": "指一个女孩，应该用哪个词？",
       "options": [
-        { "id": "a", "label": "she" },
-        { "id": "b", "label": "he" },
-        { "id": "c", "label": "it" }
+        {
+          "id": "a",
+          "label": "she"
+        },
+        {
+          "id": "b",
+          "label": "he"
+        },
+        {
+          "id": "c",
+          "label": "it"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "she 指女性，he 指男性。"
     },
     {
@@ -52,11 +97,22 @@
       "type": "single",
       "stem": "boy 是什么意思？",
       "options": [
-        { "id": "a", "label": "男孩" },
-        { "id": "b", "label": "女孩" },
-        { "id": "c", "label": "朋友" }
+        {
+          "id": "a",
+          "label": "男孩"
+        },
+        {
+          "id": "b",
+          "label": "女孩"
+        },
+        {
+          "id": "c",
+          "label": "朋友"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "boy 是男孩，girl 是女孩。"
     }
   ]

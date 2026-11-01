@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u7",
   "volumeId": "yy-1a",
   "title": "This is my ...",
-  "objectives": ["会用 This is my ... 介绍自己", "能听懂并回应别人的介绍"],
+  "objectives": [
+    "会用 This is my ... 介绍自己",
+    "能听懂并回应别人的介绍"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u7-l02.webp",
+      "alt": "This is my ...的插图"
+    },
     {
       "type": "text",
       "title": "This is my nose",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "This is my nose.",
       "options": [
-        { "id": "a", "label": "This is my nose." },
-        { "id": "b", "label": "This is my ear." },
-        { "id": "c", "label": "This is my mouth." }
+        {
+          "id": "a",
+          "label": "This is my nose."
+        },
+        {
+          "id": "b",
+          "label": "This is my ear."
+        },
+        {
+          "id": "c",
+          "label": "This is my mouth."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 nose，不是 ear 或 mouth。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "“这是我的耳朵”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "This is my ear." },
-        { "id": "b", "label": "This is my eye." },
-        { "id": "c", "label": "This is my face." }
+        {
+          "id": "a",
+          "label": "This is my ear."
+        },
+        {
+          "id": "b",
+          "label": "This is my eye."
+        },
+        {
+          "id": "c",
+          "label": "This is my face."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "耳朵是 ear，套进句型 This is my ...。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "This is my mouth. 说的是哪个部位？",
       "options": [
-        { "id": "a", "label": "嘴" },
-        { "id": "b", "label": "鼻子" },
-        { "id": "c", "label": "眼睛" }
+        {
+          "id": "a",
+          "label": "嘴"
+        },
+        {
+          "id": "b",
+          "label": "鼻子"
+        },
+        {
+          "id": "c",
+          "label": "眼睛"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "mouth 是嘴，用来说话、吃饭。"
     }
   ]

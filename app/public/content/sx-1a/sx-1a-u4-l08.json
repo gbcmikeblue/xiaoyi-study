@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u4",
   "volumeId": "sx-1a",
   "title": "能解决吗",
-  "objectives": ["能判断用加法还是减法", "会检查答案是否合理"],
+  "objectives": [
+    "能判断用加法还是减法",
+    "会检查答案是否合理"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u4-l08.webp",
+      "alt": "能解决吗的插图"
+    },
     {
       "type": "text",
       "title": "先想再算",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "小明有 5 元，买笔花了 2 元，还剩几元？",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "7" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "花钱是去掉一部分，用减法：5 - 2 = 3。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "一共 8 个苹果，吃了 3 个，还剩几个？",
       "options": [
-        { "id": "a", "label": "5" },
-        { "id": "b", "label": "11" },
-        { "id": "c", "label": "8" }
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "11"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "8 - 3 = 5。若算出 11，比原来还多，肯定错了。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "下面哪个答案明显不合理？",
       "options": [
-        { "id": "a", "label": "6 个气球飞走 2 个，还剩 8 个" },
-        { "id": "b", "label": "6 个气球飞走 2 个，还剩 4 个" },
-        { "id": "c", "label": "6 个气球又添 2 个，一共 8 个" }
+        {
+          "id": "a",
+          "label": "6 个气球飞走 2 个，还剩 8 个"
+        },
+        {
+          "id": "b",
+          "label": "6 个气球飞走 2 个，还剩 4 个"
+        },
+        {
+          "id": "c",
+          "label": "6 个气球又添 2 个，一共 8 个"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "飞走了一部分，剩下的不可能比原来多。"
     }
   ]

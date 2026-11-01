@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u4",
   "volumeId": "sx-1a",
   "title": "猜数游戏",
-  "objectives": ["知道 6、7 可以分成哪两个数", "能根据一部分求另一部分"],
+  "objectives": [
+    "知道 6、7 可以分成哪两个数",
+    "能根据一部分求另一部分"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u4-l01.webp",
+      "alt": "猜数游戏的插图"
+    },
     {
       "type": "text",
       "title": "分成两堆",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "6 可以分成 2 和几？",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "2 + 4 = 6，所以 6 分成 2 和 4。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "两只手一共 7 颗豆，左手 3 颗，右手几颗？",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "7 - 3 = 4，右手 4 颗。"
     },
     {
@@ -47,12 +77,28 @@
       "stem": "哪些分法加起来是 7？",
       "scene": "card",
       "options": [
-        { "id": "a", "label": "3 和 4" },
-        { "id": "b", "label": "2 和 5" },
-        { "id": "c", "label": "1 和 6" },
-        { "id": "d", "label": "2 和 4" }
+        {
+          "id": "a",
+          "label": "3 和 4"
+        },
+        {
+          "id": "b",
+          "label": "2 和 5"
+        },
+        {
+          "id": "c",
+          "label": "1 和 6"
+        },
+        {
+          "id": "d",
+          "label": "2 和 4"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "3+4、2+5、1+6 都是 7；2+4=6，不是 7。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u3",
   "volumeId": "sx-1b",
   "title": "美丽的田园",
-  "objectives": ["能分清“求剩下”和“求相差”", "会列式解决简单的实际问题"],
+  "objectives": [
+    "能分清“求剩下”和“求相差”",
+    "会列式解决简单的实际问题"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u3-l06.webp",
+      "alt": "美丽的田园的插图"
+    },
     {
       "type": "text",
       "title": "美丽的田园",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "有 14 个苹果，吃了 6 个，还剩几个？",
       "options": [
-        { "id": "a", "label": "8" },
-        { "id": "b", "label": "9" },
-        { "id": "c", "label": "20" }
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        },
+        {
+          "id": "c",
+          "label": "20"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "14 - 6 = 8，剩下 8 个。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "小红有 12 张卡片，小明有 8 张，小红比小明多几张？",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "20" },
-        { "id": "c", "label": "8" }
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "20"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "12 - 8 = 4，多 4 张。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "车上原来有 15 人，下去 7 人，车上还有几人？",
       "options": [
-        { "id": "a", "label": "8" },
-        { "id": "b", "label": "9" },
-        { "id": "c", "label": "22" }
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        },
+        {
+          "id": "c",
+          "label": "22"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "15 - 7 = 8，还有 8 人。"
     }
   ]

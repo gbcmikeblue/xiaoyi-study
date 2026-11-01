@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u6",
   "volumeId": "yy-1b",
   "title": "My home",
-  "objectives": ["会说 bed、door、table、sofa", "能说出家里的房间和家具"],
+  "objectives": [
+    "会说 bed、door、table、sofa",
+    "能说出家里的房间和家具"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u6-l01.webp",
+      "alt": "My home的插图"
+    },
     {
       "type": "text",
       "title": "At home",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "bed", "meaning": "床" },
-        { "text": "door", "meaning": "门" },
-        { "text": "table", "meaning": "桌子" },
-        { "text": "sofa", "meaning": "沙发" }
+        {
+          "text": "bed",
+          "meaning": "床"
+        },
+        {
+          "text": "door",
+          "meaning": "门"
+        },
+        {
+          "text": "table",
+          "meaning": "桌子"
+        },
+        {
+          "text": "sofa",
+          "meaning": "沙发"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "table",
       "options": [
-        { "id": "a", "label": "table" },
-        { "id": "b", "label": "sofa" },
-        { "id": "c", "label": "bed" }
+        {
+          "id": "a",
+          "label": "table"
+        },
+        {
+          "id": "b",
+          "label": "sofa"
+        },
+        {
+          "id": "c",
+          "label": "bed"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "table 是桌子。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“床”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "bed" },
-        { "id": "b", "label": "door" },
-        { "id": "c", "label": "table" }
+        {
+          "id": "a",
+          "label": "bed"
+        },
+        {
+          "id": "b",
+          "label": "door"
+        },
+        {
+          "id": "c",
+          "label": "table"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "bed 是床，睡觉的地方。"
     },
     {
@@ -51,12 +93,28 @@
       "type": "multi",
       "stem": "家里有哪些东西？",
       "options": [
-        { "id": "a", "label": "bed" },
-        { "id": "b", "label": "sofa" },
-        { "id": "c", "label": "door" },
-        { "id": "d", "label": "panda" }
+        {
+          "id": "a",
+          "label": "bed"
+        },
+        {
+          "id": "b",
+          "label": "sofa"
+        },
+        {
+          "id": "c",
+          "label": "door"
+        },
+        {
+          "id": "d",
+          "label": "panda"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "panda 是熊猫，在动物园。"
     }
   ]

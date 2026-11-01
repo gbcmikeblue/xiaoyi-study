@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u3",
   "volumeId": "yy-1a",
   "title": "School things",
-  "objectives": ["会说 pencil、bag、book、ruler、eraser", "能指着文具说出英文"],
+  "objectives": [
+    "会说 pencil、bag、book、ruler、eraser",
+    "能指着文具说出英文"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u3-l01.webp",
+      "alt": "School things的插图"
+    },
     {
       "type": "text",
       "title": "In my bag",
@@ -13,11 +21,26 @@
     {
       "type": "words",
       "items": [
-        { "text": "pencil", "meaning": "铅笔" },
-        { "text": "bag", "meaning": "书包" },
-        { "text": "book", "meaning": "书" },
-        { "text": "ruler", "meaning": "尺子" },
-        { "text": "eraser", "meaning": "橡皮" }
+        {
+          "text": "pencil",
+          "meaning": "铅笔"
+        },
+        {
+          "text": "bag",
+          "meaning": "书包"
+        },
+        {
+          "text": "book",
+          "meaning": "书"
+        },
+        {
+          "text": "ruler",
+          "meaning": "尺子"
+        },
+        {
+          "text": "eraser",
+          "meaning": "橡皮"
+        }
       ]
     }
   ],
@@ -28,11 +51,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "pencil",
       "options": [
-        { "id": "a", "label": "pencil" },
-        { "id": "b", "label": "ruler" },
-        { "id": "c", "label": "eraser" }
+        {
+          "id": "a",
+          "label": "pencil"
+        },
+        {
+          "id": "b",
+          "label": "ruler"
+        },
+        {
+          "id": "c",
+          "label": "eraser"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "pencil 是铅笔。"
     },
     {
@@ -40,11 +74,22 @@
       "type": "single",
       "stem": "“书包”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "bag" },
-        { "id": "b", "label": "book" },
-        { "id": "c", "label": "ruler" }
+        {
+          "id": "a",
+          "label": "bag"
+        },
+        {
+          "id": "b",
+          "label": "book"
+        },
+        {
+          "id": "c",
+          "label": "ruler"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "bag 是书包，也能泛指包。"
     },
     {
@@ -52,12 +97,28 @@
       "type": "multi",
       "stem": "下面哪些是上学要带的东西？",
       "options": [
-        { "id": "a", "label": "pencil" },
-        { "id": "b", "label": "book" },
-        { "id": "c", "label": "eraser" },
-        { "id": "d", "label": "cake" }
+        {
+          "id": "a",
+          "label": "pencil"
+        },
+        {
+          "id": "b",
+          "label": "book"
+        },
+        {
+          "id": "c",
+          "label": "eraser"
+        },
+        {
+          "id": "d",
+          "label": "cake"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "cake 是蛋糕，不是文具。"
     }
   ]

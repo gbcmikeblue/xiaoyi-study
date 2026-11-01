@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u1",
   "volumeId": "sx-1a",
   "title": "玩具",
-  "objectives": ["认识 1 到 5 这五个数", "能把数和玩具的个数对应起来"],
+  "objectives": [
+    "认识 1 到 5 这五个数",
+    "能把数和玩具的个数对应起来"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u1-l02.webp",
+      "alt": "玩具的插图"
+    },
     {
       "type": "text",
       "title": "认数字",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "3 后面一个数是几？",
       "options": [
-        { "id": "a", "label": "2" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "数数时 1、2、3、4，3 的后面是 4。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "有 2 只小鸟，又飞来 1 只，一共几只？",
       "options": [
-        { "id": "a", "label": "2" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "4" }
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "2 再添 1 就是 3。"
     },
     {
@@ -47,12 +77,28 @@
       "stem": "下面哪些数比 4 小？",
       "scene": "card",
       "options": [
-        { "id": "a", "label": "1" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "5" },
-        { "id": "d", "label": "2" }
+        {
+          "id": "a",
+          "label": "1"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
       ],
-      "answer": ["a", "b", "d"],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
       "explanation": "1、2、3 都比 4 小，5 比 4 大。"
     }
   ]

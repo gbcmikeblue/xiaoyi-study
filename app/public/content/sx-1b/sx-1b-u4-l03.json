@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u4",
   "volumeId": "sx-1b",
   "title": "数豆子",
-  "objectives": ["知道几十几由几个十和几个一组成", "能说出一个两位数的组成"],
+  "objectives": [
+    "知道几十几由几个十和几个一组成",
+    "能说出一个两位数的组成"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u4-l03.webp",
+      "alt": "数豆子的插图"
+    },
     {
       "type": "text",
       "title": "数豆子",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "4 个十和 7 个一合起来是多少？",
       "options": [
-        { "id": "a", "label": "47" },
-        { "id": "b", "label": "74" },
-        { "id": "c", "label": "11" }
+        {
+          "id": "a",
+          "label": "47"
+        },
+        {
+          "id": "b",
+          "label": "74"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "4 个十是 40，再加 7 个一是 47。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "56 里面有几个十和几个一？",
       "options": [
-        { "id": "a", "label": "5 个十、6 个一" },
-        { "id": "b", "label": "6 个十、5 个一" },
-        { "id": "c", "label": "56 个一" }
+        {
+          "id": "a",
+          "label": "5 个十、6 个一"
+        },
+        {
+          "id": "b",
+          "label": "6 个十、5 个一"
+        },
+        {
+          "id": "c",
+          "label": "56 个一"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "十位上的 5 表示 5 个十，个位上的 6 表示 6 个一。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "8 捆小棒是多少根？",
       "options": [
-        { "id": "a", "label": "80" },
-        { "id": "b", "label": "8" },
-        { "id": "c", "label": "18" }
+        {
+          "id": "a",
+          "label": "80"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "18"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "一捆 10 根，8 捆就是 80 根。"
     }
   ]

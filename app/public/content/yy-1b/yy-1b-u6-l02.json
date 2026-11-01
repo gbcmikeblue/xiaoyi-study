@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u6",
   "volumeId": "yy-1b",
   "title": "Where is my ball?",
-  "objectives": ["会用 Where is ...? 问位置", "会用 in / on / under 说方位"],
+  "objectives": [
+    "会用 Where is ...? 问位置",
+    "会用 in / on / under 说方位"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u6-l02.webp",
+      "alt": "Where is my ball?的插图"
+    },
     {
       "type": "text",
       "title": "Where is it",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "It's under the bed.",
       "options": [
-        { "id": "a", "label": "It's under the bed." },
-        { "id": "b", "label": "It's on the bed." },
-        { "id": "c", "label": "It's in the bed." }
+        {
+          "id": "a",
+          "label": "It's under the bed."
+        },
+        {
+          "id": "b",
+          "label": "It's on the bed."
+        },
+        {
+          "id": "c",
+          "label": "It's in the bed."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 under，在下面。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "问“我的球在哪里？”，怎么说？",
       "options": [
-        { "id": "a", "label": "Where is my ball?" },
-        { "id": "b", "label": "What is my ball?" },
-        { "id": "c", "label": "Who is my ball?" }
+        {
+          "id": "a",
+          "label": "Where is my ball?"
+        },
+        {
+          "id": "b",
+          "label": "What is my ball?"
+        },
+        {
+          "id": "c",
+          "label": "Who is my ball?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "问位置用 Where。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "球在椅子下面，该怎么说？",
       "options": [
-        { "id": "a", "label": "It's under the chair." },
-        { "id": "b", "label": "It's on the chair." },
-        { "id": "c", "label": "It's in the chair." }
+        {
+          "id": "a",
+          "label": "It's under the chair."
+        },
+        {
+          "id": "b",
+          "label": "It's on the chair."
+        },
+        {
+          "id": "c",
+          "label": "It's in the chair."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "在下面用 under。"
     }
   ]

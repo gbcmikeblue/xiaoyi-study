@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u1",
   "volumeId": "sx-1a",
   "title": "动物乐园",
-  "objectives": ["会比出多几个、少几个", "能用减法算出相差的数量"],
+  "objectives": [
+    "会比出多几个、少几个",
+    "能用减法算出相差的数量"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u1-l07.webp",
+      "alt": "动物乐园的插图"
+    },
     {
       "type": "text",
       "title": "多几个，少几个",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "7 只猴子、5 个桃子，猴子比桃子多几只？",
       "options": [
-        { "id": "a", "label": "1" },
-        { "id": "b", "label": "2" },
-        { "id": "c", "label": "3" }
+        {
+          "id": "a",
+          "label": "1"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "一一配上后剩 2 只猴子，所以多 2 只。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "6 只小鸟、9 条虫子，虫子比小鸟多几条？",
       "options": [
-        { "id": "a", "label": "2" },
-        { "id": "b", "label": "3" },
-        { "id": "c", "label": "4" }
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "6 只小鸟各吃 1 条，还剩 3 条，多 3 条。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "4 只兔子、6 根萝卜，萝卜比兔子多几根？",
       "options": [
-        { "id": "a", "label": "1" },
-        { "id": "b", "label": "2" },
-        { "id": "c", "label": "3" }
+        {
+          "id": "a",
+          "label": "1"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "4 只兔子各配 1 根，还剩 2 根，多 2 根。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "sx-1a-u0",
   "volumeId": "sx-1a",
   "title": "我们的操场",
-  "objectives": ["能用前后左右描述位置", "能认出操场上的基本图形"],
+  "objectives": [
+    "能用前后左右描述位置",
+    "能认出操场上的基本图形"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u0-l03.webp",
+      "alt": "我们的操场的插图"
+    },
     {
       "type": "text",
       "title": "操场上的位置",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "你转过身以后，原来的左边变成哪一边？",
       "options": [
-        { "id": "a", "label": "右边" },
-        { "id": "b", "label": "还是左边" },
-        { "id": "c", "label": "前面" }
+        {
+          "id": "a",
+          "label": "右边"
+        },
+        {
+          "id": "b",
+          "label": "还是左边"
+        },
+        {
+          "id": "c",
+          "label": "前面"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "转身 180 度，左右互换，前后也互换。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "篮球场通常是什么形状？",
       "options": [
-        { "id": "a", "label": "长方形" },
-        { "id": "b", "label": "圆" },
-        { "id": "c", "label": "三角形" }
+        {
+          "id": "a",
+          "label": "长方形"
+        },
+        {
+          "id": "b",
+          "label": "圆"
+        },
+        {
+          "id": "c",
+          "label": "三角形"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "篮球场是长方的，四条边、四个直角。"
     },
     {
@@ -46,12 +76,28 @@
       "type": "multi",
       "stem": "下面哪些说法能确定一个位置？",
       "options": [
-        { "id": "a", "label": "在小明的左边" },
-        { "id": "b", "label": "在队伍最后" },
-        { "id": "c", "label": "在沙坑旁边" },
-        { "id": "d", "label": "他很开心" }
+        {
+          "id": "a",
+          "label": "在小明的左边"
+        },
+        {
+          "id": "b",
+          "label": "在队伍最后"
+        },
+        {
+          "id": "c",
+          "label": "在沙坑旁边"
+        },
+        {
+          "id": "d",
+          "label": "他很开心"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "“很开心”说的是心情，不是位置。"
     }
   ]

@@ -3,8 +3,16 @@
   "unitId": "yy-1a-u8",
   "volumeId": "yy-1a",
   "title": "May I have a pie?",
-  "objectives": ["会用 May I have ...? 礼貌地请求", "能用 Sure / Here you are 回应"],
+  "objectives": [
+    "会用 May I have ...? 礼貌地请求",
+    "能用 Sure / Here you are 回应"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u8-l06.webp",
+      "alt": "May I have a pie?的插图"
+    },
     {
       "type": "text",
       "title": "May I have a pie",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "May I have a pie?",
       "options": [
-        { "id": "a", "label": "May I have a pie?" },
-        { "id": "b", "label": "May I have a cake?" },
-        { "id": "c", "label": "May I have a book?" }
+        {
+          "id": "a",
+          "label": "May I have a pie?"
+        },
+        {
+          "id": "b",
+          "label": "May I have a cake?"
+        },
+        {
+          "id": "c",
+          "label": "May I have a book?"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 pie，馅饼。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "想要一块蛋糕，礼貌地问法是？",
       "options": [
-        { "id": "a", "label": "May I have a cake?" },
-        { "id": "b", "label": "Give me a cake." },
-        { "id": "c", "label": "Cake!" }
+        {
+          "id": "a",
+          "label": "May I have a cake?"
+        },
+        {
+          "id": "b",
+          "label": "Give me a cake."
+        },
+        {
+          "id": "c",
+          "label": "Cake!"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "May I have ...? 是最礼貌的请求方式。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "别人说 May I have a pie? 你要给他，该说什么？",
       "options": [
-        { "id": "a", "label": "Sure. Here you are." },
-        { "id": "b", "label": "Thank you." },
-        { "id": "c", "label": "Goodbye." }
+        {
+          "id": "a",
+          "label": "Sure. Here you are."
+        },
+        {
+          "id": "b",
+          "label": "Thank you."
+        },
+        {
+          "id": "c",
+          "label": "Goodbye."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "Sure. Here you are. 是“当然，给你”。"
     }
   ]

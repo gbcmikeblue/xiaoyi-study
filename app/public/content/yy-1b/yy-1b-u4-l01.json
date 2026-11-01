@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u4",
   "volumeId": "yy-1b",
   "title": "Seasons",
-  "objectives": ["会说 spring、summer、autumn、winter", "能说出每个季节的特点"],
+  "objectives": [
+    "会说 spring、summer、autumn、winter",
+    "能说出每个季节的特点"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u4-l01.webp",
+      "alt": "Seasons的插图"
+    },
     {
       "type": "text",
       "title": "Four seasons",
@@ -13,10 +21,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "spring", "meaning": "春天" },
-        { "text": "summer", "meaning": "夏天" },
-        { "text": "autumn", "meaning": "秋天" },
-        { "text": "winter", "meaning": "冬天" }
+        {
+          "text": "spring",
+          "meaning": "春天"
+        },
+        {
+          "text": "summer",
+          "meaning": "夏天"
+        },
+        {
+          "text": "autumn",
+          "meaning": "秋天"
+        },
+        {
+          "text": "winter",
+          "meaning": "冬天"
+        }
       ]
     }
   ],
@@ -27,11 +47,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "summer",
       "options": [
-        { "id": "a", "label": "summer" },
-        { "id": "b", "label": "spring" },
-        { "id": "c", "label": "winter" }
+        {
+          "id": "a",
+          "label": "summer"
+        },
+        {
+          "id": "b",
+          "label": "spring"
+        },
+        {
+          "id": "c",
+          "label": "winter"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "summer 是夏天。"
     },
     {
@@ -39,11 +70,22 @@
       "type": "single",
       "stem": "“冬天”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "winter" },
-        { "id": "b", "label": "autumn" },
-        { "id": "c", "label": "spring" }
+        {
+          "id": "a",
+          "label": "winter"
+        },
+        {
+          "id": "b",
+          "label": "autumn"
+        },
+        {
+          "id": "c",
+          "label": "spring"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "winter 是冬天，会下雪。"
     },
     {
@@ -51,11 +93,22 @@
       "type": "single",
       "stem": "autumn 是哪个季节？",
       "options": [
-        { "id": "a", "label": "秋天" },
-        { "id": "b", "label": "夏天" },
-        { "id": "c", "label": "春天" }
+        {
+          "id": "a",
+          "label": "秋天"
+        },
+        {
+          "id": "b",
+          "label": "夏天"
+        },
+        {
+          "id": "c",
+          "label": "春天"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "autumn 是秋天，树叶变黄的季节。"
     }
   ]

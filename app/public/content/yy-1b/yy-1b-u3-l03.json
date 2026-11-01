@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u3",
   "volumeId": "yy-1b",
   "title": "Let's play",
-  "objectives": ["会说 run、jump、skip、hide", "能用 Let's ... 提议玩游戏"],
+  "objectives": [
+    "会说 run、jump、skip、hide",
+    "能用 Let's ... 提议玩游戏"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u3-l03.webp",
+      "alt": "Let's play的插图"
+    },
     {
       "type": "text",
       "title": "Let's play together",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "jump",
       "options": [
-        { "id": "a", "label": "jump" },
-        { "id": "b", "label": "run" },
-        { "id": "c", "label": "skip" }
+        {
+          "id": "a",
+          "label": "jump"
+        },
+        {
+          "id": "b",
+          "label": "run"
+        },
+        {
+          "id": "c",
+          "label": "skip"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "jump 是跳。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "“跑”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "run" },
-        { "id": "b", "label": "jump" },
-        { "id": "c", "label": "hide" }
+        {
+          "id": "a",
+          "label": "run"
+        },
+        {
+          "id": "b",
+          "label": "jump"
+        },
+        {
+          "id": "c",
+          "label": "hide"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "run 是跑。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "提议“我们一起跳吧”，怎么说？",
       "options": [
-        { "id": "a", "label": "Let's jump." },
-        { "id": "b", "label": "I jump." },
-        { "id": "c", "label": "Jump you." }
+        {
+          "id": "a",
+          "label": "Let's jump."
+        },
+        {
+          "id": "b",
+          "label": "I jump."
+        },
+        {
+          "id": "c",
+          "label": "Jump you."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "Let's 后面跟动作原形。"
     }
   ]

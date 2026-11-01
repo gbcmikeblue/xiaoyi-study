@@ -3,8 +3,16 @@
   "unitId": "sx-1b-u1",
   "volumeId": "sx-1b",
   "title": "搭积木",
-  "objectives": ["会算十几加几（不进位）", "知道十位不变、个位相加"],
+  "objectives": [
+    "会算十几加几（不进位）",
+    "知道十位不变、个位相加"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1b/img/sx-1b-u1-l02.webp",
+      "alt": "搭积木的插图"
+    },
     {
       "type": "text",
       "title": "搭积木",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "12 + 5 = ?",
       "options": [
-        { "id": "a", "label": "17" },
-        { "id": "b", "label": "16" },
-        { "id": "c", "label": "7" }
+        {
+          "id": "a",
+          "label": "17"
+        },
+        {
+          "id": "b",
+          "label": "16"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "个位 2 + 5 = 7，十位还是 1，所以是 17。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "14 + 3 = ?",
       "options": [
-        { "id": "a", "label": "17" },
-        { "id": "b", "label": "44" },
-        { "id": "c", "label": "11" }
+        {
+          "id": "a",
+          "label": "17"
+        },
+        {
+          "id": "b",
+          "label": "44"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "4 + 3 = 7，十位不变，结果是 17。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "小明有 15 张卡片，又得到 4 张，一共几张？",
       "options": [
-        { "id": "a", "label": "19" },
-        { "id": "b", "label": "18" },
-        { "id": "c", "label": "20" }
+        {
+          "id": "a",
+          "label": "19"
+        },
+        {
+          "id": "b",
+          "label": "18"
+        },
+        {
+          "id": "c",
+          "label": "20"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "15 + 4 = 19，个位 5 + 4 = 9。"
     }
   ]

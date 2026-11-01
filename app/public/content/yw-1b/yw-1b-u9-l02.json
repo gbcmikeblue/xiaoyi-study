@@ -3,8 +3,16 @@
   "unitId": "yw-1b-u9",
   "volumeId": "yw-1b",
   "title": "阅读总复习",
-  "objectives": ["能从短文里找出关键信息", "能说出故事讲的道理"],
+  "objectives": [
+    "能从短文里找出关键信息",
+    "能说出故事讲的道理"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u9-l02.webp",
+      "alt": "阅读总复习的插图"
+    },
     {
       "type": "text",
       "title": "读短文的三步",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "读一篇短文，第一步应该做什么？",
       "options": [
-        { "id": "a", "label": "先读通" },
-        { "id": "b", "label": "先背下来" },
-        { "id": "c", "label": "先做题" }
+        {
+          "id": "a",
+          "label": "先读通"
+        },
+        {
+          "id": "b",
+          "label": "先背下来"
+        },
+        {
+          "id": "c",
+          "label": "先做题"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "读通了才谈得上找信息和想道理。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "《小猴子下山》告诉我们的道理是？",
       "options": [
-        { "id": "a", "label": "做事要有始有终" },
-        { "id": "b", "label": "桃子最好吃" },
-        { "id": "c", "label": "不要下山" }
+        {
+          "id": "a",
+          "label": "做事要有始有终"
+        },
+        {
+          "id": "b",
+          "label": "桃子最好吃"
+        },
+        {
+          "id": "c",
+          "label": "不要下山"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "见一个丢一个，最后什么也得不到。"
     },
     {
@@ -46,11 +76,22 @@
       "type": "single",
       "stem": "《咕咚》这个故事提醒我们什么？",
       "options": [
-        { "id": "a", "label": "听到消息先弄清真假" },
-        { "id": "b", "label": "跑得越快越好" },
-        { "id": "c", "label": "不要去湖边" }
+        {
+          "id": "a",
+          "label": "听到消息先弄清真假"
+        },
+        {
+          "id": "b",
+          "label": "跑得越快越好"
+        },
+        {
+          "id": "c",
+          "label": "不要去湖边"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "谁也没看清就跟着跑，结果只是个木瓜掉水里。"
     }
   ]

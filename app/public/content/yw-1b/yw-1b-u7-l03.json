@@ -3,22 +3,54 @@
   "unitId": "yw-1b-u7",
   "volumeId": "yw-1b",
   "title": "动物王国开大会",
-  "objectives": ["认识“王、国、通、知、点”五个字", "知道发通知要说清时间、地点和事情"],
+  "objectives": [
+    "认识“王、国、通、知、点”五个字",
+    "知道发通知要说清时间、地点和事情"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1b/img/yw-1b-u7-l03.webp",
+      "alt": "动物王国开大会的插图"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "动物王国要开大会。第一次通知只说“请大家来开会”，大家不知哪天来。第二次说了时间，却没说地点。第三次才说清：“明天上午十点，在大树下开会。”这下大家都来了。"
     },
-    { "type": "audio", "text": "动物王国要开大会。第一次通知只说：请大家来开会。", "caption": "听老师读第一句" },
+    {
+      "type": "audio",
+      "text": "动物王国要开大会。第一次通知只说：请大家来开会。",
+      "caption": "听老师读第一句"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "王", "pinyin": "wáng", "word": "国王" },
-        { "char": "国", "pinyin": "guó", "word": "中国" },
-        { "char": "通", "pinyin": "tōng", "word": "通知" },
-        { "char": "知", "pinyin": "zhī", "word": "知道" },
-        { "char": "点", "pinyin": "diǎn", "word": "十点" }
+        {
+          "char": "王",
+          "pinyin": "wáng",
+          "word": "国王"
+        },
+        {
+          "char": "国",
+          "pinyin": "guó",
+          "word": "中国"
+        },
+        {
+          "char": "通",
+          "pinyin": "tōng",
+          "word": "通知"
+        },
+        {
+          "char": "知",
+          "pinyin": "zhī",
+          "word": "知道"
+        },
+        {
+          "char": "点",
+          "pinyin": "diǎn",
+          "word": "十点"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "通",
       "options": [
-        { "id": "a", "label": "王" },
-        { "id": "b", "label": "通" },
-        { "id": "c", "label": "知" }
+        {
+          "id": "a",
+          "label": "王"
+        },
+        {
+          "id": "b",
+          "label": "通"
+        },
+        {
+          "id": "c",
+          "label": "知"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“通”读 tōng，通知的通，走之底。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "前两次通知缺了什么？",
       "options": [
-        { "id": "a", "label": "时间或地点" },
-        { "id": "b", "label": "开会的人" },
-        { "id": "c", "label": "会议内容" }
+        {
+          "id": "a",
+          "label": "时间或地点"
+        },
+        {
+          "id": "b",
+          "label": "开会的人"
+        },
+        {
+          "id": "c",
+          "label": "会议内容"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "第一次只说开会，第二次说了时间没说地点。"
     },
     {
@@ -58,12 +112,28 @@
       "type": "multi",
       "stem": "一个完整的通知要包含哪些内容？",
       "options": [
-        { "id": "a", "label": "时间" },
-        { "id": "b", "label": "地点" },
-        { "id": "c", "label": "做什么事" },
-        { "id": "d", "label": "开会人的心情" }
+        {
+          "id": "a",
+          "label": "时间"
+        },
+        {
+          "id": "b",
+          "label": "地点"
+        },
+        {
+          "id": "c",
+          "label": "做什么事"
+        },
+        {
+          "id": "d",
+          "label": "开会人的心情"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "时间、地点、事情三样缺一不可，心情不在通知里。"
     }
   ]

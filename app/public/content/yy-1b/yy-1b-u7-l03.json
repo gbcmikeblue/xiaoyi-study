@@ -3,8 +3,16 @@
   "unitId": "yy-1b-u7",
   "volumeId": "yy-1b",
   "title": "Taste it",
-  "objectives": ["会用 Taste it / Smell it 发出指令", "会用 It's sweet 描述味道"],
+  "objectives": [
+    "会用 Taste it / Smell it 发出指令",
+    "会用 It's sweet 描述味道"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1b/img/yy-1b-u7-l03.webp",
+      "alt": "Taste it的插图"
+    },
     {
       "type": "text",
       "title": "Taste it",
@@ -23,11 +31,22 @@
       "stem": "听一听，选出你听到的句子。",
       "speakText": "Taste it. It's sweet.",
       "options": [
-        { "id": "a", "label": "Taste it. It's sweet." },
-        { "id": "b", "label": "Smell it. It's nice." },
-        { "id": "c", "label": "Taste it. It's sour." }
+        {
+          "id": "a",
+          "label": "Taste it. It's sweet."
+        },
+        {
+          "id": "b",
+          "label": "Smell it. It's nice."
+        },
+        {
+          "id": "c",
+          "label": "Taste it. It's sour."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "听到的是 taste + sweet。"
     },
     {
@@ -35,11 +54,22 @@
       "type": "single",
       "stem": "“尝一尝”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "Taste it." },
-        { "id": "b", "label": "Smell it." },
-        { "id": "c", "label": "See it." }
+        {
+          "id": "a",
+          "label": "Taste it."
+        },
+        {
+          "id": "b",
+          "label": "Smell it."
+        },
+        {
+          "id": "c",
+          "label": "See it."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "taste 是尝。"
     },
     {
@@ -47,11 +77,22 @@
       "type": "single",
       "stem": "柠檬很酸，该怎么说？",
       "options": [
-        { "id": "a", "label": "It's sour." },
-        { "id": "b", "label": "It's sweet." },
-        { "id": "c", "label": "It's nice." }
+        {
+          "id": "a",
+          "label": "It's sour."
+        },
+        {
+          "id": "b",
+          "label": "It's sweet."
+        },
+        {
+          "id": "c",
+          "label": "It's nice."
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "酸的用 sour。"
     }
   ]
