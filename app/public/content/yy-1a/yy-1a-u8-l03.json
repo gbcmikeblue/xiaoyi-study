@@ -1,0 +1,63 @@
+{
+  "id": "yy-1a-u8-l03",
+  "unitId": "yy-1a-u8",
+  "volumeId": "yy-1a",
+  "title": "Fruit words",
+  "objectives": ["会说 apple、banana、orange、pear", "能说出自己喜欢的水果"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Fruit",
+      "content": "apple 苹果，banana 香蕉，orange 橙子，pear 梨。I like apples. 我喜欢苹果。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "apple", "meaning": "苹果" },
+        { "text": "banana", "meaning": "香蕉" },
+        { "text": "orange", "meaning": "橙子" },
+        { "text": "pear", "meaning": "梨" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u8-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "banana",
+      "options": [
+        { "id": "a", "label": "apple" },
+        { "id": "b", "label": "banana" },
+        { "id": "c", "label": "pear" }
+      ],
+      "answer": ["b"],
+      "explanation": "banana 是香蕉，弯弯的。"
+    },
+    {
+      "id": "yy-1a-u8-l03-ex2",
+      "type": "single",
+      "stem": "“橙子”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "orange" },
+        { "id": "b", "label": "apple" },
+        { "id": "c", "label": "pear" }
+      ],
+      "answer": ["a"],
+      "explanation": "orange 既指橙子，也指橙色。"
+    },
+    {
+      "id": "yy-1a-u8-l03-ex3",
+      "type": "multi",
+      "stem": "下面哪些是水果？",
+      "options": [
+        { "id": "a", "label": "apple" },
+        { "id": "b", "label": "pear" },
+        { "id": "c", "label": "banana" },
+        { "id": "d", "label": "book" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "book 是书，不是水果。"
+    }
+  ]
+}

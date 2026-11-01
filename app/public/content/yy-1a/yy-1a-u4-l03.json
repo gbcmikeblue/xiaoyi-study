@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u4-l03",
+  "unitId": "yy-1a-u4",
+  "volumeId": "yy-1a",
+  "title": "Can you ...?",
+  "objectives": ["会用 Can you ...? 询问别人的能力", "会用 Yes, I can / No, I can't 回答"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "问别人会不会",
+      "content": "A: Can you sing? B: Yes, I can. / No, I can't. Can you ...? 就是“你会……吗？”"
+    },
+    {
+      "type": "text",
+      "title": "和 I can 的区别",
+      "content": "I can sing. 是说自己会；Can you sing? 是问别人会。can't 是 cannot 的缩写。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u4-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "Can you sing?",
+      "options": [
+        { "id": "a", "label": "Can you sing?" },
+        { "id": "b", "label": "Can you dance?" },
+        { "id": "c", "label": "Can you draw?" }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 sing，唱歌。"
+    },
+    {
+      "id": "yy-1a-u4-l03-ex2",
+      "type": "single",
+      "stem": "问“你会跳舞吗？”，怎么说？",
+      "options": [
+        { "id": "a", "label": "Can you dance?" },
+        { "id": "b", "label": "I can dance." },
+        { "id": "c", "label": "You can dance?" }
+      ],
+      "answer": ["a"],
+      "explanation": "疑问句把 Can 提到句首。"
+    },
+    {
+      "id": "yy-1a-u4-l03-ex3",
+      "type": "single",
+      "stem": "别人问 Can you swim? 你会，怎么回答？",
+      "options": [
+        { "id": "a", "label": "Yes, I can." },
+        { "id": "b", "label": "Yes, I do." },
+        { "id": "c", "label": "Yes, I am." }
+      ],
+      "answer": ["a"],
+      "explanation": "Can 提问，用 can 回答。"
+    }
+  ]
+}

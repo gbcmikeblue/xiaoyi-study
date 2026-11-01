@@ -2,22 +2,21 @@
   "id": "yy-1a-u6-l01",
   "unitId": "yy-1a-u6",
   "volumeId": "yy-1a",
-  "title": "My friends",
-  "objectives": ["会说 friend、he、she、boy、girl", "能分清 he 与 she"],
+  "title": "Colours",
+  "objectives": ["会说 red、blue、yellow、green", "能指出身边物品的颜色"],
   "blocks": [
     {
       "type": "text",
-      "title": "He or she",
-      "content": "男孩用 he，女孩用 she。He is my friend. She is my friend. friend 就是朋友。"
+      "title": "Look at the colours",
+      "content": "red 红色，blue 蓝色，yellow 黄色，green 绿色。red apple、blue sky、yellow banana、green tree。"
     },
     {
       "type": "words",
       "items": [
-        { "text": "friend", "meaning": "朋友" },
-        { "text": "he", "meaning": "他" },
-        { "text": "she", "meaning": "她" },
-        { "text": "boy", "meaning": "男孩" },
-        { "text": "girl", "meaning": "女孩" }
+        { "text": "red", "meaning": "红色" },
+        { "text": "blue", "meaning": "蓝色" },
+        { "text": "yellow", "meaning": "黄色" },
+        { "text": "green", "meaning": "绿色" }
       ]
     }
   ],
@@ -26,38 +25,38 @@
       "id": "yy-1a-u6-l01-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的单词。",
-      "speakText": "friend",
+      "speakText": "yellow",
       "options": [
-        { "id": "a", "label": "friend" },
-        { "id": "b", "label": "boy" },
-        { "id": "c", "label": "girl" }
+        { "id": "a", "label": "yellow" },
+        { "id": "b", "label": "green" },
+        { "id": "c", "label": "blue" }
       ],
       "answer": ["a"],
-      "explanation": "friend 是朋友。"
+      "explanation": "yellow 是黄色，像香蕉的颜色。"
     },
     {
       "id": "yy-1a-u6-l01-ex2",
       "type": "single",
-      "stem": "指一个女孩，应该用哪个词？",
+      "stem": "“蓝色”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "she" },
-        { "id": "b", "label": "he" },
-        { "id": "c", "label": "it" }
+        { "id": "a", "label": "blue" },
+        { "id": "b", "label": "red" },
+        { "id": "c", "label": "green" }
       ],
       "answer": ["a"],
-      "explanation": "she 指女性，he 指男性。"
+      "explanation": "blue 是蓝色，像天空。"
     },
     {
       "id": "yy-1a-u6-l01-ex3",
       "type": "single",
-      "stem": "boy 是什么意思？",
+      "stem": "苹果通常是上面哪个颜色？",
       "options": [
-        { "id": "a", "label": "男孩" },
-        { "id": "b", "label": "女孩" },
-        { "id": "c", "label": "朋友" }
+        { "id": "a", "label": "red" },
+        { "id": "b", "label": "blue" },
+        { "id": "c", "label": "yellow" }
       ],
       "answer": ["a"],
-      "explanation": "boy 是男孩，girl 是女孩。"
+      "explanation": "red apple，红苹果。"
     }
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "id": "yy-1a-u2-l03",
+  "unitId": "yy-1a-u2",
+  "volumeId": "yy-1a",
+  "title": "How are you?",
+  "objectives": ["会说 happy、sad、tired、fine", "能用 I'm ... 说出自己的状态"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "How are you",
+      "content": "A: How are you? B: I'm fine, thank you. 也可以说 I'm happy / I'm sad / I'm tired。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "happy", "meaning": "开心的" },
+        { "text": "sad", "meaning": "难过的" },
+        { "text": "tired", "meaning": "累的" },
+        { "text": "fine", "meaning": "好的" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u2-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "happy",
+      "options": [
+        { "id": "a", "label": "happy" },
+        { "id": "b", "label": "sad" },
+        { "id": "c", "label": "tired" }
+      ],
+      "answer": ["a"],
+      "explanation": "happy 是开心的。"
+    },
+    {
+      "id": "yy-1a-u2-l03-ex2",
+      "type": "single",
+      "stem": "“我很难过”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "I'm sad." },
+        { "id": "b", "label": "I'm happy." },
+        { "id": "c", "label": "I'm fine." }
+      ],
+      "answer": ["a"],
+      "explanation": "sad 是难过的。"
+    },
+    {
+      "id": "yy-1a-u2-l03-ex3",
+      "type": "single",
+      "stem": "别人问 How are you? 最常怎么回答？",
+      "options": [
+        { "id": "a", "label": "I'm fine, thank you." },
+        { "id": "b", "label": "I'm a boy." },
+        { "id": "c", "label": "It's red." }
+      ],
+      "answer": ["a"],
+      "explanation": "这是最标准的回答。"
+    }
+  ]
+}

@@ -2,21 +2,21 @@
   "id": "yy-1a-u5-l01",
   "unitId": "yy-1a-u5",
   "volumeId": "yy-1a",
-  "title": "My family",
-  "objectives": ["会说 father、mother、brother、sister", "能介绍自己的家人"],
+  "title": "Farm animals",
+  "objectives": ["会说 cow、duck、hen、pig", "能听出动物的叫声对应哪个单词"],
   "blocks": [
     {
       "type": "text",
-      "title": "This is my family",
-      "content": "This is my family. father 爸爸，mother 妈妈，brother 哥哥或弟弟，sister 姐姐或妹妹。"
+      "title": "On the farm",
+      "content": "cow 奶牛，duck 鸭子，hen 母鸡，pig 猪。农场里还有 sheep 绵羊、horse 马。"
     },
     {
       "type": "words",
       "items": [
-        { "text": "father", "meaning": "爸爸" },
-        { "text": "mother", "meaning": "妈妈" },
-        { "text": "brother", "meaning": "兄弟" },
-        { "text": "sister", "meaning": "姐妹" }
+        { "text": "cow", "meaning": "奶牛" },
+        { "text": "duck", "meaning": "鸭子" },
+        { "text": "hen", "meaning": "母鸡" },
+        { "text": "pig", "meaning": "猪" }
       ]
     }
   ],
@@ -25,38 +25,38 @@
       "id": "yy-1a-u5-l01-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的单词。",
-      "speakText": "mother",
+      "speakText": "duck",
       "options": [
-        { "id": "a", "label": "father" },
-        { "id": "b", "label": "mother" },
-        { "id": "c", "label": "sister" }
+        { "id": "a", "label": "cow" },
+        { "id": "b", "label": "duck" },
+        { "id": "c", "label": "hen" }
       ],
       "answer": ["b"],
-      "explanation": "mother 是妈妈，开头是 m。"
+      "explanation": "duck 是鸭子。"
     },
     {
       "id": "yy-1a-u5-l01-ex2",
       "type": "single",
-      "stem": "“爸爸”用英语怎么说？",
+      "stem": "“奶牛”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "father" },
-        { "id": "b", "label": "mother" },
-        { "id": "c", "label": "brother" }
+        { "id": "a", "label": "cow" },
+        { "id": "b", "label": "pig" },
+        { "id": "c", "label": "hen" }
       ],
       "answer": ["a"],
-      "explanation": "father 是爸爸，开头是 f。"
+      "explanation": "cow 是奶牛，会产牛奶。"
     },
     {
       "id": "yy-1a-u5-l01-ex3",
       "type": "single",
-      "stem": "sister 指的是谁？",
+      "stem": "hen 是什么动物？",
       "options": [
-        { "id": "a", "label": "姐妹" },
-        { "id": "b", "label": "兄弟" },
-        { "id": "c", "label": "老师" }
+        { "id": "a", "label": "母鸡" },
+        { "id": "b", "label": "鸭子" },
+        { "id": "c", "label": "猪" }
       ],
       "answer": ["a"],
-      "explanation": "sister 是姐姐或妹妹。"
+      "explanation": "hen 是母鸡，会下蛋。"
     }
   ]
 }

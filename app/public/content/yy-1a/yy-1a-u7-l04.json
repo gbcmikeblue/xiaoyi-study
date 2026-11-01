@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u7-l04",
+  "unitId": "yy-1a-u7",
+  "volumeId": "yy-1a",
+  "title": "He is my friend",
+  "objectives": ["会用 He is / She is 介绍朋友", "能用 Who is he? 提问"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "介绍朋友",
+      "content": "He is my friend. 他是我朋友。She is my friend. 她是我朋友。问别人是谁，说：Who is he? / Who is she?"
+    },
+    {
+      "type": "text",
+      "title": "is 不能丢",
+      "content": "英语句子里要有 is：He is my friend.（不说 He my friend.）"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u7-l04-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "She is my friend.",
+      "options": [
+        { "id": "a", "label": "She is my friend." },
+        { "id": "b", "label": "He is my friend." },
+        { "id": "c", "label": "She is my sister." }
+      ],
+      "answer": ["a"],
+      "explanation": "开头是 She，不是 He。"
+    },
+    {
+      "id": "yy-1a-u7-l04-ex2",
+      "type": "single",
+      "stem": "“他是我朋友”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "He is my friend." },
+        { "id": "b", "label": "She is my friend." },
+        { "id": "c", "label": "He my friend." }
+      ],
+      "answer": ["a"],
+      "explanation": "男性用 he，且必须有 is。"
+    },
+    {
+      "id": "yy-1a-u7-l04-ex3",
+      "type": "single",
+      "stem": "问“她是谁？”，该怎么说？",
+      "options": [
+        { "id": "a", "label": "Who is she?" },
+        { "id": "b", "label": "Who is he?" },
+        { "id": "c", "label": "What is she?" }
+      ],
+      "answer": ["a"],
+      "explanation": "问女性用 she。"
+    }
+  ]
+}

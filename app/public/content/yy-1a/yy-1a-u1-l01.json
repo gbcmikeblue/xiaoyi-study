@@ -2,20 +2,21 @@
   "id": "yy-1a-u1-l01",
   "unitId": "yy-1a-u1",
   "volumeId": "yy-1a",
-  "title": "Greetings",
-  "objectives": ["会说 hello、hi、goodbye", "见到老师和同学会打招呼"],
+  "title": "My family",
+  "objectives": ["会说 father、mother、brother、sister", "能介绍自己的家人"],
   "blocks": [
     {
       "type": "text",
-      "title": "见面打招呼",
-      "content": "见到老师或同学，可以说 Hello，也可以说 Hi。分别的时候说 Goodbye。"
+      "title": "This is my family",
+      "content": "This is my family. father 爸爸，mother 妈妈，brother 哥哥或弟弟，sister 姐姐或妹妹。"
     },
     {
       "type": "words",
       "items": [
-        { "text": "hello", "meaning": "你好" },
-        { "text": "hi", "meaning": "嗨" },
-        { "text": "goodbye", "meaning": "再见" }
+        { "text": "father", "meaning": "爸爸" },
+        { "text": "mother", "meaning": "妈妈" },
+        { "text": "brother", "meaning": "兄弟" },
+        { "text": "sister", "meaning": "姐妹" }
       ]
     }
   ],
@@ -23,41 +24,39 @@
     {
       "id": "yy-1a-u1-l01-ex1",
       "type": "listen",
-      "stem": "听一听，这是哪个词？",
-      "speakText": "hello",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "mother",
       "options": [
-        { "id": "a", "label": "hello" },
-        { "id": "b", "label": "goodbye" },
-        { "id": "c", "label": "hi" }
+        { "id": "a", "label": "father" },
+        { "id": "b", "label": "mother" },
+        { "id": "c", "label": "sister" }
       ],
-      "answer": ["a"],
-      "explanation": "hello 是见面时说的“你好”。"
+      "answer": ["b"],
+      "explanation": "mother 是妈妈，开头是 m。"
     },
     {
       "id": "yy-1a-u1-l01-ex2",
       "type": "single",
-      "stem": "早上见到老师，应该说什么？",
+      "stem": "“爸爸”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "Goodbye" },
-        { "id": "b", "label": "Hello" },
-        { "id": "c", "label": "Sorry" }
+        { "id": "a", "label": "father" },
+        { "id": "b", "label": "mother" },
+        { "id": "c", "label": "brother" }
       ],
-      "answer": ["b"],
-      "explanation": "见面打招呼用 Hello。"
+      "answer": ["a"],
+      "explanation": "father 是爸爸，开头是 f。"
     },
     {
       "id": "yy-1a-u1-l01-ex3",
-      "type": "multi",
-      "stem": "哪些词是“再见”的意思？",
-      "scene": "card",
+      "type": "single",
+      "stem": "sister 指的是谁？",
       "options": [
-        { "id": "a", "label": "goodbye" },
-        { "id": "b", "label": "bye" },
-        { "id": "c", "label": "hello" },
-        { "id": "d", "label": "hi" }
+        { "id": "a", "label": "姐妹" },
+        { "id": "b", "label": "兄弟" },
+        { "id": "c", "label": "老师" }
       ],
-      "answer": ["a", "b"],
-      "explanation": "goodbye 和 bye 都是再见；hello、hi 是打招呼。"
+      "answer": ["a"],
+      "explanation": "sister 是姐姐或妹妹。"
     }
   ]
 }

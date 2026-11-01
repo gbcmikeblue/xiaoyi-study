@@ -2,22 +2,22 @@
   "id": "yy-1a-u3-l01",
   "unitId": "yy-1a-u3",
   "volumeId": "yy-1a",
-  "title": "My face",
-  "objectives": ["会说 face、eye、ear、nose、mouth", "能指着自己的脸说出各部位"],
+  "title": "School things",
+  "objectives": ["会说 pencil、bag、book、ruler、eraser", "能指着文具说出英文"],
   "blocks": [
     {
       "type": "text",
-      "title": "Look at my face",
-      "content": "This is my face. I have two eyes, two ears, one nose and one mouth. 脸、眼睛、耳朵、鼻子、嘴，都在脸上。"
+      "title": "In my bag",
+      "content": "pencil 铅笔，bag 书包，book 书，ruler 尺子，eraser 橡皮。这些都是上学要带的东西。"
     },
     {
       "type": "words",
       "items": [
-        { "text": "face", "meaning": "脸" },
-        { "text": "eye", "meaning": "眼睛" },
-        { "text": "ear", "meaning": "耳朵" },
-        { "text": "nose", "meaning": "鼻子" },
-        { "text": "mouth", "meaning": "嘴" }
+        { "text": "pencil", "meaning": "铅笔" },
+        { "text": "bag", "meaning": "书包" },
+        { "text": "book", "meaning": "书" },
+        { "text": "ruler", "meaning": "尺子" },
+        { "text": "eraser", "meaning": "橡皮" }
       ]
     }
   ],
@@ -26,39 +26,39 @@
       "id": "yy-1a-u3-l01-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的单词。",
-      "speakText": "eye",
+      "speakText": "pencil",
       "options": [
-        { "id": "a", "label": "ear" },
-        { "id": "b", "label": "eye" },
-        { "id": "c", "label": "nose" }
+        { "id": "a", "label": "pencil" },
+        { "id": "b", "label": "ruler" },
+        { "id": "c", "label": "eraser" }
       ],
-      "answer": ["b"],
-      "explanation": "eye 是眼睛，读音像“爱”。"
+      "answer": ["a"],
+      "explanation": "pencil 是铅笔。"
     },
     {
       "id": "yy-1a-u3-l01-ex2",
       "type": "single",
-      "stem": "“鼻子”用英语怎么说？",
+      "stem": "“书包”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "nose" },
-        { "id": "b", "label": "mouth" },
-        { "id": "c", "label": "face" }
+        { "id": "a", "label": "bag" },
+        { "id": "b", "label": "book" },
+        { "id": "c", "label": "ruler" }
       ],
       "answer": ["a"],
-      "explanation": "nose 是鼻子，闻气味靠它。"
+      "explanation": "bag 是书包，也能泛指包。"
     },
     {
       "id": "yy-1a-u3-l01-ex3",
       "type": "multi",
-      "stem": "脸上有哪些部位？",
+      "stem": "下面哪些是上学要带的东西？",
       "options": [
-        { "id": "a", "label": "eye" },
-        { "id": "b", "label": "nose" },
-        { "id": "c", "label": "mouth" },
-        { "id": "d", "label": "hand" }
+        { "id": "a", "label": "pencil" },
+        { "id": "b", "label": "book" },
+        { "id": "c", "label": "eraser" },
+        { "id": "d", "label": "cake" }
       ],
       "answer": ["a", "b", "c"],
-      "explanation": "hand 是手，不在脸上。"
+      "explanation": "cake 是蛋糕，不是文具。"
     }
   ]
 }

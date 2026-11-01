@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u6-l03",
+  "unitId": "yy-1a-u6",
+  "volumeId": "yy-1a",
+  "title": "My favourite colour",
+  "objectives": ["会用 My favourite colour is ... 说出喜欢的颜色", "能问别人喜欢什么颜色"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "My favourite colour",
+      "content": "My favourite colour is blue. 我最喜欢的颜色是蓝色。favourite 就是“最喜欢的”。"
+    },
+    {
+      "type": "text",
+      "title": "问别人",
+      "content": "A: What's your favourite colour? B: My favourite colour is green."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u6-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "My favourite colour is blue.",
+      "options": [
+        { "id": "a", "label": "My favourite colour is blue." },
+        { "id": "b", "label": "My favourite colour is green." },
+        { "id": "c", "label": "My favourite colour is red." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 blue，蓝色。"
+    },
+    {
+      "id": "yy-1a-u6-l03-ex2",
+      "type": "single",
+      "stem": "问别人“你最喜欢什么颜色？”，怎么说？",
+      "options": [
+        { "id": "a", "label": "What's your favourite colour?" },
+        { "id": "b", "label": "What colour is it?" },
+        { "id": "c", "label": "Do you like colour?" }
+      ],
+      "answer": ["a"],
+      "explanation": "问喜好用 favourite。"
+    },
+    {
+      "id": "yy-1a-u6-l03-ex3",
+      "type": "single",
+      "stem": "favourite 是什么意思？",
+      "options": [
+        { "id": "a", "label": "最喜欢的" },
+        { "id": "b", "label": "最便宜的" },
+        { "id": "c", "label": "最大的" }
+      ],
+      "answer": ["a"],
+      "explanation": "favourite 表示最喜欢的。"
+    }
+  ]
+}

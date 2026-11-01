@@ -2,18 +2,18 @@
   "id": "yy-1a-u3-l02",
   "unitId": "yy-1a-u3",
   "volumeId": "yy-1a",
-  "title": "This is my ...",
-  "objectives": ["会用 This is my ... 介绍自己", "能听懂并回应别人的介绍"],
+  "title": "Is this your pencil?",
+  "objectives": ["会用 Is this your ...? 询问物品归属", "会用 Yes, it is / No, it isn't 回答"],
   "blocks": [
     {
       "type": "text",
-      "title": "This is my nose",
-      "content": "指着自己的鼻子说：This is my nose. 指着耳朵说：This is my ear. “This is my ...” 就是“这是我的……”。"
+      "title": "问与答",
+      "content": "A: Is this your pencil? B: Yes, it is. / No, it isn't. 问东西是不是对方的，用 Is this your ...?"
     },
     {
       "type": "text",
-      "title": "两个人一问一答",
-      "content": "A: This is my ear. B: This is my ear, too. 你也可以指着别人说 This is your ear."
+      "title": "否定要缩写",
+      "content": "is not 常缩写成 isn't。回答否定说 No, it isn't.，不说 No, it is not your.。"
     }
   ],
   "exercises": [
@@ -21,38 +21,38 @@
       "id": "yy-1a-u3-l02-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的句子。",
-      "speakText": "This is my nose.",
+      "speakText": "Is this your pencil?",
       "options": [
-        { "id": "a", "label": "This is my nose." },
-        { "id": "b", "label": "This is my ear." },
-        { "id": "c", "label": "This is my mouth." }
+        { "id": "a", "label": "Is this your pencil?" },
+        { "id": "b", "label": "Is this your book?" },
+        { "id": "c", "label": "Is this your bag?" }
       ],
       "answer": ["a"],
-      "explanation": "听到的是 nose，不是 ear 或 mouth。"
+      "explanation": "听到的是 pencil，铅笔。"
     },
     {
       "id": "yy-1a-u3-l02-ex2",
       "type": "single",
-      "stem": "“这是我的耳朵”用英语怎么说？",
+      "stem": "问“这是你的尺子吗？”，怎么说？",
       "options": [
-        { "id": "a", "label": "This is my ear." },
-        { "id": "b", "label": "This is my eye." },
-        { "id": "c", "label": "This is my face." }
+        { "id": "a", "label": "Is this your ruler?" },
+        { "id": "b", "label": "What is this ruler?" },
+        { "id": "c", "label": "This is your ruler?" }
       ],
       "answer": ["a"],
-      "explanation": "耳朵是 ear，套进句型 This is my ...。"
+      "explanation": "疑问句把 Is 提到句首。"
     },
     {
       "id": "yy-1a-u3-l02-ex3",
       "type": "single",
-      "stem": "This is my mouth. 说的是哪个部位？",
+      "stem": "别人问 Is this your bag? 不是你的，怎么回答？",
       "options": [
-        { "id": "a", "label": "嘴" },
-        { "id": "b", "label": "鼻子" },
-        { "id": "c", "label": "眼睛" }
+        { "id": "a", "label": "No, it isn't." },
+        { "id": "b", "label": "No, it is." },
+        { "id": "c", "label": "Yes, it isn't." }
       ],
       "answer": ["a"],
-      "explanation": "mouth 是嘴，用来说话、吃饭。"
+      "explanation": "否定回答用 No, it isn't.。"
     }
   ]
 }

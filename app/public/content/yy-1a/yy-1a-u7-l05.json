@@ -1,0 +1,63 @@
+{
+  "id": "yy-1a-u7-l05",
+  "unitId": "yy-1a-u7",
+  "volumeId": "yy-1a",
+  "title": "Boy or girl",
+  "objectives": ["会说 boy、girl、friend、classmate", "能分清男孩和女孩的说法"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "我的同学",
+      "content": "班里的同学叫 classmate。一起玩的好朋友叫 friend。男孩是 boy，女孩是 girl。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "boy", "meaning": "男孩" },
+        { "text": "girl", "meaning": "女孩" },
+        { "text": "friend", "meaning": "朋友" },
+        { "text": "classmate", "meaning": "同学" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u7-l05-ex1",
+      "type": "single",
+      "stem": "“男孩”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "girl" },
+        { "id": "b", "label": "boy" },
+        { "id": "c", "label": "friend" }
+      ],
+      "answer": ["b"],
+      "explanation": "boy 是男孩，girl 是女孩。"
+    },
+    {
+      "id": "yy-1a-u7-l05-ex2",
+      "type": "listen",
+      "stem": "听一听，这是哪个词？",
+      "speakText": "classmate",
+      "options": [
+        { "id": "a", "label": "classmate" },
+        { "id": "b", "label": "friend" },
+        { "id": "c", "label": "girl" }
+      ],
+      "answer": ["a"],
+      "explanation": "classmate 是“同学”。"
+    },
+    {
+      "id": "yy-1a-u7-l05-ex3",
+      "type": "multi",
+      "stem": "哪些词可以用来说人？",
+      "options": [
+        { "id": "a", "label": "boy" },
+        { "id": "b", "label": "girl" },
+        { "id": "c", "label": "friend" },
+        { "id": "d", "label": "book" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "boy、girl、friend 都指人，book 是书。"
+    }
+  ]
+}

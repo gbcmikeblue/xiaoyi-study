@@ -2,18 +2,18 @@
   "id": "yy-1a-u7-l02",
   "unitId": "yy-1a-u7",
   "volumeId": "yy-1a",
-  "title": "How many?",
-  "objectives": ["会用 How many ...? 提问", "能用数字回答数量"],
+  "title": "This is my ...",
+  "objectives": ["会用 This is my ... 介绍自己", "能听懂并回应别人的介绍"],
   "blocks": [
     {
       "type": "text",
-      "title": "How many apples",
-      "content": "A: How many apples? B: Five. 问数量用 How many，回答直接说数字。"
+      "title": "This is my nose",
+      "content": "指着自己的鼻子说：This is my nose. 指着耳朵说：This is my ear. “This is my ...” 就是“这是我的……”。"
     },
     {
       "type": "text",
-      "title": "复数要加 s",
-      "content": "问多个东西时，名词后面常加 s：apples, books, cats。只有 1 个时不加：one apple。"
+      "title": "两个人一问一答",
+      "content": "A: This is my ear. B: This is my ear, too. 你也可以指着别人说 This is your ear."
     }
   ],
   "exercises": [
@@ -21,38 +21,38 @@
       "id": "yy-1a-u7-l02-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的句子。",
-      "speakText": "How many apples?",
+      "speakText": "This is my nose.",
       "options": [
-        { "id": "a", "label": "How many apples?" },
-        { "id": "b", "label": "How are you?" },
-        { "id": "c", "label": "What is this?" }
+        { "id": "a", "label": "This is my nose." },
+        { "id": "b", "label": "This is my ear." },
+        { "id": "c", "label": "This is my mouth." }
       ],
       "answer": ["a"],
-      "explanation": "How many 是问数量。"
+      "explanation": "听到的是 nose，不是 ear 或 mouth。"
     },
     {
       "id": "yy-1a-u7-l02-ex2",
       "type": "single",
-      "stem": "问“有多少个苹果？”，该怎么说？",
+      "stem": "“这是我的耳朵”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "How many apples?" },
-        { "id": "b", "label": "How many apple?" },
-        { "id": "c", "label": "What apples?" }
+        { "id": "a", "label": "This is my ear." },
+        { "id": "b", "label": "This is my eye." },
+        { "id": "c", "label": "This is my face." }
       ],
       "answer": ["a"],
-      "explanation": "多个苹果要加 s，说 apples。"
+      "explanation": "耳朵是 ear，套进句型 This is my ...。"
     },
     {
       "id": "yy-1a-u7-l02-ex3",
       "type": "single",
-      "stem": "别人问 How many cats? 你有 3 只，怎么回答？",
+      "stem": "This is my mouth. 说的是哪个部位？",
       "options": [
-        { "id": "a", "label": "Three." },
-        { "id": "b", "label": "Cat." },
-        { "id": "c", "label": "Yes." }
+        { "id": "a", "label": "嘴" },
+        { "id": "b", "label": "鼻子" },
+        { "id": "c", "label": "眼睛" }
       ],
       "answer": ["a"],
-      "explanation": "问数量，直接答数字 Three。"
+      "explanation": "mouth 是嘴，用来说话、吃饭。"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "id": "yy-1a-u9-l02",
-  "unitId": "yy-1a-u9",
+  "id": "yy-1a-u8-l06",
+  "unitId": "yy-1a-u8",
   "volumeId": "yy-1a",
   "title": "May I have a pie?",
   "objectives": ["会用 May I have ...? 礼貌地请求", "能用 Sure / Here you are 回应"],
@@ -18,7 +18,7 @@
   ],
   "exercises": [
     {
-      "id": "yy-1a-u9-l02-ex1",
+      "id": "yy-1a-u8-l06-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的句子。",
       "speakText": "May I have a pie?",
@@ -31,7 +31,7 @@
       "explanation": "听到的是 pie，馅饼。"
     },
     {
-      "id": "yy-1a-u9-l02-ex2",
+      "id": "yy-1a-u8-l06-ex2",
       "type": "single",
       "stem": "想要一块蛋糕，礼貌地问法是？",
       "options": [
@@ -43,7 +43,7 @@
       "explanation": "May I have ...? 是最礼貌的请求方式。"
     },
     {
-      "id": "yy-1a-u9-l02-ex3",
+      "id": "yy-1a-u8-l06-ex3",
       "type": "single",
       "stem": "别人说 May I have a pie? 你要给他，该说什么？",
       "options": [

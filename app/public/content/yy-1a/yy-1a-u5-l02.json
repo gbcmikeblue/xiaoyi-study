@@ -2,18 +2,18 @@
   "id": "yy-1a-u5-l02",
   "unitId": "yy-1a-u5",
   "volumeId": "yy-1a",
-  "title": "This is my mother",
-  "objectives": ["会用 This is my ... 介绍家人", "能听懂别人的家庭介绍"],
+  "title": "What's this?",
+  "objectives": ["会用 What's this? 提问", "会用 It's a ... 回答"],
   "blocks": [
     {
       "type": "text",
-      "title": "介绍家人",
-      "content": "指着照片说：This is my father. This is my mother. 介绍多个人时，第二个人之后可以说 This is my brother, too."
+      "title": "问与答",
+      "content": "A: What's this? B: It's a duck. 问单数的事物用 What's this，答语用 It's a ..."
     },
     {
       "type": "text",
-      "title": "问与答",
-      "content": "A: Who is this? B: This is my sister. 问“这是谁”，用 Who is this?"
+      "title": "多个要说 What are these",
+      "content": "问一个说 What's this?；问多个说 What are these? 答语也要变复数：They are ducks."
     }
   ],
   "exercises": [
@@ -21,38 +21,38 @@
       "id": "yy-1a-u5-l02-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的句子。",
-      "speakText": "This is my mother.",
+      "speakText": "It's a duck.",
       "options": [
-        { "id": "a", "label": "This is my mother." },
-        { "id": "b", "label": "This is my father." },
-        { "id": "c", "label": "This is my sister." }
+        { "id": "a", "label": "It's a duck." },
+        { "id": "b", "label": "It's a cow." },
+        { "id": "c", "label": "It's a pig." }
       ],
       "answer": ["a"],
-      "explanation": "听到的是 mother，妈妈。"
+      "explanation": "听到的是 duck，鸭子。"
     },
     {
       "id": "yy-1a-u5-l02-ex2",
       "type": "single",
-      "stem": "“这是我的哥哥”用英语怎么说？",
+      "stem": "问“这是什么？”，英语怎么说？",
       "options": [
-        { "id": "a", "label": "This is my brother." },
-        { "id": "b", "label": "This is my sister." },
-        { "id": "c", "label": "This is my father." }
+        { "id": "a", "label": "What's this?" },
+        { "id": "b", "label": "Who's this?" },
+        { "id": "c", "label": "How's this?" }
       ],
       "answer": ["a"],
-      "explanation": "哥哥、弟弟都是 brother。"
+      "explanation": "问物用 What，问人用 Who。"
     },
     {
       "id": "yy-1a-u5-l02-ex3",
       "type": "single",
-      "stem": "问“这是谁？”，英语怎么说？",
+      "stem": "指着奶牛回答，应该说什么？",
       "options": [
-        { "id": "a", "label": "Who is this?" },
-        { "id": "b", "label": "What is this?" },
-        { "id": "c", "label": "How are you?" }
+        { "id": "a", "label": "It's a cow." },
+        { "id": "b", "label": "It's a duck." },
+        { "id": "c", "label": "It's a hen." }
       ],
       "answer": ["a"],
-      "explanation": "问人用 Who，问物用 What。"
+      "explanation": "奶牛是 cow。"
     }
   ]
 }

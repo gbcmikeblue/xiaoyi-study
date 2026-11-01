@@ -1,6 +1,6 @@
 {
-  "id": "yy-1a-u12-l02",
-  "unitId": "yy-1a-u12",
+  "id": "yy-1a-u8-l08",
+  "unitId": "yy-1a-u8",
   "volumeId": "yy-1a",
   "title": "Let's ...",
   "objectives": ["会用 Let's ... 提出建议", "能用 OK / Great 回应"],
@@ -18,7 +18,7 @@
   ],
   "exercises": [
     {
-      "id": "yy-1a-u12-l02-ex1",
+      "id": "yy-1a-u8-l08-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的句子。",
       "speakText": "Let's fly a kite.",
@@ -31,7 +31,7 @@
       "explanation": "听到的是 fly a kite，放风筝。"
     },
     {
-      "id": "yy-1a-u12-l02-ex2",
+      "id": "yy-1a-u8-l08-ex2",
       "type": "single",
       "stem": "“我们去公园吧”用英语怎么说？",
       "options": [
@@ -43,7 +43,7 @@
       "explanation": "Let's 后面跟动词 go。"
     },
     {
-      "id": "yy-1a-u12-l02-ex3",
+      "id": "yy-1a-u8-l08-ex3",
       "type": "single",
       "stem": "别人说 Let's play! 你同意，该说什么？",
       "options": [

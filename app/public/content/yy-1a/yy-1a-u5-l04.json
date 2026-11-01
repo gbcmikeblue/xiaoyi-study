@@ -1,6 +1,6 @@
 {
-  "id": "yy-1a-u11-l02",
-  "unitId": "yy-1a-u11",
+  "id": "yy-1a-u5-l04",
+  "unitId": "yy-1a-u5",
   "volumeId": "yy-1a",
   "title": "I like pandas",
   "objectives": ["会用 I like ... 说出喜好", "知道说一类动物时名词要加 s"],
@@ -18,7 +18,7 @@
   ],
   "exercises": [
     {
-      "id": "yy-1a-u11-l02-ex1",
+      "id": "yy-1a-u5-l04-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的句子。",
       "speakText": "I like pandas.",
@@ -31,7 +31,7 @@
       "explanation": "听到的是 pandas，熊猫。"
     },
     {
-      "id": "yy-1a-u11-l02-ex2",
+      "id": "yy-1a-u5-l04-ex2",
       "type": "single",
       "stem": "“我喜欢猴子”用英语怎么说？",
       "options": [
@@ -43,7 +43,7 @@
       "explanation": "说一类动物用复数 monkeys。"
     },
     {
-      "id": "yy-1a-u11-l02-ex3",
+      "id": "yy-1a-u5-l04-ex3",
       "type": "single",
       "stem": "I don't like tigers. 是什么意思？",
       "options": [
