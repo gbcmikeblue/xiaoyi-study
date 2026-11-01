@@ -6,6 +6,8 @@ const OUT = 'd:/project/sz-grade1-h5-edu-research/app/.shots';
 
 const cases = [
   ['lesson-img-yw', '/#/v/yw-1a/l/yw-1a-u1-l01'],
+  ['lesson-img-qiutian', '/#/v/yw-1a/l/yw-1a-u5-l01'],
+  ['lesson-img-chuan', '/#/v/yw-1a/l/yw-1a-u7-l01'],
   ['lesson-img-sx', '/#/v/sx-1a/l/sx-1a-u1-l01'],
   ['lesson-img-yy', '/#/v/yy-1a/l/yy-1a-u1-l01'],
 ];

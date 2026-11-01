@@ -6,7 +6,7 @@ import { loadLesson } from '../lib/content';
 import { clearDraft, loadDraft, recordLesson, saveDraft } from '../lib/progress';
 import { audioFor } from '../lib/audioMap';
 import { scrollAppToTop } from '../lib/scroll';
-import { playSource, stopSpeak } from '../lib/speech';
+import { playLater, playSource, stopAll } from '../lib/speech';
 import { getPreferredScene, setPreferredScene } from '../lib/settings';
 import { resolveScene, scenesFor } from '../scenes/registry';
 import type { Block, Lesson } from '../types';
@@ -53,7 +53,7 @@ export default function LessonView({ volumeId, lessonId }: { volumeId: string; l
     })();
     return () => {
       alive = false;
-      stopSpeak();
+      stopAll();
     };
   }, [volumeId, lessonId]);
 
@@ -321,7 +321,7 @@ function BlockView({ block }: { block: Block }) {
             onClick={() => {
               void playSource(item.audioSrc ?? audioFor(item.char), item.char);
               if (item.word) {
-                window.setTimeout(() => {
+                playLater(() => {
                   void playSource(audioFor(item.word), item.word);
                 }, 900);
               }
