@@ -3,8 +3,17 @@
   "unitId": "yy-1a-u1",
   "volumeId": "yy-1a",
   "title": "My family",
-  "objectives": ["会说 father、mother、brother、sister", "能介绍自己的家人"],
+  "objectives": [
+    "会说 father、mother、brother、sister",
+    "能介绍自己的家人"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yy-1a/img/yy-1a-u1-l01.webp",
+      "alt": "爸爸、妈妈和孩子站在一起",
+      "caption": "This is my family"
+    },
     {
       "type": "text",
       "title": "This is my family",
@@ -13,10 +22,22 @@
     {
       "type": "words",
       "items": [
-        { "text": "father", "meaning": "爸爸" },
-        { "text": "mother", "meaning": "妈妈" },
-        { "text": "brother", "meaning": "兄弟" },
-        { "text": "sister", "meaning": "姐妹" }
+        {
+          "text": "father",
+          "meaning": "爸爸"
+        },
+        {
+          "text": "mother",
+          "meaning": "妈妈"
+        },
+        {
+          "text": "brother",
+          "meaning": "兄弟"
+        },
+        {
+          "text": "sister",
+          "meaning": "姐妹"
+        }
       ]
     }
   ],
@@ -27,11 +48,22 @@
       "stem": "听一听，选出你听到的单词。",
       "speakText": "mother",
       "options": [
-        { "id": "a", "label": "father" },
-        { "id": "b", "label": "mother" },
-        { "id": "c", "label": "sister" }
+        {
+          "id": "a",
+          "label": "father"
+        },
+        {
+          "id": "b",
+          "label": "mother"
+        },
+        {
+          "id": "c",
+          "label": "sister"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "mother 是妈妈，开头是 m。"
     },
     {
@@ -39,11 +71,22 @@
       "type": "single",
       "stem": "“爸爸”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "father" },
-        { "id": "b", "label": "mother" },
-        { "id": "c", "label": "brother" }
+        {
+          "id": "a",
+          "label": "father"
+        },
+        {
+          "id": "b",
+          "label": "mother"
+        },
+        {
+          "id": "c",
+          "label": "brother"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "father 是爸爸，开头是 f。"
     },
     {
@@ -51,11 +94,22 @@
       "type": "single",
       "stem": "sister 指的是谁？",
       "options": [
-        { "id": "a", "label": "姐妹" },
-        { "id": "b", "label": "兄弟" },
-        { "id": "c", "label": "老师" }
+        {
+          "id": "a",
+          "label": "姐妹"
+        },
+        {
+          "id": "b",
+          "label": "兄弟"
+        },
+        {
+          "id": "c",
+          "label": "老师"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "sister 是姐姐或妹妹。"
     }
   ]

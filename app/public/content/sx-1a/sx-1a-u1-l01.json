@@ -3,8 +3,17 @@
   "unitId": "sx-1a-u1",
   "volumeId": "sx-1a",
   "title": "走进美丽乡村",
-  "objectives": ["会一个一个地数出 10 以内的物体", "能数出物体的个数并说出总数"],
+  "objectives": [
+    "会一个一个地数出 10 以内的物体",
+    "能数出物体的个数并说出总数"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/sx-1a/img/sx-1a-u1-l01.webp",
+      "alt": "村口有两座房子、一棵树和三只小鸡",
+      "caption": "数一数，村里有几座房子、几只小鸡"
+    },
     {
       "type": "text",
       "title": "村里有什么",
@@ -22,11 +31,22 @@
       "type": "single",
       "stem": "盘子里有 3 个苹果，又放进去 1 个，现在一共有几个？",
       "options": [
-        { "id": "a", "label": "3" },
-        { "id": "b", "label": "4" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "3 个再添上 1 个，数一数就是 4 个。"
     },
     {
@@ -34,11 +54,22 @@
       "type": "single",
       "stem": "一只手有几根手指？",
       "options": [
-        { "id": "a", "label": "4" },
-        { "id": "b", "label": "5" },
-        { "id": "c", "label": "6" }
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "一只手有 5 根手指，数一数就知道。"
     },
     {
@@ -46,11 +77,22 @@
       "type": "single",
       "stem": "下面哪个数最大？",
       "options": [
-        { "id": "a", "label": "7" },
-        { "id": "b", "label": "2" },
-        { "id": "c", "label": "5" }
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "数数时 7 排在 5 的后面，所以 7 比 5 大。"
     }
   ]

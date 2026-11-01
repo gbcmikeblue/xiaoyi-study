@@ -3,22 +3,55 @@
   "unitId": "yw-1a-u5",
   "volumeId": "yw-1a",
   "title": "秋天",
-  "objectives": ["认识“秋、叶、片、飞、会”五个字", "能说出秋天景色的变化"],
+  "objectives": [
+    "认识“秋、叶、片、飞、会”五个字",
+    "能说出秋天景色的变化"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u5-l01.webp",
+      "alt": "树叶从树上落下，天空有一群大雁往南飞",
+      "caption": "秋天到了，树叶黄了，大雁往南飞"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "秋天到了，天气凉了。树叶黄了，一片片从树上落下来。大雁往南飞，一会儿排成“人”字，一会儿排成“一”字。"
     },
-    { "type": "audio", "text": "秋天到了，天气凉了。树叶黄了，一片片从树上落下来。", "caption": "听老师读第一句" },
+    {
+      "type": "audio",
+      "text": "秋天到了，天气凉了。树叶黄了，一片片从树上落下来。",
+      "caption": "听老师读第一句"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "秋", "pinyin": "qiū", "word": "秋天" },
-        { "char": "叶", "pinyin": "yè", "word": "树叶" },
-        { "char": "片", "pinyin": "piàn", "word": "一片" },
-        { "char": "飞", "pinyin": "fēi", "word": "飞走" },
-        { "char": "会", "pinyin": "huì", "word": "一会儿" }
+        {
+          "char": "秋",
+          "pinyin": "qiū",
+          "word": "秋天"
+        },
+        {
+          "char": "叶",
+          "pinyin": "yè",
+          "word": "树叶"
+        },
+        {
+          "char": "片",
+          "pinyin": "piàn",
+          "word": "一片"
+        },
+        {
+          "char": "飞",
+          "pinyin": "fēi",
+          "word": "飞走"
+        },
+        {
+          "char": "会",
+          "pinyin": "huì",
+          "word": "一会儿"
+        }
       ]
     },
     {
@@ -34,11 +67,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "叶",
       "options": [
-        { "id": "a", "label": "秋" },
-        { "id": "b", "label": "叶" },
-        { "id": "c", "label": "飞" }
+        {
+          "id": "a",
+          "label": "秋"
+        },
+        {
+          "id": "b",
+          "label": "叶"
+        },
+        {
+          "id": "c",
+          "label": "飞"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“叶”读 yè，树叶的叶，左边是口字旁。"
     },
     {
@@ -46,11 +90,22 @@
       "type": "single",
       "stem": "秋天到了，树叶变成什么颜色？",
       "options": [
-        { "id": "a", "label": "绿色" },
-        { "id": "b", "label": "黄色" },
-        { "id": "c", "label": "红色" }
+        {
+          "id": "a",
+          "label": "绿色"
+        },
+        {
+          "id": "b",
+          "label": "黄色"
+        },
+        {
+          "id": "c",
+          "label": "红色"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "秋天天凉了，树叶变黄，一片片落下来。"
     },
     {
@@ -58,12 +113,28 @@
       "type": "multi",
       "stem": "秋天里能看到哪些景象？",
       "options": [
-        { "id": "a", "label": "黄叶飘落" },
-        { "id": "b", "label": "大雁南飞" },
-        { "id": "c", "label": "荷花盛开" },
-        { "id": "d", "label": "天气变凉" }
+        {
+          "id": "a",
+          "label": "黄叶飘落"
+        },
+        {
+          "id": "b",
+          "label": "大雁南飞"
+        },
+        {
+          "id": "c",
+          "label": "荷花盛开"
+        },
+        {
+          "id": "d",
+          "label": "天气变凉"
+        }
       ],
-      "answer": ["a", "b", "d"],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
       "explanation": "荷花是夏天开的，秋天看不到。"
     }
   ]
