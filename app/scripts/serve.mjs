@@ -64,8 +64,12 @@ const server = http.createServer((req, res) => {
 
   const stat = fs.statSync(file);
   const type = MIME[path.extname(file).toLowerCase()] ?? 'application/octet-stream';
-  // index.html 绝不能缓存，否则更新后设备仍加载旧的 hash 资源
-  const cache = file.endsWith('.html') ? 'no-cache' : 'public, max-age=3600';
+  // index.html 与音频清单不能缓存：前者会让设备加载旧 hash 资源，
+  // 后者会让新增音频不生效（前端静默回退浏览器语音）
+  const cache =
+    file.endsWith('.html') || file.endsWith('.json')
+      ? 'no-cache'
+      : 'public, max-age=3600';
   const range = req.headers.range;
 
   // Range：音频拖动进度、iOS 播放 flac 依赖它

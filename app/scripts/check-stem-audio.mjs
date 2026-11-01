@@ -5,8 +5,9 @@
 import { chromium } from 'playwright-core';
 
 const CHROME = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
-const BASE = 'http://127.0.0.1:5173';
-const LESSON = '/#/v/sx-1a/l/sx-1a-u1-l01';
+const PORT = process.argv[2] || '5173';
+const BASE = `http://127.0.0.1:${PORT}`;
+const LESSON = process.argv[3] || '/#/v/sx-1a/l/sx-1a-u1-l01';
 
 const browser = await chromium.launch({ executablePath: CHROME });
 const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
