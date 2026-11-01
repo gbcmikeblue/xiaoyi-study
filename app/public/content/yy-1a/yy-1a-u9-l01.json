@@ -1,0 +1,62 @@
+{
+  "id": "yy-1a-u9-l01",
+  "unitId": "yy-1a-u9",
+  "volumeId": "yy-1a",
+  "title": "Food words",
+  "objectives": ["会说 pie、cake、bread、milk", "能说出自己想吃什么"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Food",
+      "content": "pie 派（馅饼），cake 蛋糕，bread 面包，milk 牛奶。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "pie", "meaning": "派、馅饼" },
+        { "text": "cake", "meaning": "蛋糕" },
+        { "text": "bread", "meaning": "面包" },
+        { "text": "milk", "meaning": "牛奶" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u9-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "cake",
+      "options": [
+        { "id": "a", "label": "pie" },
+        { "id": "b", "label": "cake" },
+        { "id": "c", "label": "bread" }
+      ],
+      "answer": ["b"],
+      "explanation": "cake 是蛋糕。"
+    },
+    {
+      "id": "yy-1a-u9-l01-ex2",
+      "type": "single",
+      "stem": "“牛奶”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "milk" },
+        { "id": "b", "label": "bread" },
+        { "id": "c", "label": "pie" }
+      ],
+      "answer": ["a"],
+      "explanation": "milk 是牛奶。"
+    },
+    {
+      "id": "yy-1a-u9-l01-ex3",
+      "type": "single",
+      "stem": "bread 是什么意思？",
+      "options": [
+        { "id": "a", "label": "面包" },
+        { "id": "b", "label": "蛋糕" },
+        { "id": "c", "label": "牛奶" }
+      ],
+      "answer": ["a"],
+      "explanation": "bread 是面包。"
+    }
+  ]
+}

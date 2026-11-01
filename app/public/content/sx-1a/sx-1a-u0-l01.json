@@ -1,0 +1,58 @@
+{
+  "id": "sx-1a-u0-l01",
+  "unitId": "sx-1a-u0",
+  "volumeId": "sx-1a",
+  "title": "可爱的校园",
+  "objectives": ["能在校园里找出数学信息", "知道数学就在身边"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "校园里到处是数学",
+      "content": "走进校园，先看到几座楼、几棵树、几个花坛。教室里有几张桌子、几把椅子、几扇窗。数一数、比一比，这些就是数学。"
+    },
+    {
+      "type": "text",
+      "title": "找一找、说一说",
+      "content": "看到什么，就说“有几个”。说的时候手指点一个、嘴里数一个，别跳着数。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u0-l01-ex1",
+      "type": "single",
+      "stem": "数东西的时候，怎样数才不容易错？",
+      "options": [
+        { "id": "a", "label": "手指点一个、数一个" },
+        { "id": "b", "label": "一眼扫过去估个数" },
+        { "id": "c", "label": "跳着数" }
+      ],
+      "answer": ["a"],
+      "explanation": "手指点着数，不会漏也不会重复。"
+    },
+    {
+      "id": "sx-1a-u0-l01-ex2",
+      "type": "single",
+      "stem": "教室里有 4 扇窗、2 扇门，窗比门多几个？",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "6" },
+        { "id": "c", "label": "1" }
+      ],
+      "answer": ["a"],
+      "explanation": "4 - 2 = 2，窗比门多 2 个。"
+    },
+    {
+      "id": "sx-1a-u0-l01-ex3",
+      "type": "multi",
+      "stem": "校园里哪些东西可以用“数一数”的办法知道数量？",
+      "options": [
+        { "id": "a", "label": "教学楼有几层" },
+        { "id": "b", "label": "操场上有几个人" },
+        { "id": "c", "label": "花坛里有几朵花" },
+        { "id": "d", "label": "风有多大" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "风的大小不能用“几个”来数。"
+    }
+  ]
+}

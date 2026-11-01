@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u12-l02",
+  "unitId": "yy-1a-u12",
+  "volumeId": "yy-1a",
+  "title": "Let's ...",
+  "objectives": ["会用 Let's ... 提出建议", "能用 OK / Great 回应"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Let's fly a kite",
+      "content": "A: Let's fly a kite. B: OK! Let's ... 就是“我们一起……吧”。"
+    },
+    {
+      "type": "text",
+      "title": "常用回应",
+      "content": "同意说 OK! 或 Great! 不同意说 Sorry, I can't."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u12-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "Let's fly a kite.",
+      "options": [
+        { "id": "a", "label": "Let's fly a kite." },
+        { "id": "b", "label": "Let's go to the park." },
+        { "id": "c", "label": "Let's sing a song." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 fly a kite，放风筝。"
+    },
+    {
+      "id": "yy-1a-u12-l02-ex2",
+      "type": "single",
+      "stem": "“我们去公园吧”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "Let's go to the park." },
+        { "id": "b", "label": "Let's the park." },
+        { "id": "c", "label": "We park." }
+      ],
+      "answer": ["a"],
+      "explanation": "Let's 后面跟动词 go。"
+    },
+    {
+      "id": "yy-1a-u12-l02-ex3",
+      "type": "single",
+      "stem": "别人说 Let's play! 你同意，该说什么？",
+      "options": [
+        { "id": "a", "label": "Great!" },
+        { "id": "b", "label": "Sorry, I can't." },
+        { "id": "c", "label": "Thank you." }
+      ],
+      "answer": ["a"],
+      "explanation": "Great! 表示“太好了”，是同意。"
+    }
+  ]
+}

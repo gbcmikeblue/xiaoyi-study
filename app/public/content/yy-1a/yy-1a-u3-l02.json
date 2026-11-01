@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u3-l02",
+  "unitId": "yy-1a-u3",
+  "volumeId": "yy-1a",
+  "title": "This is my ...",
+  "objectives": ["会用 This is my ... 介绍自己", "能听懂并回应别人的介绍"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "This is my nose",
+      "content": "指着自己的鼻子说：This is my nose. 指着耳朵说：This is my ear. “This is my ...” 就是“这是我的……”。"
+    },
+    {
+      "type": "text",
+      "title": "两个人一问一答",
+      "content": "A: This is my ear. B: This is my ear, too. 你也可以指着别人说 This is your ear."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u3-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "This is my nose.",
+      "options": [
+        { "id": "a", "label": "This is my nose." },
+        { "id": "b", "label": "This is my ear." },
+        { "id": "c", "label": "This is my mouth." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 nose，不是 ear 或 mouth。"
+    },
+    {
+      "id": "yy-1a-u3-l02-ex2",
+      "type": "single",
+      "stem": "“这是我的耳朵”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "This is my ear." },
+        { "id": "b", "label": "This is my eye." },
+        { "id": "c", "label": "This is my face." }
+      ],
+      "answer": ["a"],
+      "explanation": "耳朵是 ear，套进句型 This is my ...。"
+    },
+    {
+      "id": "yy-1a-u3-l02-ex3",
+      "type": "single",
+      "stem": "This is my mouth. 说的是哪个部位？",
+      "options": [
+        { "id": "a", "label": "嘴" },
+        { "id": "b", "label": "鼻子" },
+        { "id": "c", "label": "眼睛" }
+      ],
+      "answer": ["a"],
+      "explanation": "mouth 是嘴，用来说话、吃饭。"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "yy-1a-u12-l01",
+  "unitId": "yy-1a-u12",
+  "volumeId": "yy-1a",
+  "title": "Park words",
+  "objectives": ["会说 tree、flower、kite、slide", "能说出公园里有什么"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "In the park",
+      "content": "tree 树，flower 花，kite 风筝，slide 滑梯。公园里还有 swing 秋千、bench 长椅。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "tree", "meaning": "树" },
+        { "text": "flower", "meaning": "花" },
+        { "text": "kite", "meaning": "风筝" },
+        { "text": "slide", "meaning": "滑梯" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u12-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "kite",
+      "options": [
+        { "id": "a", "label": "tree" },
+        { "id": "b", "label": "kite" },
+        { "id": "c", "label": "slide" }
+      ],
+      "answer": ["b"],
+      "explanation": "kite 是风筝。"
+    },
+    {
+      "id": "yy-1a-u12-l01-ex2",
+      "type": "single",
+      "stem": "“花”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "flower" },
+        { "id": "b", "label": "tree" },
+        { "id": "c", "label": "slide" }
+      ],
+      "answer": ["a"],
+      "explanation": "flower 是花。"
+    },
+    {
+      "id": "yy-1a-u12-l01-ex3",
+      "type": "single",
+      "stem": "slide 是什么？",
+      "options": [
+        { "id": "a", "label": "滑梯" },
+        { "id": "b", "label": "秋千" },
+        { "id": "c", "label": "风筝" }
+      ],
+      "answer": ["a"],
+      "explanation": "slide 是滑梯，从上面滑下来。"
+    }
+  ]
+}

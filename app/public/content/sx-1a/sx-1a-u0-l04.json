@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u0-l04",
+  "unitId": "sx-1a-u0",
+  "volumeId": "sx-1a",
+  "title": "好玩的游戏",
+  "objectives": ["能发现简单的排列规律", "能按规律接着往下排"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "找规律",
+      "content": "红、蓝、红、蓝、红、蓝……下一个是什么？是红。因为它是“红蓝”两个一组，一组一组重复。"
+    },
+    {
+      "type": "text",
+      "title": "规律可以有很多种",
+      "content": "可以按颜色排，也可以按大小排、按形状排。找规律先看“几个一组”，再看“怎么重复”。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u0-l04-ex1",
+      "type": "single",
+      "stem": "红、蓝、红、蓝、红，下一个是什么颜色？",
+      "options": [
+        { "id": "a", "label": "蓝" },
+        { "id": "b", "label": "红" },
+        { "id": "c", "label": "黄" }
+      ],
+      "answer": ["a"],
+      "explanation": "红蓝两个一组交替，红后面是蓝。"
+    },
+    {
+      "id": "sx-1a-u0-l04-ex2",
+      "type": "single",
+      "stem": "大、小、小、大、小、小、大，下一个是？",
+      "options": [
+        { "id": "a", "label": "小" },
+        { "id": "b", "label": "大" },
+        { "id": "c", "label": "不大不小" }
+      ],
+      "answer": ["a"],
+      "explanation": "“大小小”三个一组重复，大后面接小。"
+    },
+    {
+      "id": "sx-1a-u0-l04-ex3",
+      "type": "single",
+      "stem": "找规律时，第一步应该看什么？",
+      "options": [
+        { "id": "a", "label": "几个一组" },
+        { "id": "b", "label": "一共有多少个" },
+        { "id": "c", "label": "最后一个是什么" }
+      ],
+      "answer": ["a"],
+      "explanation": "先看重复的“组”有多长，再看组内顺序。"
+    }
+  ]
+}

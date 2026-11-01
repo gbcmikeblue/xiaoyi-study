@@ -1,0 +1,58 @@
+{
+  "id": "sx-1a-u6-l01",
+  "unitId": "sx-1a-u6",
+  "volumeId": "sx-1a",
+  "title": "介绍我的教室",
+  "objectives": ["能用数量与位置介绍一个地方", "能把观察结果说清楚"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "先看再数",
+      "content": "介绍教室，先说有什么、再说有几个、最后说在哪里。例如：教室前面有一块黑板，左边有一扇门，后面有 4 排桌椅。"
+    },
+    {
+      "type": "text",
+      "title": "顺序要清楚",
+      "content": "按“从前到后”或“从左到右”的顺序说，听的人才跟得上。跳着说，别人就糊涂了。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u6-l01-ex1",
+      "type": "single",
+      "stem": "介绍一个地方，先说哪一步比较好？",
+      "options": [
+        { "id": "a", "label": "有什么" },
+        { "id": "b", "label": "好不好" },
+        { "id": "c", "label": "谁建的" }
+      ],
+      "answer": ["a"],
+      "explanation": "先知道有什么，再说数量和位置，条理才清楚。"
+    },
+    {
+      "id": "sx-1a-u6-l01-ex2",
+      "type": "single",
+      "stem": "教室有 4 排桌子，每排 6 张，一共几张？",
+      "options": [
+        { "id": "a", "label": "10" },
+        { "id": "b", "label": "24" },
+        { "id": "c", "label": "2" }
+      ],
+      "answer": ["b"],
+      "explanation": "4 个 6 是 24，这里先按“4 排 × 6 张”理解。"
+    },
+    {
+      "id": "sx-1a-u6-l01-ex3",
+      "type": "multi",
+      "stem": "介绍教室时，哪些信息有用？",
+      "options": [
+        { "id": "a", "label": "有几扇窗" },
+        { "id": "b", "label": "门在哪个方向" },
+        { "id": "c", "label": "桌椅有几排" },
+        { "id": "d", "label": "今天心情怎样" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "心情不是介绍空间时需要的信息。"
+    }
+  ]
+}

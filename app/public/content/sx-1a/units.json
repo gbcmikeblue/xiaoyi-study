@@ -1,5 +1,18 @@
 [
   {
+    "id": "sx-1a-u0",
+    "volumeId": "sx-1a",
+    "order": 0,
+    "title": "我上学啦",
+    "lessons": [
+      { "id": "sx-1a-u0-l01", "order": 1, "title": "可爱的校园" },
+      { "id": "sx-1a-u0-l02", "order": 2, "title": "认识新同学" },
+      { "id": "sx-1a-u0-l03", "order": 3, "title": "我们的操场" },
+      { "id": "sx-1a-u0-l04", "order": 4, "title": "好玩的游戏" },
+      { "id": "sx-1a-u0-l05", "order": 5, "title": "收获的季节" }
+    ]
+  },
+  {
     "id": "sx-1a-u1",
     "volumeId": "sx-1a",
     "order": 1,
@@ -60,6 +73,17 @@
       { "id": "sx-1a-u5-l01", "order": 1, "title": "认识图形" },
       { "id": "sx-1a-u5-l02", "order": 2, "title": "我说你做" },
       { "id": "sx-1a-u5-l03", "order": 3, "title": "怎样搭得高" }
+    ]
+  },
+  {
+    "id": "sx-1a-u6",
+    "volumeId": "sx-1a",
+    "order": 6,
+    "title": "综合实践与数学好玩",
+    "lessons": [
+      { "id": "sx-1a-u6-l01", "order": 1, "title": "介绍我的教室" },
+      { "id": "sx-1a-u6-l02", "order": 2, "title": "一起做游戏" },
+      { "id": "sx-1a-u6-l03", "order": 3, "title": "记录我的一天" }
     ]
   }
 ]

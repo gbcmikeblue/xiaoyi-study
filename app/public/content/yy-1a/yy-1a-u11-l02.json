@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u11-l02",
+  "unitId": "yy-1a-u11",
+  "volumeId": "yy-1a",
+  "title": "I like pandas",
+  "objectives": ["会用 I like ... 说出喜好", "知道说一类动物时名词要加 s"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "I like pandas",
+      "content": "I like pandas. 我喜欢熊猫。说喜欢某一类动物，名词用复数：pandas、tigers、monkeys。"
+    },
+    {
+      "type": "text",
+      "title": "不喜欢怎么说",
+      "content": "I don't like tigers. 我不喜欢老虎。don't 表示“不”。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u11-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "I like pandas.",
+      "options": [
+        { "id": "a", "label": "I like pandas." },
+        { "id": "b", "label": "I like tigers." },
+        { "id": "c", "label": "I like monkeys." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 pandas，熊猫。"
+    },
+    {
+      "id": "yy-1a-u11-l02-ex2",
+      "type": "single",
+      "stem": "“我喜欢猴子”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "I like monkeys." },
+        { "id": "b", "label": "I like monkey." },
+        { "id": "c", "label": "I likes monkeys." }
+      ],
+      "answer": ["a"],
+      "explanation": "说一类动物用复数 monkeys。"
+    },
+    {
+      "id": "yy-1a-u11-l02-ex3",
+      "type": "single",
+      "stem": "I don't like tigers. 是什么意思？",
+      "options": [
+        { "id": "a", "label": "我不喜欢老虎" },
+        { "id": "b", "label": "我喜欢老虎" },
+        { "id": "c", "label": "我害怕老虎" }
+      ],
+      "answer": ["a"],
+      "explanation": "don't 表示否定。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u6-l03",
+  "unitId": "sx-1a-u6",
+  "volumeId": "sx-1a",
+  "title": "记录我的一天",
+  "objectives": ["能按顺序说出一天做的事", "知道事情有先后顺序"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "一天里的事有先后",
+      "content": "起床、刷牙、吃饭、上学、放学、睡觉。这些事不能颠倒——先起床才能刷牙，先上学才能放学。"
+    },
+    {
+      "type": "text",
+      "title": "用“先、再、然后、最后”说",
+      "content": "说顺序的时候，用上这些词，别人一听就明白哪件事在前。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u6-l03-ex1",
+      "type": "single",
+      "stem": "下面哪个顺序是对的？",
+      "options": [
+        { "id": "a", "label": "起床 → 刷牙 → 吃饭" },
+        { "id": "b", "label": "吃饭 → 起床 → 刷牙" },
+        { "id": "c", "label": "刷牙 → 起床 → 吃饭" }
+      ],
+      "answer": ["a"],
+      "explanation": "先起床才能去刷牙、吃饭。"
+    },
+    {
+      "id": "sx-1a-u6-l03-ex2",
+      "type": "single",
+      "stem": "“先……再……然后……最后……”是用来表示什么的？",
+      "options": [
+        { "id": "a", "label": "顺序" },
+        { "id": "b", "label": "颜色" },
+        { "id": "c", "label": "大小" }
+      ],
+      "answer": ["a"],
+      "explanation": "这些词表示事情发生的先后。"
+    },
+    {
+      "id": "sx-1a-u6-l03-ex3",
+      "type": "single",
+      "stem": "一天里，下面哪件事通常最先做？",
+      "options": [
+        { "id": "a", "label": "起床" },
+        { "id": "b", "label": "放学" },
+        { "id": "c", "label": "睡觉" }
+      ],
+      "answer": ["a"],
+      "explanation": "起床是一天的开始。"
+    }
+  ]
+}

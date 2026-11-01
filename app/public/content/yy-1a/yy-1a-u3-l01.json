@@ -1,0 +1,64 @@
+{
+  "id": "yy-1a-u3-l01",
+  "unitId": "yy-1a-u3",
+  "volumeId": "yy-1a",
+  "title": "My face",
+  "objectives": ["会说 face、eye、ear、nose、mouth", "能指着自己的脸说出各部位"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Look at my face",
+      "content": "This is my face. I have two eyes, two ears, one nose and one mouth. 脸、眼睛、耳朵、鼻子、嘴，都在脸上。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "face", "meaning": "脸" },
+        { "text": "eye", "meaning": "眼睛" },
+        { "text": "ear", "meaning": "耳朵" },
+        { "text": "nose", "meaning": "鼻子" },
+        { "text": "mouth", "meaning": "嘴" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u3-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "eye",
+      "options": [
+        { "id": "a", "label": "ear" },
+        { "id": "b", "label": "eye" },
+        { "id": "c", "label": "nose" }
+      ],
+      "answer": ["b"],
+      "explanation": "eye 是眼睛，读音像“爱”。"
+    },
+    {
+      "id": "yy-1a-u3-l01-ex2",
+      "type": "single",
+      "stem": "“鼻子”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "nose" },
+        { "id": "b", "label": "mouth" },
+        { "id": "c", "label": "face" }
+      ],
+      "answer": ["a"],
+      "explanation": "nose 是鼻子，闻气味靠它。"
+    },
+    {
+      "id": "yy-1a-u3-l01-ex3",
+      "type": "multi",
+      "stem": "脸上有哪些部位？",
+      "options": [
+        { "id": "a", "label": "eye" },
+        { "id": "b", "label": "nose" },
+        { "id": "c", "label": "mouth" },
+        { "id": "d", "label": "hand" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "hand 是手，不在脸上。"
+    }
+  ]
+}

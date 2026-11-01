@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u9-l02",
+  "unitId": "yy-1a-u9",
+  "volumeId": "yy-1a",
+  "title": "May I have a pie?",
+  "objectives": ["会用 May I have ...? 礼貌地请求", "能用 Sure / Here you are 回应"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "May I have a pie",
+      "content": "A: May I have a pie? B: Sure. Here you are. A: Thank you. May I have ...? 比直接说要更有礼貌。"
+    },
+    {
+      "type": "text",
+      "title": "和 please 的区别",
+      "content": "Apples, please. 简单直接；May I have a pie? 更客气，对长辈、客人常用。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u9-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "May I have a pie?",
+      "options": [
+        { "id": "a", "label": "May I have a pie?" },
+        { "id": "b", "label": "May I have a cake?" },
+        { "id": "c", "label": "May I have a book?" }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 pie，馅饼。"
+    },
+    {
+      "id": "yy-1a-u9-l02-ex2",
+      "type": "single",
+      "stem": "想要一块蛋糕，礼貌地问法是？",
+      "options": [
+        { "id": "a", "label": "May I have a cake?" },
+        { "id": "b", "label": "Give me a cake." },
+        { "id": "c", "label": "Cake!" }
+      ],
+      "answer": ["a"],
+      "explanation": "May I have ...? 是最礼貌的请求方式。"
+    },
+    {
+      "id": "yy-1a-u9-l02-ex3",
+      "type": "single",
+      "stem": "别人说 May I have a pie? 你要给他，该说什么？",
+      "options": [
+        { "id": "a", "label": "Sure. Here you are." },
+        { "id": "b", "label": "Thank you." },
+        { "id": "c", "label": "Goodbye." }
+      ],
+      "answer": ["a"],
+      "explanation": "Sure. Here you are. 是“当然，给你”。"
+    }
+  ]
+}

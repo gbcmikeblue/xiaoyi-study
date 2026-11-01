@@ -1,0 +1,64 @@
+{
+  "id": "yy-1a-u7-l01",
+  "unitId": "yy-1a-u7",
+  "volumeId": "yy-1a",
+  "title": "Let's count",
+  "objectives": ["会说 one 到 ten", "能数出 10 以内的数量"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "One to ten",
+      "content": "one 1, two 2, three 3, four 4, five 5, six 6, seven 7, eight 8, nine 9, ten 10."
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "one", "meaning": "一" },
+        { "text": "two", "meaning": "二" },
+        { "text": "three", "meaning": "三" },
+        { "text": "four", "meaning": "四" },
+        { "text": "five", "meaning": "五" },
+        { "text": "ten", "meaning": "十" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u7-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的数字。",
+      "speakText": "three",
+      "options": [
+        { "id": "a", "label": "three" },
+        { "id": "b", "label": "two" },
+        { "id": "c", "label": "five" }
+      ],
+      "answer": ["a"],
+      "explanation": "three 是 3。"
+    },
+    {
+      "id": "yy-1a-u7-l01-ex2",
+      "type": "single",
+      "stem": "数字 5 用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "five" },
+        { "id": "b", "label": "four" },
+        { "id": "c", "label": "six" }
+      ],
+      "answer": ["a"],
+      "explanation": "five 是 5。"
+    },
+    {
+      "id": "yy-1a-u7-l01-ex3",
+      "type": "single",
+      "stem": "ten 是数字几？",
+      "options": [
+        { "id": "a", "label": "10" },
+        { "id": "b", "label": "2" },
+        { "id": "c", "label": "5" }
+      ],
+      "answer": ["a"],
+      "explanation": "ten 是 10。"
+    }
+  ]
+}

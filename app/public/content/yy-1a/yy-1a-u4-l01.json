@@ -1,0 +1,62 @@
+{
+  "id": "yy-1a-u4-l01",
+  "unitId": "yy-1a-u4",
+  "volumeId": "yy-1a",
+  "title": "I can sing",
+  "objectives": ["会说 sing、dance、draw、read", "能说出自己会做什么"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "What can you do",
+      "content": "I can sing. I can dance. I can draw. I can read. sing 唱歌、dance 跳舞、draw 画画、read 读书。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "sing", "meaning": "唱歌" },
+        { "text": "dance", "meaning": "跳舞" },
+        { "text": "draw", "meaning": "画画" },
+        { "text": "read", "meaning": "读书" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u4-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "sing",
+      "options": [
+        { "id": "a", "label": "sing" },
+        { "id": "b", "label": "dance" },
+        { "id": "c", "label": "draw" }
+      ],
+      "answer": ["a"],
+      "explanation": "sing 是唱歌，用嘴唱出来。"
+    },
+    {
+      "id": "yy-1a-u4-l01-ex2",
+      "type": "single",
+      "stem": "“跳舞”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "dance" },
+        { "id": "b", "label": "sing" },
+        { "id": "c", "label": "read" }
+      ],
+      "answer": ["a"],
+      "explanation": "dance 是跳舞，跟着音乐动起来。"
+    },
+    {
+      "id": "yy-1a-u4-l01-ex3",
+      "type": "single",
+      "stem": "read 是什么意思？",
+      "options": [
+        { "id": "a", "label": "读书" },
+        { "id": "b", "label": "画画" },
+        { "id": "c", "label": "唱歌" }
+      ],
+      "answer": ["a"],
+      "explanation": "read 是读书、看书。"
+    }
+  ]
+}

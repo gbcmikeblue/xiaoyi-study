@@ -1,0 +1,62 @@
+{
+  "id": "yy-1a-u5-l01",
+  "unitId": "yy-1a-u5",
+  "volumeId": "yy-1a",
+  "title": "My family",
+  "objectives": ["会说 father、mother、brother、sister", "能介绍自己的家人"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "This is my family",
+      "content": "This is my family. father 爸爸，mother 妈妈，brother 哥哥或弟弟，sister 姐姐或妹妹。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "father", "meaning": "爸爸" },
+        { "text": "mother", "meaning": "妈妈" },
+        { "text": "brother", "meaning": "兄弟" },
+        { "text": "sister", "meaning": "姐妹" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u5-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "mother",
+      "options": [
+        { "id": "a", "label": "father" },
+        { "id": "b", "label": "mother" },
+        { "id": "c", "label": "sister" }
+      ],
+      "answer": ["b"],
+      "explanation": "mother 是妈妈，开头是 m。"
+    },
+    {
+      "id": "yy-1a-u5-l01-ex2",
+      "type": "single",
+      "stem": "“爸爸”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "father" },
+        { "id": "b", "label": "mother" },
+        { "id": "c", "label": "brother" }
+      ],
+      "answer": ["a"],
+      "explanation": "father 是爸爸，开头是 f。"
+    },
+    {
+      "id": "yy-1a-u5-l01-ex3",
+      "type": "single",
+      "stem": "sister 指的是谁？",
+      "options": [
+        { "id": "a", "label": "姐妹" },
+        { "id": "b", "label": "兄弟" },
+        { "id": "c", "label": "老师" }
+      ],
+      "answer": ["a"],
+      "explanation": "sister 是姐姐或妹妹。"
+    }
+  ]
+}

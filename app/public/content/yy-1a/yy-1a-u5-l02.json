@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u5-l02",
+  "unitId": "yy-1a-u5",
+  "volumeId": "yy-1a",
+  "title": "This is my mother",
+  "objectives": ["会用 This is my ... 介绍家人", "能听懂别人的家庭介绍"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "介绍家人",
+      "content": "指着照片说：This is my father. This is my mother. 介绍多个人时，第二个人之后可以说 This is my brother, too."
+    },
+    {
+      "type": "text",
+      "title": "问与答",
+      "content": "A: Who is this? B: This is my sister. 问“这是谁”，用 Who is this?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u5-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "This is my mother.",
+      "options": [
+        { "id": "a", "label": "This is my mother." },
+        { "id": "b", "label": "This is my father." },
+        { "id": "c", "label": "This is my sister." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 mother，妈妈。"
+    },
+    {
+      "id": "yy-1a-u5-l02-ex2",
+      "type": "single",
+      "stem": "“这是我的哥哥”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "This is my brother." },
+        { "id": "b", "label": "This is my sister." },
+        { "id": "c", "label": "This is my father." }
+      ],
+      "answer": ["a"],
+      "explanation": "哥哥、弟弟都是 brother。"
+    },
+    {
+      "id": "yy-1a-u5-l02-ex3",
+      "type": "single",
+      "stem": "问“这是谁？”，英语怎么说？",
+      "options": [
+        { "id": "a", "label": "Who is this?" },
+        { "id": "b", "label": "What is this?" },
+        { "id": "c", "label": "How are you?" }
+      ],
+      "answer": ["a"],
+      "explanation": "问人用 Who，问物用 What。"
+    }
+  ]
+}

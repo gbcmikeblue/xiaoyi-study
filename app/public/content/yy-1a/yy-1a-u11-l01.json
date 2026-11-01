@@ -1,0 +1,62 @@
+{
+  "id": "yy-1a-u11-l01",
+  "unitId": "yy-1a-u11",
+  "volumeId": "yy-1a",
+  "title": "Zoo animals",
+  "objectives": ["会说 panda、tiger、monkey、elephant", "能说出自己喜欢的动物"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "In the zoo",
+      "content": "panda 熊猫，tiger 老虎，monkey 猴子，elephant 大象。动物园里还有 lion 狮子、bear 熊。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "panda", "meaning": "熊猫" },
+        { "text": "tiger", "meaning": "老虎" },
+        { "text": "monkey", "meaning": "猴子" },
+        { "text": "elephant", "meaning": "大象" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u11-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "monkey",
+      "options": [
+        { "id": "a", "label": "panda" },
+        { "id": "b", "label": "monkey" },
+        { "id": "c", "label": "tiger" }
+      ],
+      "answer": ["b"],
+      "explanation": "monkey 是猴子。"
+    },
+    {
+      "id": "yy-1a-u11-l01-ex2",
+      "type": "single",
+      "stem": "“熊猫”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "panda" },
+        { "id": "b", "label": "tiger" },
+        { "id": "c", "label": "elephant" }
+      ],
+      "answer": ["a"],
+      "explanation": "panda 是熊猫，中国的国宝。"
+    },
+    {
+      "id": "yy-1a-u11-l01-ex3",
+      "type": "single",
+      "stem": "elephant 是什么动物？",
+      "options": [
+        { "id": "a", "label": "大象" },
+        { "id": "b", "label": "老虎" },
+        { "id": "c", "label": "猴子" }
+      ],
+      "answer": ["a"],
+      "explanation": "elephant 是大象，有长鼻子。"
+    }
+  ]
+}

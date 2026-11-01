@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u7-l02",
+  "unitId": "yy-1a-u7",
+  "volumeId": "yy-1a",
+  "title": "How many?",
+  "objectives": ["会用 How many ...? 提问", "能用数字回答数量"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "How many apples",
+      "content": "A: How many apples? B: Five. 问数量用 How many，回答直接说数字。"
+    },
+    {
+      "type": "text",
+      "title": "复数要加 s",
+      "content": "问多个东西时，名词后面常加 s：apples, books, cats。只有 1 个时不加：one apple。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u7-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "How many apples?",
+      "options": [
+        { "id": "a", "label": "How many apples?" },
+        { "id": "b", "label": "How are you?" },
+        { "id": "c", "label": "What is this?" }
+      ],
+      "answer": ["a"],
+      "explanation": "How many 是问数量。"
+    },
+    {
+      "id": "yy-1a-u7-l02-ex2",
+      "type": "single",
+      "stem": "问“有多少个苹果？”，该怎么说？",
+      "options": [
+        { "id": "a", "label": "How many apples?" },
+        { "id": "b", "label": "How many apple?" },
+        { "id": "c", "label": "What apples?" }
+      ],
+      "answer": ["a"],
+      "explanation": "多个苹果要加 s，说 apples。"
+    },
+    {
+      "id": "yy-1a-u7-l02-ex3",
+      "type": "single",
+      "stem": "别人问 How many cats? 你有 3 只，怎么回答？",
+      "options": [
+        { "id": "a", "label": "Three." },
+        { "id": "b", "label": "Cat." },
+        { "id": "c", "label": "Yes." }
+      ],
+      "answer": ["a"],
+      "explanation": "问数量，直接答数字 Three。"
+    }
+  ]
+}

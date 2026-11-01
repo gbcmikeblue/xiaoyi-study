@@ -1,0 +1,62 @@
+{
+  "id": "yy-1a-u10-l01",
+  "unitId": "yy-1a-u10",
+  "volumeId": "yy-1a",
+  "title": "Farm animals",
+  "objectives": ["会说 cow、duck、hen、pig", "能听出动物的叫声对应哪个单词"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "On the farm",
+      "content": "cow 奶牛，duck 鸭子，hen 母鸡，pig 猪。农场里还有 sheep 绵羊、horse 马。"
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "cow", "meaning": "奶牛" },
+        { "text": "duck", "meaning": "鸭子" },
+        { "text": "hen", "meaning": "母鸡" },
+        { "text": "pig", "meaning": "猪" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u10-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "duck",
+      "options": [
+        { "id": "a", "label": "cow" },
+        { "id": "b", "label": "duck" },
+        { "id": "c", "label": "hen" }
+      ],
+      "answer": ["b"],
+      "explanation": "duck 是鸭子。"
+    },
+    {
+      "id": "yy-1a-u10-l01-ex2",
+      "type": "single",
+      "stem": "“奶牛”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "cow" },
+        { "id": "b", "label": "pig" },
+        { "id": "c", "label": "hen" }
+      ],
+      "answer": ["a"],
+      "explanation": "cow 是奶牛，会产牛奶。"
+    },
+    {
+      "id": "yy-1a-u10-l01-ex3",
+      "type": "single",
+      "stem": "hen 是什么动物？",
+      "options": [
+        { "id": "a", "label": "母鸡" },
+        { "id": "b", "label": "鸭子" },
+        { "id": "c", "label": "猪" }
+      ],
+      "answer": ["a"],
+      "explanation": "hen 是母鸡，会下蛋。"
+    }
+  ]
+}

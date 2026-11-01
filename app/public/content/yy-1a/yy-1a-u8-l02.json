@@ -1,0 +1,58 @@
+{
+  "id": "yy-1a-u8-l02",
+  "unitId": "yy-1a-u8",
+  "volumeId": "yy-1a",
+  "title": "Apples, please",
+  "objectives": ["会用 ... please 提出请求", "会用 Here you are / Thank you 回应"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "要东西要说 please",
+      "content": "A: Apples, please. B: Here you are. A: Thank you. 要东西加 please 才礼貌，别人给你东西说 Thank you。"
+    },
+    {
+      "type": "text",
+      "title": "三句常用语",
+      "content": "Apples, please.（请给我苹果）Here you are.（给你）Thank you.（谢谢）"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1a-u8-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "Apples, please.",
+      "options": [
+        { "id": "a", "label": "Apples, please." },
+        { "id": "b", "label": "Here you are." },
+        { "id": "c", "label": "Thank you." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是要苹果，句末有 please。"
+    },
+    {
+      "id": "yy-1a-u8-l02-ex2",
+      "type": "single",
+      "stem": "想要香蕉，礼貌的说法是？",
+      "options": [
+        { "id": "a", "label": "Bananas, please." },
+        { "id": "b", "label": "Give me bananas." },
+        { "id": "c", "label": "Bananas!" }
+      ],
+      "answer": ["a"],
+      "explanation": "加 please 才是礼貌的请求。"
+    },
+    {
+      "id": "yy-1a-u8-l02-ex3",
+      "type": "single",
+      "stem": "别人把东西递给你，他说什么？",
+      "options": [
+        { "id": "a", "label": "Here you are." },
+        { "id": "b", "label": "Thank you." },
+        { "id": "c", "label": "Goodbye." }
+      ],
+      "answer": ["a"],
+      "explanation": "Here you are 是“给你”。"
+    }
+  ]
+}

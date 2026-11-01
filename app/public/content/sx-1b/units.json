@@ -66,5 +66,16 @@
       { "id": "sx-1b-u6-l01", "order": 1, "title": "长方形和正方形的边" },
       { "id": "sx-1b-u6-l02", "order": 2, "title": "七巧板" }
     ]
+  },
+  {
+    "id": "sx-1b-u7",
+    "volumeId": "sx-1b",
+    "order": 7,
+    "title": "综合实践与数学好玩",
+    "lessons": [
+      { "id": "sx-1b-u7-l01", "order": 1, "title": "设计教室装饰图" },
+      { "id": "sx-1b-u7-l02", "order": 2, "title": "填数游戏" },
+      { "id": "sx-1b-u7-l03", "order": 3, "title": "画数学连环画" }
+    ]
   }
 ]

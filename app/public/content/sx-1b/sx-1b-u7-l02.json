@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u7-l02",
+  "unitId": "sx-1b-u7",
+  "volumeId": "sx-1b",
+  "title": "填数游戏",
+  "objectives": ["能按规则填出缺少的数", "知道每行每列不重复"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "三条规矩",
+      "content": "填数游戏有三条规矩：每行不能有重复、每列不能有重复、每小格也不能有重复。缺哪个，就用“排除法”找。"
+    },
+    {
+      "type": "text",
+      "title": "排除法怎么用",
+      "content": "看一行已经有 1 和 3，这一行只剩两个格子，那缺的一定是 2 和 4。再看列里已经有 2，就能确定哪个格子填 4。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u7-l02-ex1",
+      "type": "single",
+      "stem": "填数游戏里，同一行允许出现两个一样的数吗？",
+      "options": [
+        { "id": "a", "label": "不允许" },
+        { "id": "b", "label": "允许" },
+        { "id": "c", "label": "看情况" }
+      ],
+      "answer": ["a"],
+      "explanation": "每行数字不能重复，这是基本规则。"
+    },
+    {
+      "id": "sx-1b-u7-l02-ex2",
+      "type": "single",
+      "stem": "一行有 4 个格子，已经填了 1、2、3，第四个格子填几？",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "1" },
+        { "id": "c", "label": "0" }
+      ],
+      "answer": ["a"],
+      "explanation": "1 到 4 里只剩 4 没出现。"
+    },
+    {
+      "id": "sx-1b-u7-l02-ex3",
+      "type": "single",
+      "stem": "确定一个格子该填什么，最常用的办法是？",
+      "options": [
+        { "id": "a", "label": "排除法" },
+        { "id": "b", "label": "随便猜" },
+        { "id": "c", "label": "问别人" }
+      ],
+      "answer": ["a"],
+      "explanation": "把不可能的都排除掉，剩下的就是答案。"
+    }
+  ]
+}

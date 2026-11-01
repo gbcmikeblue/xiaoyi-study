@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u7-l03",
+  "unitId": "sx-1b-u7",
+  "volumeId": "sx-1b",
+  "title": "画数学连环画",
+  "objectives": ["能用图画讲一个含数学的故事", "知道画里要有数、有问题、有答案"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "画里有数学",
+      "content": "画 3 只小鸟停在树上，又飞来 2 只。这就是一个数学故事：原来 3 只，来了 2 只，一共 5 只。"
+    },
+    {
+      "type": "text",
+      "title": "三样不能少",
+      "content": "一幅好的数学连环画要有：看得见的数量、一个能问的问题、一个算得出的答案。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u7-l03-ex1",
+      "type": "single",
+      "stem": "数学连环画里，除了画还要有什么？",
+      "options": [
+        { "id": "a", "label": "问题与答案" },
+        { "id": "b", "label": "作者签名" },
+        { "id": "c", "label": "价格" }
+      ],
+      "answer": ["a"],
+      "explanation": "没有问题和答案，就只是画，不是数学故事。"
+    },
+    {
+      "id": "sx-1b-u7-l03-ex2",
+      "type": "single",
+      "stem": "树上 3 只鸟，飞来 2 只，一共几只？",
+      "options": [
+        { "id": "a", "label": "5" },
+        { "id": "b", "label": "1" },
+        { "id": "c", "label": "3" }
+      ],
+      "answer": ["a"],
+      "explanation": "3 + 2 = 5，飞来要用加法。"
+    },
+    {
+      "id": "sx-1b-u7-l03-ex3",
+      "type": "single",
+      "stem": "画“飞走了几只”这类故事，应该用什么运算？",
+      "options": [
+        { "id": "a", "label": "减法" },
+        { "id": "b", "label": "加法" },
+        { "id": "c", "label": "不用算" }
+      ],
+      "answer": ["a"],
+      "explanation": "飞走是减少，用减法。"
+    }
+  ]
+}
