@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>插图风格样张 · 一年级学习 App</title>
+    <style>
+      :root {
+        --bg: #f7f5f0;
+        --card: #ffffff;
+        --ink: #1f1d1a;
+        --ink-soft: #6b655c;
+        --line: #e6e1d8;
+        --accent: #d97706;
+        --radius: 18px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, -apple-system,
+          "Segoe UI", sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+      }
+
+      /* ---------- 页头 ---------- */
+      header {
+        margin-bottom: 28px;
+      }
+
+      h1 {
+        font-size: clamp(24px, 4vw, 34px);
+        line-height: 1.25;
+        margin: 0 0 10px;
+        letter-spacing: -0.01em;
+      }
+
+      .lede {
+        margin: 0;
+        color: var(--ink-soft);
+        font-size: 15px;
+        max-width: 62ch;
+      }
+
+      .lede strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      /* ---------- 筛选 ---------- */
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 24px 0 26px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .chip {
+        appearance: none;
+        border: 1px solid var(--line);
+        background: var(--card);
+        color: var(--ink-soft);
+        padding: 8px 16px;
+        border-radius: 999px;
+        font-size: 14px;
+        font-family: inherit;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        white-space: nowrap;
+      }
+
+      .chip:hover {
+        border-color: #cfc7b8;
+        color: var(--ink);
+      }
+
+      .chip[aria-pressed="true"] {
+        background: var(--ink);
+        border-color: var(--ink);
+        color: #fff;
+      }
+
+      .count {
+        margin-left: 6px;
+        opacity: 0.55;
+        font-variant-numeric: tabular-nums;
+      }
+
+      /* ---------- 网格 ---------- */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 22px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 28px rgba(60, 50, 30, 0.09);
+      }
+
+      .card[hidden] {
+        display: none;
+      }
+
+      .thumb {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: 0;
+        background: #efece4;
+        cursor: zoom-in;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+      }
+
+      .thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .no {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        min-width: 38px;
+        height: 38px;
+        padding: 0 8px;
+        border-radius: 12px;
+        background: rgba(20, 18, 15, 0.72);
+        backdrop-filter: blur(6px);
+        color: #fff;
+        font-size: 17px;
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.02em;
+      }
+
+      .body {
+        padding: 16px 18px 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 1;
+      }
+
+      .name {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+
+      .en {
+        margin: 0;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--ink-soft);
+      }
+
+      .desc {
+        margin: 0;
+        font-size: 14px;
+        color: var(--ink-soft);
+      }
+
+      .specs {
+        margin: 2px 0 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        gap: 5px;
+        font-size: 13px;
+        color: var(--ink-soft);
+      }
+
+      .specs li {
+        display: grid;
+        grid-template-columns: 52px 1fr;
+        gap: 8px;
+      }
+
+      .specs b {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      .tags {
+        margin-top: auto;
+        padding-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+
+      .tag {
+        font-size: 12px;
+        padding: 3px 9px;
+        border-radius: 999px;
+        background: #f3efe6;
+        color: var(--ink-soft);
+      }
+
+      /* ---------- 灯箱 ---------- */
+      .lightbox {
+        position: fixed;
+        inset: 0;
+        z-index: 50;
+        background: rgba(16, 14, 11, 0.9);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        cursor: zoom-out;
+      }
+
+      .lightbox.open {
+        display: flex;
+      }
+
+      .lightbox img {
+        max-width: 100%;
+        max-height: 88vh;
+        border-radius: 12px;
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+      }
+
+      .lb-caption {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.82);
+        font-size: 14px;
+      }
+
+      /* ---------- 响应式 ---------- */
+      @media (max-width: 640px) {
+        .wrap {
+          padding: 26px 14px 60px;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+          gap: 18px;
+        }
+        .filters {
+          gap: 6px;
+        }
+        .chip {
+          padding: 7px 13px;
+          font-size: 13px;
+        }
+      }
+
+      @media (min-width: 641px) and (max-width: 1024px) {
+        .grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          transition: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>插图风格样张 · 10 个方向</h1>
+        <p class="lede">
+          同一主题（秋日树下读书）下的 10 种视觉语言，用于确定课时插图的整体风格。
+          每张在<strong>配色、图形元素、留白与装饰</strong>上刻意拉开距离，点图可看原尺寸细节。
+        </p>
+      </header>
+
+      <nav class="filters" id="filters" aria-label="按风格筛选">
+        <button class="chip" data-filter="all" aria-pressed="true">全部<span class="count">10</span></button>
+        <button class="chip" data-filter="block" aria-pressed="false">色块类<span class="count">3</span></button>
+        <button class="chip" data-filter="render" aria-pressed="false">渲染类<span class="count">3</span></button>
+        <button class="chip" data-filter="line" aria-pressed="false">线描类<span class="count">4</span></button>
+        <button class="chip" data-filter="warm" aria-pressed="false">暖色系<span class="count">6</span></button>
+        <button class="chip" data-filter="neutral" aria-pressed="false">中性色<span class="count">2</span></button>
+      </nav>
+
+      <main class="grid" id="grid"></main>
+    </div>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="放大预览">
+      <img id="lbImg" alt="" />
+      <div class="lb-caption" id="lbCap"></div>
+    </div>
+
+    <script>
+      const styles = [
+        {
+          no: '01',
+          name: '扁平几何',
+          en: 'Flat Geometric',
+          desc: '纯色块堆叠，零描边零渐变。识别度最高，缩小到 96px 仍看得清，印刷与低端屏都友好。',
+          specs: [
+            ['配色', '暖橙 / 青绿 / 米白，三色克制'],
+            ['图形', '圆角几何形，无轮廓线'],
+            ['留白', '中等，右侧承接落叶动势'],
+          ],
+          tags: ['block', 'warm'],
+          tagText: ['色块类', '暖色系'],
+        },
+        {
+          no: '02',
+          name: '柔和水彩',
+          en: 'Soft Watercolor',
+          desc: '氤氲的水彩晕染与纸纹，边缘自然渗出。气质温润，适合古诗与自然类课文。',
+          specs: [
+            ['配色', '低饱和粉橙、雾蓝、浅赭'],
+            ['图形', '湿画法晕染，可见纸纹'],
+            ['留白', '大，画面呼吸感强'],
+          ],
+          tags: ['render', 'warm'],
+          tagText: ['渲染类', '暖色系'],
+        },
+        {
+          no: '03',
+          name: '粗描边卡通',
+          en: 'Bold Outline Cartoon',
+          desc: '均匀粗黑边加高饱和色，接近动画片。低龄段注意力抓得最牢，但连续多课会显吵。',
+          specs: [
+            ['配色', '高饱和三原色系'],
+            ['图形', '等宽粗描边，圆润夸张造型'],
+            ['留白', '小，画面填满'],
+          ],
+          tags: ['line', 'warm'],
+          tagText: ['线描类', '高饱和'],
+        },
+        {
+          no: '04',
+          name: '剪纸拼贴',
+          en: 'Paper Cut Collage',
+          desc: '层叠纸片与柔和投影，手作感强。适合节日、手工、劳动主题的课时。',
+          specs: [
+            ['配色', '哑光暖调，纸本色'],
+            ['图形', '撕边纸片分层，投影塑造深度'],
+            ['留白', '中等，边缘常留纸底'],
+          ],
+          tags: ['block', 'warm'],
+          tagText: ['色块类', '暖色系'],
+        },
+        {
+          no: '05',
+          name: '日式极简',
+          en: 'Japanese Minimal',
+          desc: '大面积留白加水墨灰，仅一片朱红点题。安静克制，适合《静夜思》《江南》这类古诗。',
+          specs: [
+            ['配色', '墨灰为主，单点朱红'],
+            ['图形', '细笔触枝干，极少元素'],
+            ['留白', '极大，占画面七成以上'],
+          ],
+          tags: ['line', 'neutral'],
+          tagText: ['线描类', '中性色'],
+        },
+        {
+          no: '06',
+          name: '复古绘本',
+          en: 'Vintage Storybook',
+          desc: '米黄纸底、印刷颗粒与半调网点，复刻六十年代童书。有收藏感，但小字号文字上易显脏。',
+          specs: [
+            ['配色', '芥末黄、铁锈红、鼠尾草绿'],
+            ['图形', '轻微套印错位，颗粒质感'],
+            ['留白', '中等，边缘有做旧'],
+          ],
+          tags: ['render', 'warm'],
+          tagText: ['渲染类', '复古'],
+        },
+        {
+          no: '07',
+          name: '双色剪影',
+          en: 'Two-tone Silhouette',
+          desc: '只有两个颜色，人物剪影无内部细节。图形力量最强，适合封面与章节分隔页。',
+          specs: [
+            ['配色', '深藏蓝 + 暖米，严格两色'],
+            ['图形', '剪影块面，落叶作色彩点缀'],
+            ['留白', '大，天空几乎全空'],
+          ],
+          tags: ['block'],
+          tagText: ['色块类', '冷色'],
+        },
+        {
+          no: '08',
+          name: '渐变霓虹',
+          en: 'Gradient Neon',
+          desc: '深底加洋红青紫发光。视觉冲击最强，但气质偏成人，一年级建议只用于特殊主题。',
+          specs: [
+            ['配色', '深藏底 + 霓虹渐变'],
+            ['图形', '柔光扩散，无硬边'],
+            ['留白', '小，靠暗部撑住画面'],
+          ],
+          tags: ['render'],
+          tagText: ['渲染类', '冷色'],
+        },
+        {
+          no: '09',
+          name: '蜡笔手绘',
+          en: 'Crayon Hand-drawn',
+          desc: '蜡笔颗粒与歪斜线条，像孩子自己画的。亲近感最强，可用于「我来画一画」类活动页。',
+          specs: [
+            ['配色', '鲜艳原色，笔触叠加处发暗'],
+            ['图形', '抖动手绘线，涂色不匀'],
+            ['留白', '中等，纸上留白自然'],
+          ],
+          tags: ['line', 'warm'],
+          tagText: ['线描类', '手绘'],
+        },
+        {
+          no: '10',
+          name: '线稿单色',
+          en: 'Line Art Accent',
+          desc: '白底细线，只有落叶填了橙色。最省墨、最适合打印，也能压在彩色背景上不打架。',
+          specs: [
+            ['配色', '白 / 深灰 / 单点橙'],
+            ['图形', '等宽细线，无阴影无质感'],
+            ['留白', '极大，背景纯白'],
+          ],
+          tags: ['line', 'neutral'],
+          tagText: ['线描类', '中性色'],
+        },
+      ];
+
+      const grid = document.getElementById('grid');
+
+      grid.innerHTML = styles
+        .map(
+          (s) => `
+        <article class="card" data-tags="${s.tags.join(' ')}">
+          <button class="thumb" data-full="./assets/style-samples/s${s.no}.png" data-cap="${s.no} · ${s.name} / ${s.en}">
+            <img src="./assets/style-samples/thumbs/s${s.no}.jpg" alt="${s.name}风格样张" loading="lazy" />
+            <span class="no">${s.no}</span>
+          </button>
+          <div class="body">
+            <h2 class="name">${s.name}</h2>
+            <p class="en">${s.en}</p>
+            <p class="desc">${s.desc}</p>
+            <ul class="specs">
+              ${s.specs.map(([k, v]) => `<li><b>${k}</b><span>${v}</span></li>`).join('')}
+            </ul>
+            <div class="tags">${s.tagText.map((t) => `<span class="tag">${t}</span>`).join('')}</div>
+          </div>
+        </article>`,
+        )
+        .join('');
+
+      // ---------- 筛选 ----------
+      const chips = [...document.querySelectorAll('.chip')];
+
+      chips.forEach((chip) => {
+        chip.addEventListener('click', () => {
+          const f = chip.dataset.filter;
+          chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+          document.querySelectorAll('.card').forEach((card) => {
+            const tags = card.dataset.tags.split(' ');
+            card.hidden = f !== 'all' && !tags.includes(f);
+          });
+        });
+      });
+
+      // ---------- 灯箱 ----------
+      const lb = document.getElementById('lightbox');
+      const lbImg = document.getElementById('lbImg');
+      const lbCap = document.getElementById('lbCap');
+
+      grid.addEventListener('click', (e) => {
+        const btn = e.target.closest('.thumb');
+        if (!btn) return;
+        lbImg.src = btn.dataset.full;
+        lbImg.alt = btn.dataset.cap;
+        lbCap.textContent = btn.dataset.cap;
+        lb.classList.add('open');
+      });
+
+      lb.addEventListener('click', () => lb.classList.remove('open'));
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') lb.classList.remove('open');
+      });
+    </script>
+  </body>
+</html>
