@@ -73,6 +73,28 @@ npm run serve      # 局域网与 iPad 都走这个
 
 ---
 
+## 2.5 构建会因 dist 文件数过多而失败
+
+内容扩充到 100+ 课时后，`npm run build` 会报：
+
+```
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":552,"threshold":500,...}
+```
+
+原因：Vite 构建前会清空 `dist/`，而环境的删除保护对单次超过 500 个文件的批量删除会拦截。
+`dist/content` 下的音频与 JSON 加起来已经 552 个，于是被挡。
+
+**绕过办法**：构建前手动清空 dist（用 .NET API，不走回收站）：
+
+```powershell
+if (Test-Path 'dist') { [System.IO.Directory]::Delete((Resolve-Path 'dist'), $true) }
+npm run build
+```
+
+`emptyOutDir` 保持默认（true），只是把"删除"这一步挪到构建之外。
+
+---
+
 ## 三、优化前后对比
 
 | 场景 | 优化前 | 优化后 |

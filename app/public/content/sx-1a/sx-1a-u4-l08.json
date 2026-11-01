@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u4-l08",
+  "unitId": "sx-1a-u4",
+  "volumeId": "sx-1a",
+  "title": "能解决吗",
+  "objectives": ["能判断用加法还是减法", "会检查答案是否合理"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "先想再算",
+      "content": "看到题目先问自己三句：知道什么？要求什么？该用加法还是减法？想清楚再动笔，比急着算更重要。"
+    },
+    {
+      "type": "text",
+      "title": "算完回头看一眼",
+      "content": "一共 8 个苹果，吃了 3 个，算出来还剩 11 个——这显然不对，因为剩下的不可能比原来还多。回头看一眼，能拦住很多错。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u4-l08-ex1",
+      "type": "single",
+      "stem": "小明有 5 元，买笔花了 2 元，还剩几元？",
+      "options": [
+        { "id": "a", "label": "3" },
+        { "id": "b", "label": "7" },
+        { "id": "c", "label": "5" }
+      ],
+      "answer": ["a"],
+      "explanation": "花钱是去掉一部分，用减法：5 - 2 = 3。"
+    },
+    {
+      "id": "sx-1a-u4-l08-ex2",
+      "type": "single",
+      "stem": "一共 8 个苹果，吃了 3 个，还剩几个？",
+      "options": [
+        { "id": "a", "label": "5" },
+        { "id": "b", "label": "11" },
+        { "id": "c", "label": "8" }
+      ],
+      "answer": ["a"],
+      "explanation": "8 - 3 = 5。若算出 11，比原来还多，肯定错了。"
+    },
+    {
+      "id": "sx-1a-u4-l08-ex3",
+      "type": "single",
+      "stem": "下面哪个答案明显不合理？",
+      "options": [
+        { "id": "a", "label": "6 个气球飞走 2 个，还剩 8 个" },
+        { "id": "b", "label": "6 个气球飞走 2 个，还剩 4 个" },
+        { "id": "c", "label": "6 个气球又添 2 个，一共 8 个" }
+      ],
+      "answer": ["a"],
+      "explanation": "飞走了一部分，剩下的不可能比原来多。"
+    }
+  ]
+}

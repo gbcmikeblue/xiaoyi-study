@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u4-l06",
+  "unitId": "sx-1a-u4",
+  "volumeId": "sx-1a",
+  "title": "挖红薯",
+  "objectives": ["会算 10 的加减法", "记住 10 的分与合"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "10 是一个整数",
+      "content": "地里埋着 10 个红薯，挖出 4 个，还剩 6 个：10 - 4 = 6。10 好算，因为它的分与合特别整齐。"
+    },
+    {
+      "type": "text",
+      "title": "10 的分与合",
+      "content": "1 和 9、2 和 8、3 和 7、4 和 6、5 和 5。这五对要背得滚瓜烂熟，以后学进位加、退位减全靠它。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u4-l06-ex1",
+      "type": "single",
+      "stem": "10 - 4 = ?",
+      "options": [
+        { "id": "a", "label": "6" },
+        { "id": "b", "label": "5" },
+        { "id": "c", "label": "14" }
+      ],
+      "answer": ["a"],
+      "explanation": "10 分成 4 和 6，所以是 6。"
+    },
+    {
+      "id": "sx-1a-u4-l06-ex2",
+      "type": "single",
+      "stem": "10 - 7 = ?",
+      "options": [
+        { "id": "a", "label": "3" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "17" }
+      ],
+      "answer": ["a"],
+      "explanation": "10 分成 7 和 3。"
+    },
+    {
+      "id": "sx-1a-u4-l06-ex3",
+      "type": "single",
+      "stem": "10 个红薯挖出 6 个，还剩几个？",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "5" },
+        { "id": "c", "label": "16" }
+      ],
+      "answer": ["a"],
+      "explanation": "10 - 6 = 4，还剩 4 个。"
+    }
+  ]
+}

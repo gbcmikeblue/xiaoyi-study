@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u6-l01",
+  "unitId": "sx-1b-u6",
+  "volumeId": "sx-1b",
+  "title": "长方形和正方形的边",
+  "objectives": ["知道长方形对边相等、正方形四边都相等", "会用折一折、量一量的办法验证"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "数一数边",
+      "content": "长方形和正方形都有 4 条边、4 个角，4 个角都是直角。区别在边上：长方形的对边相等（上下一样、左右一样），正方形四条边全都相等。"
+    },
+    {
+      "type": "text",
+      "title": "怎么验证",
+      "content": "把长方形上下对折，两条长边能重合，说明对边相等。把正方形对角折、对边折，四条边都能重合。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u6-l01-ex1",
+      "type": "single",
+      "stem": "长方形有几条边？",
+      "options": [
+        { "id": "a", "label": "4 条" },
+        { "id": "b", "label": "3 条" },
+        { "id": "c", "label": "2 条" }
+      ],
+      "answer": ["a"],
+      "explanation": "长方形和正方形都是四边形，有 4 条边。"
+    },
+    {
+      "id": "sx-1b-u6-l01-ex2",
+      "type": "single",
+      "stem": "正方形的四条边有什么关系？",
+      "options": [
+        { "id": "a", "label": "一样长" },
+        { "id": "b", "label": "两条长两条短" },
+        { "id": "c", "label": "长短随意" }
+      ],
+      "answer": ["a"],
+      "explanation": "四条边都相等，才是正方形。"
+    },
+    {
+      "id": "sx-1b-u6-l01-ex3",
+      "type": "single",
+      "stem": "长方形的对边有什么关系？",
+      "options": [
+        { "id": "a", "label": "相等" },
+        { "id": "b", "label": "不相等" },
+        { "id": "c", "label": "一条长一条短" }
+      ],
+      "answer": ["a"],
+      "explanation": "长方形上下两条边相等，左右两条边相等。"
+    }
+  ]
+}

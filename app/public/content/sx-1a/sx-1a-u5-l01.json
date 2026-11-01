@@ -1,0 +1,58 @@
+{
+  "id": "sx-1a-u5-l01",
+  "unitId": "sx-1a-u5",
+  "volumeId": "sx-1a",
+  "title": "认识图形",
+  "objectives": ["认识长方体、正方体、圆柱和球", "能说出它们的滚动特点"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "四种立体图形",
+      "content": "长方体有 6 个平平的面，像牙膏盒；正方体 6 个面都一样，像魔方；圆柱上下是圆的、中间是直的，像薯片筒；球圆溜溜的，像皮球。"
+    },
+    {
+      "type": "text",
+      "title": "能不能滚",
+      "content": "球到处滚；圆柱躺下来能滚，立起来不能滚；长方体和正方体有平平的面，不会滚，只能推着走。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u5-l01-ex1",
+      "type": "single",
+      "stem": "哪个图形到处都能滚？",
+      "options": [
+        { "id": "a", "label": "球" },
+        { "id": "b", "label": "正方体" },
+        { "id": "c", "label": "长方体" }
+      ],
+      "answer": ["a"],
+      "explanation": "球没有平面，朝哪个方向都能滚。"
+    },
+    {
+      "id": "sx-1a-u5-l01-ex2",
+      "type": "single",
+      "stem": "魔方是什么形状？",
+      "options": [
+        { "id": "a", "label": "正方体" },
+        { "id": "b", "label": "长方体" },
+        { "id": "c", "label": "球" }
+      ],
+      "answer": ["a"],
+      "explanation": "魔方 6 个面都是正方形，所以是正方体。"
+    },
+    {
+      "id": "sx-1a-u5-l01-ex3",
+      "type": "multi",
+      "stem": "下面哪些是立体图形？",
+      "options": [
+        { "id": "a", "label": "正方体" },
+        { "id": "b", "label": "圆柱" },
+        { "id": "c", "label": "球" },
+        { "id": "d", "label": "三角形" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "三角形是平面图形，没有厚度。"
+    }
+  ]
+}

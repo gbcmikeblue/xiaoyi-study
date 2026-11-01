@@ -40,6 +40,26 @@
     "volumeId": "sx-1a",
     "order": 4,
     "title": "10 以内数加与减",
-    "lessons": [{ "id": "sx-1a-u4-l01", "order": 1, "title": "猜数游戏" }]
+    "lessons": [
+      { "id": "sx-1a-u4-l01", "order": 1, "title": "猜数游戏" },
+      { "id": "sx-1a-u4-l02", "order": 2, "title": "背土豆" },
+      { "id": "sx-1a-u4-l03", "order": 3, "title": "课间" },
+      { "id": "sx-1a-u4-l04", "order": 4, "title": "小鸡吃食" },
+      { "id": "sx-1a-u4-l05", "order": 5, "title": "乘车" },
+      { "id": "sx-1a-u4-l06", "order": 6, "title": "挖红薯" },
+      { "id": "sx-1a-u4-l07", "order": 7, "title": "可爱的企鹅" },
+      { "id": "sx-1a-u4-l08", "order": 8, "title": "能解决吗" }
+    ]
+  },
+  {
+    "id": "sx-1a-u5",
+    "volumeId": "sx-1a",
+    "order": 5,
+    "title": "有趣的立体图形",
+    "lessons": [
+      { "id": "sx-1a-u5-l01", "order": 1, "title": "认识图形" },
+      { "id": "sx-1a-u5-l02", "order": 2, "title": "我说你做" },
+      { "id": "sx-1a-u5-l03", "order": 3, "title": "怎样搭得高" }
+    ]
   }
 ]

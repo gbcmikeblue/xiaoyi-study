@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u4-l07",
+  "unitId": "sx-1a-u4",
+  "volumeId": "sx-1a",
+  "title": "可爱的企鹅",
+  "objectives": ["能看图说出图意并列式", "知道“一共”用加法、“还剩”用减法"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "看图先说话",
+      "content": "冰山上有 6 只企鹅，又游来 3 只。先用自己的话说一遍图意：“原来 6 只，又来了 3 只，一共有几只？”"
+    },
+    {
+      "type": "text",
+      "title": "再列式",
+      "content": "求一共用加法：6 + 3 = 9。如果问“走掉 3 只还剩几只”，就用减法：9 - 3 = 6。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u4-l07-ex1",
+      "type": "single",
+      "stem": "原来 6 只企鹅，又来了 3 只，一共有几只？",
+      "options": [
+        { "id": "a", "label": "9" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "6" }
+      ],
+      "answer": ["a"],
+      "explanation": "求一共有多少，用加法：6 + 3 = 9。"
+    },
+    {
+      "id": "sx-1a-u4-l07-ex2",
+      "type": "single",
+      "stem": "一共 9 只企鹅，走了 3 只，还剩几只？",
+      "options": [
+        { "id": "a", "label": "6" },
+        { "id": "b", "label": "12" },
+        { "id": "c", "label": "3" }
+      ],
+      "answer": ["a"],
+      "explanation": "求还剩多少，用减法：9 - 3 = 6。"
+    },
+    {
+      "id": "sx-1a-u4-l07-ex3",
+      "type": "single",
+      "stem": "“一共”这个词提示要用什么运算？",
+      "options": [
+        { "id": "a", "label": "加法" },
+        { "id": "b", "label": "减法" },
+        { "id": "c", "label": "都可以" }
+      ],
+      "answer": ["a"],
+      "explanation": "“一共”是把几部分合起来，所以用加法。"
+    }
+  ]
+}

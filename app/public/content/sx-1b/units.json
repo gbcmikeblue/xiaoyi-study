@@ -56,5 +56,15 @@
       { "id": "sx-1b-u5-l02", "order": 2, "title": "两位数加整十数" },
       { "id": "sx-1b-u5-l03", "order": 3, "title": "两位数减一位数" }
     ]
+  },
+  {
+    "id": "sx-1b-u6",
+    "volumeId": "sx-1b",
+    "order": 6,
+    "title": "有趣的平面图形（一）",
+    "lessons": [
+      { "id": "sx-1b-u6-l01", "order": 1, "title": "长方形和正方形的边" },
+      { "id": "sx-1b-u6-l02", "order": 2, "title": "七巧板" }
+    ]
   }
 ]

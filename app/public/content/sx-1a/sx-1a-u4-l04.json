@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u4-l04",
+  "unitId": "sx-1a-u4",
+  "volumeId": "sx-1a",
+  "title": "小鸡吃食",
+  "objectives": ["会算 9 的加减法", "能区分“跑走”与“跑来”用哪种运算"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "跑来用加，跑走用减",
+      "content": "原来 7 只小鸡在吃食，又跑来 2 只，一共 9 只：7 + 2 = 9。原来 9 只，跑走 4 只，还剩 5 只：9 - 4 = 5。"
+    },
+    {
+      "type": "text",
+      "title": "9 的分与合",
+      "content": "9 可以分成 1 和 8、2 和 7、3 和 6、4 和 5。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u4-l04-ex1",
+      "type": "single",
+      "stem": "9 只小鸡，跑走 4 只，还剩几只？",
+      "options": [
+        { "id": "a", "label": "5" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "13" }
+      ],
+      "answer": ["a"],
+      "explanation": "9 - 4 = 5，跑走要用减法。"
+    },
+    {
+      "id": "sx-1a-u4-l04-ex2",
+      "type": "single",
+      "stem": "6 只小鸡在吃食，又跑来 3 只，一共几只？",
+      "options": [
+        { "id": "a", "label": "9" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "6" }
+      ],
+      "answer": ["a"],
+      "explanation": "6 + 3 = 9，跑来要用加法。"
+    },
+    {
+      "id": "sx-1a-u4-l04-ex3",
+      "type": "single",
+      "stem": "9 - 6 = ?",
+      "options": [
+        { "id": "a", "label": "3" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "15" }
+      ],
+      "answer": ["a"],
+      "explanation": "9 分成 6 和 3，所以是 3。"
+    }
+  ]
+}

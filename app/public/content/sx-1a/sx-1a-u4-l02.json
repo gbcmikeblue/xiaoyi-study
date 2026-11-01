@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u4-l02",
+  "unitId": "sx-1a-u4",
+  "volumeId": "sx-1a",
+  "title": "背土豆",
+  "objectives": ["会算 7 的减法", "能根据掉落的数量求剩下的数量"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "一边走一边掉",
+      "content": "小老鼠背了 7 个土豆回家。走两步掉 1 个，就剩 6 个；再掉 1 个，剩 5 个。7 - 1 = 6，6 - 1 = 5。"
+    },
+    {
+      "type": "text",
+      "title": "7 的分与合",
+      "content": "7 可以分成 1 和 6、2 和 5、3 和 4。记住这些分法，7 的加减法就能张口就来。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u4-l02-ex1",
+      "type": "single",
+      "stem": "7 - 2 = ?",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "5" },
+        { "id": "c", "label": "9" }
+      ],
+      "answer": ["b"],
+      "explanation": "7 分成 2 和 5，7 - 2 = 5。"
+    },
+    {
+      "id": "sx-1a-u4-l02-ex2",
+      "type": "single",
+      "stem": "7 - 4 = ?",
+      "options": [
+        { "id": "a", "label": "3" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "11" }
+      ],
+      "answer": ["a"],
+      "explanation": "7 分成 4 和 3，所以是 3。"
+    },
+    {
+      "id": "sx-1a-u4-l02-ex3",
+      "type": "single",
+      "stem": "小老鼠背 7 个土豆，路上掉了 3 个，还剩几个？",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "10" }
+      ],
+      "answer": ["a"],
+      "explanation": "7 - 3 = 4，还剩 4 个。"
+    }
+  ]
+}

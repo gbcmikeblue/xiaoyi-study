@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u4-l03",
+  "unitId": "sx-1a-u4",
+  "volumeId": "sx-1a",
+  "title": "课间",
+  "objectives": ["会算 8 的加减法", "能看图说出一道加法与一道减法"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "课间活动",
+      "content": "课间，5 个小朋友跳绳，3 个小朋友踢球。合起来一共 8 人：5 + 3 = 8。"
+    },
+    {
+      "type": "text",
+      "title": "一幅图两个算式",
+      "content": "同一幅图，能写出两道加法（5 + 3 = 8、3 + 5 = 8）和两道减法（8 - 5 = 3、8 - 3 = 5）。加法和减法是一家人。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u4-l03-ex1",
+      "type": "single",
+      "stem": "5 个跳绳的、3 个踢球的，一共几人？",
+      "options": [
+        { "id": "a", "label": "8" },
+        { "id": "b", "label": "2" },
+        { "id": "c", "label": "15" }
+      ],
+      "answer": ["a"],
+      "explanation": "5 + 3 = 8，一共 8 人。"
+    },
+    {
+      "id": "sx-1a-u4-l03-ex2",
+      "type": "single",
+      "stem": "8 个小朋友，走了 3 个，还剩几个？",
+      "options": [
+        { "id": "a", "label": "5" },
+        { "id": "b", "label": "4" },
+        { "id": "c", "label": "11" }
+      ],
+      "answer": ["a"],
+      "explanation": "8 - 3 = 5，还剩 5 个。"
+    },
+    {
+      "id": "sx-1a-u4-l03-ex3",
+      "type": "single",
+      "stem": "8 - 6 = ?",
+      "options": [
+        { "id": "a", "label": "2" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "14" }
+      ],
+      "answer": ["a"],
+      "explanation": "8 分成 6 和 2，所以是 2。"
+    }
+  ]
+}

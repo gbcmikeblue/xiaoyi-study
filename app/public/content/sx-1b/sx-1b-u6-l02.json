@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u6-l02",
+  "unitId": "sx-1b-u6",
+  "volumeId": "sx-1b",
+  "title": "七巧板",
+  "objectives": ["知道七巧板由 7 块图形组成", "能用七巧板拼出简单图案"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "七块拼千图",
+      "content": "七巧板有 7 块：5 个三角形、1 个正方形、1 个平行四边形。同样的 7 块，能拼出小船、小猫、房子，怎么拼都行，只要 7 块全用上、不重叠。"
+    },
+    {
+      "type": "text",
+      "title": "拼图的规矩",
+      "content": "两块之间要边贴边、不留缝；不能叠在一起；7 块要全用上。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u6-l02-ex1",
+      "type": "single",
+      "stem": "七巧板一共有几块？",
+      "options": [
+        { "id": "a", "label": "7 块" },
+        { "id": "b", "label": "5 块" },
+        { "id": "c", "label": "10 块" }
+      ],
+      "answer": ["a"],
+      "explanation": "七巧板顾名思义，就是 7 块。"
+    },
+    {
+      "id": "sx-1b-u6-l02-ex2",
+      "type": "single",
+      "stem": "七巧板里最多的是哪种图形？",
+      "options": [
+        { "id": "a", "label": "三角形" },
+        { "id": "b", "label": "正方形" },
+        { "id": "c", "label": "圆" }
+      ],
+      "answer": ["a"],
+      "explanation": "7 块里有 5 块是三角形，占大多数。"
+    },
+    {
+      "id": "sx-1b-u6-l02-ex3",
+      "type": "single",
+      "stem": "用七巧板拼图时，下面哪条是对的？",
+      "options": [
+        { "id": "a", "label": "7 块要全用上、不重叠" },
+        { "id": "b", "label": "可以随便叠起来" },
+        { "id": "c", "label": "只用 3 块就行" }
+      ],
+      "answer": ["a"],
+      "explanation": "七巧板的标准玩法是 7 块全用、边贴边、不重叠。"
+    }
+  ]
+}
