@@ -95,6 +95,41 @@ npm run build
 
 ---
 
+## 2.6 新增 public 文件后，dev server 认不出来（重要）
+
+**现象**：新生成的音频在 `http://127.0.0.1:5173/` 上不播，静默回退浏览器语音；同样的页面在 `http://127.0.0.1:8080/` 上正常。
+
+**排查**：
+
+```powershell
+curl.exe -sS -o NUL -D - 'http://127.0.0.1:5173/content/yw-1a/audio/xxx.flac'
+```
+
+异常时返回：
+
+```
+HTTP/1.1 200 OK
+Content-Type: text/html      <- 应该是 audio/flac
+Content-Length: 856          <- 应该是真实字节数
+```
+
+也就是说 **Vite 把音频路径当成了 SPA 路由，返回了 index.html**。浏览器拿到 HTML 解码失败，`play()` reject，代码静默回退到 `speechSynthesis` —— 界面上没有任何报错。
+
+**原因**：Vite dev server 的静态服务只认它**启动时已存在**的 public 文件。运行期间新写入 `public/content/**` 的文件不会被识别，请求落到 SPA fallback。
+
+**解决**：重启 dev server。或者日常浏览直接用 `npm run serve`（8080），它是实时读磁盘的，没有这个问题。
+
+**教训**：只检查「是否发出了请求」「URL 是否以 .flac 结尾」是不够的，必须验证**解码成功**：
+
+```js
+a.addEventListener('loadedmetadata', () => ok = a.duration > 0);
+a.addEventListener('error', () => ok = false);
+```
+
+`scripts/check-stem-audio.mjs` 已改为严格验证（检查 `duration > 0` 与 `play()` 的 reject）。
+
+---
+
 ## 三、优化前后对比
 
 | 场景 | 优化前 | 优化后 |

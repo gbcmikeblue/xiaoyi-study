@@ -29,10 +29,13 @@ if (await start.count()) {
 // 挂接播放钩子
 await page.evaluate(() => {
   window.__played = [];
+  window.__err = [];
   const orig = HTMLMediaElement.prototype.play;
   HTMLMediaElement.prototype.play = function () {
-    window.__played.push(this.src.split('/').slice(-1)[0]);
-    return orig.apply(this, arguments);
+    window.__played.push(this.src);
+    const p = orig.apply(this, arguments);
+    if (p && p.catch) p.catch((e) => window.__err.push(e.name));
+    return p;
   };
 });
 
@@ -48,7 +51,25 @@ if (hasCue) {
   stemText = (await page.locator('.exercise-stem').innerText()).trim().slice(0, 24);
 }
 
-const ok = played.length > 0 && played.every((f) => f.endsWith('.flac'));
+// 严格验证：直接解码同一地址，确认浏览器真的能播（而非仅请求了文件）
+const decodable = await page.evaluate(async (src) => {
+  if (!src) return { ok: false, reason: 'no src' };
+  return new Promise((resolve) => {
+    const a = new Audio(src);
+    const done = (r) => resolve(r);
+    a.addEventListener('loadedmetadata', () =>
+      done({ ok: a.duration > 0, duration: Math.round(a.duration * 10) / 10 }),
+    );
+    a.addEventListener('error', () =>
+      done({ ok: false, reason: 'decode-error', code: a.error && a.error.code }),
+    );
+    setTimeout(() => done({ ok: false, reason: 'timeout' }), 6000);
+    a.load();
+  });
+}, played[0]);
+
+const playErrors = await page.evaluate(() => window.__err || []);
+const ok = played.length > 0 && played.every((f) => f.endsWith('.flac')) && decodable.ok;
 
 console.log(
   JSON.stringify(
@@ -56,7 +77,9 @@ console.log(
       lesson: LESSON,
       stem: stemText,
       cueButtonFound: hasCue,
-      played,
+      played: played.map((u) => u.split('/').slice(-1)[0]),
+      playErrors,
+      decodable,
       flacRequests: audioRequests,
       hitPredbuiltAudio: ok,
     },
