@@ -3,60 +3,87 @@
     "id": "yy-1b-u1",
     "volumeId": "yy-1b",
     "order": 1,
-    "title": "Module 1 Unit 1 Look and see",
+    "title": "Unit 1 What food do you like?",
     "lessons": [
-      { "id": "yy-1b-u1-l01", "order": 1, "title": "Look and see" },
-      { "id": "yy-1b-u1-l02", "order": 2, "title": "What do you see?" }
+      { "id": "yy-1b-u1-l01", "order": 1, "title": "Food I like" },
+      { "id": "yy-1b-u1-l02", "order": 2, "title": "I like noodles" },
+      { "id": "yy-1b-u1-l03", "order": 3, "title": "I like juice" }
     ]
   },
   {
     "id": "yy-1b-u2",
     "volumeId": "yy-1b",
     "order": 2,
-    "title": "Module 1 Unit 2 Listen and hear",
+    "title": "Unit 2 What do we do in the classroom?",
     "lessons": [
-      { "id": "yy-1b-u2-l01", "order": 1, "title": "Listen and hear" },
-      { "id": "yy-1b-u2-l02", "order": 2, "title": "What do you hear?" }
+      { "id": "yy-1b-u2-l01", "order": 1, "title": "In the classroom" },
+      { "id": "yy-1b-u2-l02", "order": 2, "title": "Listen and look" },
+      { "id": "yy-1b-u2-l03", "order": 3, "title": "Open your book" }
     ]
   },
   {
     "id": "yy-1b-u3",
     "volumeId": "yy-1b",
     "order": 3,
-    "title": "Module 1 Unit 3 Taste and smell",
+    "title": "Unit 3 How do we play?",
     "lessons": [
-      { "id": "yy-1b-u3-l01", "order": 1, "title": "Taste and smell" },
-      { "id": "yy-1b-u3-l02", "order": 2, "title": "Taste it" }
+      { "id": "yy-1b-u3-l01", "order": 1, "title": "Toys I like" },
+      { "id": "yy-1b-u3-l02", "order": 2, "title": "I like the ball" },
+      { "id": "yy-1b-u3-l03", "order": 3, "title": "Let's play" }
     ]
   },
   {
     "id": "yy-1b-u4",
     "volumeId": "yy-1b",
     "order": 4,
-    "title": "Module 2 Unit 1 Toys I like",
+    "title": "Unit 4 Which season do you like?",
     "lessons": [
-      { "id": "yy-1b-u4-l01", "order": 1, "title": "Toys I like" },
-      { "id": "yy-1b-u4-l02", "order": 2, "title": "I like the ball" }
+      { "id": "yy-1b-u4-l01", "order": 1, "title": "Seasons" },
+      { "id": "yy-1b-u4-l02", "order": 2, "title": "Which season do you like?" },
+      { "id": "yy-1b-u4-l03", "order": 3, "title": "Hot and cold" }
     ]
   },
   {
     "id": "yy-1b-u5",
     "volumeId": "yy-1b",
     "order": 5,
-    "title": "Module 2 Unit 2 Food I like",
+    "title": "Unit 5 Pets",
     "lessons": [
-      { "id": "yy-1b-u5-l01", "order": 1, "title": "Food I like" },
-      { "id": "yy-1b-u5-l02", "order": 2, "title": "I like noodles" }
+      { "id": "yy-1b-u5-l01", "order": 1, "title": "Look and see" },
+      { "id": "yy-1b-u5-l02", "order": 2, "title": "What do you see?" },
+      { "id": "yy-1b-u5-l03", "order": 3, "title": "Listen and hear" }
     ]
   },
   {
     "id": "yy-1b-u6",
     "volumeId": "yy-1b",
     "order": 6,
-    "title": "Module 2 Unit 3 Drinks I like",
+    "title": "Unit 6 My home",
     "lessons": [
-      { "id": "yy-1b-u6-l01", "order": 1, "title": "Drinks I like" },
-      { "id": "yy-1b-u6-l02", "order": 2, "title": "I like juice" }
+      { "id": "yy-1b-u6-l01", "order": 1, "title": "My home" },
+      { "id": "yy-1b-u6-l02", "order": 2, "title": "Where is my ball?" }
+    ]
+  },
+  {
+    "id": "yy-1b-u7",
+    "volumeId": "yy-1b",
+    "order": 7,
+    "title": "Project 1 My five senses",
+    "lessons": [
+      { "id": "yy-1b-u7-l01", "order": 1, "title": "What do you hear?" },
+      { "id": "yy-1b-u7-l02", "order": 2, "title": "Taste and smell" },
+      { "id": "yy-1b-u7-l03", "order": 3, "title": "Taste it" }
+    ]
+  },
+  {
+    "id": "yy-1b-u8",
+    "volumeId": "yy-1b",
+    "order": 8,
+    "title": "Project 2 Drinks and time",
+    "lessons": [
+      { "id": "yy-1b-u8-l01", "order": 1, "title": "Drinks I like" },
+      { "id": "yy-1b-u8-l02", "order": 2, "title": "Time of day" },
+      { "id": "yy-1b-u8-l03", "order": 3, "title": "Good morning" }
     ]
   }
 ]

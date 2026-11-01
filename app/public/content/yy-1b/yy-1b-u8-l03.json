@@ -1,0 +1,58 @@
+{
+  "id": "yy-1b-u8-l03",
+  "unitId": "yy-1b-u8",
+  "volumeId": "yy-1b",
+  "title": "Good morning",
+  "objectives": ["会用 Good morning / Good afternoon / Good night 问候", "知道不同时间用不同的问候语"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "按时间打招呼",
+      "content": "早上说 Good morning，下午说 Good afternoon，傍晚说 Good evening，睡觉前说 Good night。"
+    },
+    {
+      "type": "text",
+      "title": "再见和晚安不一样",
+      "content": "Goodbye 是再见；Good night 是晚安，只在晚上分别或睡觉前说。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u8-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "Good morning.",
+      "options": [
+        { "id": "a", "label": "Good morning." },
+        { "id": "b", "label": "Good afternoon." },
+        { "id": "c", "label": "Good night." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 morning，早上好。"
+    },
+    {
+      "id": "yy-1b-u8-l03-ex2",
+      "type": "single",
+      "stem": "早上见面该怎么打招呼？",
+      "options": [
+        { "id": "a", "label": "Good morning." },
+        { "id": "b", "label": "Good night." },
+        { "id": "c", "label": "Good evening." }
+      ],
+      "answer": ["a"],
+      "explanation": "morning 是早上。"
+    },
+    {
+      "id": "yy-1b-u8-l03-ex3",
+      "type": "single",
+      "stem": "睡觉前跟爸妈说什么？",
+      "options": [
+        { "id": "a", "label": "Good night." },
+        { "id": "b", "label": "Good morning." },
+        { "id": "c", "label": "Good afternoon." }
+      ],
+      "answer": ["a"],
+      "explanation": "Good night 是晚安。"
+    }
+  ]
+}

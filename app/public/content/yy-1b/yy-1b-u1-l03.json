@@ -1,0 +1,58 @@
+{
+  "id": "yy-1b-u1-l03",
+  "unitId": "yy-1b-u1",
+  "volumeId": "yy-1b",
+  "title": "I like juice",
+  "objectives": ["会用 I like ... 说喜欢的饮料", "会礼貌地要一杯饮料"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "I like juice",
+      "content": "I like juice. 我喜欢果汁。想要一杯，说：Juice, please. 或 May I have some juice?"
+    },
+    {
+      "type": "text",
+      "title": "some 的用法",
+      "content": "液体、不可数的东西前用 some：some water, some milk。不说 a water。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u1-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "I like juice.",
+      "options": [
+        { "id": "a", "label": "I like juice." },
+        { "id": "b", "label": "I like milk." },
+        { "id": "c", "label": "I like tea." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 juice，果汁。"
+    },
+    {
+      "id": "yy-1b-u1-l03-ex2",
+      "type": "single",
+      "stem": "礼貌地要一杯牛奶，怎么说？",
+      "options": [
+        { "id": "a", "label": "Milk, please." },
+        { "id": "b", "label": "Give milk." },
+        { "id": "c", "label": "Milk!" }
+      ],
+      "answer": ["a"],
+      "explanation": "加 please 才是礼貌的请求。"
+    },
+    {
+      "id": "yy-1b-u1-l03-ex3",
+      "type": "single",
+      "stem": "“一些水”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "some water" },
+        { "id": "b", "label": "a water" },
+        { "id": "c", "label": "waters" }
+      ],
+      "answer": ["a"],
+      "explanation": "水不可数，用 some water。"
+    }
+  ]
+}

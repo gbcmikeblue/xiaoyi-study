@@ -2,18 +2,18 @@
   "id": "yy-1b-u6-l02",
   "unitId": "yy-1b-u6",
   "volumeId": "yy-1b",
-  "title": "I like juice",
-  "objectives": ["会用 I like ... 说喜欢的饮料", "会礼貌地要一杯饮料"],
+  "title": "Where is my ball?",
+  "objectives": ["会用 Where is ...? 问位置", "会用 in / on / under 说方位"],
   "blocks": [
     {
       "type": "text",
-      "title": "I like juice",
-      "content": "I like juice. 我喜欢果汁。想要一杯，说：Juice, please. 或 May I have some juice?"
+      "title": "Where is it",
+      "content": "A: Where is my ball? B: It's under the bed. in 在里面，on 在上面，under 在下面。"
     },
     {
       "type": "text",
-      "title": "some 的用法",
-      "content": "液体、不可数的东西前用 some：some water, some milk。不说 a water。"
+      "title": "三个方位词",
+      "content": "in the box（盒子里面）、on the table（桌子上面）、under the chair（椅子下面）。"
     }
   ],
   "exercises": [
@@ -21,38 +21,38 @@
       "id": "yy-1b-u6-l02-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的句子。",
-      "speakText": "I like juice.",
+      "speakText": "It's under the bed.",
       "options": [
-        { "id": "a", "label": "I like juice." },
-        { "id": "b", "label": "I like milk." },
-        { "id": "c", "label": "I like tea." }
+        { "id": "a", "label": "It's under the bed." },
+        { "id": "b", "label": "It's on the bed." },
+        { "id": "c", "label": "It's in the bed." }
       ],
       "answer": ["a"],
-      "explanation": "听到的是 juice，果汁。"
+      "explanation": "听到的是 under，在下面。"
     },
     {
       "id": "yy-1b-u6-l02-ex2",
       "type": "single",
-      "stem": "礼貌地要一杯牛奶，怎么说？",
+      "stem": "问“我的球在哪里？”，怎么说？",
       "options": [
-        { "id": "a", "label": "Milk, please." },
-        { "id": "b", "label": "Give milk." },
-        { "id": "c", "label": "Milk!" }
+        { "id": "a", "label": "Where is my ball?" },
+        { "id": "b", "label": "What is my ball?" },
+        { "id": "c", "label": "Who is my ball?" }
       ],
       "answer": ["a"],
-      "explanation": "加 please 才是礼貌的请求。"
+      "explanation": "问位置用 Where。"
     },
     {
       "id": "yy-1b-u6-l02-ex3",
       "type": "single",
-      "stem": "“一些水”用英语怎么说？",
+      "stem": "球在椅子下面，该怎么说？",
       "options": [
-        { "id": "a", "label": "some water" },
-        { "id": "b", "label": "a water" },
-        { "id": "c", "label": "waters" }
+        { "id": "a", "label": "It's under the chair." },
+        { "id": "b", "label": "It's on the chair." },
+        { "id": "c", "label": "It's in the chair." }
       ],
       "answer": ["a"],
-      "explanation": "水不可数，用 some water。"
+      "explanation": "在下面用 under。"
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "id": "yy-1b-u3-l03",
+  "unitId": "yy-1b-u3",
+  "volumeId": "yy-1b",
+  "title": "Let's play",
+  "objectives": ["会说 run、jump、skip、hide", "能用 Let's ... 提议玩游戏"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Let's play together",
+      "content": "run 跑，jump 跳，skip 跳绳，hide 躲。Let's run! Let's jump! 一起玩的时候，用 Let's 提议。"
+    },
+    {
+      "type": "text",
+      "title": "安全第一",
+      "content": "跑和跳要在空地上，别在楼梯口玩。玩得开心，也要看清脚下。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u3-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "jump",
+      "options": [
+        { "id": "a", "label": "jump" },
+        { "id": "b", "label": "run" },
+        { "id": "c", "label": "skip" }
+      ],
+      "answer": ["a"],
+      "explanation": "jump 是跳。"
+    },
+    {
+      "id": "yy-1b-u3-l03-ex2",
+      "type": "single",
+      "stem": "“跑”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "run" },
+        { "id": "b", "label": "jump" },
+        { "id": "c", "label": "hide" }
+      ],
+      "answer": ["a"],
+      "explanation": "run 是跑。"
+    },
+    {
+      "id": "yy-1b-u3-l03-ex3",
+      "type": "single",
+      "stem": "提议“我们一起跳吧”，怎么说？",
+      "options": [
+        { "id": "a", "label": "Let's jump." },
+        { "id": "b", "label": "I jump." },
+        { "id": "c", "label": "Jump you." }
+      ],
+      "answer": ["a"],
+      "explanation": "Let's 后面跟动作原形。"
+    }
+  ]
+}

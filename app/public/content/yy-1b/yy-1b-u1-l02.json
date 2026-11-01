@@ -2,18 +2,18 @@
   "id": "yy-1b-u1-l02",
   "unitId": "yy-1b-u1",
   "volumeId": "yy-1b",
-  "title": "What do you see?",
-  "objectives": ["会用 What do you see? 提问", "会用 I see ... 回答"],
+  "title": "I like noodles",
+  "objectives": ["会用 I like ... 表达对食物的喜好", "会用 Do you like ...? 提问"],
   "blocks": [
     {
       "type": "text",
-      "title": "问与答",
-      "content": "A: What do you see? B: I see a bird. 问“你看见什么”，用 What do you see?"
+      "title": "I like noodles",
+      "content": "I like noodles. 我喜欢面条。A: Do you like fish? B: Yes, I do. / No, I don't."
     },
     {
       "type": "text",
-      "title": "多个要说 I see two birds",
-      "content": "看见一个说 a bird，看见多个要加 s：I see two birds."
+      "title": "问答要一致",
+      "content": "Do you like ...? 的回答用 Yes, I do. 或 No, I don't.，不能说 Yes, I like."
     }
   ],
   "exercises": [
@@ -21,38 +21,38 @@
       "id": "yy-1b-u1-l02-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的句子。",
-      "speakText": "I see a bird.",
+      "speakText": "I like noodles.",
       "options": [
-        { "id": "a", "label": "I see a bird." },
-        { "id": "b", "label": "I see a frog." },
-        { "id": "c", "label": "I see a bee." }
+        { "id": "a", "label": "I like noodles." },
+        { "id": "b", "label": "I like rice." },
+        { "id": "c", "label": "I like fish." }
       ],
       "answer": ["a"],
-      "explanation": "听到的是 bird，小鸟。"
+      "explanation": "听到的是 noodles，面条。"
     },
     {
       "id": "yy-1b-u1-l02-ex2",
       "type": "single",
-      "stem": "问“你看见了什么？”，英语怎么说？",
+      "stem": "问“你喜欢鱼吗？”，怎么说？",
       "options": [
-        { "id": "a", "label": "What do you see?" },
-        { "id": "b", "label": "What do you hear?" },
-        { "id": "c", "label": "What is this?" }
+        { "id": "a", "label": "Do you like fish?" },
+        { "id": "b", "label": "What do you see?" },
+        { "id": "c", "label": "Is it fish?" }
       ],
       "answer": ["a"],
-      "explanation": "看见用 see，听见用 hear。"
+      "explanation": "问喜好用 Do you like ...?"
     },
     {
       "id": "yy-1b-u1-l02-ex3",
       "type": "single",
-      "stem": "看见两只兔子，该怎么说？",
+      "stem": "别人问 Do you like eggs? 你喜欢，该回答？",
       "options": [
-        { "id": "a", "label": "I see two rabbits." },
-        { "id": "b", "label": "I see two rabbit." },
-        { "id": "c", "label": "I see a rabbits." }
+        { "id": "a", "label": "Yes, I do." },
+        { "id": "b", "label": "Yes, I like." },
+        { "id": "c", "label": "No, I do." }
       ],
       "answer": ["a"],
-      "explanation": "两只以上，名词加 s。"
+      "explanation": "Yes, I do. 是标准回答。"
     }
   ]
 }

@@ -2,21 +2,21 @@
   "id": "yy-1b-u6-l01",
   "unitId": "yy-1b-u6",
   "volumeId": "yy-1b",
-  "title": "Drinks I like",
-  "objectives": ["会说 milk、water、juice、tea", "能说出自己想喝什么"],
+  "title": "My home",
+  "objectives": ["会说 bed、door、table、sofa", "能说出家里的房间和家具"],
   "blocks": [
     {
       "type": "text",
-      "title": "Drinks",
-      "content": "milk 牛奶，water 水，juice 果汁，tea 茶。drink 是“喝”，也是“饮料”。"
+      "title": "At home",
+      "content": "bed 床，door 门，table 桌子，sofa 沙发。This is my home. 这是我的家。"
     },
     {
       "type": "words",
       "items": [
-        { "text": "milk", "meaning": "牛奶" },
-        { "text": "water", "meaning": "水" },
-        { "text": "juice", "meaning": "果汁" },
-        { "text": "tea", "meaning": "茶" }
+        { "text": "bed", "meaning": "床" },
+        { "text": "door", "meaning": "门" },
+        { "text": "table", "meaning": "桌子" },
+        { "text": "sofa", "meaning": "沙发" }
       ]
     }
   ],
@@ -25,39 +25,39 @@
       "id": "yy-1b-u6-l01-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的单词。",
-      "speakText": "juice",
+      "speakText": "table",
       "options": [
-        { "id": "a", "label": "milk" },
-        { "id": "b", "label": "juice" },
-        { "id": "c", "label": "tea" }
+        { "id": "a", "label": "table" },
+        { "id": "b", "label": "sofa" },
+        { "id": "c", "label": "bed" }
       ],
-      "answer": ["b"],
-      "explanation": "juice 是果汁。"
+      "answer": ["a"],
+      "explanation": "table 是桌子。"
     },
     {
       "id": "yy-1b-u6-l01-ex2",
       "type": "single",
-      "stem": "“水”用英语怎么说？",
+      "stem": "“床”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "water" },
-        { "id": "b", "label": "milk" },
-        { "id": "c", "label": "tea" }
+        { "id": "a", "label": "bed" },
+        { "id": "b", "label": "door" },
+        { "id": "c", "label": "table" }
       ],
       "answer": ["a"],
-      "explanation": "water 是水。"
+      "explanation": "bed 是床，睡觉的地方。"
     },
     {
       "id": "yy-1b-u6-l01-ex3",
       "type": "multi",
-      "stem": "下面哪些是饮料？",
+      "stem": "家里有哪些东西？",
       "options": [
-        { "id": "a", "label": "milk" },
-        { "id": "b", "label": "juice" },
-        { "id": "c", "label": "water" },
-        { "id": "d", "label": "rice" }
+        { "id": "a", "label": "bed" },
+        { "id": "b", "label": "sofa" },
+        { "id": "c", "label": "door" },
+        { "id": "d", "label": "panda" }
       ],
       "answer": ["a", "b", "c"],
-      "explanation": "rice 是米饭，是食物不是饮料。"
+      "explanation": "panda 是熊猫，在动物园。"
     }
   ]
 }

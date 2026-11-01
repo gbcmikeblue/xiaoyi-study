@@ -1,0 +1,58 @@
+{
+  "id": "yy-1b-u4-l03",
+  "unitId": "yy-1b-u4",
+  "volumeId": "yy-1b",
+  "title": "Hot and cold",
+  "objectives": ["会说 hot、cold、warm、cool", "能说出不同季节的天气"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Weather words",
+      "content": "hot 热，cold 冷，warm 暖和，cool 凉爽。Summer is hot. Winter is cold."
+    },
+    {
+      "type": "text",
+      "title": "冷热是相对的",
+      "content": "和春天比，秋天是 cool；和冬天比，秋天又算 warm。同一天气，看跟谁比。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u4-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "cold",
+      "options": [
+        { "id": "a", "label": "cold" },
+        { "id": "b", "label": "hot" },
+        { "id": "c", "label": "warm" }
+      ],
+      "answer": ["a"],
+      "explanation": "cold 是冷。"
+    },
+    {
+      "id": "yy-1b-u4-l03-ex2",
+      "type": "single",
+      "stem": "“热”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "hot" },
+        { "id": "b", "label": "cold" },
+        { "id": "c", "label": "cool" }
+      ],
+      "answer": ["a"],
+      "explanation": "hot 是热，夏天最常用。"
+    },
+    {
+      "id": "yy-1b-u4-l03-ex3",
+      "type": "single",
+      "stem": "冬天通常是什么感觉？",
+      "options": [
+        { "id": "a", "label": "It's cold." },
+        { "id": "b", "label": "It's hot." },
+        { "id": "c", "label": "It's warm." }
+      ],
+      "answer": ["a"],
+      "explanation": "冬天天冷，用 cold。"
+    }
+  ]
+}

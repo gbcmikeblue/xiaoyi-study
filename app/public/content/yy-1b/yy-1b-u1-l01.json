@@ -2,21 +2,21 @@
   "id": "yy-1b-u1-l01",
   "unitId": "yy-1b-u1",
   "volumeId": "yy-1b",
-  "title": "Look and see",
-  "objectives": ["会说 frog、rabbit、bee、bird", "能说出自己看到的小动物"],
+  "title": "Food I like",
+  "objectives": ["会说 rice、noodles、egg、fish", "能说出自己喜欢的食物"],
   "blocks": [
     {
       "type": "text",
-      "title": "I see a frog",
-      "content": "Look! I see a frog. frog 青蛙，rabbit 兔子，bee 蜜蜂，bird 小鸟。"
+      "title": "Food",
+      "content": "rice 米饭，noodles 面条，egg 鸡蛋，fish 鱼。noodles 通常说复数，因为一碗面有很多根。"
     },
     {
       "type": "words",
       "items": [
-        { "text": "frog", "meaning": "青蛙" },
-        { "text": "rabbit", "meaning": "兔子" },
-        { "text": "bee", "meaning": "蜜蜂" },
-        { "text": "bird", "meaning": "小鸟" }
+        { "text": "rice", "meaning": "米饭" },
+        { "text": "noodles", "meaning": "面条" },
+        { "text": "egg", "meaning": "鸡蛋" },
+        { "text": "fish", "meaning": "鱼" }
       ]
     }
   ],
@@ -25,38 +25,38 @@
       "id": "yy-1b-u1-l01-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的单词。",
-      "speakText": "frog",
+      "speakText": "noodles",
       "options": [
-        { "id": "a", "label": "frog" },
-        { "id": "b", "label": "bee" },
-        { "id": "c", "label": "bird" }
+        { "id": "a", "label": "rice" },
+        { "id": "b", "label": "noodles" },
+        { "id": "c", "label": "fish" }
       ],
-      "answer": ["a"],
-      "explanation": "frog 是青蛙，会跳、会叫。"
+      "answer": ["b"],
+      "explanation": "noodles 是面条。"
     },
     {
       "id": "yy-1b-u1-l01-ex2",
       "type": "single",
-      "stem": "“兔子”用英语怎么说？",
+      "stem": "“米饭”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "rabbit" },
-        { "id": "b", "label": "frog" },
-        { "id": "c", "label": "bird" }
+        { "id": "a", "label": "rice" },
+        { "id": "b", "label": "egg" },
+        { "id": "c", "label": "fish" }
       ],
       "answer": ["a"],
-      "explanation": "rabbit 是兔子。"
+      "explanation": "rice 是米饭。"
     },
     {
       "id": "yy-1b-u1-l01-ex3",
       "type": "single",
-      "stem": "bee 是什么动物？",
+      "stem": "egg 是什么？",
       "options": [
-        { "id": "a", "label": "蜜蜂" },
-        { "id": "b", "label": "小鸟" },
-        { "id": "c", "label": "青蛙" }
+        { "id": "a", "label": "鸡蛋" },
+        { "id": "b", "label": "鱼" },
+        { "id": "c", "label": "面条" }
       ],
       "answer": ["a"],
-      "explanation": "bee 是蜜蜂，会嗡嗡叫。"
+      "explanation": "egg 是鸡蛋。"
     }
   ]
 }

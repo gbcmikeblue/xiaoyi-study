@@ -1,0 +1,58 @@
+{
+  "id": "yy-1b-u2-l03",
+  "unitId": "yy-1b-u2",
+  "volumeId": "yy-1b",
+  "title": "Open your book",
+  "objectives": ["会说 Open / Close your book", "能用 Let's ... 提议一起做"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Open and close",
+      "content": "Open your book. 打开书。Close your book. 合上书。open 打开，close 合上。"
+    },
+    {
+      "type": "text",
+      "title": "Let's read",
+      "content": "Let's read. 我们一起读吧。Let's 后面跟动作原形，表示提议。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u2-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "Open your book.",
+      "options": [
+        { "id": "a", "label": "Open your book." },
+        { "id": "b", "label": "Close your book." },
+        { "id": "c", "label": "Open the window." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 open your book，打开书。"
+    },
+    {
+      "id": "yy-1b-u2-l03-ex2",
+      "type": "single",
+      "stem": "“合上书”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "Close your book." },
+        { "id": "b", "label": "Open your book." },
+        { "id": "c", "label": "Read your book." }
+      ],
+      "answer": ["a"],
+      "explanation": "close 是合上。"
+    },
+    {
+      "id": "yy-1b-u2-l03-ex3",
+      "type": "single",
+      "stem": "“我们一起读吧”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "Let's read." },
+        { "id": "b", "label": "I read." },
+        { "id": "c", "label": "Read?" }
+      ],
+      "answer": ["a"],
+      "explanation": "Let's 表示提议一起做。"
+    }
+  ]
+}

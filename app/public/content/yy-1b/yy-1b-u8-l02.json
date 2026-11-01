@@ -1,0 +1,62 @@
+{
+  "id": "yy-1b-u8-l02",
+  "unitId": "yy-1b-u8",
+  "volumeId": "yy-1b",
+  "title": "Time of day",
+  "objectives": ["会说 morning、afternoon、evening、night", "能说出不同时间做什么"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Morning to night",
+      "content": "morning 早上，afternoon 下午，evening 傍晚，night 晚上。In the morning, I get up."
+    },
+    {
+      "type": "words",
+      "items": [
+        { "text": "morning", "meaning": "早上" },
+        { "text": "afternoon", "meaning": "下午" },
+        { "text": "evening", "meaning": "傍晚" },
+        { "text": "night", "meaning": "晚上" }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u8-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "morning",
+      "options": [
+        { "id": "a", "label": "morning" },
+        { "id": "b", "label": "evening" },
+        { "id": "c", "label": "night" }
+      ],
+      "answer": ["a"],
+      "explanation": "morning 是早上。"
+    },
+    {
+      "id": "yy-1b-u8-l02-ex2",
+      "type": "single",
+      "stem": "“晚上”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "night" },
+        { "id": "b", "label": "morning" },
+        { "id": "c", "label": "afternoon" }
+      ],
+      "answer": ["a"],
+      "explanation": "night 是晚上，睡觉的时间。"
+    },
+    {
+      "id": "yy-1b-u8-l02-ex3",
+      "type": "single",
+      "stem": "下午是哪一个词？",
+      "options": [
+        { "id": "a", "label": "afternoon" },
+        { "id": "b", "label": "evening" },
+        { "id": "c", "label": "morning" }
+      ],
+      "answer": ["a"],
+      "explanation": "after 在……之后 + noon 中午，就是下午。"
+    }
+  ]
+}

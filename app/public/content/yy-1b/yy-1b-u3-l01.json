@@ -2,21 +2,21 @@
   "id": "yy-1b-u3-l01",
   "unitId": "yy-1b-u3",
   "volumeId": "yy-1b",
-  "title": "Taste and smell",
-  "objectives": ["会说 taste、smell、sweet、sour", "能说出食物的味道"],
+  "title": "Toys I like",
+  "objectives": ["会说 ball、doll、kite、car", "能说出自己喜欢的玩具"],
   "blocks": [
     {
       "type": "text",
-      "title": "五种感觉",
-      "content": "see 看、hear 听、taste 尝、smell 闻、touch 摸。前面学过两个，这一课学后两个。"
+      "title": "My toys",
+      "content": "ball 球，doll 娃娃，kite 风筝，car 小汽车。I like the ball. 我喜欢这个球。"
     },
     {
       "type": "words",
       "items": [
-        { "text": "taste", "meaning": "尝" },
-        { "text": "smell", "meaning": "闻" },
-        { "text": "sweet", "meaning": "甜的" },
-        { "text": "sour", "meaning": "酸的" }
+        { "text": "ball", "meaning": "球" },
+        { "text": "doll", "meaning": "娃娃" },
+        { "text": "kite", "meaning": "风筝" },
+        { "text": "car", "meaning": "小汽车" }
       ]
     }
   ],
@@ -25,38 +25,38 @@
       "id": "yy-1b-u3-l01-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的单词。",
-      "speakText": "sweet",
+      "speakText": "doll",
       "options": [
-        { "id": "a", "label": "sweet" },
-        { "id": "b", "label": "sour" },
-        { "id": "c", "label": "taste" }
+        { "id": "a", "label": "ball" },
+        { "id": "b", "label": "doll" },
+        { "id": "c", "label": "car" }
       ],
-      "answer": ["a"],
-      "explanation": "sweet 是甜的。"
+      "answer": ["b"],
+      "explanation": "doll 是娃娃。"
     },
     {
       "id": "yy-1b-u3-l01-ex2",
       "type": "single",
-      "stem": "“酸的”用英语怎么说？",
+      "stem": "“风筝”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "sour" },
-        { "id": "b", "label": "sweet" },
-        { "id": "c", "label": "smell" }
+        { "id": "a", "label": "kite" },
+        { "id": "b", "label": "ball" },
+        { "id": "c", "label": "car" }
       ],
       "answer": ["a"],
-      "explanation": "sour 是酸的，像柠檬。"
+      "explanation": "kite 是风筝，要放起来。"
     },
     {
       "id": "yy-1b-u3-l01-ex3",
       "type": "single",
-      "stem": "用鼻子感受气味，用哪个词？",
+      "stem": "car 是什么？",
       "options": [
-        { "id": "a", "label": "smell" },
-        { "id": "b", "label": "taste" },
-        { "id": "c", "label": "hear" }
+        { "id": "a", "label": "小汽车" },
+        { "id": "b", "label": "球" },
+        { "id": "c", "label": "娃娃" }
       ],
       "answer": ["a"],
-      "explanation": "鼻子用 smell，舌头用 taste。"
+      "explanation": "car 是小汽车，也有真的汽车的意思。"
     }
   ]
 }

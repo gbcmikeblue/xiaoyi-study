@@ -2,18 +2,18 @@
   "id": "yy-1b-u4-l02",
   "unitId": "yy-1b-u4",
   "volumeId": "yy-1b",
-  "title": "I like the ball",
-  "objectives": ["会用 I like the ... 表达喜好", "能问别人喜欢什么玩具"],
+  "title": "Which season do you like?",
+  "objectives": ["会用 Which season do you like? 提问", "会用 I like ... 说出喜欢的季节"],
   "blocks": [
     {
       "type": "text",
-      "title": "I like the ball",
-      "content": "I like the ball. 我喜欢这个球。问别人：What do you like? 回答：I like the doll."
+      "title": "Ask and answer",
+      "content": "A: Which season do you like? B: I like spring. which 是“哪一个”，用来在几个里面选。"
     },
     {
       "type": "text",
-      "title": "the 指“这个、那个”",
-      "content": "the ball 指眼前具体的那个球；balls 泛指球这类东西。"
+      "title": "说出理由",
+      "content": "I like spring. It's warm. 喜欢一个季节，可以顺手说一句为什么。"
     }
   ],
   "exercises": [
@@ -21,38 +21,38 @@
       "id": "yy-1b-u4-l02-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的句子。",
-      "speakText": "I like the ball.",
+      "speakText": "I like spring.",
       "options": [
-        { "id": "a", "label": "I like the ball." },
-        { "id": "b", "label": "I like the doll." },
-        { "id": "c", "label": "I like the kite." }
+        { "id": "a", "label": "I like spring." },
+        { "id": "b", "label": "I like summer." },
+        { "id": "c", "label": "I like winter." }
       ],
       "answer": ["a"],
-      "explanation": "听到的是 ball，球。"
+      "explanation": "听到的是 spring，春天。"
     },
     {
       "id": "yy-1b-u4-l02-ex2",
       "type": "single",
-      "stem": "“我喜欢这个娃娃”用英语怎么说？",
+      "stem": "问“你喜欢哪个季节？”，怎么说？",
       "options": [
-        { "id": "a", "label": "I like the doll." },
-        { "id": "b", "label": "I like doll." },
-        { "id": "c", "label": "I like a dolls." }
+        { "id": "a", "label": "Which season do you like?" },
+        { "id": "b", "label": "What colour is it?" },
+        { "id": "c", "label": "Do you like?" }
       ],
       "answer": ["a"],
-      "explanation": "指眼前那个娃娃，用 the doll。"
+      "explanation": "在四季里选，用 Which season。"
     },
     {
       "id": "yy-1b-u4-l02-ex3",
       "type": "single",
-      "stem": "问别人“你喜欢什么？”，怎么说？",
+      "stem": "which 是什么意思？",
       "options": [
-        { "id": "a", "label": "What do you like?" },
-        { "id": "b", "label": "What do you see?" },
-        { "id": "c", "label": "How are you?" }
+        { "id": "a", "label": "哪一个" },
+        { "id": "b", "label": "为什么" },
+        { "id": "c", "label": "什么时候" }
       ],
       "answer": ["a"],
-      "explanation": "喜欢用 like。"
+      "explanation": "which 用于在几个选项中选一个。"
     }
   ]
 }

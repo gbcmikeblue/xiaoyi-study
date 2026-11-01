@@ -2,21 +2,21 @@
   "id": "yy-1b-u2-l01",
   "unitId": "yy-1b-u2",
   "volumeId": "yy-1b",
-  "title": "Listen and hear",
-  "objectives": ["会说 sheep、hen、dog、cat", "能听出动物叫声对应的单词"],
+  "title": "In the classroom",
+  "objectives": ["会说 blackboard、desk、chair、window", "能说出教室里有什么"],
   "blocks": [
     {
       "type": "text",
-      "title": "I hear a dog",
-      "content": "Listen! I hear a dog. dog 狗，cat 猫，sheep 绵羊，hen 母鸡。"
+      "title": "Look around the classroom",
+      "content": "blackboard 黑板，desk 课桌，chair 椅子，window 窗户。Look! This is our classroom."
     },
     {
       "type": "words",
       "items": [
-        { "text": "dog", "meaning": "狗" },
-        { "text": "cat", "meaning": "猫" },
-        { "text": "sheep", "meaning": "绵羊" },
-        { "text": "hen", "meaning": "母鸡" }
+        { "text": "blackboard", "meaning": "黑板" },
+        { "text": "desk", "meaning": "课桌" },
+        { "text": "chair", "meaning": "椅子" },
+        { "text": "window", "meaning": "窗户" }
       ]
     }
   ],
@@ -25,38 +25,39 @@
       "id": "yy-1b-u2-l01-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的单词。",
-      "speakText": "sheep",
+      "speakText": "chair",
       "options": [
-        { "id": "a", "label": "sheep" },
-        { "id": "b", "label": "hen" },
-        { "id": "c", "label": "dog" }
+        { "id": "a", "label": "chair" },
+        { "id": "b", "label": "desk" },
+        { "id": "c", "label": "window" }
       ],
       "answer": ["a"],
-      "explanation": "sheep 是绵羊，单复数同形。"
+      "explanation": "chair 是椅子。"
     },
     {
       "id": "yy-1b-u2-l01-ex2",
       "type": "single",
-      "stem": "“猫”用英语怎么说？",
+      "stem": "“黑板”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "cat" },
-        { "id": "b", "label": "dog" },
-        { "id": "c", "label": "hen" }
+        { "id": "a", "label": "blackboard" },
+        { "id": "b", "label": "desk" },
+        { "id": "c", "label": "window" }
       ],
       "answer": ["a"],
-      "explanation": "cat 是猫。"
+      "explanation": "black 黑 + board 板，就是黑板。"
     },
     {
       "id": "yy-1b-u2-l01-ex3",
-      "type": "single",
-      "stem": "hen 是什么动物？",
+      "type": "multi",
+      "stem": "教室里能看到哪些东西？",
       "options": [
-        { "id": "a", "label": "母鸡" },
-        { "id": "b", "label": "绵羊" },
-        { "id": "c", "label": "狗" }
+        { "id": "a", "label": "blackboard" },
+        { "id": "b", "label": "desk" },
+        { "id": "c", "label": "window" },
+        { "id": "d", "label": "cow" }
       ],
-      "answer": ["a"],
-      "explanation": "hen 是母鸡，会下蛋。"
+      "answer": ["a", "b", "c"],
+      "explanation": "cow 是奶牛，在农场不在教室。"
     }
   ]
 }

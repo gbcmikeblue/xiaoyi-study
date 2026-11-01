@@ -2,21 +2,21 @@
   "id": "yy-1b-u4-l01",
   "unitId": "yy-1b-u4",
   "volumeId": "yy-1b",
-  "title": "Toys I like",
-  "objectives": ["会说 ball、doll、kite、car", "能说出自己喜欢的玩具"],
+  "title": "Seasons",
+  "objectives": ["会说 spring、summer、autumn、winter", "能说出每个季节的特点"],
   "blocks": [
     {
       "type": "text",
-      "title": "My toys",
-      "content": "ball 球，doll 娃娃，kite 风筝，car 小汽车。I like the ball. 我喜欢这个球。"
+      "title": "Four seasons",
+      "content": "spring 春天，summer 夏天，autumn 秋天，winter 冬天。一年有四季，转一圈就是一年。"
     },
     {
       "type": "words",
       "items": [
-        { "text": "ball", "meaning": "球" },
-        { "text": "doll", "meaning": "娃娃" },
-        { "text": "kite", "meaning": "风筝" },
-        { "text": "car", "meaning": "小汽车" }
+        { "text": "spring", "meaning": "春天" },
+        { "text": "summer", "meaning": "夏天" },
+        { "text": "autumn", "meaning": "秋天" },
+        { "text": "winter", "meaning": "冬天" }
       ]
     }
   ],
@@ -25,38 +25,38 @@
       "id": "yy-1b-u4-l01-ex1",
       "type": "listen",
       "stem": "听一听，选出你听到的单词。",
-      "speakText": "doll",
+      "speakText": "summer",
       "options": [
-        { "id": "a", "label": "ball" },
-        { "id": "b", "label": "doll" },
-        { "id": "c", "label": "car" }
+        { "id": "a", "label": "summer" },
+        { "id": "b", "label": "spring" },
+        { "id": "c", "label": "winter" }
       ],
-      "answer": ["b"],
-      "explanation": "doll 是娃娃。"
+      "answer": ["a"],
+      "explanation": "summer 是夏天。"
     },
     {
       "id": "yy-1b-u4-l01-ex2",
       "type": "single",
-      "stem": "“风筝”用英语怎么说？",
+      "stem": "“冬天”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "kite" },
-        { "id": "b", "label": "ball" },
-        { "id": "c", "label": "car" }
+        { "id": "a", "label": "winter" },
+        { "id": "b", "label": "autumn" },
+        { "id": "c", "label": "spring" }
       ],
       "answer": ["a"],
-      "explanation": "kite 是风筝，要放起来。"
+      "explanation": "winter 是冬天，会下雪。"
     },
     {
       "id": "yy-1b-u4-l01-ex3",
       "type": "single",
-      "stem": "car 是什么？",
+      "stem": "autumn 是哪个季节？",
       "options": [
-        { "id": "a", "label": "小汽车" },
-        { "id": "b", "label": "球" },
-        { "id": "c", "label": "娃娃" }
+        { "id": "a", "label": "秋天" },
+        { "id": "b", "label": "夏天" },
+        { "id": "c", "label": "春天" }
       ],
       "answer": ["a"],
-      "explanation": "car 是小汽车，也有真的汽车的意思。"
+      "explanation": "autumn 是秋天，树叶变黄的季节。"
     }
   ]
 }
