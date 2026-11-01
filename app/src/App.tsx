@@ -11,14 +11,25 @@ export default function App() {
   const viewportRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const onHash = () => {
-      setRoute(parseHash());
-      // 整页固定不滚动，滚动只发生在内容容器内
-      viewportRef.current?.scrollTo({ top: 0 });
-    };
+    const onHash = () => setRoute(parseHash());
     window.addEventListener('hashchange', onHash);
     return () => window.removeEventListener('hashchange', onHash);
   }, []);
+
+  /*
+   * 路由变化后内容整体替换，但浏览器会尝试恢复上一次的滚动位置，
+   * 导致新页面一进来就停在半截（标题被状态栏压住）。
+   * 这里在渲染后连滚两帧：一帧给 React 提交，一帧给浏览器做完布局。
+   */
+  useEffect(() => {
+    const vp = viewportRef.current;
+    if (!vp) return;
+    vp.scrollTop = 0;
+    const id = requestAnimationFrame(() => {
+      vp.scrollTop = 0;
+    });
+    return () => cancelAnimationFrame(id);
+  }, [route]);
 
   let content: ReactElement;
   if (route.name === 'units') {

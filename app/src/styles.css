@@ -92,6 +92,8 @@ html.is-web {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
+  /* 关掉滚动锚定：否则内容替换时浏览器会自行调整 scrollTop */
+  overflow-anchor: none;
   scrollbar-width: none;
 }
 
