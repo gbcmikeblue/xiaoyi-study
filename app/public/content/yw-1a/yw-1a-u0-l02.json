@@ -3,8 +3,16 @@
   "unitId": "yw-1a-u0",
   "volumeId": "yw-1a",
   "title": "我爱学语文",
-  "objectives": ["知道学语文能做什么", "愿意每天读一点、写一点"],
+  "objectives": [
+    "知道学语文能做什么",
+    "愿意每天读一点、写一点"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u0-l02.webp",
+      "alt": "我爱学语文的插图"
+    },
     {
       "type": "text",
       "title": "语文能帮你做什么",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "学会认字以后，下面哪件事自己能做了？",
       "options": [
-        { "id": "a", "label": "自己看故事书" },
-        { "id": "b", "label": "自己开车" },
-        { "id": "c", "label": "自己做饭" }
+        {
+          "id": "a",
+          "label": "自己看故事书"
+        },
+        {
+          "id": "b",
+          "label": "自己开车"
+        },
+        {
+          "id": "c",
+          "label": "自己做饭"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "认了字就能自己读书，不用等人讲。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "学语文最好的办法是什么？",
       "options": [
-        { "id": "a", "label": "每天读一点、写一点" },
-        { "id": "b", "label": "考前突击背" },
-        { "id": "c", "label": "只看不读" }
+        {
+          "id": "a",
+          "label": "每天读一点、写一点"
+        },
+        {
+          "id": "b",
+          "label": "考前突击背"
+        },
+        {
+          "id": "c",
+          "label": "只看不读"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "语文靠积累，天天见面比一次学很多管用。"
     },
     {
@@ -46,12 +76,28 @@
       "type": "multi",
       "stem": "学好语文能帮你做什么？",
       "options": [
-        { "id": "a", "label": "看故事书" },
-        { "id": "b", "label": "把一件事讲清楚" },
-        { "id": "c", "label": "写留言条" },
-        { "id": "d", "label": "不用学别的了" }
+        {
+          "id": "a",
+          "label": "看故事书"
+        },
+        {
+          "id": "b",
+          "label": "把一件事讲清楚"
+        },
+        {
+          "id": "c",
+          "label": "写留言条"
+        },
+        {
+          "id": "d",
+          "label": "不用学别的了"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "语文是工具，能帮到很多科目，但不是全部。"
     }
   ]

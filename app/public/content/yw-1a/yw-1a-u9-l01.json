@@ -3,8 +3,16 @@
   "unitId": "yw-1a-u9",
   "volumeId": "yw-1a",
   "title": "拼音总复习",
-  "objectives": ["能分清声母、韵母、整体认读音节", "能读准易混的声母与韵母"],
+  "objectives": [
+    "能分清声母、韵母、整体认读音节",
+    "能读准易混的声母与韵母"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u9-l01.webp",
+      "alt": "拼音总复习的插图"
+    },
     {
       "type": "text",
       "title": "三类拼音",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "下面哪个是整体认读音节？",
       "options": [
-        { "id": "a", "label": "zhi" },
-        { "id": "b", "label": "zh" },
-        { "id": "c", "label": "zhi and zh 都是" }
+        {
+          "id": "a",
+          "label": "zhi"
+        },
+        {
+          "id": "b",
+          "label": "zh"
+        },
+        {
+          "id": "c",
+          "label": "zhi and zh 都是"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "zh 是声母，zhi 是整体认读音节。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "“z”和“zh”的区别是什么？",
       "options": [
-        { "id": "a", "label": "z 平舌，zh 翘舌" },
-        { "id": "b", "label": "z 翘舌，zh 平舌" },
-        { "id": "c", "label": "没有区别" }
+        {
+          "id": "a",
+          "label": "z 平舌，zh 翘舌"
+        },
+        {
+          "id": "b",
+          "label": "z 翘舌，zh 平舌"
+        },
+        {
+          "id": "c",
+          "label": "没有区别"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "z c s 舌尖平放，zh ch sh 舌尖翘起。"
     },
     {
@@ -46,12 +76,28 @@
       "type": "multi",
       "stem": "下面哪些是前鼻韵母？",
       "options": [
-        { "id": "a", "label": "an" },
-        { "id": "b", "label": "en" },
-        { "id": "c", "label": "ang" },
-        { "id": "d", "label": "in" }
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "en"
+        },
+        {
+          "id": "c",
+          "label": "ang"
+        },
+        {
+          "id": "d",
+          "label": "in"
+        }
       ],
-      "answer": ["a", "b", "d"],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
       "explanation": "an、en、in 收在 n；ang 收在 ng，是后鼻韵母。"
     }
   ]

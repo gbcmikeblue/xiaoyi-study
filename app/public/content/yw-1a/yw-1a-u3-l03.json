@@ -3,16 +3,36 @@
   "unitId": "yw-1a-u3",
   "volumeId": "yw-1a",
   "title": "z c s",
-  "objectives": ["会读平舌音 z、c、s", "能分清 z 和 c 的送气差别"],
+  "objectives": [
+    "会读平舌音 z、c、s",
+    "能分清 z 和 c 的送气差别"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u3-l03.webp",
+      "alt": "z c s的插图"
+    },
     {
       "type": "text",
       "title": "发音口诀",
       "content": "写个字 z z z，小刺猬 c c c，蚕吐丝 s s s。舌尖要平，所以叫平舌音。"
     },
-    { "type": "audio", "text": "字", "caption": "听 z 的音" },
-    { "type": "audio", "text": "刺", "caption": "听 c 的音" },
-    { "type": "audio", "text": "丝", "caption": "听 s 的音" }
+    {
+      "type": "audio",
+      "text": "字",
+      "caption": "听 z 的音"
+    },
+    {
+      "type": "audio",
+      "text": "刺",
+      "caption": "听 c 的音"
+    },
+    {
+      "type": "audio",
+      "text": "丝",
+      "caption": "听 s 的音"
+    }
   ],
   "exercises": [
     {
@@ -21,11 +41,22 @@
       "stem": "听一听，这是哪个声母？",
       "speakText": "丝",
       "options": [
-        { "id": "a", "label": "z" },
-        { "id": "b", "label": "c" },
-        { "id": "c", "label": "s" }
+        {
+          "id": "a",
+          "label": "z"
+        },
+        {
+          "id": "b",
+          "label": "c"
+        },
+        {
+          "id": "c",
+          "label": "s"
+        }
       ],
-      "answer": ["c"],
+      "answer": [
+        "c"
+      ],
       "explanation": "“丝”的声母是 s，舌尖平放，气流从窄缝里出来。"
     },
     {
@@ -34,11 +65,22 @@
       "stem": "“写字”的声母是哪一个？",
       "speakText": "写字",
       "options": [
-        { "id": "a", "label": "z" },
-        { "id": "b", "label": "c" },
-        { "id": "c", "label": "s" }
+        {
+          "id": "a",
+          "label": "z"
+        },
+        {
+          "id": "b",
+          "label": "c"
+        },
+        {
+          "id": "c",
+          "label": "s"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“字”的声母是 z，舌尖平放抵住上牙背。"
     },
     {
@@ -47,12 +89,28 @@
       "stem": "这一课学了哪些声母？",
       "scene": "card",
       "options": [
-        { "id": "a", "label": "z" },
-        { "id": "b", "label": "c" },
-        { "id": "c", "label": "s" },
-        { "id": "d", "label": "zh" }
+        {
+          "id": "a",
+          "label": "z"
+        },
+        {
+          "id": "b",
+          "label": "c"
+        },
+        {
+          "id": "c",
+          "label": "s"
+        },
+        {
+          "id": "d",
+          "label": "zh"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "本课学的是 z、c、s，“zh”是下一课的翘舌音。"
     }
   ]

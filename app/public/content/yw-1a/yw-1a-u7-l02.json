@@ -3,22 +3,54 @@
   "unitId": "yw-1a-u7",
   "volumeId": "yw-1a",
   "title": "影子",
-  "objectives": ["认识“影、子、前、后、跟”五个字", "能说出影子什么时候出现"],
+  "objectives": [
+    "认识“影、子、前、后、跟”五个字",
+    "能说出影子什么时候出现"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u7-l02.webp",
+      "alt": "影子的插图"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "太阳在左边，影子在右边；太阳在身后，影子就跑到了前头。影子黑黑的，跟着我走，我停它也停，像一条甩不掉的小黑狗。"
     },
-    { "type": "audio", "text": "太阳在左边，影子在右边；太阳在身后，影子就跑到了前头。", "caption": "听老师读第一句" },
+    {
+      "type": "audio",
+      "text": "太阳在左边，影子在右边；太阳在身后，影子就跑到了前头。",
+      "caption": "听老师读第一句"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "影", "pinyin": "yǐng", "word": "影子" },
-        { "char": "子", "pinyin": "zi", "word": "影子" },
-        { "char": "前", "pinyin": "qián", "word": "前面" },
-        { "char": "后", "pinyin": "hòu", "word": "后面" },
-        { "char": "跟", "pinyin": "gēn", "word": "跟着" }
+        {
+          "char": "影",
+          "pinyin": "yǐng",
+          "word": "影子"
+        },
+        {
+          "char": "子",
+          "pinyin": "zi",
+          "word": "影子"
+        },
+        {
+          "char": "前",
+          "pinyin": "qián",
+          "word": "前面"
+        },
+        {
+          "char": "后",
+          "pinyin": "hòu",
+          "word": "后面"
+        },
+        {
+          "char": "跟",
+          "pinyin": "gēn",
+          "word": "跟着"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "影",
       "options": [
-        { "id": "a", "label": "影" },
-        { "id": "b", "label": "前" },
-        { "id": "c", "label": "跟" }
+        {
+          "id": "a",
+          "label": "影"
+        },
+        {
+          "id": "b",
+          "label": "前"
+        },
+        {
+          "id": "c",
+          "label": "跟"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“影”读 yǐng，右边三撇像影子散开的样子。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "影子什么时候才会出现？",
       "options": [
-        { "id": "a", "label": "有光的时候" },
-        { "id": "b", "label": "全黑的时候" },
-        { "id": "c", "label": "下雨的时候" }
+        {
+          "id": "a",
+          "label": "有光的时候"
+        },
+        {
+          "id": "b",
+          "label": "全黑的时候"
+        },
+        {
+          "id": "c",
+          "label": "下雨的时候"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "有光照到身上，后面就会留下影子。"
     },
     {
@@ -58,11 +112,22 @@
       "type": "single",
       "stem": "太阳在身后，影子会在哪里？",
       "options": [
-        { "id": "a", "label": "身前" },
-        { "id": "b", "label": "身后" },
-        { "id": "c", "label": "脚底下" }
+        {
+          "id": "a",
+          "label": "身前"
+        },
+        {
+          "id": "b",
+          "label": "身后"
+        },
+        {
+          "id": "c",
+          "label": "脚底下"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "光从背后照来，影子就投在前面。"
     }
   ]

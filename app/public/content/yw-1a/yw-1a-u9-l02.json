@@ -3,8 +3,16 @@
   "unitId": "yw-1a-u9",
   "volumeId": "yw-1a",
   "title": "识字总复习",
-  "objectives": ["能说出三种识字方法", "看到偏旁能猜字义"],
+  "objectives": [
+    "能说出三种识字方法",
+    "看到偏旁能猜字义"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u9-l02.webp",
+      "alt": "识字总复习的插图"
+    },
     {
       "type": "text",
       "title": "三种记字的办法",
@@ -22,11 +30,22 @@
       "type": "single",
       "stem": "“日”和“月”合起来是什么字？",
       "options": [
-        { "id": "a", "label": "明" },
-        { "id": "b", "label": "朋" },
-        { "id": "c", "label": "阳" }
+        {
+          "id": "a",
+          "label": "明"
+        },
+        {
+          "id": "b",
+          "label": "朋"
+        },
+        {
+          "id": "c",
+          "label": "阳"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "日月都有光，合起来是“明”。"
     },
     {
@@ -34,11 +53,22 @@
       "type": "single",
       "stem": "“河”“海”“江”都有三点水，说明它们和什么有关？",
       "options": [
-        { "id": "a", "label": "水" },
-        { "id": "b", "label": "树木" },
-        { "id": "c", "label": "火" }
+        {
+          "id": "a",
+          "label": "水"
+        },
+        {
+          "id": "b",
+          "label": "树木"
+        },
+        {
+          "id": "c",
+          "label": "火"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "三点水表示与水有关。"
     },
     {
@@ -46,12 +76,28 @@
       "type": "multi",
       "stem": "下面哪些是会意字？",
       "options": [
-        { "id": "a", "label": "明" },
-        { "id": "b", "label": "从" },
-        { "id": "c", "label": "众" },
-        { "id": "d", "label": "水" }
+        {
+          "id": "a",
+          "label": "明"
+        },
+        {
+          "id": "b",
+          "label": "从"
+        },
+        {
+          "id": "c",
+          "label": "众"
+        },
+        {
+          "id": "d",
+          "label": "水"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "“水”是象形字，画的就是水流的样子。"
     }
   ]

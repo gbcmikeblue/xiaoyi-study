@@ -3,8 +3,16 @@
   "unitId": "yw-1a-u2",
   "volumeId": "yw-1a",
   "title": "b p m f",
-  "objectives": ["会读声母 b、p、m、f", "能分辨 b 和 p 的气流强弱"],
+  "objectives": [
+    "会读声母 b、p、m、f",
+    "能分辨 b 和 p 的气流强弱"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u2-l03.webp",
+      "alt": "b p m f的插图"
+    },
     {
       "type": "text",
       "title": "发音口诀",
@@ -38,11 +46,22 @@
       "stem": "听一听，这是哪个声母？",
       "speakText": "玻",
       "options": [
-        { "id": "a", "label": "b" },
-        { "id": "b", "label": "p" },
-        { "id": "c", "label": "m" }
+        {
+          "id": "a",
+          "label": "b"
+        },
+        {
+          "id": "b",
+          "label": "p"
+        },
+        {
+          "id": "c",
+          "label": "m"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“玻”的声母是 b，嘴唇闭合后轻轻放开，气流很弱。"
     },
     {
@@ -51,11 +70,22 @@
       "stem": "“妈妈”的声母是哪一个？",
       "speakText": "妈妈",
       "options": [
-        { "id": "a", "label": "b" },
-        { "id": "b", "label": "m" },
-        { "id": "c", "label": "f" }
+        {
+          "id": "a",
+          "label": "b"
+        },
+        {
+          "id": "b",
+          "label": "m"
+        },
+        {
+          "id": "c",
+          "label": "f"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“妈”的声母是 m，两个门洞 m m m。"
     },
     {
@@ -64,12 +94,28 @@
       "stem": "这一课学了哪些声母？",
       "scene": "card",
       "options": [
-        { "id": "a", "label": "b" },
-        { "id": "b", "label": "p" },
-        { "id": "c", "label": "f" },
-        { "id": "d", "label": "d" }
+        {
+          "id": "a",
+          "label": "b"
+        },
+        {
+          "id": "b",
+          "label": "p"
+        },
+        {
+          "id": "c",
+          "label": "f"
+        },
+        {
+          "id": "d",
+          "label": "d"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "本课学的是 b、p、m、f，“d”是下一课的内容。"
     }
   ]

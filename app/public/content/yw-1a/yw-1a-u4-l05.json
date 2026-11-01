@@ -3,17 +3,41 @@
   "unitId": "yw-1a-u4",
   "volumeId": "yw-1a",
   "title": "ang eng ing ong",
-  "objectives": ["会读后鼻韵母 ang、eng、ing、ong", "能分清前鼻韵母与后鼻韵母"],
+  "objectives": [
+    "会读后鼻韵母 ang、eng、ing、ong",
+    "能分清前鼻韵母与后鼻韵母"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u4-l05.webp",
+      "alt": "ang eng ing ong的插图"
+    },
     {
       "type": "text",
       "title": "后鼻韵母",
       "content": "昂 ang、鞥 eng、英 ing、轰 ong。读这几个韵母时，舌根往后抬，气从鼻子出来，收在 ng 上，所以叫后鼻韵母。和前鼻韵母的区别就在最后那个音：n 还是 ng。"
     },
-    { "type": "audio", "text": "羊", "caption": "听 ang 的音（yáng）" },
-    { "type": "audio", "text": "灯", "caption": "听 eng 的音（dēng）" },
-    { "type": "audio", "text": "星", "caption": "听 ing 的音（xīng）" },
-    { "type": "audio", "text": "红", "caption": "听 ong 的音（hóng）" }
+    {
+      "type": "audio",
+      "text": "羊",
+      "caption": "听 ang 的音（yáng）"
+    },
+    {
+      "type": "audio",
+      "text": "灯",
+      "caption": "听 eng 的音（dēng）"
+    },
+    {
+      "type": "audio",
+      "text": "星",
+      "caption": "听 ing 的音（xīng）"
+    },
+    {
+      "type": "audio",
+      "text": "红",
+      "caption": "听 ong 的音（hóng）"
+    }
   ],
   "exercises": [
     {
@@ -22,11 +46,22 @@
       "stem": "听一听，“羊”的韵母是哪一个？",
       "speakText": "羊",
       "options": [
-        { "id": "a", "label": "an" },
-        { "id": "b", "label": "ang" },
-        { "id": "c", "label": "eng" }
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "ang"
+        },
+        {
+          "id": "c",
+          "label": "eng"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "yáng 的韵母是 ang，收在 ng 上。"
     },
     {
@@ -35,11 +70,22 @@
       "stem": "“红”读 hóng，它的韵母是哪一个？",
       "speakText": "红",
       "options": [
-        { "id": "a", "label": "ong" },
-        { "id": "b", "label": "eng" },
-        { "id": "c", "label": "un" }
+        {
+          "id": "a",
+          "label": "ong"
+        },
+        {
+          "id": "b",
+          "label": "eng"
+        },
+        {
+          "id": "c",
+          "label": "un"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "hóng 的韵母是 ong，嘴先圆再往后收。"
     },
     {
@@ -47,11 +93,22 @@
       "type": "single",
       "stem": "前鼻韵母和后鼻韵母，最后一个音分别是什么？",
       "options": [
-        { "id": "a", "label": "n 和 ng" },
-        { "id": "b", "label": "ng 和 n" },
-        { "id": "c", "label": "一样" }
+        {
+          "id": "a",
+          "label": "n 和 ng"
+        },
+        {
+          "id": "b",
+          "label": "ng 和 n"
+        },
+        {
+          "id": "c",
+          "label": "一样"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "前鼻韵母收在 n，后鼻韵母收在 ng，读的时候舌位不同。"
     }
   ]

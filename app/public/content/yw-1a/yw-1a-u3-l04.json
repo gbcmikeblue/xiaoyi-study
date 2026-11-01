@@ -3,17 +3,41 @@
   "unitId": "yw-1a-u3",
   "volumeId": "yw-1a",
   "title": "zh ch sh r",
-  "objectives": ["会读翘舌音 zh、ch、sh、r", "能分清翘舌音与平舌音"],
+  "objectives": [
+    "会读翘舌音 zh、ch、sh、r",
+    "能分清翘舌音与平舌音"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u3-l04.webp",
+      "alt": "zh ch sh r的插图"
+    },
     {
       "type": "text",
       "title": "发音口诀",
       "content": "织毛衣 zh zh zh，吃苹果 ch ch ch，小狮子 sh sh sh，小树发芽 r r r。舌尖要翘起来，所以叫翘舌音。"
     },
-    { "type": "audio", "text": "织", "caption": "听 zh 的音" },
-    { "type": "audio", "text": "吃", "caption": "听 ch 的音" },
-    { "type": "audio", "text": "狮", "caption": "听 sh 的音" },
-    { "type": "audio", "text": "日", "caption": "听 r 的音" }
+    {
+      "type": "audio",
+      "text": "织",
+      "caption": "听 zh 的音"
+    },
+    {
+      "type": "audio",
+      "text": "吃",
+      "caption": "听 ch 的音"
+    },
+    {
+      "type": "audio",
+      "text": "狮",
+      "caption": "听 sh 的音"
+    },
+    {
+      "type": "audio",
+      "text": "日",
+      "caption": "听 r 的音"
+    }
   ],
   "exercises": [
     {
@@ -22,11 +46,22 @@
       "stem": "听一听，这是哪个声母？",
       "speakText": "狮",
       "options": [
-        { "id": "a", "label": "zh" },
-        { "id": "b", "label": "ch" },
-        { "id": "c", "label": "sh" }
+        {
+          "id": "a",
+          "label": "zh"
+        },
+        {
+          "id": "b",
+          "label": "ch"
+        },
+        {
+          "id": "c",
+          "label": "sh"
+        }
       ],
-      "answer": ["c"],
+      "answer": [
+        "c"
+      ],
       "explanation": "“狮”的声母是 sh，舌尖翘起靠近硬腭。"
     },
     {
@@ -35,11 +70,22 @@
       "stem": "“日出”的“日”，声母是哪一个？",
       "speakText": "日出",
       "options": [
-        { "id": "a", "label": "r" },
-        { "id": "b", "label": "sh" },
-        { "id": "c", "label": "l" }
+        {
+          "id": "a",
+          "label": "r"
+        },
+        {
+          "id": "b",
+          "label": "sh"
+        },
+        {
+          "id": "c",
+          "label": "l"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“日”的声母是 r，舌尖翘起后微微放开，声带振动。"
     },
     {
@@ -47,11 +93,22 @@
       "type": "single",
       "stem": "zh ch sh r 这一组叫什么音？",
       "options": [
-        { "id": "a", "label": "翘舌音" },
-        { "id": "b", "label": "平舌音" },
-        { "id": "c", "label": "鼻音" }
+        {
+          "id": "a",
+          "label": "翘舌音"
+        },
+        {
+          "id": "b",
+          "label": "平舌音"
+        },
+        {
+          "id": "c",
+          "label": "鼻音"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "舌尖翘起来发的音叫翘舌音；z、c、s 舌尖平放，是平舌音。"
     }
   ]

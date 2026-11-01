@@ -3,16 +3,36 @@
   "unitId": "yw-1a-u4",
   "volumeId": "yw-1a",
   "title": "ai ei ui",
-  "objectives": ["会读复韵母 ai、ei、ui", "知道复韵母读的时候从前一个音滑到后一个音"],
+  "objectives": [
+    "会读复韵母 ai、ei、ui",
+    "知道复韵母读的时候从前一个音滑到后一个音"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u4-l01.webp",
+      "alt": "ai ei ui的插图"
+    },
     {
       "type": "text",
       "title": "复韵母是什么",
       "content": "复韵母由两个单韵母合成，读的时候嘴形从前一个滑到后一个，中间的过渡不能断开。挨着读 ai，诶一声 ei，喊“威”是 ui。"
     },
-    { "type": "audio", "text": "白", "caption": "听 ai 的音（bái）" },
-    { "type": "audio", "text": "黑", "caption": "听 ei 的音（hēi）" },
-    { "type": "audio", "text": "水", "caption": "听 ui 的音（shuǐ）" }
+    {
+      "type": "audio",
+      "text": "白",
+      "caption": "听 ai 的音（bái）"
+    },
+    {
+      "type": "audio",
+      "text": "黑",
+      "caption": "听 ei 的音（hēi）"
+    },
+    {
+      "type": "audio",
+      "text": "水",
+      "caption": "听 ui 的音（shuǐ）"
+    }
   ],
   "exercises": [
     {
@@ -21,11 +41,22 @@
       "stem": "听一听，“白”的韵母是哪一个？",
       "speakText": "白",
       "options": [
-        { "id": "a", "label": "ai" },
-        { "id": "b", "label": "ei" },
-        { "id": "c", "label": "ui" }
+        {
+          "id": "a",
+          "label": "ai"
+        },
+        {
+          "id": "b",
+          "label": "ei"
+        },
+        {
+          "id": "c",
+          "label": "ui"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "bái 的韵母是 ai，从 a 滑向 i。"
     },
     {
@@ -34,11 +65,22 @@
       "stem": "“水”读 shuǐ，它的韵母是哪一个？",
       "speakText": "水",
       "options": [
-        { "id": "a", "label": "ai" },
-        { "id": "b", "label": "ui" },
-        { "id": "c", "label": "iu" }
+        {
+          "id": "a",
+          "label": "ai"
+        },
+        {
+          "id": "b",
+          "label": "ui"
+        },
+        {
+          "id": "c",
+          "label": "iu"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "shuǐ 的韵母是 ui，从 u 滑向 i，前一个音重一些。"
     },
     {
@@ -46,12 +88,28 @@
       "type": "multi",
       "stem": "这一课学了哪些复韵母？",
       "options": [
-        { "id": "a", "label": "ai" },
-        { "id": "b", "label": "ei" },
-        { "id": "c", "label": "ui" },
-        { "id": "d", "label": "ao" }
+        {
+          "id": "a",
+          "label": "ai"
+        },
+        {
+          "id": "b",
+          "label": "ei"
+        },
+        {
+          "id": "c",
+          "label": "ui"
+        },
+        {
+          "id": "d",
+          "label": "ao"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "本课学的是 ai、ei、ui，“ao”是下一课的内容。"
     }
   ]

@@ -39,7 +39,9 @@ def main() -> None:
                 print(f"已有图，跳过：{lesson_id}")
                 continue
 
-            alt, caption = CAPTIONS.get(lesson_id, (data.get("title", ""), ""))
+            alt, caption = CAPTIONS.get(
+                lesson_id, (f"{data.get('title', '')}的插图", "")
+            )
             block = {
                 "type": "image",
                 "src": f"/content/{vol_dir.name}/img/{webp.name}",

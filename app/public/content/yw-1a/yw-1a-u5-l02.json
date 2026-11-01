@@ -3,22 +3,54 @@
   "unitId": "yw-1a-u5",
   "volumeId": "yw-1a",
   "title": "江南",
-  "objectives": ["认识“江、南、采、鱼、间”五个字", "能读出古诗的节奏"],
+  "objectives": [
+    "认识“江、南、采、鱼、间”五个字",
+    "能读出古诗的节奏"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u5-l02.webp",
+      "alt": "江南的插图"
+    },
     {
       "type": "text",
       "title": "读古诗",
       "content": "江南可采莲，莲叶何田田。鱼戏莲叶间。鱼戏莲叶东，鱼戏莲叶西，鱼戏莲叶南，鱼戏莲叶北。"
     },
-    { "type": "audio", "text": "江南可采莲，莲叶何田田。鱼戏莲叶间。", "caption": "听老师读古诗" },
+    {
+      "type": "audio",
+      "text": "江南可采莲，莲叶何田田。鱼戏莲叶间。",
+      "caption": "听老师读古诗"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "江", "pinyin": "jiāng", "word": "江南" },
-        { "char": "南", "pinyin": "nán", "word": "南方" },
-        { "char": "采", "pinyin": "cǎi", "word": "采莲" },
-        { "char": "鱼", "pinyin": "yú", "word": "小鱼" },
-        { "char": "间", "pinyin": "jiān", "word": "中间" }
+        {
+          "char": "江",
+          "pinyin": "jiāng",
+          "word": "江南"
+        },
+        {
+          "char": "南",
+          "pinyin": "nán",
+          "word": "南方"
+        },
+        {
+          "char": "采",
+          "pinyin": "cǎi",
+          "word": "采莲"
+        },
+        {
+          "char": "鱼",
+          "pinyin": "yú",
+          "word": "小鱼"
+        },
+        {
+          "char": "间",
+          "pinyin": "jiān",
+          "word": "中间"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "江",
       "options": [
-        { "id": "a", "label": "江" },
-        { "id": "b", "label": "南" },
-        { "id": "c", "label": "间" }
+        {
+          "id": "a",
+          "label": "江"
+        },
+        {
+          "id": "b",
+          "label": "南"
+        },
+        {
+          "id": "c",
+          "label": "间"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“江”读 jiāng，三点水，和水有关。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "诗里说小鱼在莲叶间做什么？",
       "options": [
-        { "id": "a", "label": "睡觉" },
-        { "id": "b", "label": "游戏" },
-        { "id": "c", "label": "吃东西" }
+        {
+          "id": "a",
+          "label": "睡觉"
+        },
+        {
+          "id": "b",
+          "label": "游戏"
+        },
+        {
+          "id": "c",
+          "label": "吃东西"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“鱼戏莲叶间”的“戏”就是玩耍、游戏。"
     },
     {
@@ -58,12 +112,29 @@
       "type": "multi",
       "stem": "诗里写到小鱼游到莲叶的哪些方向？",
       "options": [
-        { "id": "a", "label": "东" },
-        { "id": "b", "label": "南" },
-        { "id": "c", "label": "西" },
-        { "id": "d", "label": "北" }
+        {
+          "id": "a",
+          "label": "东"
+        },
+        {
+          "id": "b",
+          "label": "南"
+        },
+        {
+          "id": "c",
+          "label": "西"
+        },
+        {
+          "id": "d",
+          "label": "北"
+        }
       ],
-      "answer": ["a", "b", "c", "d"],
+      "answer": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
       "explanation": "东、西、南、北四个方向都写到了，说明小鱼游得很欢。"
     }
   ]

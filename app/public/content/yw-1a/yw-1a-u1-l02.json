@@ -3,8 +3,17 @@
   "unitId": "yw-1a-u1",
   "volumeId": "yw-1a",
   "title": "金木水火土",
-  "objectives": ["认识“金、木、水、火、土”五个字", "能跟着读儿歌", "知道这五个字说的都是身边的事物"],
+  "objectives": [
+    "认识“金、木、水、火、土”五个字",
+    "能跟着读儿歌",
+    "知道这五个字说的都是身边的事物"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u1-l02.webp",
+      "alt": "金木水火土的插图"
+    },
     {
       "type": "text",
       "title": "读儿歌",
@@ -13,11 +22,31 @@
     {
       "type": "chars",
       "items": [
-        { "char": "金", "pinyin": "jīn", "word": "金子" },
-        { "char": "木", "pinyin": "mù", "word": "木头" },
-        { "char": "水", "pinyin": "shuǐ", "word": "喝水" },
-        { "char": "火", "pinyin": "huǒ", "word": "火苗" },
-        { "char": "土", "pinyin": "tǔ", "word": "泥土" }
+        {
+          "char": "金",
+          "pinyin": "jīn",
+          "word": "金子"
+        },
+        {
+          "char": "木",
+          "pinyin": "mù",
+          "word": "木头"
+        },
+        {
+          "char": "水",
+          "pinyin": "shuǐ",
+          "word": "喝水"
+        },
+        {
+          "char": "火",
+          "pinyin": "huǒ",
+          "word": "火苗"
+        },
+        {
+          "char": "土",
+          "pinyin": "tǔ",
+          "word": "泥土"
+        }
       ]
     }
   ],
@@ -28,11 +57,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "水",
       "options": [
-        { "id": "a", "label": "木" },
-        { "id": "b", "label": "水" },
-        { "id": "c", "label": "火" }
+        {
+          "id": "a",
+          "label": "木"
+        },
+        {
+          "id": "b",
+          "label": "水"
+        },
+        {
+          "id": "c",
+          "label": "火"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“水”读 shuǐ，我们每天都要喝水。"
     },
     {
@@ -41,11 +81,22 @@
       "stem": "“木头”的“木”，是下面哪一个字？",
       "speakText": "木头",
       "options": [
-        { "id": "a", "label": "木" },
-        { "id": "b", "label": "本" },
-        { "id": "c", "label": "土" }
+        {
+          "id": "a",
+          "label": "木"
+        },
+        {
+          "id": "b",
+          "label": "本"
+        },
+        {
+          "id": "c",
+          "label": "土"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“木”就是树的样子，一横一竖，两边撇捺。"
     },
     {
@@ -53,12 +104,28 @@
       "type": "multi",
       "stem": "这一课学过的字，有哪些？",
       "options": [
-        { "id": "a", "label": "金" },
-        { "id": "b", "label": "火" },
-        { "id": "c", "label": "土" },
-        { "id": "d", "label": "日" }
+        {
+          "id": "a",
+          "label": "金"
+        },
+        {
+          "id": "b",
+          "label": "火"
+        },
+        {
+          "id": "c",
+          "label": "土"
+        },
+        {
+          "id": "d",
+          "label": "日"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "本课学的是“金、木、水、火、土”，“日”出现在儿歌里，但不在这一课的生字表中。"
     }
   ]

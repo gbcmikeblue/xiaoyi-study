@@ -3,22 +3,54 @@
   "unitId": "yw-1a-u5",
   "volumeId": "yw-1a",
   "title": "雪地里的小画家",
-  "objectives": ["认识“雪、画、鸡、狗、步”五个字", "能说出动物脚印像什么"],
+  "objectives": [
+    "认识“雪、画、鸡、狗、步”五个字",
+    "能说出动物脚印像什么"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u5-l03.webp",
+      "alt": "雪地里的小画家的插图"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "下雪了，地上白茫茫一片。小动物走过雪地，留下一串脚印。小鸡的脚印像竹叶，小狗的脚印像梅花，小鸭的脚印像枫叶。它们不用颜料不用笔，走几步就画成一幅画。"
     },
-    { "type": "audio", "text": "下雪了，地上白茫茫一片。小动物走过雪地，留下一串脚印。", "caption": "听老师读第一句" },
+    {
+      "type": "audio",
+      "text": "下雪了，地上白茫茫一片。小动物走过雪地，留下一串脚印。",
+      "caption": "听老师读第一句"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "雪", "pinyin": "xuě", "word": "下雪" },
-        { "char": "画", "pinyin": "huà", "word": "画画" },
-        { "char": "鸡", "pinyin": "jī", "word": "小鸡" },
-        { "char": "狗", "pinyin": "gǒu", "word": "小狗" },
-        { "char": "步", "pinyin": "bù", "word": "走步" }
+        {
+          "char": "雪",
+          "pinyin": "xuě",
+          "word": "下雪"
+        },
+        {
+          "char": "画",
+          "pinyin": "huà",
+          "word": "画画"
+        },
+        {
+          "char": "鸡",
+          "pinyin": "jī",
+          "word": "小鸡"
+        },
+        {
+          "char": "狗",
+          "pinyin": "gǒu",
+          "word": "小狗"
+        },
+        {
+          "char": "步",
+          "pinyin": "bù",
+          "word": "走步"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "画",
       "options": [
-        { "id": "a", "label": "雪" },
-        { "id": "b", "label": "画" },
-        { "id": "c", "label": "步" }
+        {
+          "id": "a",
+          "label": "雪"
+        },
+        {
+          "id": "b",
+          "label": "画"
+        },
+        {
+          "id": "c",
+          "label": "步"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“画”读 huà，上面一横，下面像个框。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "小鸡的脚印像什么？",
       "options": [
-        { "id": "a", "label": "竹叶" },
-        { "id": "b", "label": "梅花" },
-        { "id": "c", "label": "枫叶" }
+        {
+          "id": "a",
+          "label": "竹叶"
+        },
+        {
+          "id": "b",
+          "label": "梅花"
+        },
+        {
+          "id": "c",
+          "label": "枫叶"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "小鸡的脚趾分开，踩出的印子像竹叶。"
     },
     {
@@ -58,12 +112,28 @@
       "type": "multi",
       "stem": "课里写到了哪些动物？",
       "options": [
-        { "id": "a", "label": "小鸡" },
-        { "id": "b", "label": "小狗" },
-        { "id": "c", "label": "小鸭" },
-        { "id": "d", "label": "小猫" }
+        {
+          "id": "a",
+          "label": "小鸡"
+        },
+        {
+          "id": "b",
+          "label": "小狗"
+        },
+        {
+          "id": "c",
+          "label": "小鸭"
+        },
+        {
+          "id": "d",
+          "label": "小猫"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "课里写的是小鸡、小狗、小鸭，“小猫”没有出现。"
     }
   ]

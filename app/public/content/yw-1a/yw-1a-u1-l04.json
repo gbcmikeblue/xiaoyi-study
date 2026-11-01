@@ -3,8 +3,16 @@
   "unitId": "yw-1a-u1",
   "volumeId": "yw-1a",
   "title": "日月山川",
-  "objectives": ["认识“日、月、山、川”四个字", "能看着字形说出它像什么"],
+  "objectives": [
+    "认识“日、月、山、川”四个字",
+    "能看着字形说出它像什么"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u1-l04.webp",
+      "alt": "日月山川的插图"
+    },
     {
       "type": "text",
       "title": "看字形猜一猜",
@@ -13,10 +21,26 @@
     {
       "type": "chars",
       "items": [
-        { "char": "日", "pinyin": "rì", "word": "日出" },
-        { "char": "月", "pinyin": "yuè", "word": "月亮" },
-        { "char": "山", "pinyin": "shān", "word": "高山" },
-        { "char": "川", "pinyin": "chuān", "word": "山川" }
+        {
+          "char": "日",
+          "pinyin": "rì",
+          "word": "日出"
+        },
+        {
+          "char": "月",
+          "pinyin": "yuè",
+          "word": "月亮"
+        },
+        {
+          "char": "山",
+          "pinyin": "shān",
+          "word": "高山"
+        },
+        {
+          "char": "川",
+          "pinyin": "chuān",
+          "word": "山川"
+        }
       ]
     },
     {
@@ -32,11 +56,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "山",
       "options": [
-        { "id": "a", "label": "川" },
-        { "id": "b", "label": "山" },
-        { "id": "c", "label": "月" }
+        {
+          "id": "a",
+          "label": "川"
+        },
+        {
+          "id": "b",
+          "label": "山"
+        },
+        {
+          "id": "c",
+          "label": "月"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“山”读 shān，中间高两边低，就像三座山峰。"
     },
     {
@@ -45,11 +80,22 @@
       "stem": "“月亮”的“月”，是下面哪一个字？",
       "speakText": "月亮",
       "options": [
-        { "id": "a", "label": "日" },
-        { "id": "b", "label": "月" },
-        { "id": "c", "label": "目" }
+        {
+          "id": "a",
+          "label": "日"
+        },
+        {
+          "id": "b",
+          "label": "月"
+        },
+        {
+          "id": "c",
+          "label": "目"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“月”是弯弯的，像月亮；“目”是眼睛，里面有两条横。"
     },
     {
@@ -57,12 +103,28 @@
       "type": "multi",
       "stem": "这一课学过的字，有哪些？",
       "options": [
-        { "id": "a", "label": "日" },
-        { "id": "b", "label": "山" },
-        { "id": "c", "label": "川" },
-        { "id": "d", "label": "田" }
+        {
+          "id": "a",
+          "label": "日"
+        },
+        {
+          "id": "b",
+          "label": "山"
+        },
+        {
+          "id": "c",
+          "label": "川"
+        },
+        {
+          "id": "d",
+          "label": "田"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "本课学的是“日、月、山、川”，“田”是后面才学的。"
     }
   ]

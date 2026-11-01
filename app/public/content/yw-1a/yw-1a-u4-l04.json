@@ -3,17 +3,41 @@
   "unitId": "yw-1a-u4",
   "volumeId": "yw-1a",
   "title": "an en in un ün",
-  "objectives": ["会读前鼻韵母 an、en、in、un、ün", "知道前鼻韵母的鼻音收在 n 上"],
+  "objectives": [
+    "会读前鼻韵母 an、en、in、un、ün",
+    "知道前鼻韵母的鼻音收在 n 上"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u4-l04.webp",
+      "alt": "an en in un ün的插图"
+    },
     {
       "type": "text",
       "title": "前鼻韵母",
       "content": "安 an、恩 en、因 in、温 un、晕 ün。读这几个韵母时，最后舌尖要抵住上牙床，让气从鼻子出来，收在 n 上，所以叫前鼻韵母。"
     },
-    { "type": "audio", "text": "山", "caption": "听 an 的音（shān）" },
-    { "type": "audio", "text": "门", "caption": "听 en 的音（mén）" },
-    { "type": "audio", "text": "林", "caption": "听 in 的音（lín）" },
-    { "type": "audio", "text": "云", "caption": "听 ün 的音（yún）" }
+    {
+      "type": "audio",
+      "text": "山",
+      "caption": "听 an 的音（shān）"
+    },
+    {
+      "type": "audio",
+      "text": "门",
+      "caption": "听 en 的音（mén）"
+    },
+    {
+      "type": "audio",
+      "text": "林",
+      "caption": "听 in 的音（lín）"
+    },
+    {
+      "type": "audio",
+      "text": "云",
+      "caption": "听 ün 的音（yún）"
+    }
   ],
   "exercises": [
     {
@@ -22,11 +46,22 @@
       "stem": "听一听，“山”的韵母是哪一个？",
       "speakText": "山",
       "options": [
-        { "id": "a", "label": "an" },
-        { "id": "b", "label": "ang" },
-        { "id": "c", "label": "en" }
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "ang"
+        },
+        {
+          "id": "c",
+          "label": "en"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "shān 的韵母是 an，鼻音收在 n 上，不是 ng。"
     },
     {
@@ -35,11 +70,22 @@
       "stem": "“云”读 yún，它的韵母是哪一个？",
       "speakText": "云",
       "options": [
-        { "id": "a", "label": "un" },
-        { "id": "b", "label": "ün" },
-        { "id": "c", "label": "in" }
+        {
+          "id": "a",
+          "label": "un"
+        },
+        {
+          "id": "b",
+          "label": "ün"
+        },
+        {
+          "id": "c",
+          "label": "in"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "yún 的韵母是 ün，写成 yun 时 ü 的两点省掉了。"
     },
     {
@@ -47,12 +93,28 @@
       "type": "multi",
       "stem": "下面哪些是前鼻韵母？",
       "options": [
-        { "id": "a", "label": "an" },
-        { "id": "b", "label": "in" },
-        { "id": "c", "label": "ün" },
-        { "id": "d", "label": "ang" }
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "in"
+        },
+        {
+          "id": "c",
+          "label": "ün"
+        },
+        {
+          "id": "d",
+          "label": "ang"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "an、in、ün 收在 n 上；“ang”收在 ng 上，是后鼻韵母。"
     }
   ]

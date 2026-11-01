@@ -3,8 +3,16 @@
   "unitId": "yw-1a-u6",
   "volumeId": "yw-1a",
   "title": "日月明",
-  "objectives": ["认识“明、力、尘、从、众”五个字", "知道两个独体字合起来能组成新字"],
+  "objectives": [
+    "认识“明、力、尘、从、众”五个字",
+    "知道两个独体字合起来能组成新字"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u6-l02.webp",
+      "alt": "日月明的插图"
+    },
     {
       "type": "text",
       "title": "合起来变新字",
@@ -13,11 +21,31 @@
     {
       "type": "chars",
       "items": [
-        { "char": "明", "pinyin": "míng", "word": "明亮" },
-        { "char": "力", "pinyin": "lì", "word": "用力" },
-        { "char": "尘", "pinyin": "chén", "word": "灰尘" },
-        { "char": "从", "pinyin": "cóng", "word": "从来" },
-        { "char": "众", "pinyin": "zhòng", "word": "众人" }
+        {
+          "char": "明",
+          "pinyin": "míng",
+          "word": "明亮"
+        },
+        {
+          "char": "力",
+          "pinyin": "lì",
+          "word": "用力"
+        },
+        {
+          "char": "尘",
+          "pinyin": "chén",
+          "word": "灰尘"
+        },
+        {
+          "char": "从",
+          "pinyin": "cóng",
+          "word": "从来"
+        },
+        {
+          "char": "众",
+          "pinyin": "zhòng",
+          "word": "众人"
+        }
       ]
     },
     {
@@ -33,11 +61,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "明",
       "options": [
-        { "id": "a", "label": "明" },
-        { "id": "b", "label": "从" },
-        { "id": "c", "label": "尘" }
+        {
+          "id": "a",
+          "label": "明"
+        },
+        {
+          "id": "b",
+          "label": "从"
+        },
+        {
+          "id": "c",
+          "label": "尘"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "“明”读 míng，左边日、右边月，都有光。"
     },
     {
@@ -45,11 +84,22 @@
       "type": "single",
       "stem": "“日”和“月”合起来是什么字？",
       "options": [
-        { "id": "a", "label": "明" },
-        { "id": "b", "label": "朋" },
-        { "id": "c", "label": "阳" }
+        {
+          "id": "a",
+          "label": "明"
+        },
+        {
+          "id": "b",
+          "label": "朋"
+        },
+        {
+          "id": "c",
+          "label": "阳"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "太阳和月亮都有光，合起来就是“明”，表示明亮。"
     },
     {
@@ -57,12 +107,28 @@
       "type": "multi",
       "stem": "哪些字是两部分合起来组成的？",
       "options": [
-        { "id": "a", "label": "明" },
-        { "id": "b", "label": "从" },
-        { "id": "c", "label": "众" },
-        { "id": "d", "label": "水" }
+        {
+          "id": "a",
+          "label": "明"
+        },
+        {
+          "id": "b",
+          "label": "从"
+        },
+        {
+          "id": "c",
+          "label": "众"
+        },
+        {
+          "id": "d",
+          "label": "水"
+        }
       ],
-      "answer": ["a", "b", "c"],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
       "explanation": "明是日月、从是两人、众是三人；“水”是一个整体，拆不开。"
     }
   ]

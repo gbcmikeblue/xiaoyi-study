@@ -3,22 +3,54 @@
   "unitId": "yw-1a-u8",
   "volumeId": "yw-1a",
   "title": "比尾巴",
-  "objectives": ["认识“比、短、伞、猴、兔”五个字", "能说出几种动物尾巴的特点"],
+  "objectives": [
+    "认识“比、短、伞、猴、兔”五个字",
+    "能说出几种动物尾巴的特点"
+  ],
   "blocks": [
+    {
+      "type": "image",
+      "src": "/content/yw-1a/img/yw-1a-u8-l01.webp",
+      "alt": "比尾巴的插图"
+    },
     {
       "type": "text",
       "title": "读一读",
       "content": "谁的尾巴长？猴子的尾巴长。谁的尾巴短？兔子的尾巴短。谁的尾巴像把伞？松鼠的尾巴像把伞。谁的尾巴最好看？孔雀的尾巴最好看。"
     },
-    { "type": "audio", "text": "谁的尾巴长？猴子的尾巴长。谁的尾巴短？兔子的尾巴短。", "caption": "听老师读一读" },
+    {
+      "type": "audio",
+      "text": "谁的尾巴长？猴子的尾巴长。谁的尾巴短？兔子的尾巴短。",
+      "caption": "听老师读一读"
+    },
     {
       "type": "chars",
       "items": [
-        { "char": "比", "pinyin": "bǐ", "word": "比较" },
-        { "char": "短", "pinyin": "duǎn", "word": "长短" },
-        { "char": "伞", "pinyin": "sǎn", "word": "雨伞" },
-        { "char": "猴", "pinyin": "hóu", "word": "猴子" },
-        { "char": "兔", "pinyin": "tù", "word": "兔子" }
+        {
+          "char": "比",
+          "pinyin": "bǐ",
+          "word": "比较"
+        },
+        {
+          "char": "短",
+          "pinyin": "duǎn",
+          "word": "长短"
+        },
+        {
+          "char": "伞",
+          "pinyin": "sǎn",
+          "word": "雨伞"
+        },
+        {
+          "char": "猴",
+          "pinyin": "hóu",
+          "word": "猴子"
+        },
+        {
+          "char": "兔",
+          "pinyin": "tù",
+          "word": "兔子"
+        }
       ]
     },
     {
@@ -34,11 +66,22 @@
       "stem": "听一听，选出你听到的字。",
       "speakText": "短",
       "options": [
-        { "id": "a", "label": "比" },
-        { "id": "b", "label": "短" },
-        { "id": "c", "label": "伞" }
+        {
+          "id": "a",
+          "label": "比"
+        },
+        {
+          "id": "b",
+          "label": "短"
+        },
+        {
+          "id": "c",
+          "label": "伞"
+        }
       ],
-      "answer": ["b"],
+      "answer": [
+        "b"
+      ],
       "explanation": "“短”读 duǎn，长短的短，和“长”相对。"
     },
     {
@@ -46,11 +89,22 @@
       "type": "single",
       "stem": "谁的尾巴像把伞？",
       "options": [
-        { "id": "a", "label": "松鼠" },
-        { "id": "b", "label": "猴子" },
-        { "id": "c", "label": "兔子" }
+        {
+          "id": "a",
+          "label": "松鼠"
+        },
+        {
+          "id": "b",
+          "label": "猴子"
+        },
+        {
+          "id": "c",
+          "label": "兔子"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "松鼠的尾巴又大又蓬松，撑开来像一把伞。"
     },
     {
@@ -58,11 +112,22 @@
       "type": "single",
       "stem": "谁的尾巴最短？",
       "options": [
-        { "id": "a", "label": "兔子" },
-        { "id": "b", "label": "猴子" },
-        { "id": "c", "label": "孔雀" }
+        {
+          "id": "a",
+          "label": "兔子"
+        },
+        {
+          "id": "b",
+          "label": "猴子"
+        },
+        {
+          "id": "c",
+          "label": "孔雀"
+        }
       ],
-      "answer": ["a"],
+      "answer": [
+        "a"
+      ],
       "explanation": "兔子的尾巴短短一团，跑起来不碍事。"
     }
   ]
