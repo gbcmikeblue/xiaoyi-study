@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u1-l07",
+  "unitId": "sx-1b-u1",
+  "volumeId": "sx-1b",
+  "title": "做个加法表",
+  "objectives": ["能把 20 以内加法算式整理成表", "能发现表里的排列规律"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "排成一张表",
+      "content": "把 20 以内的加法算式按第一个加数从小到大排成行，第二个加数从小到大排成列，就成了一张加法表。"
+    },
+    {
+      "type": "text",
+      "title": "表里藏规律",
+      "content": "同一行往右走，第二个加数多 1，和也多 1；同一列往下走，第一个加数多 1，和也多 1。找到规律就不用死记。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u1-l07-ex1",
+      "type": "single",
+      "stem": "加法表里同一行往右看，和会怎样变化？",
+      "options": [
+        { "id": "a", "label": "每次多 1" },
+        { "id": "b", "label": "每次少 1" },
+        { "id": "c", "label": "不变" }
+      ],
+      "answer": ["a"],
+      "explanation": "往右第二个加数多 1，和就多 1。"
+    },
+    {
+      "id": "sx-1b-u1-l07-ex2",
+      "type": "single",
+      "stem": "7 + 8 = 15，它右边一格应是哪个算式？",
+      "options": [
+        { "id": "a", "label": "7 + 9 = 16" },
+        { "id": "b", "label": "8 + 8 = 16" },
+        { "id": "c", "label": "7 + 7 = 14" }
+      ],
+      "answer": ["a"],
+      "explanation": "同一行往右，第二个加数加 1，和也加 1。"
+    },
+    {
+      "id": "sx-1b-u1-l07-ex3",
+      "type": "single",
+      "stem": "整理加法表有什么用？",
+      "options": [
+        { "id": "a", "label": "能看出规律，少死记" },
+        { "id": "b", "label": "只是好看" },
+        { "id": "c", "label": "算得更慢" }
+      ],
+      "answer": ["a"],
+      "explanation": "整理是为了发现规律，靠规律记忆更牢。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u1-l06",
+  "unitId": "sx-1b-u1",
+  "volumeId": "sx-1b",
+  "title": "小兔子安家",
+  "objectives": ["能找到得数相同的不同算式", "发现加数与和之间的变化规律"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "得数都是 12",
+      "content": "3 + 9、4 + 8、5 + 7、6 + 6，得数都是 12。一个加数多 1，另一个加数就少 1，和不变。"
+    },
+    {
+      "type": "text",
+      "title": "这个规律很有用",
+      "content": "记住 6 + 6 = 12，就能推出 5 + 7、4 + 8、3 + 9，不用一个个算。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u1-l06-ex1",
+      "type": "single",
+      "stem": "得数是 12 的算式是哪一个？",
+      "options": [
+        { "id": "a", "label": "5 + 7" },
+        { "id": "b", "label": "5 + 6" },
+        { "id": "c", "label": "6 + 7" }
+      ],
+      "answer": ["a"],
+      "explanation": "5 + 7 = 12。"
+    },
+    {
+      "id": "sx-1b-u1-l06-ex2",
+      "type": "single",
+      "stem": "6 + 6 = 12，那么 5 + 7 = ?",
+      "options": [
+        { "id": "a", "label": "12" },
+        { "id": "b", "label": "11" },
+        { "id": "c", "label": "13" }
+      ],
+      "answer": ["a"],
+      "explanation": "一个加数少 1、另一个多 1，和不变。"
+    },
+    {
+      "id": "sx-1b-u1-l06-ex3",
+      "type": "single",
+      "stem": "9 + 4 = 13，那么 8 + 5 等于多少？",
+      "options": [
+        { "id": "a", "label": "13" },
+        { "id": "b", "label": "12" },
+        { "id": "c", "label": "14" }
+      ],
+      "answer": ["a"],
+      "explanation": "9 少 1、4 多 1，和还是 13。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u3-l07",
+  "unitId": "sx-1b-u3",
+  "volumeId": "sx-1b",
+  "title": "跳伞表演（试一试）",
+  "objectives": ["熟练计算 20 以内退位减法", "能选择合适的算法"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "两种算法都行",
+      "content": "算 13 - 9：破十法 10 - 9 = 1、1 + 3 = 4；平十法 13 - 3 = 10、10 - 6 = 4。结果相同，选顺手的。"
+    },
+    {
+      "type": "text",
+      "title": "检查的办法",
+      "content": "算完可以用加法验算：4 + 9 = 13，说明 13 - 9 = 4 算对了。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u3-l07-ex1",
+      "type": "single",
+      "stem": "14 - 6 = ?",
+      "options": [
+        { "id": "a", "label": "8" },
+        { "id": "b", "label": "7" },
+        { "id": "c", "label": "9" }
+      ],
+      "answer": ["a"],
+      "explanation": "10 - 6 = 4，4 + 4 = 8。"
+    },
+    {
+      "id": "sx-1b-u3-l07-ex2",
+      "type": "single",
+      "stem": "18 - 9 = ?",
+      "options": [
+        { "id": "a", "label": "9" },
+        { "id": "b", "label": "8" },
+        { "id": "c", "label": "10" }
+      ],
+      "answer": ["a"],
+      "explanation": "10 - 9 = 1，1 + 8 = 9。"
+    },
+    {
+      "id": "sx-1b-u3-l07-ex3",
+      "type": "single",
+      "stem": "怎样检查 15 - 7 = 8 算得对不对？",
+      "options": [
+        { "id": "a", "label": "算 8 + 7 是不是等于 15" },
+        { "id": "b", "label": "再算一遍 15 - 7" },
+        { "id": "c", "label": "看答案像不像" }
+      ],
+      "answer": ["a"],
+      "explanation": "减法和加法互为验算，8 + 7 = 15 就对了。"
+    }
+  ]
+}

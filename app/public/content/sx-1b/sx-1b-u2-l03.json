@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u2-l03",
+  "unitId": "sx-1b-u2",
+  "volumeId": "sx-1b",
+  "title": "影子剧场",
+  "objectives": ["知道光被挡住会形成影子", "能发现影子和物体形状的关系"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "影子是怎么来的",
+      "content": "手挡在灯前面，墙上就出现手影。光被手挡住了，挡到的地方就暗下来，成了影子。"
+    },
+    {
+      "type": "text",
+      "title": "影子会变",
+      "content": "手离灯近，影子就大；离灯远，影子就小。手的形状变了，影子的形状也跟着变。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u2-l03-ex1",
+      "type": "single",
+      "stem": "影子是怎么形成的？",
+      "options": [
+        { "id": "a", "label": "光被物体挡住了" },
+        { "id": "b", "label": "物体自己会发光" },
+        { "id": "c", "label": "风吹出来的" }
+      ],
+      "answer": ["a"],
+      "explanation": "有光、有挡光的东西，才有影子。"
+    },
+    {
+      "id": "sx-1b-u2-l03-ex2",
+      "type": "single",
+      "stem": "手离灯越近，影子会怎样？",
+      "options": [
+        { "id": "a", "label": "越大" },
+        { "id": "b", "label": "越小" },
+        { "id": "c", "label": "不变" }
+      ],
+      "answer": ["a"],
+      "explanation": "离光源近，挡到的光范围大，影子就大。"
+    },
+    {
+      "id": "sx-1b-u2-l03-ex3",
+      "type": "single",
+      "stem": "做手影游戏需要什么条件？",
+      "options": [
+        { "id": "a", "label": "有光和挡光的物体" },
+        { "id": "b", "label": "有镜子" },
+        { "id": "c", "label": "有声音" }
+      ],
+      "answer": ["a"],
+      "explanation": "光和遮挡物是形成影子的两个条件。"
+    }
+  ]
+}

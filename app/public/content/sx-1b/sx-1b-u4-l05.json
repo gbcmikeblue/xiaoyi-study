@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u4-l05",
+  "unitId": "sx-1b-u4",
+  "volumeId": "sx-1b",
+  "title": "数一数",
+  "objectives": ["能一个一个数到 100", "能十个十个数更快"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "两种数法",
+      "content": "一个一个数：1、2、3……要数很久。十个十个数：10、20、30……十次就数到 100，快得多。"
+    },
+    {
+      "type": "text",
+      "title": "拐弯的地方要小心",
+      "content": "29 后面是 30，39 后面是 40。数到整十的前一个，最容易数错，要放慢一点。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u4-l05-ex1",
+      "type": "single",
+      "stem": "29 后面一个数是几？",
+      "options": [
+        { "id": "a", "label": "30" },
+        { "id": "b", "label": "31" },
+        { "id": "c", "label": "21" }
+      ],
+      "answer": ["a"],
+      "explanation": "29 再添 1 就是 30。"
+    },
+    {
+      "id": "sx-1b-u4-l05-ex2",
+      "type": "single",
+      "stem": "十个十个数，40 后面是几？",
+      "options": [
+        { "id": "a", "label": "50" },
+        { "id": "b", "label": "41" },
+        { "id": "c", "label": "45" }
+      ],
+      "answer": ["a"],
+      "explanation": "十个十个数：10、20、30、40、50。"
+    },
+    {
+      "id": "sx-1b-u4-l05-ex3",
+      "type": "single",
+      "stem": "10 个十是多少？",
+      "options": [
+        { "id": "a", "label": "100" },
+        { "id": "b", "label": "10" },
+        { "id": "c", "label": "20" }
+      ],
+      "answer": ["a"],
+      "explanation": "10 个十就是 100。"
+    }
+  ]
+}

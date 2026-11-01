@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u4-l06",
+  "unitId": "sx-1b-u4",
+  "volumeId": "sx-1b",
+  "title": "做个百数表",
+  "objectives": ["能在百数表里找出规律", "能根据规律填出缺的数"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "横着看、竖着看",
+      "content": "百数表横行往右，每次多 1；竖列往下，每次多 10。所以 23 的下面是 33，右边是 24。"
+    },
+    {
+      "type": "text",
+      "title": "用它找数很快",
+      "content": "要找 47，先找第 4 行（40 多），再往右数到 7。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u4-l06-ex1",
+      "type": "single",
+      "stem": "百数表中，23 下面一格是几？",
+      "options": [
+        { "id": "a", "label": "33" },
+        { "id": "b", "label": "24" },
+        { "id": "c", "label": "13" }
+      ],
+      "answer": ["a"],
+      "explanation": "竖列往下每次多 10，23 + 10 = 33。"
+    },
+    {
+      "id": "sx-1b-u4-l06-ex2",
+      "type": "single",
+      "stem": "百数表中，56 右边一格是几？",
+      "options": [
+        { "id": "a", "label": "57" },
+        { "id": "b", "label": "66" },
+        { "id": "c", "label": "55" }
+      ],
+      "answer": ["a"],
+      "explanation": "横行往右每次多 1，56 + 1 = 57。"
+    },
+    {
+      "id": "sx-1b-u4-l06-ex3",
+      "type": "single",
+      "stem": "百数表中，个位是 0 的数排在哪一列？",
+      "options": [
+        { "id": "a", "label": "最后一列（第 10 列）" },
+        { "id": "b", "label": "第一列" },
+        { "id": "c", "label": "中间" }
+      ],
+      "answer": ["a"],
+      "explanation": "10、20、30……个位都是 0，排在每行最后。"
+    }
+  ]
+}

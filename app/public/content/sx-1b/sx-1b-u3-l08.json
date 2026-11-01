@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u3-l08",
+  "unitId": "sx-1b-u3",
+  "volumeId": "sx-1b",
+  "title": "做个减法表",
+  "objectives": ["能整理 20 以内减法算式", "能发现被减数、减数与差的变化规律"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "排成一张表",
+      "content": "把 20 以内退位减法按被减数、减数排成表格，一眼就能看到哪道题还没练熟。"
+    },
+    {
+      "type": "text",
+      "title": "表里的规律",
+      "content": "被减数多 1、减数不变，差就多 1；被减数不变、减数多 1，差就少 1。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u3-l08-ex1",
+      "type": "single",
+      "stem": "13 - 5 = 8，那么 14 - 5 = ?",
+      "options": [
+        { "id": "a", "label": "9" },
+        { "id": "b", "label": "8" },
+        { "id": "c", "label": "7" }
+      ],
+      "answer": ["a"],
+      "explanation": "减数不变、被减数多 1，差也多 1。"
+    },
+    {
+      "id": "sx-1b-u3-l08-ex2",
+      "type": "single",
+      "stem": "13 - 5 = 8，那么 13 - 6 = ?",
+      "options": [
+        { "id": "a", "label": "7" },
+        { "id": "b", "label": "8" },
+        { "id": "c", "label": "9" }
+      ],
+      "answer": ["a"],
+      "explanation": "被减数不变、减数多 1，差就少 1。"
+    },
+    {
+      "id": "sx-1b-u3-l08-ex3",
+      "type": "single",
+      "stem": "整理减法表的作用是什么？",
+      "options": [
+        { "id": "a", "label": "看清规律、找出还不熟的题" },
+        { "id": "b", "label": "抄一遍" },
+        { "id": "c", "label": "数一共有几道" }
+      ],
+      "answer": ["a"],
+      "explanation": "整理是为发现规律、查漏补缺。"
+    }
+  ]
+}
