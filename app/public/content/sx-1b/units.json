@@ -214,5 +214,23 @@
                             "title":  "画数学连环画"
                         }
                     ]
+    },
+    {
+        "id":  "sx-1b-u9",
+        "volumeId":  "sx-1b",
+        "order":  8,
+        "title":  "总复习",
+        "lessons":  [
+                        {
+                            "id":  "sx-1b-u9-l01",
+                            "order":  1,
+                            "title":  "总复习·数与代数"
+                        },
+                        {
+                            "id":  "sx-1b-u9-l02",
+                            "order":  2,
+                            "title":  "总复习·图形与几何"
+                        }
+                    ]
     }
 ]

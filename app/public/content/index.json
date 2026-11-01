@@ -1,68 +1,68 @@
 [
-  {
-    "id": "yw-1a",
-    "subject": "chinese",
-    "grade": 1,
-    "term": "up",
-    "edition": "人教统编",
-    "editionYear": "2024秋",
-    "title": "语文 一年级上册",
-    "unitCount": 8,
-    "ready": true
-  },
-  {
-    "id": "yw-1b",
-    "subject": "chinese",
-    "grade": 1,
-    "term": "down",
-    "edition": "人教统编",
-    "editionYear": "2025春",
-    "title": "语文 一年级下册",
-    "unitCount": 8,
-    "ready": true
-  },
-  {
-    "id": "sx-1a",
-    "subject": "math",
-    "grade": 1,
-    "term": "up",
-    "edition": "北师大",
-    "editionYear": "2024秋",
-    "title": "数学 一年级上册",
-    "unitCount": 7,
-    "ready": true
-  },
-  {
-    "id": "sx-1b",
-    "subject": "math",
-    "grade": 1,
-    "term": "down",
-    "edition": "北师大",
-    "editionYear": "2025春",
-    "title": "数学 一年级下册",
-    "unitCount": 7,
-    "ready": true
-  },
-  {
-    "id": "yy-1a",
-    "subject": "english",
-    "grade": 1,
-    "term": "up",
-    "edition": "沪教版",
-    "editionYear": "2025秋",
-    "title": "英语 一年级上册",
-    "unitCount": 8,
-    "ready": true
-  },
-  {
-    "id": "yy-1b",
-    "subject": "english",
-    "grade": 1,
-    "term": "down",
-    "edition": "沪教版",
-    "editionYear": "2026春",
-    "title": "英语 一年级下册",
-    "unitCount": 8,
-    "ready": true
-  }
+    {
+        "id":  "yw-1a",
+        "subject":  "chinese",
+        "grade":  1,
+        "term":  "up",
+        "edition":  "人教统编",
+        "editionYear":  "2024秋",
+        "title":  "语文 一年级上册",
+        "unitCount":  10,
+        "ready":  true
+    },
+    {
+        "id":  "yw-1b",
+        "subject":  "chinese",
+        "grade":  1,
+        "term":  "down",
+        "edition":  "人教统编",
+        "editionYear":  "2025春",
+        "title":  "语文 一年级下册",
+        "unitCount":  9,
+        "ready":  true
+    },
+    {
+        "id":  "sx-1a",
+        "subject":  "math",
+        "grade":  1,
+        "term":  "up",
+        "edition":  "北师大",
+        "editionYear":  "2024秋",
+        "title":  "数学 一年级上册",
+        "unitCount":  8,
+        "ready":  true
+    },
+    {
+        "id":  "sx-1b",
+        "subject":  "math",
+        "grade":  1,
+        "term":  "down",
+        "edition":  "北师大",
+        "editionYear":  "2025春",
+        "title":  "数学 一年级下册",
+        "unitCount":  8,
+        "ready":  true
+    },
+    {
+        "id":  "yy-1a",
+        "subject":  "english",
+        "grade":  1,
+        "term":  "up",
+        "edition":  "沪教版",
+        "editionYear":  "2025秋",
+        "title":  "英语 一年级上册",
+        "unitCount":  8,
+        "ready":  true
+    },
+    {
+        "id":  "yy-1b",
+        "subject":  "english",
+        "grade":  1,
+        "term":  "down",
+        "edition":  "沪教版",
+        "editionYear":  "2026春",
+        "title":  "英语 一年级下册",
+        "unitCount":  8,
+        "ready":  true
+    }
 ]

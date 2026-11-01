@@ -1,0 +1,58 @@
+{
+  "id": "yw-1a-u9-l02",
+  "unitId": "yw-1a-u9",
+  "volumeId": "yw-1a",
+  "title": "识字总复习",
+  "objectives": ["能说出三种识字方法", "看到偏旁能猜字义"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "三种记字的办法",
+      "content": "象形字：日、月、山、川，画的就是那个东西。会意字：日月为明、二人为从、三人为众，几个字合起来出新意思。形声字：清、晴、请，右边表音、左边表义。"
+    },
+    {
+      "type": "text",
+      "title": "偏旁能猜意思",
+      "content": "带三点水的多和水有关（河、海、江），带木字旁的多和树有关（树、林、桃），带虫字旁的多是虫子（蚂、蚁、蜻）。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u9-l02-ex1",
+      "type": "single",
+      "stem": "“日”和“月”合起来是什么字？",
+      "options": [
+        { "id": "a", "label": "明" },
+        { "id": "b", "label": "朋" },
+        { "id": "c", "label": "阳" }
+      ],
+      "answer": ["a"],
+      "explanation": "日月都有光，合起来是“明”。"
+    },
+    {
+      "id": "yw-1a-u9-l02-ex2",
+      "type": "single",
+      "stem": "“河”“海”“江”都有三点水，说明它们和什么有关？",
+      "options": [
+        { "id": "a", "label": "水" },
+        { "id": "b", "label": "树木" },
+        { "id": "c", "label": "火" }
+      ],
+      "answer": ["a"],
+      "explanation": "三点水表示与水有关。"
+    },
+    {
+      "id": "yw-1a-u9-l02-ex3",
+      "type": "multi",
+      "stem": "下面哪些是会意字？",
+      "options": [
+        { "id": "a", "label": "明" },
+        { "id": "b", "label": "从" },
+        { "id": "c", "label": "众" },
+        { "id": "d", "label": "水" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "“水”是象形字，画的就是水流的样子。"
+    }
+  ]
+}

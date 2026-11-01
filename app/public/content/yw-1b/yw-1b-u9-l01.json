@@ -1,0 +1,57 @@
+{
+  "id": "yw-1b-u9-l01",
+  "unitId": "yw-1b-u9",
+  "volumeId": "yw-1b",
+  "title": "识字总复习",
+  "objectives": ["能按偏旁给字归类", "能分清形近字与多音字"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "偏旁归类",
+      "content": "氵（河、清、洗）和水有关，木（树、桥、柳）和树有关，扌（打、拉、提）和手的动作有关，忄（怕、快、忙）和心情有关。"
+    },
+    {
+      "type": "text",
+      "title": "形近字要看仔细",
+      "content": "“青、清、晴、请、情”右边都是青，左边不同，意思就不同：水清、天晴、请求、心情。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1b-u9-l01-ex1",
+      "type": "single",
+      "stem": "“树”“桥”“柳”都有木字旁，说明它们和什么有关？",
+      "options": [
+        { "id": "a", "label": "树木" },
+        { "id": "b", "label": "水" },
+        { "id": "c", "label": "火" }
+      ],
+      "answer": ["a"],
+      "explanation": "木字旁表示与树木有关。"
+    },
+    {
+      "id": "yw-1b-u9-l01-ex2",
+      "type": "single",
+      "stem": "“天很晴”的“晴”，应该是哪个字？",
+      "options": [
+        { "id": "a", "label": "晴" },
+        { "id": "b", "label": "清" },
+        { "id": "c", "label": "请" }
+      ],
+      "answer": ["a"],
+      "explanation": "晴天与太阳有关，所以是日字旁的“晴”。"
+    },
+    {
+      "id": "yw-1b-u9-l01-ex3",
+      "type": "single",
+      "stem": "“扌”这个偏旁通常和什么有关？",
+      "options": [
+        { "id": "a", "label": "手的动作" },
+        { "id": "b", "label": "心情" },
+        { "id": "c", "label": "天气" }
+      ],
+      "answer": ["a"],
+      "explanation": "提手旁的字多与手的动作有关，如打、拉、提。"
+    }
+  ]
+}

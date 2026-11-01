@@ -1,0 +1,57 @@
+{
+  "id": "sx-1a-u8-l02",
+  "unitId": "sx-1a-u8",
+  "volumeId": "sx-1a",
+  "title": "总复习·图形与几何",
+  "objectives": ["能认出四种立体图形", "能按特征区分长方体与正方体"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "四种立体图形",
+      "content": "长方体：6 个面，对面一样，如牙膏盒。正方体：6 个面都一样，如魔方。圆柱：上下是圆、中间直，如薯片筒。球：圆溜溜，如皮球。"
+    },
+    {
+      "type": "text",
+      "title": "能不能滚",
+      "content": "球到处滚，圆柱躺下能滚，长方体和正方体不会滚。搭高的时候，底下放大而平的，上面放小的。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u8-l02-ex1",
+      "type": "single",
+      "stem": "6 个面都一样大的立体图形是什么？",
+      "options": [
+        { "id": "a", "label": "正方体" },
+        { "id": "b", "label": "长方体" },
+        { "id": "c", "label": "圆柱" }
+      ],
+      "answer": ["a"],
+      "explanation": "正方体 6 个面完全相同。"
+    },
+    {
+      "id": "sx-1a-u8-l02-ex2",
+      "type": "single",
+      "stem": "哪个图形躺下来能滚，立起来不能滚？",
+      "options": [
+        { "id": "a", "label": "圆柱" },
+        { "id": "b", "label": "球" },
+        { "id": "c", "label": "正方体" }
+      ],
+      "answer": ["a"],
+      "explanation": "圆柱侧面是弯的，躺下能滚；底面是平的，立起来就稳。"
+    },
+    {
+      "id": "sx-1a-u8-l02-ex3",
+      "type": "single",
+      "stem": "搭积木塔，最下面放什么最稳？",
+      "options": [
+        { "id": "a", "label": "大而平的长方体" },
+        { "id": "b", "label": "球" },
+        { "id": "c", "label": "小圆柱" }
+      ],
+      "answer": ["a"],
+      "explanation": "底面大、接触面平，重心才稳。"
+    }
+  ]
+}

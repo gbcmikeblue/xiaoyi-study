@@ -1,0 +1,58 @@
+{
+  "id": "sx-1b-u9-l02",
+  "unitId": "sx-1b-u9",
+  "volumeId": "sx-1b",
+  "title": "总复习·图形与几何",
+  "objectives": ["能说出平面图形的特征", "能用图形拼出图案"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "本册学的图形",
+      "content": "长方形：4 条边，对边相等，4 个直角。正方形：4 条边都相等，4 个直角。三角形：3 条边。圆：没有角，边是弯的。"
+    },
+    {
+      "type": "text",
+      "title": "图形能拼",
+      "content": "两个一样的三角形能拼成正方形或长方形；4 个小正方形能拼成一个大正方形；七巧板 7 块能拼出各种图案。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u9-l02-ex1",
+      "type": "single",
+      "stem": "长方形和正方形最大的区别是什么？",
+      "options": [
+        { "id": "a", "label": "正方形四条边都相等" },
+        { "id": "b", "label": "长方形没有直角" },
+        { "id": "c", "label": "正方形有 3 条边" }
+      ],
+      "answer": ["a"],
+      "explanation": "两者都有 4 个直角，区别在边长。"
+    },
+    {
+      "id": "sx-1b-u9-l02-ex2",
+      "type": "single",
+      "stem": "4 个一样的小正方形能拼成什么？",
+      "options": [
+        { "id": "a", "label": "更大的正方形" },
+        { "id": "b", "label": "圆" },
+        { "id": "c", "label": "三角形" }
+      ],
+      "answer": ["a"],
+      "explanation": "排成 2×2，就是一个大正方形。"
+    },
+    {
+      "id": "sx-1b-u9-l02-ex3",
+      "type": "multi",
+      "stem": "下面哪些图形有 4 条边？",
+      "options": [
+        { "id": "a", "label": "长方形" },
+        { "id": "b", "label": "正方形" },
+        { "id": "c", "label": "三角形" },
+        { "id": "d", "label": "平行四边形" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "三角形只有 3 条边。"
+    }
+  ]
+}

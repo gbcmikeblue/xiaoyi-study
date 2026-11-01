@@ -89,5 +89,15 @@
       { "id": "yw-1b-u8-l02", "order": 2, "title": "咕咚" },
       { "id": "yw-1b-u8-l03", "order": 3, "title": "小壁虎借尾巴" }
     ]
+  },
+  {
+    "id": "yw-1b-u9",
+    "volumeId": "yw-1b",
+    "order": 9,
+    "title": "语文园地·复习",
+    "lessons": [
+      { "id": "yw-1b-u9-l01", "order": 1, "title": "识字总复习" },
+      { "id": "yw-1b-u9-l02", "order": 2, "title": "阅读总复习" }
+    ]
   }
 ]

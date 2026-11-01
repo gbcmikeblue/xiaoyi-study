@@ -85,5 +85,15 @@
       { "id": "sx-1a-u6-l02", "order": 2, "title": "一起做游戏" },
       { "id": "sx-1a-u6-l03", "order": 3, "title": "记录我的一天" }
     ]
+  },
+  {
+    "id": "sx-1a-u8",
+    "volumeId": "sx-1a",
+    "order": 7,
+    "title": "总复习",
+    "lessons": [
+      { "id": "sx-1a-u8-l01", "order": 1, "title": "总复习·数与代数" },
+      { "id": "sx-1a-u8-l02", "order": 2, "title": "总复习·图形与几何" }
+    ]
   }
 ]

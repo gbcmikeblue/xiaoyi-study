@@ -1,0 +1,58 @@
+{
+  "id": "yw-1a-u0-l01",
+  "unitId": "yw-1a-u0",
+  "volumeId": "yw-1a",
+  "title": "我是小学生",
+  "objectives": ["知道小学生的一天怎么安排", "知道上课要举手、要认真听"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "上学了",
+      "content": "背上书包走进校门，我就是小学生了。上课坐直、眼睛看老师、想说话先举手。下课先去喝水、上厕所，再玩。"
+    },
+    {
+      "type": "text",
+      "title": "三件事要做好",
+      "content": "一是按时到校，二是带齐文具，三是听清老师的要求。做好了这三件，一天就顺了。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u0-l01-ex1",
+      "type": "single",
+      "stem": "上课想说话，应该怎么做？",
+      "options": [
+        { "id": "a", "label": "先举手" },
+        { "id": "b", "label": "直接大声说" },
+        { "id": "c", "label": "拉同学的衣角" }
+      ],
+      "answer": ["a"],
+      "explanation": "举手是课堂上发言的规矩，老师点了名再说。"
+    },
+    {
+      "id": "yw-1a-u0-l01-ex2",
+      "type": "single",
+      "stem": "下课以后，先做什么比较合适？",
+      "options": [
+        { "id": "a", "label": "喝水、上厕所" },
+        { "id": "b", "label": "马上跑出去玩" },
+        { "id": "c", "label": "继续看书" }
+      ],
+      "answer": ["a"],
+      "explanation": "下课时间短，先解决需要的事，再玩才不慌。"
+    },
+    {
+      "id": "yw-1a-u0-l01-ex3",
+      "type": "multi",
+      "stem": "小学生每天要做好哪些事？",
+      "options": [
+        { "id": "a", "label": "按时到校" },
+        { "id": "b", "label": "带齐文具" },
+        { "id": "c", "label": "听清老师的要求" },
+        { "id": "d", "label": "把书包扔在门口" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "这三件做好了，一天的学习就顺当。"
+    }
+  ]
+}

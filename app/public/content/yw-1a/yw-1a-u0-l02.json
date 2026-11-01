@@ -1,0 +1,58 @@
+{
+  "id": "yw-1a-u0-l02",
+  "unitId": "yw-1a-u0",
+  "volumeId": "yw-1a",
+  "title": "我爱学语文",
+  "objectives": ["知道学语文能做什么", "愿意每天读一点、写一点"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "语文能帮你做什么",
+      "content": "学会了字，就能自己看故事书、看路牌、看菜单；学会了说话，就能把一件事讲清楚；学会了写，就能把想说的话留下来。"
+    },
+    {
+      "type": "text",
+      "title": "每天一点点",
+      "content": "每天认几个字、读一小段、写一两句，一年下来就很可观。学语文靠的是天天见面，不是一次学很多。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u0-l02-ex1",
+      "type": "single",
+      "stem": "学会认字以后，下面哪件事自己能做了？",
+      "options": [
+        { "id": "a", "label": "自己看故事书" },
+        { "id": "b", "label": "自己开车" },
+        { "id": "c", "label": "自己做饭" }
+      ],
+      "answer": ["a"],
+      "explanation": "认了字就能自己读书，不用等人讲。"
+    },
+    {
+      "id": "yw-1a-u0-l02-ex2",
+      "type": "single",
+      "stem": "学语文最好的办法是什么？",
+      "options": [
+        { "id": "a", "label": "每天读一点、写一点" },
+        { "id": "b", "label": "考前突击背" },
+        { "id": "c", "label": "只看不读" }
+      ],
+      "answer": ["a"],
+      "explanation": "语文靠积累，天天见面比一次学很多管用。"
+    },
+    {
+      "id": "yw-1a-u0-l02-ex3",
+      "type": "multi",
+      "stem": "学好语文能帮你做什么？",
+      "options": [
+        { "id": "a", "label": "看故事书" },
+        { "id": "b", "label": "把一件事讲清楚" },
+        { "id": "c", "label": "写留言条" },
+        { "id": "d", "label": "不用学别的了" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "语文是工具，能帮到很多科目，但不是全部。"
+    }
+  ]
+}

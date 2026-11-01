@@ -1,0 +1,57 @@
+{
+  "id": "sx-1b-u9-l01",
+  "unitId": "sx-1b-u9",
+  "volumeId": "sx-1b",
+  "title": "总复习·数与代数",
+  "objectives": ["能熟练计算 20 以内加减法", "能认识并比较 100 以内的数"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "本册学的算",
+      "content": "20 以内的进位加法（凑十法）与退位减法（破十法、平十法）。10 的分与合是这两件事的共同基础。"
+    },
+    {
+      "type": "text",
+      "title": "本册学的数",
+      "content": "100 以内的数：几十几由几个十和几个一组成；比较大小先看十位，十位相同再看个位。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1b-u9-l01-ex1",
+      "type": "single",
+      "stem": "9 + 6 = ?",
+      "options": [
+        { "id": "a", "label": "15" },
+        { "id": "b", "label": "14" },
+        { "id": "c", "label": "16" }
+      ],
+      "answer": ["a"],
+      "explanation": "6 分成 1 和 5，9 + 1 = 10，10 + 5 = 15。"
+    },
+    {
+      "id": "sx-1b-u9-l01-ex2",
+      "type": "single",
+      "stem": "13 - 8 = ?",
+      "options": [
+        { "id": "a", "label": "5" },
+        { "id": "b", "label": "6" },
+        { "id": "c", "label": "4" }
+      ],
+      "answer": ["a"],
+      "explanation": "10 - 8 = 2，2 + 3 = 5。"
+    },
+    {
+      "id": "sx-1b-u9-l01-ex3",
+      "type": "single",
+      "stem": "47 和 52 哪个大？",
+      "options": [
+        { "id": "a", "label": "52" },
+        { "id": "b", "label": "47" },
+        { "id": "c", "label": "一样大" }
+      ],
+      "answer": ["a"],
+      "explanation": "先比十位，5 比 4 大，所以 52 大。"
+    }
+  ]
+}

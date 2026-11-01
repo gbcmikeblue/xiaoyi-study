@@ -1,0 +1,58 @@
+{
+  "id": "sx-1a-u8-l01",
+  "unitId": "sx-1a-u8",
+  "volumeId": "sx-1a",
+  "title": "总复习·数与代数",
+  "objectives": ["能数、读、写 10 以内的数", "能熟练计算 10 以内的加减法"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "本册学的数",
+      "content": "从 1 数到 10，再认识 0。会数、会读、会写，还知道 0 表示一个也没有。"
+    },
+    {
+      "type": "text",
+      "title": "本册学的算",
+      "content": "10 以内的加法与减法。算的时候可以用数的分与合，也可以数手指、画圆圈。分与合记得越熟，算得越快。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sx-1a-u8-l01-ex1",
+      "type": "single",
+      "stem": "7 可以分成 3 和几？",
+      "options": [
+        { "id": "a", "label": "4" },
+        { "id": "b", "label": "3" },
+        { "id": "c", "label": "10" }
+      ],
+      "answer": ["a"],
+      "explanation": "3 + 4 = 7，所以分成 3 和 4。"
+    },
+    {
+      "id": "sx-1a-u8-l01-ex2",
+      "type": "single",
+      "stem": "9 - 4 = ?",
+      "options": [
+        { "id": "a", "label": "5" },
+        { "id": "b", "label": "6" },
+        { "id": "c", "label": "13" }
+      ],
+      "answer": ["a"],
+      "explanation": "9 分成 4 和 5，所以是 5。"
+    },
+    {
+      "id": "sx-1a-u8-l01-ex3",
+      "type": "multi",
+      "stem": "下面哪些算式的结果是 8？",
+      "options": [
+        { "id": "a", "label": "5 + 3" },
+        { "id": "b", "label": "10 - 2" },
+        { "id": "c", "label": "4 + 4" },
+        { "id": "d", "label": "6 + 3" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "5+3、10-2、4+4 都得 8；6+3=9。"
+    }
+  ]
+}
