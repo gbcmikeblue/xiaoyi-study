@@ -1,0 +1,69 @@
+{
+  "id": "yw-1a-u8-l02",
+  "unitId": "yw-1a-u8",
+  "volumeId": "yw-1a",
+  "title": "乌鸦喝水",
+  "objectives": ["认识“鸦、渴、瓶、石、渐”五个字", "知道遇到难题要动脑筋想办法"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "一只乌鸦口渴了，到处找水喝。它看见一个瓶子，瓶子里有水，可是瓶口小、水又浅，嘴伸不进去。乌鸦想了想，叼来一颗颗小石子放进瓶里。石子沉下去，水渐渐升高，乌鸦就喝着水了。"
+    },
+    { "type": "audio", "text": "一只乌鸦口渴了，到处找水喝。它看见一个瓶子，瓶子里有水。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "鸦", "pinyin": "yā", "word": "乌鸦" },
+        { "char": "渴", "pinyin": "kě", "word": "口渴" },
+        { "char": "瓶", "pinyin": "píng", "word": "瓶子" },
+        { "char": "石", "pinyin": "shí", "word": "石子" },
+        { "char": "渐", "pinyin": "jiàn", "word": "渐渐" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "石子占了瓶底的地方，水没变多，却被“顶”上来了。乌鸦不是力气大，而是想明白了一个道理。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u8-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "瓶",
+      "options": [
+        { "id": "a", "label": "鸦" },
+        { "id": "b", "label": "瓶" },
+        { "id": "c", "label": "石" }
+      ],
+      "answer": ["b"],
+      "explanation": "“瓶”读 píng，瓶子的瓶。"
+    },
+    {
+      "id": "yw-1a-u8-l02-ex2",
+      "type": "single",
+      "stem": "乌鸦一开始为什么喝不到水？",
+      "options": [
+        { "id": "a", "label": "瓶口小、水又浅" },
+        { "id": "b", "label": "水太脏" },
+        { "id": "c", "label": "瓶子太重" }
+      ],
+      "answer": ["a"],
+      "explanation": "瓶口小，嘴伸不进去，水又在瓶底。"
+    },
+    {
+      "id": "yw-1a-u8-l02-ex3",
+      "type": "single",
+      "stem": "乌鸦想了什么办法？",
+      "options": [
+        { "id": "a", "label": "把石子放进瓶子，让水升高" },
+        { "id": "b", "label": "把瓶子推倒" },
+        { "id": "c", "label": "等别人来帮忙" }
+      ],
+      "answer": ["a"],
+      "explanation": "石子沉下去占了空间，水就升上来了。"
+    }
+  ]
+}

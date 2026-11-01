@@ -2,60 +2,57 @@
   "id": "yy-1b-u1-l02",
   "unitId": "yy-1b-u1",
   "volumeId": "yy-1b",
-  "title": "I like ...",
-  "objectives": ["会用 I like 表达喜欢", "能说出自己喜欢的玩具"],
+  "title": "What do you see?",
+  "objectives": ["会用 What do you see? 提问", "会用 I see ... 回答"],
   "blocks": [
     {
       "type": "text",
-      "title": "说说喜欢什么",
-      "content": "喜欢一样东西，可以说 I like the ball. 如果喜欢很多，可以说 I like balls."
+      "title": "问与答",
+      "content": "A: What do you see? B: I see a bird. 问“你看见什么”，用 What do you see?"
     },
     {
-      "type": "words",
-      "items": [
-        { "text": "like", "meaning": "喜欢" },
-        { "text": "the", "meaning": "这个、那个" },
-        { "text": "toy", "meaning": "玩具" }
-      ]
+      "type": "text",
+      "title": "多个要说 I see two birds",
+      "content": "看见一个说 a bird，看见多个要加 s：I see two birds."
     }
   ],
   "exercises": [
     {
       "id": "yy-1b-u1-l02-ex1",
-      "type": "single",
-      "stem": "“我喜欢这个娃娃”，用英语怎么说？",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "I see a bird.",
       "options": [
-        { "id": "a", "label": "I like the doll" },
-        { "id": "b", "label": "I the doll" },
-        { "id": "c", "label": "The doll like I" }
+        { "id": "a", "label": "I see a bird." },
+        { "id": "b", "label": "I see a frog." },
+        { "id": "c", "label": "I see a bee." }
       ],
       "answer": ["a"],
-      "explanation": "I like 后面接喜欢的东西。"
+      "explanation": "听到的是 bird，小鸟。"
     },
     {
       "id": "yy-1b-u1-l02-ex2",
       "type": "single",
-      "stem": "I ___ the kite.",
+      "stem": "问“你看见了什么？”，英语怎么说？",
       "options": [
-        { "id": "a", "label": "am" },
-        { "id": "b", "label": "like" },
-        { "id": "c", "label": "is" }
+        { "id": "a", "label": "What do you see?" },
+        { "id": "b", "label": "What do you hear?" },
+        { "id": "c", "label": "What is this?" }
       ],
-      "answer": ["b"],
-      "explanation": "表示喜欢用 like。"
+      "answer": ["a"],
+      "explanation": "看见用 see，听见用 hear。"
     },
     {
       "id": "yy-1b-u1-l02-ex3",
-      "type": "listen",
-      "stem": "听一听，这是哪个词？",
-      "speakText": "like",
+      "type": "single",
+      "stem": "看见两只兔子，该怎么说？",
       "options": [
-        { "id": "a", "label": "like" },
-        { "id": "b", "label": "kite" },
-        { "id": "c", "label": "toy" }
+        { "id": "a", "label": "I see two rabbits." },
+        { "id": "b", "label": "I see two rabbit." },
+        { "id": "c", "label": "I see a rabbits." }
       ],
       "answer": ["a"],
-      "explanation": "like 读 /laɪk/，是“喜欢”。"
+      "explanation": "两只以上，名词加 s。"
     }
   ]
 }

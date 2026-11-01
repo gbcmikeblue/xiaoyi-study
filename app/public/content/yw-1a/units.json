@@ -82,5 +82,16 @@
       { "id": "yw-1a-u7-l02", "order": 2, "title": "影子" },
       { "id": "yw-1a-u7-l03", "order": 3, "title": "两件宝" }
     ]
+  },
+  {
+    "id": "yw-1a-u8",
+    "volumeId": "yw-1a",
+    "order": 8,
+    "title": "阅读（三）",
+    "lessons": [
+      { "id": "yw-1a-u8-l01", "order": 1, "title": "比尾巴" },
+      { "id": "yw-1a-u8-l02", "order": 2, "title": "乌鸦喝水" },
+      { "id": "yw-1a-u8-l03", "order": 3, "title": "雨点儿" }
+    ]
   }
 ]

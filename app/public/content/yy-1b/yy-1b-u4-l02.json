@@ -1,0 +1,58 @@
+{
+  "id": "yy-1b-u4-l02",
+  "unitId": "yy-1b-u4",
+  "volumeId": "yy-1b",
+  "title": "I like the ball",
+  "objectives": ["会用 I like the ... 表达喜好", "能问别人喜欢什么玩具"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "I like the ball",
+      "content": "I like the ball. 我喜欢这个球。问别人：What do you like? 回答：I like the doll."
+    },
+    {
+      "type": "text",
+      "title": "the 指“这个、那个”",
+      "content": "the ball 指眼前具体的那个球；balls 泛指球这类东西。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u4-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "I like the ball.",
+      "options": [
+        { "id": "a", "label": "I like the ball." },
+        { "id": "b", "label": "I like the doll." },
+        { "id": "c", "label": "I like the kite." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 ball，球。"
+    },
+    {
+      "id": "yy-1b-u4-l02-ex2",
+      "type": "single",
+      "stem": "“我喜欢这个娃娃”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "I like the doll." },
+        { "id": "b", "label": "I like doll." },
+        { "id": "c", "label": "I like a dolls." }
+      ],
+      "answer": ["a"],
+      "explanation": "指眼前那个娃娃，用 the doll。"
+    },
+    {
+      "id": "yy-1b-u4-l02-ex3",
+      "type": "single",
+      "stem": "问别人“你喜欢什么？”，怎么说？",
+      "options": [
+        { "id": "a", "label": "What do you like?" },
+        { "id": "b", "label": "What do you see?" },
+        { "id": "c", "label": "How are you?" }
+      ],
+      "answer": ["a"],
+      "explanation": "喜欢用 like。"
+    }
+  ]
+}

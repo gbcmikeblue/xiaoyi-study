@@ -3,20 +3,60 @@
     "id": "yy-1b-u1",
     "volumeId": "yy-1b",
     "order": 1,
-    "title": "Unit 1 My toys",
+    "title": "Module 1 Unit 1 Look and see",
     "lessons": [
-      { "id": "yy-1b-u1-l01", "order": 1, "title": "Toys" },
-      { "id": "yy-1b-u1-l02", "order": 2, "title": "I like ..." }
+      { "id": "yy-1b-u1-l01", "order": 1, "title": "Look and see" },
+      { "id": "yy-1b-u1-l02", "order": 2, "title": "What do you see?" }
     ]
   },
   {
     "id": "yy-1b-u2",
     "volumeId": "yy-1b",
     "order": 2,
-    "title": "Unit 2 My food",
+    "title": "Module 1 Unit 2 Listen and hear",
     "lessons": [
-      { "id": "yy-1b-u2-l01", "order": 1, "title": "Food" },
-      { "id": "yy-1b-u2-l02", "order": 2, "title": "I want ..." }
+      { "id": "yy-1b-u2-l01", "order": 1, "title": "Listen and hear" },
+      { "id": "yy-1b-u2-l02", "order": 2, "title": "What do you hear?" }
+    ]
+  },
+  {
+    "id": "yy-1b-u3",
+    "volumeId": "yy-1b",
+    "order": 3,
+    "title": "Module 1 Unit 3 Taste and smell",
+    "lessons": [
+      { "id": "yy-1b-u3-l01", "order": 1, "title": "Taste and smell" },
+      { "id": "yy-1b-u3-l02", "order": 2, "title": "Taste it" }
+    ]
+  },
+  {
+    "id": "yy-1b-u4",
+    "volumeId": "yy-1b",
+    "order": 4,
+    "title": "Module 2 Unit 1 Toys I like",
+    "lessons": [
+      { "id": "yy-1b-u4-l01", "order": 1, "title": "Toys I like" },
+      { "id": "yy-1b-u4-l02", "order": 2, "title": "I like the ball" }
+    ]
+  },
+  {
+    "id": "yy-1b-u5",
+    "volumeId": "yy-1b",
+    "order": 5,
+    "title": "Module 2 Unit 2 Food I like",
+    "lessons": [
+      { "id": "yy-1b-u5-l01", "order": 1, "title": "Food I like" },
+      { "id": "yy-1b-u5-l02", "order": 2, "title": "I like noodles" }
+    ]
+  },
+  {
+    "id": "yy-1b-u6",
+    "volumeId": "yy-1b",
+    "order": 6,
+    "title": "Module 2 Unit 3 Drinks I like",
+    "lessons": [
+      { "id": "yy-1b-u6-l01", "order": 1, "title": "Drinks I like" },
+      { "id": "yy-1b-u6-l02", "order": 2, "title": "I like juice" }
     ]
   }
 ]

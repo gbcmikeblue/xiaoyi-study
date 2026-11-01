@@ -1,0 +1,58 @@
+{
+  "id": "yy-1b-u5-l02",
+  "unitId": "yy-1b-u5",
+  "volumeId": "yy-1b",
+  "title": "I like noodles",
+  "objectives": ["会用 I like ... 表达对食物的喜好", "会用 Do you like ...? 提问"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "I like noodles",
+      "content": "I like noodles. 我喜欢面条。A: Do you like fish? B: Yes, I do. / No, I don't."
+    },
+    {
+      "type": "text",
+      "title": "问答要一致",
+      "content": "Do you like ...? 的回答用 Yes, I do. 或 No, I don't.，不能说 Yes, I like."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u5-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "I like noodles.",
+      "options": [
+        { "id": "a", "label": "I like noodles." },
+        { "id": "b", "label": "I like rice." },
+        { "id": "c", "label": "I like fish." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 noodles，面条。"
+    },
+    {
+      "id": "yy-1b-u5-l02-ex2",
+      "type": "single",
+      "stem": "问“你喜欢鱼吗？”，怎么说？",
+      "options": [
+        { "id": "a", "label": "Do you like fish?" },
+        { "id": "b", "label": "What do you see?" },
+        { "id": "c", "label": "Is it fish?" }
+      ],
+      "answer": ["a"],
+      "explanation": "问喜好用 Do you like ...?"
+    },
+    {
+      "id": "yy-1b-u5-l02-ex3",
+      "type": "single",
+      "stem": "别人问 Do you like eggs? 你喜欢，该回答？",
+      "options": [
+        { "id": "a", "label": "Yes, I do." },
+        { "id": "b", "label": "Yes, I like." },
+        { "id": "c", "label": "No, I do." }
+      ],
+      "answer": ["a"],
+      "explanation": "Yes, I do. 是标准回答。"
+    }
+  ]
+}

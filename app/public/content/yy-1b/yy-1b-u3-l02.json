@@ -1,0 +1,58 @@
+{
+  "id": "yy-1b-u3-l02",
+  "unitId": "yy-1b-u3",
+  "volumeId": "yy-1b",
+  "title": "Taste it",
+  "objectives": ["会用 Taste it / Smell it 发出指令", "会用 It's sweet 描述味道"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Taste it",
+      "content": "Taste it. It's sweet. 尝一尝，它是甜的。Smell it. It's nice. 闻一闻，很好闻。"
+    },
+    {
+      "type": "text",
+      "title": "It's 后面跟形容词",
+      "content": "描述味道用 It's + 形容词：It's sweet / It's sour / It's nice."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yy-1b-u3-l02-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "Taste it. It's sweet.",
+      "options": [
+        { "id": "a", "label": "Taste it. It's sweet." },
+        { "id": "b", "label": "Smell it. It's nice." },
+        { "id": "c", "label": "Taste it. It's sour." }
+      ],
+      "answer": ["a"],
+      "explanation": "听到的是 taste + sweet。"
+    },
+    {
+      "id": "yy-1b-u3-l02-ex2",
+      "type": "single",
+      "stem": "“尝一尝”用英语怎么说？",
+      "options": [
+        { "id": "a", "label": "Taste it." },
+        { "id": "b", "label": "Smell it." },
+        { "id": "c", "label": "See it." }
+      ],
+      "answer": ["a"],
+      "explanation": "taste 是尝。"
+    },
+    {
+      "id": "yy-1b-u3-l02-ex3",
+      "type": "single",
+      "stem": "柠檬很酸，该怎么说？",
+      "options": [
+        { "id": "a", "label": "It's sour." },
+        { "id": "b", "label": "It's sweet." },
+        { "id": "c", "label": "It's nice." }
+      ],
+      "answer": ["a"],
+      "explanation": "酸的用 sour。"
+    }
+  ]
+}

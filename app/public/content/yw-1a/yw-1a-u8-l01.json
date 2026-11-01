@@ -1,0 +1,69 @@
+{
+  "id": "yw-1a-u8-l01",
+  "unitId": "yw-1a-u8",
+  "volumeId": "yw-1a",
+  "title": "比尾巴",
+  "objectives": ["认识“比、短、伞、猴、兔”五个字", "能说出几种动物尾巴的特点"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "谁的尾巴长？猴子的尾巴长。谁的尾巴短？兔子的尾巴短。谁的尾巴像把伞？松鼠的尾巴像把伞。谁的尾巴最好看？孔雀的尾巴最好看。"
+    },
+    { "type": "audio", "text": "谁的尾巴长？猴子的尾巴长。谁的尾巴短？兔子的尾巴短。", "caption": "听老师读一读" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "比", "pinyin": "bǐ", "word": "比较" },
+        { "char": "短", "pinyin": "duǎn", "word": "长短" },
+        { "char": "伞", "pinyin": "sǎn", "word": "雨伞" },
+        { "char": "猴", "pinyin": "hóu", "word": "猴子" },
+        { "char": "兔", "pinyin": "tù", "word": "兔子" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "猴子在树上荡来荡去，长尾巴能抓住树枝；兔子要跑得快，短尾巴不碍事；松鼠的大尾巴能当伞，还能保暖。尾巴的样子，和它们怎么生活有关系。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u8-l01-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "短",
+      "options": [
+        { "id": "a", "label": "比" },
+        { "id": "b", "label": "短" },
+        { "id": "c", "label": "伞" }
+      ],
+      "answer": ["b"],
+      "explanation": "“短”读 duǎn，长短的短，和“长”相对。"
+    },
+    {
+      "id": "yw-1a-u8-l01-ex2",
+      "type": "single",
+      "stem": "谁的尾巴像把伞？",
+      "options": [
+        { "id": "a", "label": "松鼠" },
+        { "id": "b", "label": "猴子" },
+        { "id": "c", "label": "兔子" }
+      ],
+      "answer": ["a"],
+      "explanation": "松鼠的尾巴又大又蓬松，撑开来像一把伞。"
+    },
+    {
+      "id": "yw-1a-u8-l01-ex3",
+      "type": "single",
+      "stem": "谁的尾巴最短？",
+      "options": [
+        { "id": "a", "label": "兔子" },
+        { "id": "b", "label": "猴子" },
+        { "id": "c", "label": "孔雀" }
+      ],
+      "answer": ["a"],
+      "explanation": "兔子的尾巴短短一团，跑起来不碍事。"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "yw-1a-u8-l03",
+  "unitId": "yw-1a-u8",
+  "volumeId": "yw-1a",
+  "title": "雨点儿",
+  "objectives": ["认识“点、数、彩、飘、落”五个字", "能说出雨点儿给大地带来什么"],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "读一读",
+      "content": "数不清的雨点儿从云彩里飘落下来。大雨点儿问小雨点儿：“你要到哪里去？”小雨点儿说：“我要去有花有草的地方。”大雨点儿说：“我要去没有花没有草的地方。”不久，有花有草的地方，花更红了，草更绿了；没有花没有草的地方，长出了红的花、绿的草。"
+    },
+    { "type": "audio", "text": "数不清的雨点儿从云彩里飘落下来。", "caption": "听老师读第一句" },
+    {
+      "type": "chars",
+      "items": [
+        { "char": "点", "pinyin": "diǎn", "word": "雨点" },
+        { "char": "数", "pinyin": "shù", "word": "数学" },
+        { "char": "彩", "pinyin": "cǎi", "word": "云彩" },
+        { "char": "飘", "pinyin": "piāo", "word": "飘落" },
+        { "char": "落", "pinyin": "luò", "word": "落下" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "想一想",
+      "content": "雨点儿落到哪里，哪里就有生机。有花有草的地方更美了，没花没草的地方也长出了花草。"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "yw-1a-u8-l03-ex1",
+      "type": "listen",
+      "stem": "听一听，选出你听到的字。",
+      "speakText": "飘",
+      "options": [
+        { "id": "a", "label": "点" },
+        { "id": "b", "label": "飘" },
+        { "id": "c", "label": "落" }
+      ],
+      "answer": ["b"],
+      "explanation": "“飘”读 piāo，右边是风字旁，随风而动。"
+    },
+    {
+      "id": "yw-1a-u8-l03-ex2",
+      "type": "single",
+      "stem": "小雨点儿要去哪里？",
+      "options": [
+        { "id": "a", "label": "有花有草的地方" },
+        { "id": "b", "label": "没有花没有草的地方" },
+        { "id": "c", "label": "大海里" }
+      ],
+      "answer": ["a"],
+      "explanation": "小雨点儿说要去有花有草的地方。"
+    },
+    {
+      "id": "yw-1a-u8-l03-ex3",
+      "type": "single",
+      "stem": "雨下过以后，没有花没有草的地方怎么样了？",
+      "options": [
+        { "id": "a", "label": "长出了红的花、绿的草" },
+        { "id": "b", "label": "什么也没变" },
+        { "id": "c", "label": "变成了沙漠" }
+      ],
+      "answer": ["a"],
+      "explanation": "有了雨水，荒地也长出了花草。"
+    }
+  ]
+}

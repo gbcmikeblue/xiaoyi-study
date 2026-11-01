@@ -2,65 +2,57 @@
   "id": "yy-1b-u2-l02",
   "unitId": "yy-1b-u2",
   "volumeId": "yy-1b",
-  "title": "I want ...",
-  "objectives": ["会用 I want 表达想要", "知道 some 表示“一些”"],
+  "title": "What do you hear?",
+  "objectives": ["会用 What do you hear? 提问", "会用 I hear ... 回答"],
   "blocks": [
     {
       "type": "text",
-      "title": "我想要",
-      "content": "想要什么东西，可以说 I want some water. 意思是“我想要一些水”。"
-    },
-    {
-      "type": "words",
-      "items": [
-        { "text": "want", "meaning": "想要" },
-        { "text": "water", "meaning": "水" },
-        { "text": "bread", "meaning": "面包" }
-      ]
+      "title": "问与答",
+      "content": "A: What do you hear? B: I hear a cat. hear 是“听见”，注意和 see（看见）的区别。"
     },
     {
       "type": "text",
-      "title": "小提示",
-      "content": "some 表示“一些”，后面可以接 water、bread 这样的词。"
+      "title": "see 和 hear",
+      "content": "see 用眼睛，hear 用耳朵。I see a bird.（我看见鸟）I hear a bird.（我听见鸟叫）"
     }
   ],
   "exercises": [
     {
       "id": "yy-1b-u2-l02-ex1",
-      "type": "single",
-      "stem": "“我想要一些面包”，用英语怎么说？",
+      "type": "listen",
+      "stem": "听一听，选出你听到的句子。",
+      "speakText": "I hear a cat.",
       "options": [
-        { "id": "a", "label": "I want some bread" },
-        { "id": "b", "label": "I like some bread" },
-        { "id": "c", "label": "I am some bread" }
+        { "id": "a", "label": "I hear a cat." },
+        { "id": "b", "label": "I see a cat." },
+        { "id": "c", "label": "I hear a dog." }
       ],
       "answer": ["a"],
-      "explanation": "想要用 want，喜欢用 like。"
+      "explanation": "听到的是 hear + cat。"
     },
     {
       "id": "yy-1b-u2-l02-ex2",
       "type": "single",
-      "stem": "I ___ some milk.",
+      "stem": "“我听见一只狗叫”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "want" },
-        { "id": "b", "label": "wants" },
-        { "id": "c", "label": "wanting" }
+        { "id": "a", "label": "I hear a dog." },
+        { "id": "b", "label": "I see a dog." },
+        { "id": "c", "label": "I have a dog." }
       ],
       "answer": ["a"],
-      "explanation": "I 后面用动词原形 want。"
+      "explanation": "听见用 hear。"
     },
     {
       "id": "yy-1b-u2-l02-ex3",
-      "type": "listen",
-      "stem": "听一听，这是哪个词？",
-      "speakText": "water",
+      "type": "single",
+      "stem": "用眼睛看到，应该用哪个词？",
       "options": [
-        { "id": "a", "label": "water" },
-        { "id": "b", "label": "want" },
-        { "id": "c", "label": "bread" }
+        { "id": "a", "label": "see" },
+        { "id": "b", "label": "hear" },
+        { "id": "c", "label": "smell" }
       ],
       "answer": ["a"],
-      "explanation": "water 是水。"
+      "explanation": "眼睛用 see，耳朵用 hear，鼻子用 smell。"
     }
   ]
 }

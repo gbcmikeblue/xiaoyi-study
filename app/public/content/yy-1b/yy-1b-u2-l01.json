@@ -2,62 +2,61 @@
   "id": "yy-1b-u2-l01",
   "unitId": "yy-1b-u2",
   "volumeId": "yy-1b",
-  "title": "Food",
-  "objectives": ["会说 rice、noodles、milk、egg", "能说出早餐吃什么"],
+  "title": "Listen and hear",
+  "objectives": ["会说 sheep、hen、dog、cat", "能听出动物叫声对应的单词"],
   "blocks": [
     {
       "type": "text",
-      "title": "今天吃什么",
-      "content": "米饭是 rice，面条是 noodles，牛奶是 milk，鸡蛋是 egg。早饭你吃了什么？"
+      "title": "I hear a dog",
+      "content": "Listen! I hear a dog. dog 狗，cat 猫，sheep 绵羊，hen 母鸡。"
     },
     {
       "type": "words",
       "items": [
-        { "text": "rice", "meaning": "米饭" },
-        { "text": "noodles", "meaning": "面条" },
-        { "text": "milk", "meaning": "牛奶" },
-        { "text": "egg", "meaning": "鸡蛋" }
+        { "text": "dog", "meaning": "狗" },
+        { "text": "cat", "meaning": "猫" },
+        { "text": "sheep", "meaning": "绵羊" },
+        { "text": "hen", "meaning": "母鸡" }
       ]
     }
   ],
   "exercises": [
     {
       "id": "yy-1b-u2-l01-ex1",
-      "type": "single",
-      "stem": "“牛奶”用英语怎么说？",
+      "type": "listen",
+      "stem": "听一听，选出你听到的单词。",
+      "speakText": "sheep",
       "options": [
-        { "id": "a", "label": "milk" },
-        { "id": "b", "label": "rice" },
-        { "id": "c", "label": "egg" }
+        { "id": "a", "label": "sheep" },
+        { "id": "b", "label": "hen" },
+        { "id": "c", "label": "dog" }
       ],
       "answer": ["a"],
-      "explanation": "milk 是牛奶。"
+      "explanation": "sheep 是绵羊，单复数同形。"
     },
     {
       "id": "yy-1b-u2-l01-ex2",
-      "type": "listen",
-      "stem": "听一听，这是哪个词？",
-      "speakText": "noodles",
+      "type": "single",
+      "stem": "“猫”用英语怎么说？",
       "options": [
-        { "id": "a", "label": "noodles" },
-        { "id": "b", "label": "rice" },
-        { "id": "c", "label": "milk" }
+        { "id": "a", "label": "cat" },
+        { "id": "b", "label": "dog" },
+        { "id": "c", "label": "hen" }
       ],
       "answer": ["a"],
-      "explanation": "noodles 是面条，注意结尾有 s。"
+      "explanation": "cat 是猫。"
     },
     {
       "id": "yy-1b-u2-l01-ex3",
-      "type": "multi",
-      "stem": "哪些是吃的东西？",
+      "type": "single",
+      "stem": "hen 是什么动物？",
       "options": [
-        { "id": "a", "label": "rice" },
-        { "id": "b", "label": "egg" },
-        { "id": "c", "label": "milk" },
-        { "id": "d", "label": "ball" }
+        { "id": "a", "label": "母鸡" },
+        { "id": "b", "label": "绵羊" },
+        { "id": "c", "label": "狗" }
       ],
-      "answer": ["a", "b", "c"],
-      "explanation": "rice、egg、milk 都是食物或饮品，ball 是球。"
+      "answer": ["a"],
+      "explanation": "hen 是母鸡，会下蛋。"
     }
   ]
 }

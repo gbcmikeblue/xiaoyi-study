@@ -32,7 +32,9 @@
 | 第五单元 | 阅读 | 1 秋天 / 2 江南 / 3 雪地里的小画家 / 4 四季 |
 | 第六单元 | 识字 | 5 对韵歌 / 6 日月明 / 7 小书包 / 8 升国旗 |
 | 第七单元 | 阅读 | 5 小小的船 / 6 影子 / 7 两件宝 |
-| 第八单元 | 阅读 | 待核（未取得可信目录） |
+| 第八单元 | 阅读 | 8 比尾巴 / 9 乌鸦喝水 / 10 雨点儿 |
+
+> 第八单元已补录（2026-11-01 二次检索）：恩施州 2024 精品课传课目录（官方 PDF）、电子课本网、山东智慧教育平台三源一致，置信度提升为 **A**。
 
 合计可建设课时约 **39 课**（不含语文园地、快乐读书吧）。
 
@@ -102,9 +104,22 @@
 | Module 3 Places and activities | 7 Let's count / 8 Apples, please / 9 May I have a pie? |
 | Module 4 The world around us | 10 On the farm / 11 In the zoo / 12 In the park |
 
-### 4.2 一年级下册（置信度 C）
+### 4.2 一年级下册（置信度 B）
 
-未取得可信目录，**暂不建设**。现有 `yy-1b` 的单元（My toys / My food）为早期拟名，与教材不符，需在取得目录后重做。
+2026-11-01 二次检索补录。深圳用书为《小学英语口语交际》（沪教版 / 牛津深圳版），下册 4 个 Module 共 12 个 Unit：
+
+| Module | Unit |
+|---|---|
+| Module 1 Using my five senses | 1 Look and see / 2 Listen and hear / 3 Taste and smell |
+| Module 2 My favourite things | 1 Toys I like / 2 Food I like / 3 Drinks I like |
+| Module 3 Things around us | 1 Seasons / 2 Weather / 3 Clothes |
+| Module 4 Things we do | 1 Activities / 2 New Year's Day / 3 Story time |
+
+来源：百度文库 2015 审定版目录、电子课本网（牛津上海版下册）、深圳口语交际 App 的上册目录交叉印证。
+
+**标 B 而非 A 的原因**：电子课本网标注该版本"不在 2025 年国家课程教学用书目录，不是现行版本"，深圳可能已换 2025 新教材。建设时按此目录，若后续发现换版再调整。
+
+现有 `yy-1b` 的单元（My toys / My food）为早期拟名，与此目录不符，需按下表重做。
 
 ---
 
